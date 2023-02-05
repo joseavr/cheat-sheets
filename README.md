@@ -1,4 +1,4 @@
-# cheat-sheets
+# My Courses
 This repo includes all my notes of everything I learned thru the years as a student.
 
 This includes:
