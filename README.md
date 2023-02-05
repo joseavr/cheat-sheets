@@ -5,3 +5,6 @@ This includes:
 - 406 Number Theory
 - Ruby
 - Python
+- JavaScript
+- CSS
+- HTML

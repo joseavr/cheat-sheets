@@ -1,28 +1,48 @@
+# Introduction to Python
+Python is an interpreted, object-oriented, high-level programming language. 
+
 # Table of Contents
 
-- [[000-intro-python|INTRO TO PYTHON]]
-
 ## Data Types
-- [[001-integer-python|Integer]]
-- Float
-- String
+- [[Python Data Types]]
 
 ## Data Structure
-### Lists
-- [[001-lists|LISTS IN PYTHON]] (Arrays)
-### Dictionaries
-- [[002-dictionaries|DICTIONARIES IN PYTHON]]
-### Sets
-* [[003-sets|SETS IN PYTHON]]
-### Tuples
-* [[0004-tuples|TUPLES IN PYTHON]] 
+
+- [[Python Lists]]
+- [[Python Dictionaries]]
+- [[Python Sets]]
+- [[Python Tuples]]
   
-## Loops
-- for loop
-- while loop
-- switch
+## Control Structure
+- Python if
+- Python for
+- Python for in
+- Python while
+- Python switch
+
+## Flask
+- Flask Create website
+- Flask Do stuf
+- Flask Another stuf
+- Flask Related topic
+
 
 ## OOP
-- class
-- constructor
-- object
+- Python class
+- Python constructor
+- Python objects
+
+## File Manipulation
+
+## Data Visualization
+- Python Pandas
+- Python Matplotlib
+- 
+
+## API
+- Python Acess API
+- 
+
+## How to do in Python
+
+

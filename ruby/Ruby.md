@@ -1,24 +1,24 @@
 # Table of Contents
 
 ## Data Types
-- [[001-integer-ruby|Integer]]
-- Float
-- String
-- 
+- [[Ruby Data Types]]
 
 ## Data Structure
-- Arrays
-- Dictionaries
+- [[Ruby Arrays]]
+- [[Ruby Dictionaries]]
 * 
   
 ## Loops
-- for loop
-- while loop
-- switch
+- Ruby for
+- Ruby while 
+- Ruby 
 - 
 
 ## OOP
-- class
+- class 
 - constructor
 - object
-- 
+
+## Codeblocks
+
+## Smth
