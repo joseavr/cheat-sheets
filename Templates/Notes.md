@@ -1,5 +1,4 @@
 # Untitled
----
 Class: [[]]
 Subject: #
 Date: {{date}}
