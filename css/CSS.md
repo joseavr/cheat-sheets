@@ -3,8 +3,8 @@
 
 # Table of Contents
 
-## Data Types
-- Integer
+## Fundaments
+- [[CSS Selectors]]
 - Float
 - String
 - 

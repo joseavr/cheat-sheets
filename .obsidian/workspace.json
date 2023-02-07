@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MATH406/1.1 Numbers and Sequences.md",
+                "file": "CSS Selectors.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "efdac4de599afc71",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MATH406/1.1 Numbers and Sequences.md",
+                "file": "CSS Selectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MATH406/1.1 Numbers and Sequences.md",
+                "file": "CSS Selectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MATH406/1.1 Numbers and Sequences.md"
+                "file": "CSS Selectors.md"
               }
             }
           }
@@ -145,22 +146,22 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
-      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "omnisearch:Omnisearch": true
+      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "omnisearch:Omnisearch": false
     }
   },
   "active": "236665437a80b07f",
   "lastOpenFiles": [
+    "css/CSS.md",
+    "MATH406/1.1 Numbers and Sequences.md",
     "MATH406/3.1 Prime Numbers.md",
     "MATH406/1.5 Divisibility.md",
     "MATH406/1.3 Mathematical Induction.md",
-    "MATH406/1.1 Numbers and Sequences.md",
     "MATH406/Number Theory.md",
     "Templates/Notes.md",
     "Templates/Index CS.md",
     "Templates/Index MATH.md",
-    "Templates/My Templates.md",
-    "Untitled.canvas"
+    "Templates/My Templates.md"
   ]
 }
