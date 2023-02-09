@@ -15,12 +15,13 @@ https://www.rubyguides.com/2015/06/ruby-regex/
 	- tool used to search for text
 - Regex is built-in and is a class in Ruby
 	- Regexp
-	- Syntax: /patter/
+	- Syntax: `/patter/
 ```ruby
 # Find the word 'like'
 "Do you like cats?" =~ /like/ #return index of the occurrence
 => 7 # Returns the index of the occurrance or nil
 ```
+
 - Another way
 ```ruby
 if "Do you like cats?".match(/like/)
@@ -72,17 +73,26 @@ contains_vowel("sky") # returns nil
 
 # Repetition
 - To match multiple characters we can use pattern modifiers
--   `+`  => Matches 1 or more characters
--   `*` => Matches 0 or more
--   `?` => Matches 0 or 1
+-  `+`  => Matches 1 or more characters
+-  `*` => Matches 0 or more
+-  `?` => Matches 0 or 1
 -  `{ n }` => Matches exactly 1
-- `{n ,}` => Matches `n` or more
-- `{, m}` => Matches `m` or less
--   `{n,m}` - Matches between `x` and `y`
+-  `{n ,}` => Matches `n` or more
+-  `{, m}` => Matches `m` or less
+-  `{n,m}` - Matches between `x` and `y
+
 ```ruby
 "Hello".match(/[A-Z]+[a-z]+l{2}o/) #=> #<MatchData "Hello">
 # [1 or more uppercase] [1 or more lowercase] 2 'l' characters, one 'o' character
 ```
+
+# Regex Global Variables
+-   `$~` is equivalent to [`Regexp.last_match`](https://ruby-doc.org/3.2.0/Regexp.html#method-c-last_match);
+-   `$&` contains the complete matched text;
+-   `` $` `` contains string before match;
+-   `$'` contains string after match;
+-   `$1`, `$2` and so on contain text matching first, second, etc capture group;
+-   `$+` contains last capture group
 
 # Options
 End delimiter of a regex can be followed by one or more single-letter options:
@@ -92,9 +102,8 @@ End delimiter of a regex can be followed by one or more single-letter options:
 -   `/pat/o` - Perform `#{}` interpolation only once
 
 # Encoding
--   `/`_pat_`/u` - UTF-8
--   `/`_pat_`/e` - EUC-JP
--   `/`_pat_`/s` - Windows-31J
--   `/`_pat_`/n` - ASCII-8BIT
+-   `/_pat_/u` - UTF-8
+-   `/_pat_/e` - EUC-JP
+-   `/pat/s` - Windows-31J
+-   `/pat/n` - ASCII-8BIT
 
-# 

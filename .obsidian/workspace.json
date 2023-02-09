@@ -128,21 +128,14 @@
                 "file": "ruby/Ruby Regex.md"
               }
             }
-          },
-          {
-            "id": "d91ecda840ffc6f8",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,9 +152,9 @@
   },
   "active": "9fb1450dc61b6eac",
   "lastOpenFiles": [
-    "ruby/Ruby.md",
-    "ruby/Ruby Regex.md",
     "ruby/Ruby FIles.md",
+    "ruby/Ruby Regex.md",
+    "ruby/Ruby.md",
     "css/CSS 1.md",
     "Untitled.md",
     "Assets/Pasted image 20230209111836.png",
