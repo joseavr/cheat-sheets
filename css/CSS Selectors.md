@@ -1,5 +1,5 @@
 # Types of Selectors
-Class: [[CSS]]
+Class: [[css/CSS]]
 Subject: #
 Date: 2023-02-06
 Topics: #, #, # 

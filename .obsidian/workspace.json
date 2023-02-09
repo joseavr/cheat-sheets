@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "c69e4d6252b54bff",
+        "id": "32a8b9791afe60d2",
         "type": "tabs",
         "children": [
           {
-            "id": "236665437a80b07f",
+            "id": "9fb1450dc61b6eac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-02-08.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3dea51af71c5e4a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ruby/Ruby.md",
+                "file": "ruby/Ruby Regex.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ruby/Ruby.md",
+                "file": "ruby/Ruby Regex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ruby/Ruby.md",
+                "file": "ruby/Ruby Regex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,12 +125,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ruby/Ruby.md"
+                "file": "ruby/Ruby Regex.md"
               }
+            }
+          },
+          {
+            "id": "d91ecda840ffc6f8",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -162,17 +157,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3dea51af71c5e4a4",
+  "active": "9fb1450dc61b6eac",
   "lastOpenFiles": [
-    "2023-02-08.md",
-    "Templates/Template Notes.md",
-    "Templates/Template Index MATH.md",
-    "Templates/My Templates.md",
-    "Templates/Template Index CS.md",
-    "Pasted image 20230208175400.png",
-    "Assets/Pasted image 20230208175436.png",
-    "Assets/Pasted image 20230208174818.png",
-    "Assets/Pasted image 20230208172239.png",
-    "Assets/Pasted image 20230208170806.png"
+    "ruby/Ruby.md",
+    "ruby/Ruby Regex.md",
+    "ruby/Ruby FIles.md",
+    "css/CSS 1.md",
+    "Untitled.md",
+    "Assets/Pasted image 20230209111836.png",
+    "CMSC 351/Algorithms Selection Sort.md",
+    "css/CSS.md",
+    "CMSC 351/Algorithms Bubble Sort.md",
+    "css/CSS Web Servers.md"
   ]
 }
