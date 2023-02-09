@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Template Notes.md",
+                "file": "ruby/Ruby.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Template Notes.md",
+                "file": "ruby/Ruby.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Template Notes.md",
+                "file": "ruby/Ruby.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Template Notes.md"
+                "file": "ruby/Ruby.md"
               }
             }
           }
@@ -164,11 +164,11 @@
   },
   "active": "3dea51af71c5e4a4",
   "lastOpenFiles": [
-    "Templates/Template Index MATH.md",
+    "2023-02-08.md",
     "Templates/Template Notes.md",
+    "Templates/Template Index MATH.md",
     "Templates/My Templates.md",
     "Templates/Template Index CS.md",
-    "2023-02-08.md",
     "Pasted image 20230208175400.png",
     "Assets/Pasted image 20230208175436.png",
     "Assets/Pasted image 20230208174818.png",
