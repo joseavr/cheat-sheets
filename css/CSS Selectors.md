@@ -1,14 +1,10 @@
-# Untitled
-Class: [[]]
+# Types of Selectors
+Class: [[CSS]]
 Subject: #
 Date: 2023-02-06
 Topics: #, #, # 
 
 ---
-
-# Intro 
-
--
 
 # Selectors
 
@@ -76,7 +72,7 @@ a[title="news"] {
 	- border: box border
 	- margin: whitespace outside of the box
 - ![[Pasted image 20230206174533.png]]
-
+- ![[Pasted image 20230208170806.png]]
 
 ## Shortcut
 - Allows you to specify several properties by using only one
