@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-02-08.md",
+                "file": "Templates/Template Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-02-08.md",
+                "file": "Templates/Template Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-02-08.md",
+                "file": "Templates/Template Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-02-08.md"
+                "file": "Templates/Template Notes.md"
               }
             }
           }
@@ -162,17 +162,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3c00de273fb35303",
+  "active": "3dea51af71c5e4a4",
   "lastOpenFiles": [
-    "Pasted image 20230208175400.png",
+    "Templates/Template Index MATH.md",
+    "Templates/Template Notes.md",
+    "Templates/My Templates.md",
+    "Templates/Template Index CS.md",
     "2023-02-08.md",
+    "Pasted image 20230208175400.png",
     "Assets/Pasted image 20230208175436.png",
     "Assets/Pasted image 20230208174818.png",
     "Assets/Pasted image 20230208172239.png",
-    "Assets/Pasted image 20230208170806.png",
-    "Assets/Pasted image 20230206174533.png",
-    "Untitled.md",
-    "README.md",
-    "css/CSS Selectors.md"
+    "Assets/Pasted image 20230208170806.png"
   ]
 }

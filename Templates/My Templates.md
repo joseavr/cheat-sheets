@@ -1,7 +1,7 @@
 # Table of Contents
 
 ## Templates
-- [[Index CS]]
-- [[Index MATH]]
-- [[Notes]]
+- [[Template Index CS]]
+- [[Template Index MATH]]
+- [[Template Notes]]
 - 
