@@ -42,6 +42,31 @@ git reset --hard origin/<branch-name>
 git clean -f -d
 ```
 
+## Solution 3
+- If both computers are in the same `commit`, but `computer 1` modified one file and `computer 2` modified a different file
+
+1. `commit` first in either one computer, `computer 2`
+```bash
+git add .
+git commit -m "message"
+git push
+```
+
+2. In `computer 1`, 
+```bash
+git add .
+git commit -m "message"
+git pull   // to merge (add) changes from `computer 2` to `computer 1`
+git push   // save changes to `github remote` repo
+```
+
+3. In `computer 2`,
+```bash
+git pull // to sync `computer 2` with `github remote` repo 
+```
+
+5. Now you can work on `computer 1` and all computers are sync.
+
 # Branch Name
 - To view your branch name
 ```bash
