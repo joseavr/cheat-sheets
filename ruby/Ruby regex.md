@@ -15,11 +15,11 @@ https://www.rubyguides.com/2015/06/ruby-regex/
 	- tool used to search for text
 - Regex is built-in and is a class in Ruby
 	- Regexp
-	- Syntax: `/patter/
+	- Syntax: `/pattern/` or `/pat/` 
 ```ruby
 # Find the word 'like'
-"Do you like cats?" =~ /like/ #return index of the occurrence
-=> 7 # Returns the index of the occurrance or nil
+"Do you like cats?" =~ /like/ # Returns the index of the occurrance or nil
+=> 7 
 ```
 
 - Another way
@@ -31,13 +31,13 @@ end
 
 # Character Class
 - A _character class_ is delimited with square brackets `[`, `]
-- /\[ ab \]/ means a or b
-- /ab/ means a followed by b
+- `[ab]` means a or b
+- `/ab/` means a followed by b
 
 - Lets define a range or a list of characters to match.
-	- \[aeiou\] => matches any vowel
-	- Enclosed by \[ X \] matches for one character.
-	- To match two characters, \[ X \] \[Y\]
+	- `[aeiou]` => matches any vowel
+	- Enclosed by `/[a]/` matches for one character.
+	- To match two characters, `/[a][b]/`
 ```ruby
 def contains_vowel(str)
 	str =~ /[aeiou]/
@@ -62,6 +62,7 @@ contains_vowel("sky") # returns nil
 - `\R` - A linebreak: `\n`, `\v`, `\f`, `\r` `\u0085` (NEXT LINE), `\u2028` (LINE SEPARATOR), `\u2029` (PARAGRAPH SEPARATOR) or `\r\n`.
 
 # Anchors
+Anchors are metacharacters that match to a specific position:
 -   `^` - Matches beginning of line
 -   `$` - Matches end of line
 -   `\A` - Matches beginning of string.
@@ -72,7 +73,7 @@ contains_vowel("sky") # returns nil
 -   `\B` - Matches non-word boundaries
 
 # Repetition
-- To match multiple characters we can use pattern modifiers
+To match multiple characters we can use pattern modifiers
 -  `+`  => Matches 1 or more characters
 -  `*` => Matches 0 or more
 -  `?` => Matches 0 or 1
@@ -82,17 +83,108 @@ contains_vowel("sky") # returns nil
 -  `{n,m}` - Matches between `x` and `y
 
 ```ruby
+# example of '+'
 "Hello".match(/[A-Z]+[a-z]+l{2}o/) #=> #<MatchData "Hello">
-# [1 or more uppercase] [1 or more lowercase] 2 'l' characters, one 'o' character
+# [1 or more uppercase], [1 or more lowercase], 2 times 'l' characters, 
+# and one 'o' character
 ```
 
-# Regex Global Variables
+# Parenthesis in Regex
+
+## Capturing
+We can backreference to an `n` group of parenthesis with `\n`
+- `/(\d) (\w)/`
+	- `\1` references the first group parenthesis `(\d)`
+	- `\2` references the second group `(\w)`
+	- and so on
+	- only  1-9 for `n` are supported using `\n`
+	- Otherwise we can use Regex Global Variables
+- Example
+```ruby
+"The cat sat in the hat".match(/[csh](..) [csh]\1 in/)
+# [csh] = c
+# (..) = at
+# space
+# [csh] = s
+# \1 = (..) = at
+```
+
+- When using `.match`, it returns the group of parenthesis matched in an index
+```ruby
+# From previous example, its return value
+=> <MatchData "cat sat in" 1:"at">   # at index 1: "at"
+
+"The cat sat in the hat".match(/[csh](..) [csh]\1 in/)[1] # returns 'at'
+```
+
+- `\0` represents the whole matched string
+- We can use `\0` and `.gsub` to substitute a matched pattern. Very useful
+```ruby
+"The cat sat in the hat".gsub(/[csh]at/, '\0s') # => "The cats sats in the hats"
+# To every occurrence of "[csh]at" = '\0', add an 's' such that '\0s'
+# Therefore, we'll have cats, sats, hats
+```
+
+## Grouping
+Parenthesis _group_ terms, allowing the pattern only work for this group.
+- `/(pat)/`
+```ruby
+# example with group parenthesis
+"Caenorhabditis elegans".match(/([aeiou]\w){2}/) #=> #<MatchData "enor" 1:"or">
+# Match the first occurrence twice: (1 letter [aeiou], 1 character) x 2
+```
+
+```ruby
+# counter example without group parenthesis
+"Caenorhabditis elegans".match(/[aeiou]\w{2}/) #=> #<MatchData "aen">
+# Match the first occurrence: only 1 letter [aeiou], 2 any character
+```
+
+
+# Backreference - Regex Global Variables
+We can use these Regex global variables to backreference `group parenthesis`.
 -   `$~` is equivalent to [`Regexp.last_match`](https://ruby-doc.org/3.2.0/Regexp.html#method-c-last_match);
 -   `$&` contains the complete matched text;
--   `` $` `` contains string before match;
+-   ``$` `` contains string before match;
 -   `$'` contains string after match;
 -   `$1`, `$2` and so on contain text matching first, second, etc capture group;
 -   `$+` contains last capture group
+
+```ruby
+# examples
+m = 'haystack'.match(/s(\w{2}).*(c)/) #=> #<MatchData "stac" 1:"ta" 2:"c">
+$~                                    #=> #<MatchData "stac" 1:"ta" 2:"c">
+Regexp.last_match                     #=> #<MatchData "stac" 1:"ta" 2:"c">
+
+$&   #=> "stac" # same as m[0]
+$`   #=> "hay"  # same as m.pre_match
+$'   #=> "k"    # same as m.post_match
+$1   #=> "ta"   # same as m[1]
+$2   #=> "c"    # same as m[2]
+$3   #=> nil    # no third group in pattern
+$+   #=> "c"    # same as m[-1]
+```
+
+# Alternation
+The vertical bar metacharacter `a|b` is like `OR` in programming, either matches `a` or `b`
+```ruby
+# example 1
+"Feliformia".match(/\w(and|or)\w/) #=> #<MatchData "form" 1:"or">
+# \w = f
+# (and|or) = or
+# \w = m
+# Match = form
+```
+
+``` ruby
+# example 2
+"furandi".match(/\w(and|or)\w/)    #=> #<MatchData "randi" 1:"and">
+# \w = r
+# (and|or) = and
+# \w = i
+# Match = randi
+```
+
 
 # Options
 End delimiter of a regex can be followed by one or more single-letter options:
@@ -107,3 +199,8 @@ End delimiter of a regex can be followed by one or more single-letter options:
 -   `/pat/s` - Windows-31J
 -   `/pat/n` - ASCII-8BIT
 
+## Regex with Ruby Methods
+- Regular expression can be used with many Ruby methods
+	- .split
+	- .scan
+	- .gsub
