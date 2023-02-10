@@ -51,15 +51,15 @@ contains_vowel("sky") # returns nil
 # Ranges
 - `/./` => Any character except newline
 - `/./m` => Any character, `m` enables multiline mode
-- `/\w/` => A word character (`[a-zA-Z0-9_]`)
-- `/\W/` => A non-word character (`[^a-zA-Z0-9_]`)
-- `/\d/` - A digit character (`[0-9]`)
-- `/\D/` - A non-digit character (`[^0-9]`)
-- `/\h/` - A hexdigit character (`[0-9a-fA-F]`)
-- `/\H/` - A non-hexdigit character (`[^0-9a-fA-F]`)
-- `/\s/` - A whitespace character: `/[ \t\r\n\f\v]/`
-- `/\S/` - A non-whitespace character: `/[^ \t\r\n\f\v]/`
-- `/\R/` - A linebreak: `\n`, `\v`, `\f`, `\r` `\u0085` (NEXT LINE), `\u2028` (LINE SEPARATOR), `\u2029` (PARAGRAPH SEPARATOR) or `\r\n`.
+- `\w` => A word character (`[a-zA-Z0-9_]`)
+- `\W` => A non-word character (`[^a-zA-Z0-9_]`)
+- `\d` - A digit character (`[0-9]`)
+- `\D` - A non-digit character (`[^0-9]`)
+- `\h` - A hexdigit character (`[0-9a-fA-F]`)
+- `\H` - A non-hexdigit character (`[^0-9a-fA-F]`)
+- `\s` - A whitespace character: `/[ \t\r\n\f\v]/`
+- `\S` - A non-whitespace character: `/[^ \t\r\n\f\v]/`
+- `\R` - A linebreak: `\n`, `\v`, `\f`, `\r` `\u0085` (NEXT LINE), `\u2028` (LINE SEPARATOR), `\u2029` (PARAGRAPH SEPARATOR) or `\r\n`.
 
 # Anchors
 -   `^` - Matches beginning of line
