@@ -18,12 +18,6 @@ Topics: #, #, #
 - To solve this problem:
 
 ## Solution 1
-- Simply `git pull` every time switched computers and before making any changes
-- Only `git commit` when you done in one computer and gonna switch to another computer
-- `git commit` only one time in a day
-- This will prevent having commits behind from `Github remote` repo
-
-## Solution 2
 
 - If you have already commits behind `Github remote`, follow these commands:
 
@@ -42,7 +36,7 @@ git reset --hard origin/<branch-name>
 git clean -f -d
 ```
 
-## Solution 3
+## Solution 2
 - If both computers are in the same `commit`, but `computer 1` modified one file and `computer 2` modified a different file
 
 1. `commit` first in either one computer, `computer 2`
