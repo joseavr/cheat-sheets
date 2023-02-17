@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ruby/Ruby Classes.md",
+                "file": "2023-02-17.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ruby/Ruby Classes.md",
+                "file": "2023-02-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ruby/Ruby Classes.md",
+                "file": "2023-02-17.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ruby/Ruby Classes.md"
+                "file": "2023-02-17.md"
               }
             }
           }
@@ -152,8 +152,8 @@
   },
   "active": "654275e65f70269b",
   "lastOpenFiles": [
-    "ruby/Ruby Regex.md",
     "ruby/Ruby Classes.md",
+    "ruby/Ruby Regex.md",
     "ruby/Ruby FIles.md",
     "ruby/Ruby.md",
     "css/CSS.md",
