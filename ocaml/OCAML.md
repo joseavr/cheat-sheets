@@ -1,8 +1,12 @@
-# Introduction to HTML
-
-
 # Table of Contents
-- [[HTML Form]]
+
+- [[OCAML Intro]]
+
+
+## Data Types
+- Integer
+- Float
+- String
 - 
 
 ## Data Structure

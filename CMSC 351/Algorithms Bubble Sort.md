@@ -48,9 +48,9 @@ $$
 T( n ) = ( n – 1 ) * \frac{n}{2} = Θ( n^2 )
 $$
 ## Worst Case
-- 
+- $\theta(n^2)$
 ## Average Case
-
+- $\theta(n^2)$
 ## Best Case
 - $\theta(n)$
 

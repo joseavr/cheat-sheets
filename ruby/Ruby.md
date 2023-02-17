@@ -11,14 +11,16 @@
 ## Loops
 - Ruby for
 - Ruby while 
-- Ruby 
-- 
+- Ruby
 
 ## OOP
-- class 
-- constructor
-- object
+- [[Ruby Classes]] 
+- [[Ruby Object]]
 
 ## Codeblocks
 
-## Smth
+## Files
+- [[Ruby Files]]
+
+## Regex
+- [[Ruby Regex]]

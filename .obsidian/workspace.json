@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "bd7aa85f3573d0d6",
+        "id": "8bc89f6a16a3dda4",
         "type": "tabs",
         "children": [
           {
-            "id": "654275e65f70269b",
+            "id": "5ed858ef02e19cd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ruby/Ruby Regex.md",
+                "file": "ruby/Ruby.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2912c45a0d4ffc96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ocaml/OCAML Intro.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c8d3a02cab8dcc79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ruby/Ruby.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ruby/Ruby Regex.md",
+                "file": "ruby/Ruby.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ruby/Ruby Regex.md",
+                "file": "ruby/Ruby.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ruby/Ruby Regex.md"
+                "file": "ruby/Ruby.md"
               }
             }
           }
@@ -143,23 +168,24 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": true,
-      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
       "command-palette:Open command palette": true,
       "daily-notes:Open today's daily note": false,
+      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "654275e65f70269b",
+  "active": "c8d3a02cab8dcc79",
   "lastOpenFiles": [
-    "ruby/Ruby FIles.md",
+    "ruby/Ruby Classes.md",
+    "ruby/Ruby Files.md",
     "ruby/Ruby Regex.md",
-    "CMSC 351/Algorithms.md",
+    "ruby/Ruby.md",
+    "README.md",
+    "ocaml/OCAML Intro.md",
+    "ocaml/OCAML.md",
     "CMSC 351/Algorithms Selection Sort.md",
     "CMSC 351/Algorithms Bubble Sort.md",
-    "GitHub/Git Sync Conflicts.md",
-    "GitHub/Git.md",
-    "2023-02-09.md",
-    "ruby/Ruby.md"
+    "css/CSS Selectors.md"
   ]
 }

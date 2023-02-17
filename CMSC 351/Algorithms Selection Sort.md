@@ -58,5 +58,5 @@ $T( n ) = c n ( n + 1 ) / 2 - c$
 $T( n ) = Θ( n^2)$
 
 - Same as Bubble Sort
-- Worst, Average, Best CAse
+- Worst, Average, Best Case
 	- Same $\theta(n^2)$
