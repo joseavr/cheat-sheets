@@ -5,23 +5,5 @@
 
 ## Fundaments
 - [[CSS Selectors]]
-- Float
-- String
-- 
-
-## Data Structure
-- Arrays
-- Dictionaries
-* 
-  
-## Loops
-- for loop
-- while loop
-- switch
-- 
-
-## OOP
-- class
-- constructor
-- object
-- 
+- [[CSS Display]]
+- [[CSS Web Servers]]

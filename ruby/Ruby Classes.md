@@ -64,10 +64,10 @@ student_2 = Student.new("2", "Kevin", "29")
 
 ## Local Variables
 - `Local Variables` are the ones defined inside of a method scope. These are not available outside of scope.
-- 
+
 ## Instance Variables
-- `Instance Variables` are available across all objects (`childs`)
-- Meaning that each `object` will have this variable.
+- `Instance Variables` are available across all objects.
+- Meaning that each `object` will have this variable independently.
 - An instance variable from one object differs from another object. For instance:
 ```ruby
 student_1.name = "Jose"
@@ -80,6 +80,81 @@ class Student
 	@name
 	@age
 end
+```
+
+## Attr_accesor vs Attr_writer vs Atrr_reader
+https://www.bootrails.com/blog/ruby-attr-accessor-attr-writer-attr-reader/#:~:text=Summary,scope%20of%20the%20class%20definition.
+- In ruby, methods are public, but data are private. 
+	- Public: can be accessed outside of class
+	- Private: cannot be accessed outside of class
+- For example
+```ruby
+# Student has @id, @name, @age
+student_1 = Student.new("01","Jose","23")
+student_1.name    # This gives error
+```
+- To fix this, we do `getters` and `setters` methods. Such as
+```ruby
+# Setters
+def name 
+	return @name 
+end
+
+def name=(new_name)
+	@name = new_name
+```
+
+- But it's tedious writing `getters` and `setters` for each instance variables, but there's another way
+
+### attr_reader
+- Data are private
+- We use this when we want to 
+	- keep instance variables private from changing, 
+	- but access them publicly (without `getters` methods)
+
+```ruby
+Class Students
+	attr_reader :id, :name, :age # <-- Getters
+
+	def initialize
+		code
+	end
+end
+
+# student_1.name => allowed
+# student_1.name="Dave" => not allowed
+```
+
+### attr_writer
+- Data are private
+- We use this when we want to 
+	- keep instance variables private from accessing them, 
+	- but changing them publicly (without `setters` methods)
+
+```ruby
+Class Students
+	attr_writer :id, :name, :age # <-- Getters
+
+def initialize
+		code
+	end
+end
+# student_1.name => not allowed
+# student_1.name="Dave" => allowed
+```
+
+### attr_accessor
+- It's the combination of both attr_reader and attr_writer
+```ruby
+Class Students
+	attr_accessor :id, :name, :age # <-- Getters
+
+def initialize
+		code
+	end
+end
+# student_1.name => allowed
+# student_1.name="Dave" => allowed
 ```
 
 ## Class Variables

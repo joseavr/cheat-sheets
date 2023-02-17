@@ -1,4 +1,4 @@
-# Untitled
+# Display
 Class: [[CSS]]
 Subject: #
 Date: 2023-02-08
