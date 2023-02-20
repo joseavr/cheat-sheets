@@ -1,4 +1,4 @@
-# Untitled
+# Ocaml Data Structure
 Class: [[]]
 Subject: #
 Date: 2023-02-17

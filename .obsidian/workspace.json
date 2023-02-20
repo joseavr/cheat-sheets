@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-02-17.md",
+                "file": "GitHub/Git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e5c6c551b35036c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ocaml/OCAML Data Structure.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-02-17.md",
+                "file": "ocaml/OCAML Data Structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-02-17.md",
+                "file": "ocaml/OCAML Data Structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-02-17.md"
+                "file": "ocaml/OCAML Data Structure.md"
               }
             }
           }
@@ -150,17 +163,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "654275e65f70269b",
+  "active": "3c00de273fb35303",
   "lastOpenFiles": [
-    "ruby/Ruby Classes.md",
+    "ocaml/OCAML Intro.md",
+    "ocaml/OCAML Data Structure.md",
     "ruby/Ruby Regex.md",
     "ruby/Ruby FIles.md",
     "ruby/Ruby.md",
-    "css/CSS.md",
-    "css/CSS Display.md",
-    "GitHub/Git Sync Conflicts.md",
-    "CMSC 351/Algorithms Selection Sort.md",
-    "MATH406/1.5 Divisibility.md",
-    "MATH406/3.1 Prime Numbers.md"
+    "ruby/Ruby Classes.md",
+    "ruby/Ruby Arrays.md",
+    "GitHub/Git Clone.md",
+    "GitHub/Git.md",
+    "css/CSS.md"
   ]
 }
