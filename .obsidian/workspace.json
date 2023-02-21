@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GitHub/Git.md",
+                "file": "CMSC 351/Algorithms Selection Sort.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ocaml/OCAML Data Structure.md",
+                "file": "CMSC 351/Algorithms Selection Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ocaml/OCAML Data Structure.md",
+                "file": "CMSC 351/Algorithms Selection Sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ocaml/OCAML Data Structure.md"
+                "file": "CMSC 351/Algorithms Selection Sort.md"
               }
             }
           }
@@ -163,17 +162,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3c00de273fb35303",
+  "active": "654275e65f70269b",
   "lastOpenFiles": [
-    "ocaml/OCAML Intro.md",
-    "ocaml/OCAML Data Structure.md",
-    "ruby/Ruby Regex.md",
-    "ruby/Ruby FIles.md",
-    "ruby/Ruby.md",
-    "ruby/Ruby Classes.md",
-    "ruby/Ruby Arrays.md",
-    "GitHub/Git Clone.md",
+    "CMSC 351/Algorithms Insertion Sort.md",
+    "CMSC 351/Algorithms Bubble Sort.md",
+    "CMSC 351/Algorithms Selection Sort.md",
+    "CMSC 351/Algorithms Binary Search.md",
+    "css/CSS Display.md",
+    "CMSC 351/Algorithms.md",
+    "Assets/Pasted image 20230221002736.png",
+    "Untitled 1.md",
     "GitHub/Git.md",
-    "css/CSS.md"
+    "ocaml/OCAML Intro.md"
   ]
 }

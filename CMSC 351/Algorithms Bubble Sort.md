@@ -7,7 +7,32 @@ Topics: #, #, #
 ---
 
 # What is Bubble Sort 
+-
 
+# Running Time
+- No matter what, running time: $\theta (n^2)$
+$$
+T( n ) = ( n – 1 ) + ( n – 2 ) + ... + 2 + 1
+$$
+$$
+T( n ) = ( n – 1 ) * \frac{n}{2} = Θ( n^2 )
+$$
+## Worst Case
+- $\theta(n^2)$
+## Average Case
+- $\theta(n^2)$
+## Best Case
+- $\theta(n)$
+
+# Space Time
+- Memory space needed $\theta(1)$
+	- Needs two variables to store i and j, two indexes
+	- an extra variable when we swap elements, temp
+- Stable sorting algorithm
+	- if two elements are the same, they remain the same
+
+
+# How It Works
 - Loops through each element of an array and checks
 ```ruby
 if current_element > next_element then 
@@ -16,11 +41,8 @@ if current_element > next_element then
 
 ![[Pasted image 20230209111836.png]]
 
-- Memory space needed $\theta(1)$
-	- Needs two variables to store i and j, two indexes
-	- an extra variable when we swap elements, temp
-- Stable sorting algorithm
-	- if two elements are the same, they remain the same
+
+
 # Pseudocode
 ```ruby
 Data : Input array A []
@@ -39,20 +61,6 @@ for j=0 to N-1 do
 endfor
 ```
 
-# Running Time
-- No matter what, running time: $\theta (n^2)$
-$$
-T( n ) = ( n – 1 ) + ( n – 2 ) + ... + 2 + 1
-$$
-$$
-T( n ) = ( n – 1 ) * \frac{n}{2} = Θ( n^2 )
-$$
-## Worst Case
-- $\theta(n^2)$
-## Average Case
-- $\theta(n^2)$
-## Best Case
-- $\theta(n)$
 
 # Pseudocode from Class
 ```ruby
