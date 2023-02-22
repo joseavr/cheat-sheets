@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ocaml/OCAML Data Structure.md",
+                "file": "GitHub/Git Sync Conflicts.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "efdac4de599afc71",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ocaml/OCAML Data Structure.md",
+                "file": "GitHub/Git Sync Conflicts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ocaml/OCAML Data Structure.md",
+                "file": "GitHub/Git Sync Conflicts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ocaml/OCAML Data Structure.md"
+                "file": "GitHub/Git Sync Conflicts.md"
               }
             }
           }
@@ -166,8 +165,8 @@
   },
   "active": "e5c6c551b35036c6",
   "lastOpenFiles": [
-    "ocaml/OCAML Intro.md",
     "ocaml/OCAML Data Structure.md",
+    "ocaml/OCAML Intro.md",
     "ocaml/OCAML.md",
     "GitHub/Git.md",
     "ruby/Ruby Regex.md",

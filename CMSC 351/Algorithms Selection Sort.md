@@ -7,7 +7,6 @@ Topics: #, #, #
 ---
 
 # Intro 
-
 - We select the smallest element in the list and place it at the beginning of the list. Then we select the next-smallest element and put it in the second position in the list, and so on.
 - We could the reverse:
 	- Select the largest element in the list and place it at  the end of the list. Then we select the next-largest element and put it in the next-to-last position in the list, and so on.
@@ -18,6 +17,41 @@ Topics: #, #, #
 	- Two variables to store i and j, two indexes
 	- Two variables to store `min` index, and `temp`
 - Selection Sort, contrary to Bubble Sort, is NOT a STABLE sorting algorithm.
+
+# Running Time
+
+## Worst Case
+- Same as Bubble Sort
+- $\theta(n^2)$
+## Average Case
+- Same as Bubble Sort
+- $\theta(n^2)$
+## Best Case
+- $\theta(n)$
+
+# Space Time
+- $O(1)$
+
+
+# How It Works
+
+## Quick Breakthrough
+- Assume $A = [7,5,4,2]$
+![[Pasted image 20230221032045.png]]
+
+## Step by Step
+- First Iteration
+![[Pasted image 20230221032124.png]]
+
+- Second iteration
+![[Pasted image 20230221032144.png]]
+
+- Third iteration
+![[Pasted image 20230221032213.png]]
+
+- Fourth iteration
+![[Pasted image 20230221032227.png]]
+
 # Pseudocode
 
 ```python
@@ -50,13 +84,5 @@ public static int indexOfSmallest( int [] arr, int i )  {
 }
 ```
 
-# Running Time
-$T( n ) = c n + c ( n – 1 ) + c ( n – 2 ) + ... + c * 2$
-$T( n ) = c n + c ( n – 1 ) + c ( n – 2 ) + ... + c * 2 + c * 1 – c * 1$ 
-$T( n ) = c ( n + ( n – 1 ) + ( n – 2 ) + ... + 2 + 1 ) – c$
-$T( n ) = c n ( n + 1 ) / 2 - c$
-$T( n ) = Θ( n^2)$
 
-- Same as Bubble Sort
-- Worst, Average, Best Case
-	- Same $\theta(n^2)$
+
