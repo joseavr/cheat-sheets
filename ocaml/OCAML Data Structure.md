@@ -183,57 +183,6 @@ let fs = [add1;x2;(fun x -> -x)]
 map (fun f -> map f lst) fs;;
 ```
 
-# Useful Functions With MAP
-## Concat
-```ocaml
-let rec concat lst = match lst with
-[]-> ""
-|h::t -> h^(concat t)
-```
-
-## Sum
-
-```ocaml
-let rec sum lst = match lst with
-[]-> 0
-|h::t -> h+(sum t)
-```
-
-## Product
-```ocaml
-let rec product lst = match lst with
-[]-> 1
-|h::t -> h*(productt)
-```
-
-## Length
-```ocaml
-let rec length lst = match lst with
-[]-> 0
-|_::t -> 1+(length t)
-```
-
-## Reverse
-```ocaml
-let rec rev lst = match lst with
-[]-> []
-|h::t -> (rev t) @ [h];;
-```
-
-## Filter
-```ocaml
-let rec filter lst compare_fun = match lst with
-[]-> []
-|h::t -> if compare_fun h then
-h::(filter t compare_fun) else filter t compare_fun;;
-```
-
-## Fibonacci
-```ocaml
-(* fib-1.ml *)
-let rec fib n a b =
-if n = 0 then a else fib (n-1) (a+b) a;;
-```
 
 # Fold
 - Fold will incorporate
