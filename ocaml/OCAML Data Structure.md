@@ -1,5 +1,5 @@
 # Ocaml Data Structure
-Class: [[]]
+Class: [[OCAML]]
 Subject: #
 Date: 2023-02-17
 Topics: #, #, # 
@@ -135,3 +135,147 @@ let rec sum lst =
 | [] ->
 match 
 ```
+
+
+# Map
+
+```ocaml  
+let rec map f l = match l with
+[]-> []
+|h::t -> (f h)::(map f t)
+
+map: ('a -> 'b) -> 'a list -> 'b list
+```
+
+```ocaml
+[1,2,3,4]
+
+#Recursion1
+h=[1]
+t=[2,3,4]
+
+#Recursion2
+f (h)
+h=[]
+t=[1]
+
+#Recursion3
+f(h)
+=>[]
+
+#Recursion4 (map f t)
+
+
+```
+
+## Example
+```ocaml
+let add1 x = x + 1;;
+let x2 x = x + x;;
+let is_even x = x mod 2 = 0;;
+let lst = [1;2;3];;
+
+map add1 lst;;
+map x2 lst;;
+map is_even lst;;
+
+let fs = [add1;x2;(fun x -> -x)]
+map (fun f -> map f lst) fs;;
+```
+
+# Useful Functions With MAP
+## Concat
+```ocaml
+let rec concat lst = match lst with
+[]-> ""
+|h::t -> h^(concat t)
+```
+
+## Sum
+
+```ocaml
+let rec sum lst = match lst with
+[]-> 0
+|h::t -> h+(sum t)
+```
+
+## Product
+```ocaml
+let rec product lst = match lst with
+[]-> 1
+|h::t -> h*(productt)
+```
+
+## Length
+```ocaml
+let rec length lst = match lst with
+[]-> 0
+|_::t -> 1+(length t)
+```
+
+## Reverse
+```ocaml
+let rec rev lst = match lst with
+[]-> []
+|h::t -> (rev t) @ [h];;
+```
+
+## Filter
+```ocaml
+let rec filter lst compare_fun = match lst with
+[]-> []
+|h::t -> if compare_fun h then
+h::(filter t compare_fun) else filter t compare_fun;;
+```
+
+## Fibonacci
+```ocaml
+(* fib-1.ml *)
+let rec fib n a b =
+if n = 0 then a else fib (n-1) (a+b) a;;
+```
+
+# Fold
+- Fold will incorporate
+- Aggregating a list to a single value
+- Reducing Stack Frames
+```ocaml
+(* fold.ml *)
+let rec fold f a l= match l with
+[]-> a
+|h::t-> fold f (f a h) t;;
+
+fold: ('a -> 'b -> 'a) -> 'a -> 'b list -> 'a
+```
+
+# Foldr
+- Aggregating a list to a single value
+- But, the order of evaluation is reversed
+```ocaml
+(* foldr.ml *)
+let rec foldr f l a = match l with
+[]-> a
+|h::t-> f h (foldr f t a);;
+
+foldr: ('b -> 'a -> 'a) -> 'b list -> 'a -> 'a
+```
+# Map & Fold
+```ocaml
+(* count 1s in a 2d matrix *) 
+(* based on what we already have (inefficent) *) 
+let countones lst = 
+(* take out non-ones from 1-d list *) 
+let get1s lst = filter (fun x -> x = 1) lst in 
+(* take out non-ones from each sublist *)
+let ones = map get1s lst in 
+(* get the length of each 1 list *) 
+let counts = map (fold length 0) ones in 
+(* add up the lengths *) 
+let total = fold sum 0 counts in total;;
+val countones : int list list -> int = 
+
+(* or we can do the easy way *)
+let count1 lst = fold (fun a h -> if h = 1 then a+1 else a) 0 lst;;
+let count1s lst = fold (+) 0 (map count1 lst)
+```
+

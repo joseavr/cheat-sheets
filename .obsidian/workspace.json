@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GitHub/Git.md",
+                "file": "ocaml/OCAML.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "efdac4de599afc71",
@@ -163,17 +164,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3c00de273fb35303",
+  "active": "e5c6c551b35036c6",
   "lastOpenFiles": [
     "ocaml/OCAML Intro.md",
     "ocaml/OCAML Data Structure.md",
+    "ocaml/OCAML.md",
+    "GitHub/Git.md",
     "ruby/Ruby Regex.md",
     "ruby/Ruby FIles.md",
     "ruby/Ruby.md",
     "ruby/Ruby Classes.md",
     "ruby/Ruby Arrays.md",
-    "GitHub/Git Clone.md",
-    "GitHub/Git.md",
-    "css/CSS.md"
+    "GitHub/Git Clone.md"
   ]
 }
