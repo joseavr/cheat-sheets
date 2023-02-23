@@ -27,7 +27,7 @@ let rec sum lst = match lst with
 ```ocaml
 let rec product lst = match lst with
 	[]-> 1
-	|h::t -> h*(product)
+	|h::t -> h*(product t)
 ```
 
 ## Power
@@ -57,6 +57,38 @@ let rec filter lst compare_fun = match lst with
 	[]-> []
 	|h::t -> if compare_fun h then
 	h::(filter t compare_fun) else filter t compare_fun;;
+```
+
+## Last Element of a List
+```ocaml
+let rec last l = 
+	match l with 
+	| [h] -> h 
+	| (h::t) -> last t
+```
+
+## Split List
+```ocaml
+let rec splitList lst empty depth = 
+	if depth = 0 then 
+		(lst, empty)
+	else 
+		match lst with 
+			| [] -> ([], []) 
+			| hd::tl -> splitList tl (hd::empty) (depth - 1)
+```
+
+```ocaml
+let rec split_at_point lst n =
+    if n = 0 then
+        (* Answer is obvious *)
+    else
+        match lst with
+        | [] -> (* Answer is obvious *)
+        | head :: tail ->
+            (* Call split_at_point on the tail and
+             * construct your answer
+             *)
 ```
 
 ## Fibonacci

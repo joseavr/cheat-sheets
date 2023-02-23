@@ -185,9 +185,13 @@ map (fun f -> map f lst) fs;;
 
 
 # Fold
+
+## Fold Left
 - Fold will incorporate
 - Aggregating a list to a single value
 - Reducing Stack Frames
+- The idea is
+	- `fold_left (+) 0 [a;b;c]` = `((0+a)+b)+c`
 ```ocaml
 (* fold.ml *)
 let rec fold f a l= match l with
@@ -197,9 +201,25 @@ let rec fold f a l= match l with
 fold: ('a -> 'b -> 'a) -> 'a -> 'b list -> 'a
 ```
 
+## Fold Right
+
+- The idea is 
+	- `fold_right (-) [a;b;c] 0` = `a-(b-(c-0))` 
+
+```ocaml
+let rec right_fold f lst acc =
+    match lst with
+    []->acc
+    |h::t-> f h (right_fold f t acc)
+;;
+```
+
+
 # Foldr
 - Aggregating a list to a single value
 - But, the order of evaluation is reversed
+
+
 ```ocaml
 (* foldr.ml *)
 let rec foldr f l a = match l with

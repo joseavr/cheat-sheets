@@ -165,3 +165,26 @@ let area l w = l * w in area 2 3
 (* syntax *)
 (*  (let name e1:t1 e2:t2 ... ex:tx = e:ty):t1 -> t2 -> tx -> ty  *)
 ```
+
+# Chaining
+- The order of evaluation is "left-to-right"
+```ocaml
+let x = 1 in let x = x+2 in let x = x+3 in x
+
+(* returns 6 *)
+```
+
+- It is equivalent to
+```ocaml
+ let x = 1 in let y = x+2 in let z = y+3 in z;;
+```
+
+- Can be rewriten as
+```ocaml
+(fun x -> let x=x+2 in let x=x+3 in x) 1
+```
+
+- Which is the same as
+```ocaml
+let x=1 in let y=x+2 in let z=y+3 in z
+```
