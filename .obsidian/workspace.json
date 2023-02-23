@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ocaml/OCAML Functions.md",
+                "file": "ocaml/OCAML Intro.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ocaml/OCAML Functions.md",
+                "file": "ocaml/OCAML Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ocaml/OCAML Functions.md",
+                "file": "ocaml/OCAML Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ocaml/OCAML Functions.md"
+                "file": "ocaml/OCAML Intro.md"
               }
             }
           }
@@ -152,11 +152,11 @@
   },
   "active": "3437d1a77560d3b5",
   "lastOpenFiles": [
-    "ocaml/OCAML Operators.md",
     "ocaml/OCAML Functions.md",
+    "ocaml/OCAML Intro.md",
     "ocaml/OCAML.md",
     "ocaml/OCAML Data Structure.md",
-    "ocaml/OCAML Intro.md",
+    "ocaml/OCAML Operators.md",
     "CMSC 351/Algorithms Selection Sort.md",
     "GitHub/Git Sync Conflicts.md",
     "GitHub/Git.md",
