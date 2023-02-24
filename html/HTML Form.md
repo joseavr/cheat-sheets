@@ -37,10 +37,3 @@ Topics: #, #, #
 - Better for security as information is not in the URL. Content is "hidden"
 - You can modify the state of the server with POST
 
-# Type of Forms
-WebServersFormCOde.zip
-
-## Label
-
-## Input
-
