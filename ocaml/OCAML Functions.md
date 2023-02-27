@@ -129,3 +129,24 @@ let rec prime_values lst = match lst with
 	[] -> []
 	| h::t -> if is_prime h then h::(prime_values t) else prime_values t
 ```
+
+
+## Same_Length
+
+```ocaml
+let same_length lst1 lst2 =
+
+  let len1 = length lst1 in
+
+  let len2 = length lst2 in
+
+  let count = ref 0 in
+
+  if len1 > len2 then
+
+    fold (fun acc e -> if !count < len2 then (count := !count + 1; e::acc) else acc) [] (lst1)
+
+  else
+
+    lst1
+```

@@ -1,5 +1,5 @@
-# Untitled
-Class: [[]]
+# OCAML High-Order Functions
+Class: [[OCAML]]
 Subject: #
 Date: 2023-02-24
 Topics: #, #, # 
@@ -8,6 +8,12 @@ Topics: #, #, #
 
 # Map
 - map returns a list of the same size
+- The `map` function takes two arguments:
+	- a function `f` of type `'a -> 'b`, 
+	- a list of type `'a list`. 
+- It applies the function `f` to every element in the input list, and returns a new list of type `'b list` that contains the results.
+
+## What looks like
 ```ocaml
 let rec add1 xs ->
 	match xs with
@@ -21,12 +27,19 @@ let rec square xs =
 		[] -> []
 		| h::t -> (h*t)::(square t)
 ```
-
+## Map Function
 ```ocaml
-let rec map f xs =
-	match xs with
+let rec map f lst =
+	match lst with
 		[] -> []
 		h::t -> (f h)::(map f t)
+```
+## Example
+- The `map` function is typically implemented using recursion. Here is an example implementation of `map` using recursion
+```ocaml
+let xs = [1; 2; 3] 
+let ys = map (fun x -> x * 2) xs 
+(* ys = [2; 4; 6] *)
 ```
 
 # Fold
