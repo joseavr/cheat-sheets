@@ -17,24 +17,60 @@ The recurrence relation T(n) has the form:
 $T(n) = a \cdot T\left( \frac{n}{b} \right) + f(n)$
 
 where
-- `a` is the number of subproblems in each recursion 
-- `n/b` is the size of each subproblem 
+- `a` is the number of subproblems in each recursions, $a \geq 1$
+- `n/b` is the size of each subproblem, $b > 1$
 - `f(n)` is the cost of dividing the problem and combining the results.
+	- f(n) = $Θ (n^{k} \cdot \log^{p}(n))$
 
 ## How to Solve
+- We would need to find two values
+	- $\log_{b}(a)$
+	- $k$
+- Compare the function f(n) with  $Θ (n^{k} \cdot \log^{p}(n))$
+
+
+
+- Base on these 2 values, there are three cases:
+1. If $\log_{b}(a)$ > $k$ => $Θ(n^{\log_{b}(a)})$
+
+2. If $\log_{b}(a)$ = $k$
+	- If $p > -1$ =>   $Θ(n^{k} \cdot \log^{p+1}n)$
+	- If $p = -1$ =>  $Θ(n^{k} \cdot \log(\log n))$
+	- If $p < -1$ =>  $Θ(n^{k})$
+
+3. If $\log_{b}(a)$ < $k$  
+	- If $p >= 0$   =>   $Θ(n^{k} \cdot \log^{p}n)$
+	- If $p < 0$   =>  $O(n^{k})$
+
 
 - To apply the Master Theorem, we need to
-	- compare the function f(n) with $n^{\log_{b}(a)}$
-	- where $\log_{b}(a)$ is the logarithm of `a` with base` b`
+		- where $\log_{b}(a)$ is the logarithm of `a` with base` b`
 
-There are three cases:
-1.  If f(n) = $O(n^{\log_{b}(a - ε)})$ for some constant ε > 0, then T(n) = $Θ(n^{\log_{b}(a)})$
+## Example Case 1
+
+Let T(n) = 2 T(n/2) + 1
+- a = 2
+- b = 2
+- f(n) = $Θ(1)$ 
+	- f(n) = $Θ(n^{0} \log^{0}n)$
+	- Compare $Θ(n^{0} \log^{0}n)$ = $Θ(n^{k} \cdot \log^{p}n)$
+- Find `k` and `p` and $\log_{b}(a)$
+	- k = 0
+	- p = 0 
+	- $\log_{b}(a)$ = $\log_{2}(2)$ = 1
+ - $\log_{2}(2)$ > k
+	 - 1 > 0
+- The answer 
+	- $Θ(n^{\log_{b}a})$ = $Θ(n^{\log_{2}2})$ = $Θ(n^{1})$
+
+## Check this
+
+1. If f(n) = $O(n^{\log_{b}(a - ε)})$ for some constant ε > 0, then T(n) = $Θ(n^{\log_{b}(a)})$
 2.  If f(n) = $Θ(n^{\log_{b}(a)})$, then T(n) = $Θ(n^{\log_{b}(a)}\cdot \log n)$.
 3.  If f(n) = $Ω(n^{\log_{b}(a + ε)})$ for some constant ε > 0 and 
 	- if  $a \cdot f\left( \frac{n}{b} \right) ≤ c \cdot f(n)$ for some constant c < 1 and all sufficiently large n, then 
 	- $T(n)$ = $Θ(f(n))$
 
-## Example
 
 $T(n) = 2 \cdot T\left( \frac{2n}{3} \right) + 2n -1$
 

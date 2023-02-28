@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-02-27.md",
+                "file": "CMSC 351/Algorithms Master Theorem.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ffef62cb121b2210",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-02-27.md",
+                "file": "CMSC 351/Algorithms Master Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-02-27.md",
+                "file": "CMSC 351/Algorithms Master Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-02-27.md"
+                "file": "CMSC 351/Algorithms Master Theorem.md"
               }
             }
           }
@@ -151,11 +152,12 @@
   },
   "active": "59f46718bdd58926",
   "lastOpenFiles": [
-    "2023-02-22.md",
-    "2023-02-27.md",
+    "CMSC 351/Algorithms Master Theorem.md",
+    "Algorithms Merge Sort.md",
+    "javascript/JavaScript NaN.md",
+    "javascript/JavaScript Null.md",
     "ocaml/OCAML Objects.md",
     "MATH406/4.1 Introduction to Congruences.md",
-    "CMSC 351/Algorithms Master Theorem.md",
     "GitHub/Git Sync Conflicts.md",
     "package.json",
     "package-lock.json",
