@@ -1,5 +1,5 @@
 # HTML Type of Forms
-Class: [[]]
+Class: [[HTML]]
 Subject: #
 Date: 2023-02-23
 Topics: #, #, # 

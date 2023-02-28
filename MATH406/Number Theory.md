@@ -15,7 +15,7 @@
 - 3.7 Linear Diophantine Equations
 
 ## Chapter 4
-- 4.1 Introduction to Congruences
+- [[4.1 Introduction to Congruences]]
 - 4.2 Linear Congruences
 - 4.3 The Chinese Remainder Theorem
 - 4.5 Systems of Linear Congruences 
