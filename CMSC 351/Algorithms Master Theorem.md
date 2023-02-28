@@ -50,7 +50,7 @@ where
 	- FInd `k`
 	- Find `p`
 	- Find $\log_{b}(a)$
-- Compare $\log_{b}(a)$ with `k`
+- FInd `Case#` by comparing $\log_{b}(a)$ with `k`
 - Get answer. Done
 
 ## Example Case 1
@@ -70,7 +70,7 @@ Let T(n) = 2 T(n/2) + 1
 - The answer 
 	- $Θ(n^{\log_{b}a})$ = $Θ(n^{\log_{2}2})$ = $Θ(n^{1})$
 
-## Check this
+## IGNORE THIS
 
 1. If f(n) = $O(n^{\log_{b}(a - ε)})$ for some constant ε > 0, then T(n) = $Θ(n^{\log_{b}(a)})$
 2.  If f(n) = $Θ(n^{\log_{b}(a)})$, then T(n) = $Θ(n^{\log_{b}(a)}\cdot \log n)$.
