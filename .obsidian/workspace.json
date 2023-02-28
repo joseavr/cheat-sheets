@@ -1,52 +1,39 @@
 {
   "main": {
-    "id": "5bef5aa4d6598497",
+    "id": "02e8fdb0abcdb3f9",
     "type": "split",
     "children": [
       {
-        "id": "f3593abb8a09da2d",
+        "id": "074accec9572910d",
         "type": "tabs",
         "children": [
           {
-            "id": "7d4edbfda4b31501",
+            "id": "59f46718bdd58926",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ocaml/OCAML Objects.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4754e2b4badc761d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CMSC 351/Algorithms Master Theorem.md",
+                "file": "2023-02-27.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "791d8fca5c08927d",
+    "id": "fa1345c53cda0d44",
     "type": "split",
     "children": [
       {
-        "id": "20f0a150b861ad08",
+        "id": "0bade0be4ad3417d",
         "type": "tabs",
         "children": [
           {
-            "id": "1b8e2b6a7b3f7032",
+            "id": "da0f3d13dd5ff4d6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -56,7 +43,7 @@
             }
           },
           {
-            "id": "602abe09934db5fa",
+            "id": "3382b9cb52dc0a7e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -71,7 +58,7 @@
             }
           },
           {
-            "id": "60ad5f85f30500ec",
+            "id": "35fabaffd0b82749",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -85,20 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "6730b5fbdc2fb999",
+    "id": "ffef62cb121b2210",
     "type": "split",
     "children": [
       {
-        "id": "892ae564a71f83a5",
+        "id": "579a86e0f7d0932b",
         "type": "tabs",
         "children": [
           {
-            "id": "7d0533841cb214c7",
+            "id": "8fb6dc27b2b7c9a4",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CMSC 351/Algorithms Master Theorem.md",
+                "file": "2023-02-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,19 +97,19 @@
             }
           },
           {
-            "id": "6d752ae2902d9eb9",
+            "id": "1cbdb1385001b410",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CMSC 351/Algorithms Master Theorem.md",
+                "file": "2023-02-27.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "4c71ee93e6a30f2d",
+            "id": "96ad720b11f303fb",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,17 +120,16 @@
             }
           },
           {
-            "id": "3fc9da818b26fb1d",
+            "id": "47c1aa2df4066b9d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "CMSC 351/Algorithms Master Theorem.md"
+                "file": "2023-02-27.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -163,31 +149,24 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4754e2b4badc761d",
+  "active": "59f46718bdd58926",
   "lastOpenFiles": [
-    "CMSC 351/Algorithms Selection Sort.md",
-    "html/HTML.md",
-    "html/HTML Form.md",
-    "html/HTML Type of Forms.md",
-    "CMSC 351/Algorithms Master Theorem.md",
+    "2023-02-22.md",
+    "2023-02-27.md",
     "ocaml/OCAML Objects.md",
     "MATH406/4.1 Introduction to Congruences.md",
-    "2023-02-22.md",
+    "CMSC 351/Algorithms Master Theorem.md",
+    "GitHub/Git Sync Conflicts.md",
+    "package.json",
+    "package-lock.json",
     "ocaml/OCAML High Order Functions.md",
-    "MATH406/Number Theory.md",
-    "MATH406/1.3 Mathematical Induction.md",
-    "MATH406/1.1 Numbers and Sequences.md",
-    "MATH406/1.5 Divisibility.md",
-    "MATH406/3.1 Prime Numbers.md",
     "MATH406/1.0 Logic Statements.md",
-    "CMSC 351/Logic Statements 1.md",
-    "ocaml/OCAML Operators.md",
-    "CMSC 351/Algorithms Binary Search.md",
-    "CMSC 351/Algorithms Bubble Sort.md",
-    "CMSC 351/Algorithms Insertion Sort.md",
+    "2023-02-24.md",
     "ocaml/OCAML Functions.md",
-    "ocaml/OCAML Data Structure.md",
-    "ocaml/OCAML Intro.md",
-    "ocaml/OCAML.md"
+    "html/HTML Type of Forms.md",
+    "css/CSS Anchors.md",
+    "Assets/Pasted image 20230223202341.png",
+    "html/HTML Form.md",
+    "ocaml/OCAML Operators.md"
   ]
 }
