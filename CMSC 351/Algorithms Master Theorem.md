@@ -22,29 +22,36 @@ where
 - `f(n)` is the cost of dividing the problem and combining the results.
 	- f(n) = $Θ (n^{k} \cdot \log^{p}(n))$
 
-## How to Solve
+## Cases
+- Compare the function `f(n)` from $T(n)$ with  $Θ (n^{k} \cdot \log^{p}(n))$
 - We would need to find two values
 	- $\log_{b}(a)$
 	- $k$
-- Compare the function f(n) with  $Θ (n^{k} \cdot \log^{p}(n))$
+- Based on these 2 values, there are three cases:
+	1. If $\log_{b}(a)$ > $k$ => $Θ(n^{\log_{b}(a)})$
+
+	2. If $\log_{b}(a)$ = $k$
+		- If $p > -1$ =>   $Θ(n^{k} \cdot \log^{p+1}n)$
+		- If $p = -1$ =>  $Θ(n^{k} \cdot \log(\log n))$
+		- If $p < -1$ =>  $Θ(n^{k})$
+
+	3. If $\log_{b}(a)$ < $k$  
+		- If $p >= 0$   =>   $Θ(n^{k} \cdot \log^{p}n)$
+		- If $p < 0$   =>  $O(n^{k})$
 
 
+## How to Solve
+- Given $T(n) = a \cdot T\left( \frac{n}{b} \right) + f(n)$
+	- Find `a`
+	- Find `b`
+	- Find `f(n)`
 
-- Base on these 2 values, there are three cases:
-1. If $\log_{b}(a)$ > $k$ => $Θ(n^{\log_{b}(a)})$
-
-2. If $\log_{b}(a)$ = $k$
-	- If $p > -1$ =>   $Θ(n^{k} \cdot \log^{p+1}n)$
-	- If $p = -1$ =>  $Θ(n^{k} \cdot \log(\log n))$
-	- If $p < -1$ =>  $Θ(n^{k})$
-
-3. If $\log_{b}(a)$ < $k$  
-	- If $p >= 0$   =>   $Θ(n^{k} \cdot \log^{p}n)$
-	- If $p < 0$   =>  $O(n^{k})$
-
-
-- To apply the Master Theorem, we need to
-		- where $\log_{b}(a)$ is the logarithm of `a` with base` b`
+- Compare the function `f(n)` with  $Θ (n^{k} \cdot \log^{p}(n))$
+	- FInd `k`
+	- Find `p`
+	- Find $\log_{b}(a)$
+- Compare $\log_{b}(a)$ with `k`
+- Get answer. Done
 
 ## Example Case 1
 
