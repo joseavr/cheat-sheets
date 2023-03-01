@@ -84,7 +84,7 @@ Let: T(n) = 2 T(n/2) + 1
 - Given $T(n) = 8 \cdot T\left( \frac{n}{2} \right) + n^{3} + n$
 - **Observation 1**: $f(n) = n^{3} + n$ = $Θ(n^{c})$ with `c = 3`
 - **Observation 2**: $\log_{b}a$ = $\log_{2}8$ = 3, so $\log_{b}a = c$ 
-- **Summary**: $f(n) = O(n^{c})$ and $c = \log_{b}a$ Hence `Case 2` 
+- **Summary**: $f(n) = Θ(n^{c})$ and $c = \log_{b}a$ Hence `Case 2` 
 - **Conclusion**: $T(n) = Θ(n^{\log_{b}a} \log n)$ =  $Θ(n^{\log_{2}8} \log n)$ = $Θ(n^{3} \log n)$
 
 ## Example Case 3
@@ -93,7 +93,7 @@ Let: T(n) = 2 T(n/2) + 1
 - **Observation 2**: $\log_{b}a$ = $\log_{2}8$ = 3, so $\log_{b}a < c$ 
 - **Summary**: $f(n) = Ω(n^{c})$ and $c > \log_{b}a$ Hence `Case 3` 
 - **Conclusion**: $T(n) = Θ(f(n))$ =  $Θ(n^{4} + n)$ = $Θ(n^{4})$
-- **Note**:  f(n) = n^{4} + n must satisfy `regularity condition`:
+- **Note**:  $f(n) = n^{4} + n$ must satisfy `regularity condition`:
 	- $a \cdot f( \frac{n}{b}) \leq C \cdot f(n)$
 	- $a \cdot f\left( \frac{n}{2} \right) = 8\cdot (( \frac{n}{2} )^{2} + (\frac{n}{2}))$ = $\frac{1}{2} (n^{4} + 4n)$
 	- $\frac{3}{4} f(n)$ = $\frac{3}{4} (n^{4} + n)$
