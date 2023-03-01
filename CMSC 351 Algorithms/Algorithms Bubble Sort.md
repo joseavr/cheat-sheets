@@ -36,8 +36,8 @@ if current_element > next_element then
 	swap current_element and next_element
 ```
 
-[](Assets/20230209111836.png)
-![](Assets/20230209111836.png)
+
+![Graph](assets/20230209111836.png)
 
 
 
