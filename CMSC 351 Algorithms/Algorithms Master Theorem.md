@@ -29,16 +29,19 @@ where
 	- Find $c$ by doing $Θ$ of `f(n)`
 
 - Based on these 2 values, there are 3 cases:
-	- `Case 1`: If $f(n)$ = $O(n^{c})$ AND $\log_{b}(a)$ > $c$   ->  $Θ(n^{\log_{b}(a)})$
+	- `Case 1`: If $f(n)$ = $O(n^{c})$ AND $\log_{b}(a)$ > $c$   
+		- --> $T(n) = Θ(n^{\log_{b}(a)})$
 
 	- `Case 2`: If $f(n)$ = $Θ(n^{c})$ AND $\log_{b}(a)$ = $c$
-		- If $p > -1$  ->   $Θ(n^{c} \cdot \log^{P+1}n)$
-		- If $p = -1$  ->  $Θ(n^{c} \cdot \log(\log n))$
-		- If $p < -1$  ->  $Θ(n^{c})$
+		- -> $T(n) = Θ(n^{c} \cdot \log n)$
+		- If $p > -1$  -->   $Θ(n^{c} \cdot \log^{P+1}n)$
+		- If $p = -1$  -->  $Θ(n^{c} \cdot \log(\log n))$
+		- If $p < -1$  -->  $Θ(n^{c})$
 
 	- `Case 3`: If $f(n) = Ω(n^{c})$ AND $\log_{b}(a)$ < $c$  
-		- If $p >= 0$   ->   $Θ(n^{c} \cdot \log^{p}n)$
-		- If $p < 0$      ->  $O(n^{c})$
+		- -> $T(n) = Θ(f(n))$
+		- If $p >= 0$   -->   $Θ(n^{c} \cdot \log^{p}n)$
+		- If $p < 0$      -->  $O(n^{c})$
 		- `Note`: For this, case, $f(n)$ must satisfy `regularity condition`:
 			- There is some $C < 1$ and $n_{0}$ such that $a \cdot f( \frac{n}{b}) \leq C \cdot f(n)$
 
