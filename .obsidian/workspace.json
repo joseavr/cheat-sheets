@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/Python.md",
+                "file": "CMSC 351 Algorithms/Algorithms Bubble Sort.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CMSC 351 Algorithms/Algorithms Bubble Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CMSC 351 Algorithms/Algorithms Bubble Sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CMSC 351 Algorithms/Algorithms Bubble Sort.md"
+              }
             }
           }
         ],
@@ -159,8 +162,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1b8e2b6a7b3f7032",
+  "active": "147b4199f48a743f",
   "lastOpenFiles": [
+    "Pasted.md",
     "README.md",
     "ruby/Ruby Regex.md",
     "ruby/Ruby FIles.md",
@@ -187,7 +191,6 @@
     "MATH 406 Number Theory/1.1 Numbers and Sequences.md",
     "MATH 406 Number Theory/1.0 Logic Statements.md",
     "javascript/JavaScript Null.md",
-    "javascript/JavaScript Template Literals.md",
     "Assets/20230223202341.png",
     "Assets/20230221032227.png",
     "Assets/20230221032213.png",
