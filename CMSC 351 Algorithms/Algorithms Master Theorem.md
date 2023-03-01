@@ -29,14 +29,14 @@ where
 	- Find $c$ by doing $Θ$ of `f(n)`
 
 - Based on these 2 values, there are 3 cases:
-	1. If $f(n)$ = $O(n^{c})$ AND $\log_{b}(a)$ > $c$   ->  $Θ(n^{\log_{b}(a)})$
+	- `Case 1`: If $f(n)$ = $O(n^{c})$ AND $\log_{b}(a)$ > $c$   ->  $Θ(n^{\log_{b}(a)})$
 
-	2. If $f(n)$ = $Θ(n^{c})$ AND $\log_{b}(a)$ = $c$
+	- `Case 2`: If $f(n)$ = $Θ(n^{c})$ AND $\log_{b}(a)$ = $c$
 		- If $p > -1$  ->   $Θ(n^{c} \cdot \log^{P+1}n)$
 		- If $p = -1$  ->  $Θ(n^{c} \cdot \log(\log n))$
 		- If $p < -1$  ->  $Θ(n^{c})$
 
-	3. . If $f(n) = Ω(n^{c})$ AND $\log_{b}(a)$ < $c$  
+	- `Case 3`: If $f(n) = Ω(n^{c})$ AND $\log_{b}(a)$ < $c$  
 		- If $p >= 0$   ->   $Θ(n^{c} \cdot \log^{p}n)$
 		- If $p < 0$      ->  $O(n^{c})$
 		- `Note`: For this, case, $f(n)$ must satisfy `regularity condition`:

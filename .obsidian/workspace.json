@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ocaml/OCAML.md",
+                "file": "CMSC 351 Algorithms/Algorithms Master Theorem.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ocaml/OCAML.md",
+                "file": "CMSC 351 Algorithms/Algorithms Master Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ocaml/OCAML.md",
+                "file": "CMSC 351 Algorithms/Algorithms Master Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ocaml/OCAML.md"
+                "file": "CMSC 351 Algorithms/Algorithms Master Theorem.md"
               }
             }
           }
@@ -150,11 +150,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1b8e2b6a7b3f7032",
+  "active": "e4df8f18db878d84",
   "lastOpenFiles": [
+    "ocaml/OCAML.md",
     "ocaml/OCAML Functions.md",
     "ocaml/OCAML Data Structure.md",
-    "ocaml/OCAML.md",
     "javascript/JS.md",
     "javascript/JavaScript Template Literals.md",
     "javascript/JavaScript Null.md",
