@@ -15,47 +15,50 @@ It provides a way to determine the asymptotic complexity of a divide-and-conquer
 The recurrence relation T(n) has the form:
 
 $T(n) = a \cdot T\left( \frac{n}{b} \right) + f(n)$
+$T(n) = prefix + suffix$
 
 where
 - `a` is the number of subproblems in each recursions, $a \geq 1$
 - `n/b` is the size of each subproblem, $b > 1$
 - `f(n)` is the cost of dividing the problem and combining the results.
-	- f(n) = $Θ (n^{k} \cdot \log^{p}(n))$
+	- f(n) = $Θ (n^{c} \cdot \log^{P}(n))$
 
 ## Cases
-- Compare the function `f(n)` from $T(n)$ with  $Θ (n^{k} \cdot \log^{p}(n))$
+- Compare the function `f(n)` from $T(n)$  with  $Θ (n^{c} \cdot \log^{P}(n))$
 - We would need to find two values
 	- $\log_{b}(a)$
-	- $k$
-- Based on these 2 values, there are three cases:
-	1. If $\log_{b}(a)$ > $k$ => $Θ(n^{\log_{b}(a)})$
+	- $c$
+	- Find $c$ by doing $Θ$ of `f(n)`
 
-	2. If $\log_{b}(a)$ = $k$
-		- If $p > -1$ =>   $Θ(n^{k} \cdot \log^{p+1}n)$
-		- If $p = -1$ =>  $Θ(n^{k} \cdot \log(\log n))$
-		- If $p < -1$ =>  $Θ(n^{k})$
+- Based on these 2 values, there are 3 cases:
+	1. If $f(n)$ = $O(n^{c})$ AND $\log_{b}(a)$ > $c$   ->  $Θ(n^{\log_{b}(a)})$
 
-	3. If $\log_{b}(a)$ < $k$  
-		- If $p >= 0$   =>   $Θ(n^{k} \cdot \log^{p}n)$
-		- If $p < 0$   =>  $O(n^{k})$
+	2. If $f(n)$ = $Θ(n^{c})$ AND $\log_{b}(a)$ = $c$
+		- If $p > -1$  ->   $Θ(n^{c} \cdot \log^{P+1}n)$
+		- If $p = -1$  ->  $Θ(n^{c} \cdot \log(\log n))$
+		- If $p < -1$  ->  $Θ(n^{c})$
+
+	3. . If $f(n) = Ω(n^{c})$ AND $\log_{b}(a)$ < $c$  
+		- If $p >= 0$   ->   $Θ(n^{c} \cdot \log^{p}n)$
+		- If $p < 0$      ->  $O(n^{c})$
 
 
 ## How to Solve
-- Given $T(n) = a \cdot T\left( \frac{n}{b} \right) + f(n)$
+- `Step 1`: Given $T(n) = a \cdot T\left( \frac{n}{b} \right) + f(n)$
 	- Find `a`
 	- Find `b`
 	- Find `f(n)`
 
-- Compare the function `f(n)` with  $Θ (n^{k} \cdot \log^{p}(n))$
-	- FInd `k`
+- `Step 2`: Compare the function `f(n)` with  $Θ (n^{c} \cdot \log^{p}(n))$
+	- FInd `c`
 	- Find `p`
 	- Find $\log_{b}(a)$
-- FInd `Case#` by comparing $\log_{b}(a)$ with `k`
-- Get answer. Done
+- `Step 3`: Find `Case#` by comparing $\log_{b}(a)$ with `c`
+- `Step 4`: Get answer. Done
 
 ## Example Case 1
 
-Let T(n) = 2 T(n/2) + 1
+Let: T(n) = 2 T(n/2) + 1
 - a = 2
 - b = 2
 - f(n) = $Θ(1)$ 
@@ -69,6 +72,25 @@ Let T(n) = 2 T(n/2) + 1
 	 - 1 > 0
 - The answer 
 	- $Θ(n^{\log_{b}a})$ = $Θ(n^{\log_{2}2})$ = $Θ(n^{1})$
+
+## Example Case 1
+- Given $T(n) = 8 \cdot T\left( \frac{n}{2} \right) + n^{2} - n$
+- *Observation 1*: $f(n) = n^{2} - n$ = $Θ(n^{c})$ with `c = 2`
+- *Observation 2*: $\log_{b}a$ = $\log_{2}8$ = 3, so $\log_{b}a > c$ 
+- *Summary*: $f(n) = O(n^{c})$ and $c < \log_{b}a$ Hence `Case 1` 
+- *Conclusion*: $T(n) = Θ(n^{\log_{b}a})$ =  $Θ(n^{\log_{2}8})$ = $Θ(n^{3})$
+
+
+## Example Case 2
+- Given $T(n) = 8 \cdot T\left( \frac{n}{2} \right) + n^{3} + n$
+- *Observation 1*: $f(n) = n^{3} + n$ = $Θ(n^{c})$ with `c = 3`
+- *Observation 2*: $\log_{b}a$ = $\log_{2}8$ = 3, so $\log_{b}a = c$ 
+- *Summary*: $f(n) = O(n^{c})$ and $c = \log_{b}a$ Hence `Case 2` 
+- *Conclusion*: $T(n) = Θ(n^{\log_{b}a} \log n)$ =  $Θ(n^{\log_{2}8} \log n)$ = $Θ(n^{3} \log n)$
+
+
+
+## Example Case 3
 
 ## IGNORE THIS
 
