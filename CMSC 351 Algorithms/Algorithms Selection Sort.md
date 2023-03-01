@@ -37,20 +37,20 @@ Topics: #, #, #
 
 ## Quick Breakthrough
 - Assume $A = [7,5,4,2]$
-![](20230221032045.png)
+![](../Assets/20230221032045.png)
 
 ## Step by Step
 - First Iteration
-![](20230221032124.png)
+![](../Assets/20230221032124.png)
 
 - Second iteration
-![](20230221032144.png)
+![](../Assets/20230221032144.png)
 
 - Third iteration
-![](20230221032213.png)
+![](../Assets/20230221032213.png)
 
 - Fourth iteration
-![](20230221032227.png)
+![](../Assets/20230221032227.png)
 
 # Pseudocode
 

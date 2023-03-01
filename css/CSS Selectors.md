@@ -71,8 +71,8 @@ a[title="news"] {
 	- padding: white space between `border` and `contents`
 	- border: box border
 	- margin: whitespace outside of the box
-- ![](20230206174533.png)
-- ![](20230208170806.png)
+- ![](../Assets/20230206174533.png)
+- ![](../Assets/20230208170806.png)
 
 ## Shortcut
 - Allows you to specify several properties by using only one

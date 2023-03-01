@@ -26,7 +26,7 @@ elemento {
 }
 ```
 
-![](20230208172239.png)
+![](../Assets/20230208172239.png)
 
 ## Inline
 - It doesnt start in a new line
