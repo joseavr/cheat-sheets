@@ -11,10 +11,8 @@
             "id": "e4df8f18db878d84",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/20230206174533.png"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -83,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/20230206174533.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/20230206174533.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "assets/20230206174533.png"
-              }
+              "state": {}
             }
           }
         ],
@@ -148,19 +142,20 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e4df8f18db878d84",
+  "active": "1b8e2b6a7b3f7032",
   "lastOpenFiles": [
-    "assets/20230208170806.png",
-    "assets/20230208172239.png",
-    "assets/20230208174818.png",
-    "assets/20230208175436.png",
-    "assets/20230209111836.png",
-    "assets/20230221002736.png",
-    "assets/20230221003527.png",
-    "assets/20230221032045.png",
-    "assets/20230221032124.png",
-    "assets/20230221032144.png",
-    "assets/20230221032213.png",
+    "Assets/20230221032227.png",
+    "Assets/20230223202341.png",
+    "Assets/20230221032144.png",
+    "Assets/20230221032213.png",
+    "Assets/20230221032124.png",
+    "Assets/20230221032045.png",
+    "Assets/20230221003527.png",
+    "Assets/20230221002736.png",
+    "Assets/20230209111836.png",
+    "Assets/20230208175436.png",
+    "Assets/20230208174818.png",
+    "Assets",
     "CMSC 351 Algorithms/Algorithms Bubble Sort.md",
     "CMSC 351 Algorithms/Algorithms Binary Search.md",
     "CMSC 351 Algorithms/Algorithms HeapSort.md",

@@ -37,7 +37,7 @@ if current_element > next_element then
 ```
 
 
-![Graph](../assets/20230209111836.png)
+![Graph](../Assets/20230209111836.png)
 
 
 
