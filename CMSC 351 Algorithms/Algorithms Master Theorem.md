@@ -42,7 +42,7 @@ where
 		- $\longrightarrow$ $T(n) = Θ(f(n))$
 		- If $p >= 0$   $\longrightarrow$   $Θ(n^{c} \cdot \log^{p}n)$
 		- If $p < 0$      $\longrightarrow$  $O(n^{c})$
-		- `Note`: For this, case, $f(n)$ must satisfy `regularity condition`:
+		- **Note**: For this, case, $f(n)$ must satisfy `regularity condition`:
 			- There is some $C < 1$ and $n_{0}$ such that $a \cdot f( \frac{n}{b}) \leq C \cdot f(n)$
 
 ## How to Solve
@@ -51,7 +51,7 @@ where
 	- Find `b`
 	- Find `f(n)`
 
-- `Step 2`: Compare the function `f(n)` with  $Θ (n^{c} \cdot \log^{p}(n))$
+- `Step 2`: Get $Θ$ of the function `f(n)` and compare with  $Θ (n^{c} \cdot \log^{p}(n))$
 	- FInd `c`
 	- Find `p`
 	- Find $\log_{b}(a)$
