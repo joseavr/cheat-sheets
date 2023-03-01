@@ -26,7 +26,7 @@ elemento {
 }
 ```
 
-![[Pasted image 20230208172239.png]]
+![](20230208172239.png)
 
 ## Inline
 - It doesnt start in a new line
@@ -179,8 +179,8 @@ p {
 
 }
 ```
-![[Pasted image 20230208174818.png]]
+![](20230208174818.png)
 
 ## Flex vs Grid
-![[Pasted image 20230208175436.png]]
+![](20230208175436.png)
 

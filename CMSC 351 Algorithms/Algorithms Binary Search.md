@@ -13,22 +13,15 @@ Topics: #, #, #
 ```
 
 # Running Time
-- No matter what, running time: $\theta (n^2)$
-$$
-T( n ) = ( n – 1 ) + ( n – 2 ) + ... + 2 + 1
-$$
-$$
-T( n ) = ( n – 1 ) * \frac{n}{2} = Θ( n^2 )
-$$
-## Worst Case
-- $\theta(\log n)$
-## Average Case
-- $\theta()$
-## Best Case
-- $\theta(1)$
+- `Worst Case`
+	- $\theta(\log n)$
+- `Average Case`
+	- $\theta(\log n)$
+- `Best Case`
+	- $\theta(1)$
 
 # Space Time
-- Memory space needed $\theta()$
+- Memory space needed $\theta(\log n)$
 
 # How It Works
 

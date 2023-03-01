@@ -1,5 +1,5 @@
 # Untitled
-Class: [[]]
+Class: [[JS]]
 Subject: #
 Date: 2023-02-27
 Topics: #, #, # 
@@ -31,3 +31,10 @@ Topics: #, #, #
 ## Truthy
 - Everything that is not in `Falsy`
 
+# NaN 
+- Stands for `Not A Number` but think about
+	- Special value for undefined values like $\frac{1}{0}$
+- Function to compare NaN: `isNaN()`
+
+- Cannot compare `NaN == NaN`
+	- `NaN === NaN`

@@ -37,20 +37,20 @@ Topics: #, #, #
 
 ## Quick Breakthrough
 - Assume $A = [7,5,4,2]$
-![[Pasted image 20230221032045.png]]
+![](20230221032045.png)
 
 ## Step by Step
 - First Iteration
-![[Pasted image 20230221032124.png]]
+![](20230221032124.png)
 
 - Second iteration
-![[Pasted image 20230221032144.png]]
+![](20230221032144.png)
 
 - Third iteration
-![[Pasted image 20230221032213.png]]
+![](20230221032213.png)
 
 - Fourth iteration
-![[Pasted image 20230221032227.png]]
+![](20230221032227.png)
 
 # Pseudocode
 

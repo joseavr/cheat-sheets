@@ -11,18 +11,15 @@ Topics: #, #, #
 
 # Running Time
 - No matter what, running time: $\theta (n^2)$
-$$
-T( n ) = ( n – 1 ) + ( n – 2 ) + ... + 2 + 1
-$$
-$$
-T( n ) = ( n – 1 ) * \frac{n}{2} = Θ( n^2 )
-$$
-## Worst Case
-- $\theta(n^2)$
-## Average Case
-- $\theta(n^2)$
-## Best Case
-- $\theta(n)$
+$T( n ) = ( n – 1 ) + ( n – 2 ) + ... + 2 + 1$
+$T( n ) = ( n – 1 ) * \frac{n}{2} = Θ( n^2 )$
+
+- `Worst Case`
+	- $\theta(n^2)$
+- `Average Case`
+	- $\theta(n^2)$
+- `Best Case`
+	- $\theta(n)$
 
 # Space Time
 - Memory space needed $\theta(1)$
@@ -39,7 +36,8 @@ if current_element > next_element then
 	swap current_element and next_element
 ```
 
-![[Pasted image 20230209111836.png]]
+
+![](Assets/20230209111836.png)
 
 
 

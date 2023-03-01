@@ -5,3 +5,4 @@
 - [[OCAML Data Structure]]
 - [[OCAML Functions]]
 - [[OCAML High Order Functions]]
+- [[OCAML Objects]]

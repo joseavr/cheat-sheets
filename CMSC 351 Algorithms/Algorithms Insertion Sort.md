@@ -30,10 +30,10 @@ https://www.geeksforgeeks.org/insertion-sort/
 # How It Works
 
 - Take array `A[ ] = [7,4,5,2]`
-![[Pasted image 20230221002736.png]]
+![](20230221002736.png)
 
 - Example 2:
-![[Pasted image 20230221003527.png]]
+![](20230221003527.png)
 
 
 # Pseudocode

@@ -68,4 +68,4 @@ https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_placeholder
 </select> <br> <br>
 ```
 
-![[Pasted image 20230223202341.png]]
+![[20230223202341.png]]
