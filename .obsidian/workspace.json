@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CMSC 351/Algorithms Master Theorem.md",
+                "file": "MATH 406 Number Theory/1.0 Logic Statements.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CMSC 351/Algorithms Master Theorem.md",
+                "file": "MATH 406 Number Theory/1.0 Logic Statements.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CMSC 351/Algorithms Master Theorem.md",
+                "file": "MATH 406 Number Theory/1.0 Logic Statements.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CMSC 351/Algorithms Master Theorem.md"
+                "file": "MATH 406 Number Theory/1.0 Logic Statements.md"
               }
             }
           }
@@ -152,31 +152,32 @@
   },
   "active": "7d4edbfda4b31501",
   "lastOpenFiles": [
+    "README.md",
+    "CMSC 351 Algorithms/Algorithms Master Theorem.md",
     "Untitled.canvas",
-    "CMSC 351/Algorithms Master Theorem.md",
-    "CMSC 351/Algorithms Merge Sort.md",
+    "CMSC 351 Algorithms/Algorithms Merge Sort.md",
     "javascript/JavaScript Null.md",
     "javascript/JavaScript NaN.md",
     "Algorithms Merge Sort.md",
-    "CMSC 351/Algorithms Selection Sort.md",
+    "CMSC 351 Algorithms/Algorithms Selection Sort.md",
     "html/HTML.md",
     "html/HTML Form.md",
     "html/HTML Type of Forms.md",
     "ocaml/OCAML Objects.md",
-    "MATH406/4.1 Introduction to Congruences.md",
+    "MATH 406 Number Theory/4.1 Introduction to Congruences.md",
     "2023-02-22.md",
     "ocaml/OCAML High Order Functions.md",
-    "MATH406/Number Theory.md",
-    "MATH406/1.3 Mathematical Induction.md",
-    "MATH406/1.1 Numbers and Sequences.md",
-    "MATH406/1.5 Divisibility.md",
-    "MATH406/3.1 Prime Numbers.md",
-    "MATH406/1.0 Logic Statements.md",
+    "MATH 406 Number Theory/Number Theory.md",
+    "MATH 406 Number Theory/1.3 Mathematical Induction.md",
+    "MATH 406 Number Theory/1.1 Numbers and Sequences.md",
+    "MATH 406 Number Theory/1.5 Divisibility.md",
+    "MATH 406 Number Theory/3.1 Prime Numbers.md",
+    "MATH 406 Number Theory/1.0 Logic Statements.md",
     "CMSC 351/Logic Statements 1.md",
     "ocaml/OCAML Operators.md",
-    "CMSC 351/Algorithms Binary Search.md",
-    "CMSC 351/Algorithms Bubble Sort.md",
-    "CMSC 351/Algorithms Insertion Sort.md",
+    "CMSC 351 Algorithms/Algorithms Binary Search.md",
+    "CMSC 351 Algorithms/Algorithms Bubble Sort.md",
+    "CMSC 351 Algorithms/Algorithms Insertion Sort.md",
     "ocaml/OCAML Functions.md"
   ]
 }
