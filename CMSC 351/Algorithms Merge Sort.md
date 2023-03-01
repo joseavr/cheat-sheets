@@ -1,5 +1,5 @@
 # Algorithms Merge Sort
-Class: [[]]
+Class: [[Algorithms]]
 Subject: #
 Date: 2023-02-28
 Topics: #, #, # 

@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "02e8fdb0abcdb3f9",
+    "id": "5bef5aa4d6598497",
     "type": "split",
     "children": [
       {
-        "id": "523528cc3dd9b12f",
+        "id": "f3593abb8a09da2d",
         "type": "tabs",
         "children": [
           {
-            "id": "d49d0149f9e17b23",
+            "id": "7d4edbfda4b31501",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "fa1345c53cda0d44",
+    "id": "791d8fca5c08927d",
     "type": "split",
     "children": [
       {
-        "id": "0bade0be4ad3417d",
+        "id": "20f0a150b861ad08",
         "type": "tabs",
         "children": [
           {
-            "id": "da0f3d13dd5ff4d6",
+            "id": "1b8e2b6a7b3f7032",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "3382b9cb52dc0a7e",
+            "id": "602abe09934db5fa",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "35fabaffd0b82749",
+            "id": "60ad5f85f30500ec",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -69,19 +69,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "ffef62cb121b2210",
+    "id": "6730b5fbdc2fb999",
     "type": "split",
     "children": [
       {
-        "id": "579a86e0f7d0932b",
+        "id": "892ae564a71f83a5",
         "type": "tabs",
         "children": [
           {
-            "id": "8fb6dc27b2b7c9a4",
+            "id": "7d0533841cb214c7",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -98,7 +97,7 @@
             }
           },
           {
-            "id": "1cbdb1385001b410",
+            "id": "6d752ae2902d9eb9",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -110,7 +109,7 @@
             }
           },
           {
-            "id": "96ad720b11f303fb",
+            "id": "4c71ee93e6a30f2d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -121,7 +120,7 @@
             }
           },
           {
-            "id": "47c1aa2df4066b9d",
+            "id": "3fc9da818b26fb1d",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -130,7 +129,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -140,36 +140,43 @@
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "switcher:Open quick switcher": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": true,
+      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "templates:Insert template": true,
-      "command-palette:Open command palette": true,
-      "omnisearch:Omnisearch": true
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "d49d0149f9e17b23",
+  "active": "7d4edbfda4b31501",
   "lastOpenFiles": [
     "Untitled.canvas",
     "CMSC 351/Algorithms Master Theorem.md",
-    "Algorithms Merge Sort.md",
-    "javascript/JavaScript NaN.md",
+    "CMSC 351/Algorithms Merge Sort.md",
     "javascript/JavaScript Null.md",
+    "javascript/JavaScript NaN.md",
+    "Algorithms Merge Sort.md",
+    "CMSC 351/Algorithms Selection Sort.md",
+    "html/HTML.md",
+    "html/HTML Form.md",
+    "html/HTML Type of Forms.md",
     "ocaml/OCAML Objects.md",
     "MATH406/4.1 Introduction to Congruences.md",
-    "GitHub/Git Sync Conflicts.md",
-    "package.json",
-    "package-lock.json",
+    "2023-02-22.md",
     "ocaml/OCAML High Order Functions.md",
+    "MATH406/Number Theory.md",
+    "MATH406/1.3 Mathematical Induction.md",
+    "MATH406/1.1 Numbers and Sequences.md",
+    "MATH406/1.5 Divisibility.md",
+    "MATH406/3.1 Prime Numbers.md",
     "MATH406/1.0 Logic Statements.md",
-    "2023-02-24.md",
-    "ocaml/OCAML Functions.md",
-    "html/HTML Type of Forms.md",
-    "css/CSS Anchors.md",
-    "Assets/Pasted image 20230223202341.png",
-    "html/HTML Form.md",
-    "ocaml/OCAML Operators.md"
+    "CMSC 351/Logic Statements 1.md",
+    "ocaml/OCAML Operators.md",
+    "CMSC 351/Algorithms Binary Search.md",
+    "CMSC 351/Algorithms Bubble Sort.md",
+    "CMSC 351/Algorithms Insertion Sort.md",
+    "ocaml/OCAML Functions.md"
   ]
 }

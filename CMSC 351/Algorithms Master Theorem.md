@@ -14,9 +14,7 @@ It provides a way to determine the asymptotic complexity of a divide-and-conquer
 
 The recurrence relation T(n) has the form:
 
-$T(n) = a \cdot T\left( \frac{n}{b} \right) + f(n)$
-$T(n) = prefix + suffix$
-
+$$T(n) = a \cdot T\left( \frac{n}{b} \right) + f(n)$$
 where
 - `a` is the number of subproblems in each recursions, $a \geq 1$
 - `n/b` is the size of each subproblem, $b > 1$
@@ -41,7 +39,8 @@ where
 	3. . If $f(n) = Ω(n^{c})$ AND $\log_{b}(a)$ < $c$  
 		- If $p >= 0$   ->   $Θ(n^{c} \cdot \log^{p}n)$
 		- If $p < 0$      ->  $O(n^{c})$
-
+		- `Note`: For this, case, $f(n)$ must satisfy `regularity condition`:
+			- There is some $C < 1$ and $n_{0}$ such that $a \cdot f( \frac{n}{b}) \leq C \cdot f(n)$
 
 ## How to Solve
 - `Step 1`: Given $T(n) = a \cdot T\left( \frac{n}{b} \right) + f(n)$
@@ -75,47 +74,29 @@ Let: T(n) = 2 T(n/2) + 1
 
 ## Example Case 1
 - Given $T(n) = 8 \cdot T\left( \frac{n}{2} \right) + n^{2} - n$
-- *Observation 1*: $f(n) = n^{2} - n$ = $Θ(n^{c})$ with `c = 2`
-- *Observation 2*: $\log_{b}a$ = $\log_{2}8$ = 3, so $\log_{b}a > c$ 
-- *Summary*: $f(n) = O(n^{c})$ and $c < \log_{b}a$ Hence `Case 1` 
-- *Conclusion*: $T(n) = Θ(n^{\log_{b}a})$ =  $Θ(n^{\log_{2}8})$ = $Θ(n^{3})$
+- **Observation 1**: $f(n) = n^{2} - n$ = $Θ(n^{c})$ with `c = 2`
+- **Observation 2**: $\log_{b}a$ = $\log_{2}8$ = 3, so $\log_{b}a > c$ 
+- **Summary**: $f(n) = O(n^{c})$ and $c < \log_{b}a$ Hence `Case 1` 
+- **Conclusion**: $T(n) = Θ(n^{\log_{b}a})$ =  $Θ(n^{\log_{2}8})$ = $Θ(n^{3})$
 
 
 ## Example Case 2
 - Given $T(n) = 8 \cdot T\left( \frac{n}{2} \right) + n^{3} + n$
-- *Observation 1*: $f(n) = n^{3} + n$ = $Θ(n^{c})$ with `c = 3`
-- *Observation 2*: $\log_{b}a$ = $\log_{2}8$ = 3, so $\log_{b}a = c$ 
-- *Summary*: $f(n) = O(n^{c})$ and $c = \log_{b}a$ Hence `Case 2` 
-- *Conclusion*: $T(n) = Θ(n^{\log_{b}a} \log n)$ =  $Θ(n^{\log_{2}8} \log n)$ = $Θ(n^{3} \log n)$
-
-
+- **Observation 1**: $f(n) = n^{3} + n$ = $Θ(n^{c})$ with `c = 3`
+- **Observation 2**: $\log_{b}a$ = $\log_{2}8$ = 3, so $\log_{b}a = c$ 
+- **Summary**: $f(n) = O(n^{c})$ and $c = \log_{b}a$ Hence `Case 2` 
+- **Conclusion**: $T(n) = Θ(n^{\log_{b}a} \log n)$ =  $Θ(n^{\log_{2}8} \log n)$ = $Θ(n^{3} \log n)$
 
 ## Example Case 3
-
-## IGNORE THIS
-
-1. If f(n) = $O(n^{\log_{b}(a - ε)})$ for some constant ε > 0, then T(n) = $Θ(n^{\log_{b}(a)})$
-2.  If f(n) = $Θ(n^{\log_{b}(a)})$, then T(n) = $Θ(n^{\log_{b}(a)}\cdot \log n)$.
-3.  If f(n) = $Ω(n^{\log_{b}(a + ε)})$ for some constant ε > 0 and 
-	- if  $a \cdot f\left( \frac{n}{b} \right) ≤ c \cdot f(n)$ for some constant c < 1 and all sufficiently large n, then 
-	- $T(n)$ = $Θ(f(n))$
-
-
-$T(n) = 2 \cdot T\left( \frac{2n}{3} \right) + 2n -1$
-
-- Here, 
-	- a = 2
-	- b= 3/2
-	- f(n) = 2n - 1
-- We can see that
-	- $n^{\log_{b}(a)}$ = n ^ $\log_{\frac{3}{2}}(2)$ = n ^ 1.70
-- Comparing f(n) with $n^{\log_{b}(a)}$
-	- f(n) = 2n - 1 = $Θ(n^{1})$
-	- $n^{\log_{b}(a)}$ = $n ^{1.70}$
-- Since f(n) = $Θ(n^{\log_{b}(a)})$, we are in case 2 of Master Theorem
-
-- Therefore the solution is:
-- T(n) =$Θ(n^{\log_{b}(a)} \cdot log n)$ = $Θ(n ^{1.70} log n)$
-- So the Time Complexity of the given recurrence relation is $Θ(n^{1.70} \cdot log n)$
-
-
+- Given $T(n) = 8 \cdot T\left( \frac{n}{2} \right) + n^{4} + n$
+- **Observation 1**: $f(n) = n^{4} + n$ = $Θ(n^{c})$ with `c = 4`
+- **Observation 2**: $\log_{b}a$ = $\log_{2}8$ = 3, so $\log_{b}a < c$ 
+- **Summary**: $f(n) = Ω(n^{c})$ and $c > \log_{b}a$ Hence `Case 3` 
+- **Conclusion**: $T(n) = Θ(f(n))$ =  $Θ(n^{4} + n)$ = $Θ(n^{4})$
+- **Note**:  f(n) = n^{4} + n must satisfy `regularity condition`:
+	- $a \cdot f( \frac{n}{b}) \leq C \cdot f(n)$
+	- $a \cdot f\left( \frac{n}{2} \right) = 8\cdot (( \frac{n}{2} )^{2} + (\frac{n}{2}))$ = $\frac{1}{2} (n^{4} + 4n)$
+	- $\frac{3}{4} f(n)$ = $\frac{3}{4} (n^{4} + n)$
+	- Comparing Leading Coefficients
+		- $\frac{1}{2} (n^{4} + 4n) < \frac{3}{4} (n^{4} + n)$ 
+		- for large $n$
