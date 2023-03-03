@@ -10,8 +10,8 @@
 ## Midterm 2
 - [[Algorithms Insertion Sort|Insertion Sort]]
 - [[Algorithms Binary Search]]
-- 
-* 
+- Master Theorem
+* HeapSort
   
 ## Midterm 3
 - 
