@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OCAML Finite Machines.md",
+                "file": "ocaml/OCAML Intro.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ffef62cb121b2210",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OCAML Finite Machines.md",
+                "file": "ocaml/OCAML Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OCAML Finite Machines.md",
+                "file": "ocaml/OCAML Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,11 +137,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OCAML Finite Machines.md"
+                "file": "ocaml/OCAML Intro.md"
               }
             }
+          },
+          {
+            "id": "576f72396a6589d6",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -152,20 +160,21 @@
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": true,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": false,
       "canvas:Create new canvas": true,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
       "omnisearch:Omnisearch": true
     }
   },
   "active": "ba6c38ad4669b6a3",
   "lastOpenFiles": [
+    "ocaml/OCAML.md",
+    "ocaml/OCAML Finite Machines.md",
     "ocaml/OCAML Trees.md",
-    "OCAML Finite Machines.md",
     "ocaml/OCAML High Order Functions.md",
     "ocaml/OCAML Operators.md",
     "CMSC 351 Algorithms/Algorithms HeapSort.md",
@@ -203,7 +212,6 @@
     "CMSC 351/Algorithms Master Theorem.md",
     "Untitled.canvas",
     "Algorithms Merge Sort.md",
-    "javascript/JavaScript NaN.md",
     "package.json",
     "package-lock.json"
   ]

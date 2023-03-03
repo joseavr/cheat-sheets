@@ -1,5 +1,5 @@
 # OCAML Finite Machines
-Class: [[]]
+Class: [[OCAML]]
 Subject: #
 Date: 2023-03-02
 Topics: #, #, # 

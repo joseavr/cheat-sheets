@@ -1,4 +1,4 @@
-# OcamL
+Í# OcamL
 Class: [[OCAML]]
 Subject: #
 Date: 2023-02-14
@@ -9,10 +9,14 @@ Topics: #, #, #
 # Intro to OCAML
 - OCaml uses static and latent typing
 - Variables in OCaml are immutable
+- Since variables are immutable, they cannot be overwritten by variables
+	- Once a variable is assigned a value, it cannot be changed
+```ocaml
+let x = 5;;
+print_int x;; (* Output: 5 *)
 
--  a.out: executable
--  hello.cmocompiled (.o)
--  hello.cmicompiled (like .h)
+x = 10;; (* Error: This expression has type int but an expression was expected of type unit *)
+```
 
 ## OCAML ENV
 - ocaml: `repl` like `irb`
