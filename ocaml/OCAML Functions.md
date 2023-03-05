@@ -1,4 +1,4 @@
-# OCAML Functions
+# 🐫 OCAML Functions
 Class: [[OCAML]]
 Subject: #
 Date: 2023-02-22
@@ -6,7 +6,7 @@ Topics: #, #, #
 
 ---
 
-# Useful Functions With MAP
+# ✅ Useful Functions
 
 ## Concat
 ```ocaml
@@ -149,4 +149,42 @@ let same_length lst1 lst2 =
   else
 
     lst1
+```
+
+## Partition Sum
+- Return a tuple where
+	- first element is the sum of even indices
+	- second is the sum of odd indices
+	- thrid is the length of the list
+
+partition_sum $[1;2;3]$ = (4,2,3) 
+partition_sum $[2;5;6;8]$ = (8,13,4)
+
+```ocaml
+let partition_sum lst = 
+	fold_left 
+	(
+		fun acc x -> match acc with
+			| (even,odd,len) -> 
+				if len mod 2 = 0 then
+					(even+x, odd, len+1)
+				else 
+					(even, odd+1, len+1)
+	) 
+	(0,0,0) 
+	lst
+```
+
+## Take
+- Return a list with a specific length
+
+take 3 $[1;2;3;4;5]$ = $[1; 2; 3]$
+
+```ocaml
+let rec take n lst =
+  match n, lst with
+  | 0, _ -> []
+  | _, [] -> []
+  | n, h::t -> h::take (n - 1) t
+
 ```

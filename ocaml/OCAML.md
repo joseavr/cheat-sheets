@@ -6,7 +6,7 @@
 - [[OCAML Data Structure]]
 - [[OCAML Functions]]
 - [[OCAML High Order Functions]]
-- [[OCAML Objects]]
+- [[OCAML Records]]
 - [[OCAML Trees]]
 - [[OCAML Finite Machines]]
 

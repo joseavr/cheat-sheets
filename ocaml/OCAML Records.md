@@ -1,4 +1,4 @@
-# OCAML Objects
+# 🐫 OCAML Records
 Class: [[OCAML]]
 Subject: #
 Date: 2023-02-27
@@ -6,11 +6,43 @@ Topics: #, #, #
 
 ---
 
-# Intro to Objects
+# 🎬 Intro to Records
+Records aka Objects
 
+# 🔎 Extract Fields from Records
 
-## Example
+## Declaring and Initializing
+```ocaml
+type person = { name : string; age : int; email : string option }
 
+let alice = { name = "Alice"; age = 30; email = Some "alice@example.com" }
+```
+
+## Extract Fields
+In OCaml, we can extract fields from a record using `let` and pattern matching
+```ocaml
+(* RULE *)
+let {field1, field2} = Object
+```
+
+```ocaml
+let { name; age } = alice in
+Printf.printf "Name: %s, Age: %d\n" name age
+
+=> Name: Alice, Age: 30
+
+```
+## Extract Fields 2
+If we wanted to extract `email`
+```ocaml
+let { name; age; email } = alice in
+match email with
+| Some e -> Printf.printf "Name: %s, Age: %d, Email: %s\n" name age e
+| None -> Printf.printf "Name: %s, Age: %d, No email\n" name age
+
+```
+
+# 🧑🏻‍💻 Example
 ```ocaml
 type course = { name: string
 				; credits: int

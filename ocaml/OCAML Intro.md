@@ -1,4 +1,4 @@
-Í# OcamL
+# 🐫 OCAML Intro
 Class: [[OCAML]]
 Subject: #
 Date: 2023-02-14
@@ -6,7 +6,7 @@ Topics: #, #, #
 
 ---
 
-# Intro to OCAML
+# 🎬 Intro to OCAML
 - OCaml uses static and latent typing
 - Variables in OCaml are immutable
 - Since variables are immutable, they cannot be overwritten by variables
