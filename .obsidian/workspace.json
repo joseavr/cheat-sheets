@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "194a98643f28aed4",
+        "id": "7849f60cf4da16fa",
         "type": "tabs",
         "children": [
           {
-            "id": "400c1b26d5ceab5f",
+            "id": "c479075c1b0594dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ocaml/OCAML High Order Functions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "38a0c0d729cdb43e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ocaml/OCAML Functions.md",
+                "file": "flask/Flask MongoDB.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ffef62cb121b2210",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ocaml/OCAML Functions.md",
+                "file": "flask/Flask MongoDB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ocaml/OCAML Functions.md",
+                "file": "flask/Flask MongoDB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ocaml/OCAML Functions.md"
+                "file": "flask/Flask MongoDB.md"
               }
             }
           },
@@ -172,9 +158,15 @@
       "omnisearch:Omnisearch": true
     }
   },
-  "active": "38a0c0d729cdb43e",
+  "active": "c479075c1b0594dc",
   "lastOpenFiles": [
+    "flask/Flask Render Template.md",
+    "flask/Flask MongoDB.md",
+    "flask/Flask Intro.md",
+    "flask/Flask Forms.md",
     "ocaml/OCAML High Order Functions.md",
+    "CMSC 351 Algorithms/Algorithms.md",
+    "ocaml/OCAML Functions.md",
     "ocaml/OCAML Intro.md",
     "ocaml/OCAML Records.md",
     "javascript/JS Functions.md",
@@ -182,13 +174,8 @@
     "html/HTML Block vs Inline.md",
     "javascript/JS Nullity.md",
     "javascript/JS.md",
-    "ocaml/OCAML Functions.md",
     "ocaml/OCAML.md",
-    "flask/Flask Forms.md",
-    "flask/Flask Intro.md",
     "flask/Flask.md",
-    "flask/Flask Render Template.md",
-    "flask/Flask MongoDB.md",
     "Assets/20230304073406.png",
     "Assets/20230304023337.png",
     "CMSC 351 Algorithms/Algorithms Bubble Sort.md",
@@ -199,7 +186,6 @@
     "ocaml/OCAML Trees.md",
     "ocaml/OCAML Operators.md",
     "CMSC 351 Algorithms/Algorithms HeapSort.md",
-    "CMSC 351 Algorithms/Algorithms.md",
     "CMSC 351 Algorithms/Algorithms Master Theorem.md",
     "Assets/20230302112830.png",
     "CMSC 351 Algorithms/Algorithms Rigorous Time.md",

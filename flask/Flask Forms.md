@@ -6,13 +6,13 @@ Topics: #, #, #
 
 ---
 
-# Intro to Forms in Flask 
+# 🎬 Intro to Forms in Flask 
 
 - Allow users to enter data on our website and process input with POST
 - **Problem**: bad websites can send data to specific routes in our website
 - These are called Cross-Site Request Forgery (CSRF) attacks
 
-# CSRF
+# 🔐 CSRF
 ## Cookies
 - It is a packet of data your browser holds
 - it sends to the server with a `request` and the server handles this with an appropiate `response`
@@ -36,7 +36,7 @@ app.config.update(
 )
 ```
 
-# Sessions
+# 👥 Sessions
 - Sessions keep track of users'info between requests
 - To use sessions, set `SECRET_KEY` for our app
 - Generate a 16-byte random `key` 
@@ -50,7 +50,7 @@ python3 -c "import os; print(os.urandom(16))"
 app.configp['SECRET_KEY'] = b'.....'
 ```
 
-# Form Handling
+# 🗞️ Form Handling
 - Form handling is easy with Flask-WTF package
 ```python
 pip3 isntall Flask-WTF
@@ -90,7 +90,7 @@ class LoginForm(FlaskForm):
 	
 ```
 
-## Example of WelcomeForm
+## Example WelcomeForm
 ```python
 class WelcomeForm(FlaskForm):
 	name = StringFIeld('Name', validators=[InputRequired(), Length(min=4, max=30)])
@@ -102,7 +102,7 @@ class WelcomeForm(FlaskForm):
 	submit = SubmitField('Submit')
 ```
 
-# Redirect
+# 🔄 Redirect
 - Next, if form is validated in `WelcomeForm()` then
 	- process data from form 
 	- redirect
