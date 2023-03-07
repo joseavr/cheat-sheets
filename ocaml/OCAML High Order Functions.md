@@ -67,6 +67,7 @@ func = (fun acc x -> do_smth)
 - At each iteration, it combines
 	- `acc` previous value with
 	- `x` current value
+- `acc` will be returned
 
 ### Implementation
 ```ocaml
@@ -93,6 +94,11 @@ let sum = List.fold_left (fun acc x -> acc + x) 0 lst
 ```ocaml
 List.fold_right func list initial_value
 ```
+
+```ocaml
+func = (fun acc x -> do_smth)
+```
+- `acc` will be returned
 
 ### Implementation
 ```ocaml
