@@ -10,9 +10,12 @@
 ## Midterm 2
 - [[Algorithms Insertion Sort|Insertion Sort]]
 - [[Algorithms Binary Search]]
-- Master Theorem
+- [[Algorithms Master Theorem]]
+- Recurrence
+- MergeSort
 * HeapSort
-  
+* [[Algorithms QuickSort]]
+- Limit of Comaparison Sort
 ## Midterm 3
 - 
 - 

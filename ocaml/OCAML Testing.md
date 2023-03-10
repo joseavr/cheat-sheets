@@ -15,7 +15,7 @@ Topics: #, #, #
 ## Compile Test
 - It generates a folder `_build`
 ```shell
-dune build/test/public/public.exe
+dune build test/public/public.exe
 ```
 
 ## List Tests

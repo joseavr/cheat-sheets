@@ -186,5 +186,17 @@ let rec take n lst =
   | 0, _ -> []
   | _, [] -> []
   | n, h::t -> h::take (n - 1) t
+```
 
+
+## Drop
+- Return a list without the first `n` elements
+
+drop 3 $[1;2;3;4;5]$ = $[4;5]$
+```ocaml
+let rec drop n lst =
+	match n, lst with
+	| 0, lst -> lst
+	| _, [] -> []
+	| n, h::t -> drop (n - 1) t
 ```

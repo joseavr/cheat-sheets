@@ -8,6 +8,7 @@
 - [[OCAML High Order Functions]]
 - [[OCAML Records]]
 - [[OCAML Trees]]
+- [[OCAML Options]]
 - [[OCAML Finite Machines]]
 
 # Midterm 2

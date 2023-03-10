@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dee137204c834ab6",
+        "id": "bcc4f079bb87a704",
         "type": "tabs",
         "children": [
           {
-            "id": "68788c4bb7e9b42b",
+            "id": "87dc74b8fc86e453",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ocaml/OCAML Trees.md",
+                "file": "ocaml/OCAML Options.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ocaml/OCAML Trees.md",
+                "file": "ocaml/OCAML Options.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ocaml/OCAML Trees.md",
+                "file": "ocaml/OCAML Options.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ocaml/OCAML Trees.md"
+                "file": "ocaml/OCAML Options.md"
               }
             }
           },
@@ -158,47 +158,48 @@
       "omnisearch:Omnisearch": true
     }
   },
-  "active": "68788c4bb7e9b42b",
+  "active": "87dc74b8fc86e453",
   "lastOpenFiles": [
-    "README.md",
-    "ocaml/OCAML Trees.md",
-    "ocaml/OCAML High Order Functions.md",
-    "ocaml/OCAML Intro.md",
+    "OCAML Variant.md",
     "ocaml/OCAML Operators.md",
+    "ocaml/OCAML Options.md",
     "ocaml/OCAML Records.md",
-    "JS Objects.md",
-    "JS Events.md",
     "ocaml/OCAML Testing.md",
-    "ocaml/OCAML Conditions.md",
-    "Assets/tree.jpeg",
-    "CMSC 351 Algorithms/Algorithms Master Theorem.md",
-    "ocaml/OCAML.md",
-    "flask/Flask MongoDB.md",
-    "flask/Flask Render Template.md",
-    "flask/Flask Intro.md",
-    "flask/Flask Forms.md",
+    "ocaml/OCAML Trees.md",
+    "2023-03-10.md",
+    "OCAML DFA.md",
+    "javascript/JS Objects.md",
+    "javascript/JS Events.md",
+    "OCAML NFA.md",
+    "README.md",
     "CMSC 351 Algorithms/Algorithms.md",
+    "CMSC 351 Algorithms/Algorithms Merge Sort.md",
+    "CMSC 351 Algorithms/Algorithms QuickSort.md",
+    "ocaml/OCAML.md",
+    "ocaml/OCAML High Order Functions.md",
+    "Assets/20230309125758.png",
+    "Assets/20230309125709.png",
+    "Assets/20230309124441.png",
+    "Assets/20230309124357.png",
+    "Assets/20230309112757.png",
+    "CMSC 351 Algorithms/Algorithms Bubble Sort.md",
+    "Untitled",
+    "CMSC 351 Algorithms/Algorithms Master Theorem.md",
+    "CMSC 351 Algorithms/Algorithms Binary Search.md",
+    "QuickSort.md",
+    "CMSC 351 Algorithms/Algorithms Selection Sort.md",
+    "CMSC 351 Algorithms/Algorithms Insertion Sort.md",
+    "Assets/20230309111120.png",
+    "CMSC 351 Algorithms/Algorithms HeapSort.md",
     "ocaml/OCAML Functions.md",
-    "javascript/JS Functions.md",
-    "javascript/JS Template Literals.md",
-    "html/HTML Block vs Inline.md",
-    "javascript/JS Nullity.md",
-    "javascript/JS.md",
-    "flask/Flask.md",
+    "ocaml/OCAML Intro.md",
+    "Assets/tree.jpeg",
     "Assets/20230304073406.png",
     "Assets/20230304023337.png",
-    "CMSC 351 Algorithms/Algorithms Bubble Sort.md",
     "Assets/20230304022612.png",
-    "GitHub/Git Sync Conflicts.md",
-    "Assets/20230302112830.png",
     "flask",
     "MATH 406 Number Theory",
     "CMSC 351 Algorithms",
-    "Assets/20230223202341.png",
-    "Assets/20230221032227.png",
-    "Assets/20230221032213.png",
-    "Assets/20230221032144.png",
-    "Assets/20230221032124.png",
     "Untitled.canvas",
     "package.json",
     "package-lock.json"
