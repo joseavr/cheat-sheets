@@ -289,9 +289,8 @@ For a=3, Is a+1 <= 3? → 3+1 <= 3? No, print Leaf
              /    \      /   \
       a ->  3    Leaf  Leaf   Leaf 
           /   \
-        _       _
-        |       |
-    a+1<=3?   a+2<=3?
+ a+1<=3? _     _
+
 
 For a=3, Is a+1 <= 3? → 3+1 <= 3? No, print Leaf
          Is a+2 <= 3? → 3+2 <= 3? No, print Leaf
