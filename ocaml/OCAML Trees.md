@@ -52,6 +52,7 @@ type `a tree =
 		- When touches `Leaf` on right fold and goes up to parent `Node`, then 
 			- Applies the function `f` to the left accumulator, current value, and right accumulator to get the new accumulator value, which is returned as result
 			- e.g Assume `acc` is 1, the `Leaf`'s are replaced with 1, then when traversing until the parent `node 4`, then function `f` uses left acc, current value, right acc to do something:
+    			- `f l v r -> l + v + r`
 				- `f 1 4 1 -> 0 + 4 + 0` = 6
 				- `f 1 5 1 -> 0 + 5 + 0` = 7
 				- `f 6 2 7 -> 6 + 2 + 7` = 15
