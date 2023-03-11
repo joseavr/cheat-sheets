@@ -96,7 +96,7 @@ Initial tree:
 
 		" World"                            " World"
 		/      \                           /        \
-	  "Hello"    "?"        ->    ""^"Hello"^""   "!"^"?"^"!"
+	  "Hello"    "?"        ->      ""^"Hello"^""   "!"^"?"^"!"
 	  /     \    /  \
 	""     ""  "!"   "!"
 
