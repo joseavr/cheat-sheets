@@ -114,9 +114,9 @@ Initial tree:
                  "!"    "!"     
 			 
 			 
-         " World"                      
-         /      \              ->      "Hello" ^ " World" ^ "!?!"  
-	 "Hello"   "!?!"
+        " World"                      
+        /      \              ->      "Hello" ^ " World" ^ "!?!"  
+	"Hello"   "!?!"
 
 Returns:
 	tree_fold (fun l s r -> l ^ s ^ r) "" tree = "Hello World !?!" 
