@@ -283,7 +283,7 @@ For a=3, Is a+1 <= 3? → 3+1 <= 3? No, print Leaf
          Is a+2 <= 3? → 3+2 <= 3? No, print Leaf
 
 
-                     1  <- a
+                     1  
                  /      \
                 2           3 
              /    \      /   \
@@ -399,7 +399,7 @@ let rec drop n lst =
 	- right node `r`
 ```ocaml
 pre_order = [1;2;3]
-			 p,l,r
+             p,l,r
 
             1
           /   \
@@ -407,7 +407,7 @@ pre_order = [1;2;3]
 
 
 in_order =  [2;1;3]
-		     l,p,r
+             l,p,r
 
             1
           /   \
