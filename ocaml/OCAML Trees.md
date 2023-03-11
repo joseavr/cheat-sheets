@@ -217,8 +217,8 @@ Node(
 				
   Node(
     Node(Leaf,4,Leaf), 
-	5, 
-	Leaf
+    5, 
+    Leaf
   )
 )
 ```
