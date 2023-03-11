@@ -211,16 +211,16 @@ Step 4
 
 Returns: 
 Node(
-		Node(Leaf,2,Leaf), 
+  Node(Leaf,2,Leaf), 
 				
-		3, 
+  3, 
 				
-		Node(
-				Node(Leaf,4,Leaf), 
-				5, 
-				Leaf
-			)
-	)
+  Node(
+    Node(Leaf,4,Leaf), 
+	5, 
+	Leaf
+  )
+)
 ```
 
 
