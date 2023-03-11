@@ -42,7 +42,7 @@ type `a tree =
 		- `f` traverses left and right. 
 		- `f` keeps track of left, this, right node values
 		- When touches `Leaf`, Leaf is replaced with `acc`
-		- When touches `Leaf` on right fold and goes up to parent `Node`, then 
+		- When touches `Leaf`'s parent `Node`, then 
 			- Applies the function `f` to the `left` accumulator, `current` value, and `right` accumulator to get the new accumulator value, 
 			- The final `acc` is returned
 			- e.g Using above Tree, we want to sum all nodes. Our function `f` will look: `f l v r -> l + v + r`. So we start `acc` = 0, the `Leaf`'s are replaced with 0, then when traversing until the parent `node 4`, then function `f` uses `left` acc, `current` value, `right` acc:
