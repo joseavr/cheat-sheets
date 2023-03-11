@@ -96,12 +96,12 @@ Initial tree:
 
 		" World"                            " World"
 		/      \                           /        \
-	  "Hello"    "?"          ->  ""^"Hello"^""   "!"^"?"^"!"
+	  "Hello"    "?"        ->    ""^"Hello"^""   "!"^"?"^"!"
 	  /     \    /  \
-	   ""     ""  "!"   "!"
+	""     ""  "!"   "!"
 
 		" World"                       
-		/      \                ->   "Hello" ^ " World" ^ "!?!"      
+		/      \              ->     "Hello" ^ " World" ^ "!?!"      
 	   "Hello"     "!?!"          
 
 
