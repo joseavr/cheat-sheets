@@ -268,7 +268,7 @@ Initial tree:
          Leaf    Leaf  Leaf   Leaf
 
 For a=1, Is a+1 <= 3? → 1+1 <= 3? Yes, print 2 node
-		 Is a+2 <= 3? → 1+2 <= 3? Yes, print 3 node
+         Is a+2 <= 3? → 1+2 <= 3? Yes, print 3 node
 
 
                      1 
@@ -278,9 +278,9 @@ For a=1, Is a+1 <= 3? → 1+1 <= 3? Yes, print 2 node
  a+1<=3?    _     _     _     _
 
 For a=2, Is a+1 <= 3? → 2+1 <= 3? Yes, print 3 node
-		 Is a+2 <= 3? → 2+2 <= 3? No, print Leaf
+         Is a+2 <= 3? → 2+2 <= 3? No, print Leaf
 For a=3, Is a+1 <= 3? → 3+1 <= 3? No, print Leaf
-		 Is a+2 <= 3? → 3+2 <= 3? No, print Leaf
+         Is a+2 <= 3? → 3+2 <= 3? No, print Leaf
 
 
                      1  <- a
@@ -294,7 +294,7 @@ For a=3, Is a+1 <= 3? → 3+1 <= 3? No, print Leaf
     a+1<=3?   a+2<=3?
 
 For a=3, Is a+1 <= 3? → 3+1 <= 3? No, print Leaf
-		 Is a+2 <= 3? → 3+2 <= 3? No, print Leaf
+         Is a+2 <= 3? → 3+2 <= 3? No, print Leaf
 
 
 Final Tree:
