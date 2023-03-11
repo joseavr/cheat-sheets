@@ -89,19 +89,19 @@ tree_fold (fun l s r -> l ^ s ^ r) "" tree
 Initial tree:
              " World"                        " World"
             /      \          Leaf->""      /        \
-	    "Hello"     "!"         ->       "Hello"     "!"
+	   "Hello"     "!"         ->        "Hello"     "!"
        /    \      /   \                 /     \    /    \
      Leaf  Leaf  Leaf   Leaf            ""     ""  ""    ""
 
-			 " World"                       " World"
+            " World"                       " World"
 			/      \                       /        \
-		"Hello"    "?"          ->  ""^"Hello"^""   "!"^"?"^"!"
+        "Hello"    "?"          ->  ""^"Hello"^""   "!"^"?"^"!"
 		/     \    /  \
-	   ""     ""  "!"   "!"
+       ""     ""  "!"   "!"
 
-			 " World"                       
+            " World"                       
 			/      \                 "Hello" ^ " World" ^ "!?!"      
-	   "Hello"     "!?!"        ->  
+      "Hello"     "!?!"        ->  
 
 
 Returns:
