@@ -401,17 +401,17 @@ let rec drop n lst =
 pre_order = [1;2;3]
 			 p,l,r
 
-			1
-		  /   \
-		 2     3
+            1
+          /   \
+         2     3
 
 
 in_order =  [2;1;3]
 		     l,p,r
 
-			1
-		  /   \
-		 2     3		
+            1
+          /   \
+         2     3		
 ```
 
 - **Observation 1**: `pre_order` at index 0 is the `root` = 1 of the binary tree
