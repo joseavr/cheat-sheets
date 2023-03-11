@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ocaml/OCAML Options.md",
+                "file": "ocaml/OCAML Trees.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ocaml/OCAML Options.md",
+                "file": "ocaml/OCAML Trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ocaml/OCAML Options.md",
+                "file": "ocaml/OCAML Trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ocaml/OCAML Options.md"
+                "file": "ocaml/OCAML Trees.md"
               }
             }
           },
@@ -160,12 +160,20 @@
   },
   "active": "87dc74b8fc86e453",
   "lastOpenFiles": [
+    "Assets/IMG_1B8737672F39-1.jpeg",
+    "ocaml/OCAML Trees.md",
+    "ruby/Ruby Regex.md",
+    "ruby/Ruby Files.md",
+    "ruby/Ruby Classes.md",
+    "ruby/Ruby Arrays.md",
+    "ocaml/OCAML Intro.md",
+    "ocaml/OCAML.md",
+    "ruby/Ruby.md",
+    "ocaml/OCAML Options.md",
     "OCAML Variant.md",
     "ocaml/OCAML Operators.md",
-    "ocaml/OCAML Options.md",
     "ocaml/OCAML Records.md",
     "ocaml/OCAML Testing.md",
-    "ocaml/OCAML Trees.md",
     "2023-03-10.md",
     "OCAML DFA.md",
     "javascript/JS Objects.md",
@@ -175,7 +183,6 @@
     "CMSC 351 Algorithms/Algorithms.md",
     "CMSC 351 Algorithms/Algorithms Merge Sort.md",
     "CMSC 351 Algorithms/Algorithms QuickSort.md",
-    "ocaml/OCAML.md",
     "ocaml/OCAML High Order Functions.md",
     "Assets/20230309125758.png",
     "Assets/20230309125709.png",
@@ -185,18 +192,10 @@
     "CMSC 351 Algorithms/Algorithms Bubble Sort.md",
     "Untitled",
     "CMSC 351 Algorithms/Algorithms Master Theorem.md",
-    "CMSC 351 Algorithms/Algorithms Binary Search.md",
-    "QuickSort.md",
-    "CMSC 351 Algorithms/Algorithms Selection Sort.md",
-    "CMSC 351 Algorithms/Algorithms Insertion Sort.md",
     "Assets/20230309111120.png",
-    "CMSC 351 Algorithms/Algorithms HeapSort.md",
-    "ocaml/OCAML Functions.md",
-    "ocaml/OCAML Intro.md",
     "Assets/tree.jpeg",
     "Assets/20230304073406.png",
     "Assets/20230304023337.png",
-    "Assets/20230304022612.png",
     "flask",
     "MATH 406 Number Theory",
     "CMSC 351 Algorithms",

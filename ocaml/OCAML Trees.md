@@ -23,31 +23,39 @@ type `a tree =
 	- `Node` with left sub-`tree`, a value, and a right sub-`tree`
 
 # 📁 Fold Tree
-- Recursively goes down all the way to the left until touches `Leaf`, then up, and right until touches `Leaf`. Next, It goes up to parent node and evaluates
+- Recursively goes down all the way to the left until touches `Leaf`, then up, and right node. Next, It goes up to parent node and evaluates
 	- Left value
-	- Node value
+	- Parent value
 	- Right value
-- In this picture, 
-	- It goes all the way to the left, touching `x`
-		- It goes up parent node, `x`
-	- It goes all the way to the right till Leaf, touching `C(x)`
-		- It goes up parent node, `x`
-	- Evaluates the value of `Left`, `Node`, `Right` nodes.
+
+## Traversing Tree
+- To traverse each node in the Tree, we do In-Order traversal, 
+	1. It goes all the way to the left, touching base case `Leaf`
+		- It goes up parent node, `4` but since right node exists
+	2.  It goes to the right sub-tree touching `Leaf`
+		- It goes up parent node, `4`
+	- Fold Tree will evaluate the value of `Left`, `4`, `Right` nodes.
 	- Repeats process
-![](../Assets/tree.jpeg)
+![](../Assets/IMG_1B8737672F39-1.jpeg)
 
 ## Rule
 - The `tree_fold` takes three parameters:
 	- `f`: a function
-	- `acc`: an accumulator
+	- `acc`: an initial value accumulator
 	- `tree`: a tree to fold over
 - Use match pattern on `tree` to handle two cases
 	- `Leaf`: base case, return initial value
 	- `Node`: recursive case, passes initial value `acc` to left and right folds. 
 		- `f` traverses left and right. 
 		- `f` keeps track of left, this, right node values
-		- When touches `Leaf` on right fold, it goes up to parent `Node`, then 
+		- When touches `Leaf`, Leaf is replaced with `acc`
+		- When touches `Leaf` on right fold and goes up to parent `Node`, then 
 			- Applies the function `f` to the left accumulator, current value, and right accumulator to get the new accumulator value, which is returned as result
+			- e.g Assume `acc` is 1, the `Leaf`'s are replaced with 1, then when traversing until the parent `node 4`, then function `f` uses left acc, current value, right acc to do something:
+				- `f 1 4 1 -> 0 + 4 + 0` = 6
+				- `f 1 5 1 -> 0 + 5 + 0` = 7
+				- `f 6 2 7 -> 6 + 2 + 7` = 15
+				- ...
 
 ## Implementation
 ```ocaml
@@ -67,17 +75,37 @@ match tree with
 let tree = 
 	Node(Node(Leaf, "Hello", Leaf), " World", Node(Leaf, "!", Leaf))
 
-				" World"
-			   /         \
-			"Hello"      "!"
-		   /     \     /    \
-		  ""     ""   ""    ""
+             " World"
+            /      \
+	    "Hello"     "!"
+       /    \      /   \
+     Leaf  Leaf  Leaf   Leaf
 
 ```
 
 ```ocaml
+tree_fold (fun l s r -> l ^ s ^ r) "" tree
 
-tree_fold (fun l s r -> l ^ s ^ r) "" tree = "Hello World!"
+Initial tree:
+             " World"                        " World"
+            /      \          Leaf->""      /        \
+	    "Hello"     "!"         ->       "Hello"     "!"
+       /    \      /   \                 /     \    /    \
+     Leaf  Leaf  Leaf   Leaf            ""     ""  ""    ""
+
+			 " World"                       " World"
+			/      \                       /        \
+		"Hello"    "?"          ->  ""^"Hello"^""   "!"^"?"^"!"
+		/     \    /  \
+	   ""     ""  "!"   "!"
+
+			 " World"                       
+			/      \                 "Hello" ^ " World" ^ "!?!"      
+	   "Hello"     "!?!"        ->  
+
+
+Returns:
+	tree_fold (fun l s r -> l ^ s ^ r) "" tree = "Hello World !?!" 
 ```
 
 # 🗺️ Map Tree
@@ -122,7 +150,7 @@ let map tree f =
 let tree = 
 	Node(Node(Leaf, 1, Leaf), 2, Node(Node(Leaf, 3, Leaf), 4, Leaf))
 
-                2
+	            2
             /      \
           1          4
        /    \      /   \
@@ -179,15 +207,18 @@ Step 4
                  /   \
               Leaf    Leaf
 
-Returns = Node(
-				Node(Leaf, 2, Leaf), 
-				3, 
-				Node(
-						Node(Leaf, 4, Leaf), 
-						5, 
-						Leaf
-					)
+Returns: 
+Node(
+		Node(Leaf,2,Leaf), 
+				
+		3, 
+				
+		Node(
+				Node(Leaf,4,Leaf), 
+				5, 
+				Leaf
 			)
+	)
 ```
 
 
