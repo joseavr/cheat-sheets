@@ -81,24 +81,37 @@ let tree =
 tree_fold (fun l s r -> l ^ s ^ r) "" tree
 
 Initial tree:
-            " World"                        " World"
-            /      \          Leaf->""      /        \
-	"Hello"     "?"         ->       "Hello"     "?"
-       /    \      /   \                 /     \    /    \
-     Leaf  Leaf  "!"   "!"              ""     ""  "!"    "!"
-                /  \    /  \                      /  \    /   \
-             Leaf Leaf Leaf Leaf              Leaf  Leaf Leaf  Leaf
+           " World"                        " World"
+           /      \       Leaf->""         /        \
+      "Hello"     "?"         ->       "Hello"       "?"
+       /    \      /   \                 /    \     /    \
+     Leaf  Leaf  "!"     "!"           ""     ""  "!"     "!"
+                 /  \   /    \                   /  \     /   \
+             Leaf Leaf Leaf  Leaf               ""  ""   ""   ""
 
-		" World"                            " World"
-		/      \                           /        \
-	  "Hello"    "?"        ->      ""^"Hello"^""   "!"^"?"^"!"
-	  /     \    /  \
-	""     ""  "!"   "!"
 
-		" World"                       
-		/      \              ->     "Hello" ^ " World" ^ "!?!"      
-	   "Hello"     "!?!"          
+step 1
+           " World"                        " World"
+           /      \                        /        \
+      "Hello"       "?"        ->   ""^"Hello"^""     "?"
+       /    \      /   \                            /    \
+     ""      ""  "!"     "!"                 ""^"!"^""   ""^"!"^""
+                 /  \   /    \                   
+               ""   "" ""    ""             
 
+
+step 2
+		" World"                             " World"  
+		/      \              ->            /         \ 
+	"Hello"     "?"                   "Hello"    "!" ^ "?" ^ "!"
+                /    \
+              "!"    "!" 
+
+
+Step 3
+         " World"                            
+         /         \             ->     "Hello" ^ " World" ^ "!?!"
+     "Hello"      "!?!"
 
 Returns:
 	tree_fold (fun l s r -> l ^ s ^ r) "" tree = "Hello World !?!" 
