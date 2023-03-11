@@ -100,23 +100,23 @@ Initial tree:
 
 		" World"                            " World"
 		/      \                           /         \
-	  "Hello"    "?"        ->      ""^"Hello"^""     "?"
-	  /     \    /  \                               /     \
-	""     ""  "!"   "!"                      ""^"!"^""   ""^"!"^""
-              /  \   /   \
-            ""  ""  ""   ""
+	  "Hello"    "?"        ->      ""^"Hello"^""       "?"
+	  /     \    /  \                                 /     \
+	""     ""  "!"   "!"                        ""^"!"^""   ""^"!"^""
+                  /  \   /   \
+                ""  ""  ""   ""
 
 
 		" World"                              " World"
 		/      \              ->            /          \    
-    "Hello"     "?"                      "Hello"   "!" ^ "?" ^ "!"
-	           /    \
-             "!"    "!"     
+     "Hello"     "?"                      "Hello"   "!" ^ "?" ^ "!"
+	            /    \
+              "!"    "!"     
 			 
 			 
-        " World"                      
-        /      \              ->      "Hello" ^ " World" ^ "!?!"  
-	 "Hello"   "!?!"
+         " World"                      
+         /      \              ->      "Hello" ^ " World" ^ "!?!"  
+	  "Hello"   "!?!"
 
 Returns:
 	tree_fold (fun l s r -> l ^ s ^ r) "" tree = "Hello World !?!" 
