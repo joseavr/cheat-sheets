@@ -43,12 +43,13 @@ type `a tree =
 		- `f` keeps track of left, this, right node values
 		- When touches `Leaf`, Leaf is replaced with `acc`
 		- When touches `Leaf` on right fold and goes up to parent `Node`, then 
-			- Applies the function `f` to the left accumulator, current value, and right accumulator to get the new accumulator value, which is returned as result
-			- e.g Assume `acc` is 1, the `Leaf`'s are replaced with 1, then when traversing until the parent `node 4`, then function `f` uses left acc, current value, right acc to do something:
+			- Applies the function `f` to the `left` accumulator, `current` value, and `right` accumulator to get the new accumulator value, 
+			- The final `acc` is returned
+			- e.g Using above Tree, we want to sum all nodes. Our function `f` will look: `f l v r -> l + v + r`. So we start `acc` = 0, the `Leaf`'s are replaced with 0, then when traversing until the parent `node 4`, then function `f` uses `left` acc, `current` value, `right` acc:
 				- `f l v r -> l + v + r`
-				- `f 1 4 1 -> 0 + 4 + 0` = 6
-				- `f 1 5 1 -> 0 + 5 + 0` = 7
-				- `f 6 2 7 -> 6 + 2 + 7` = 15
+				- Leaf - 4 - Leaf: `f 0 4 0 -> 0 + 4 + 0` = 4
+				- Leaf - 5 - Leaf: `f 0 5 0 -> 0 + 5 + 0` = 5
+				- 4 - 2 - 5: `f 4 2 5 -> 4 + 2 + 5` = 11
 				- ...
 
 ## Implementation
@@ -79,6 +80,8 @@ let tree =
 
 ```ocaml
 tree_fold (fun l s r -> l ^ s ^ r) "" tree
+f: (fun l s r -> l ^ s ^ r)
+acc: ""
 
 Initial tree:
            " World"                        " World"
@@ -114,7 +117,7 @@ Step 3
      "Hello"      "!?!"
 
 Returns:
-	tree_fold (fun l s r -> l ^ s ^ r) "" tree = "Hello World !?!" 
+	acc = "Hello World !?!" 
 ```
 
 # 🗺️ Map Tree
@@ -172,6 +175,7 @@ let tree =
 
 ```ocaml
 map tree (fun x -> x + 1)
+f: (fun x -> x + 1)
 
 Initial tree:
                 2
