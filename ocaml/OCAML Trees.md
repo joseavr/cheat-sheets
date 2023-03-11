@@ -23,19 +23,12 @@ type `a tree =
 	- `Node` with left sub-`tree`, a value, and a right sub-`tree`
 
 # 📁 Fold Tree
+- `tree_fold f init tree`
 - Recursively goes down all the way to the left until touches `Leaf`, then up, and right node. Next, It goes up to parent node and evaluates
 	- Left value
 	- Parent value
 	- Right value
 
-## Traversing Tree
-- To traverse each node in the Tree, we do In-Order traversal, 
-	1. It goes all the way to the left, touching base case `Leaf`
-		- It goes up parent node, `4` but since right node exists
-	2.  It goes to the right sub-tree touching `Leaf`
-		- It goes up parent node, `4`
-	- Fold Tree will evaluate the value of `Left`, `4`, `Right` nodes.
-	- Repeats process
 ![](../Assets/IMG_1B8737672F39-1.jpeg)
 
 ## Rule
@@ -52,7 +45,7 @@ type `a tree =
 		- When touches `Leaf` on right fold and goes up to parent `Node`, then 
 			- Applies the function `f` to the left accumulator, current value, and right accumulator to get the new accumulator value, which is returned as result
 			- e.g Assume `acc` is 1, the `Leaf`'s are replaced with 1, then when traversing until the parent `node 4`, then function `f` uses left acc, current value, right acc to do something:
-    			- `f l v r -> l + v + r`
+				- `f l v r -> l + v + r`
 				- `f 1 4 1 -> 0 + 4 + 0` = 6
 				- `f 1 5 1 -> 0 + 5 + 0` = 7
 				- `f 6 2 7 -> 6 + 2 + 7` = 15
@@ -112,12 +105,14 @@ Returns:
 ```
 
 # 🗺️ Map Tree
-- Iterates each node and changes its value
+- `map tree f`
+- Iterates each node from `tree` and `f` changes its value
+- Returns same tree
 ## Rule
 - `map` takes two parameters:
-	- `f`: a function that applies to each node and changes its value
+	- `f`: a function that applies to each node (e.g changing node's value)
 	- `tree`: a tree to fold over
-- `Node(new_l, f v , new_r)`: 
+- Recursive step: `Node(new_l, f v , new_r)`
 	- `new_l`: traverse the tree all the way to the left until `Leaf`
 	- `new_r`: traverse right until `Leaf`
 	- Once `new_l` and `new_r` is returned `Leaf`
