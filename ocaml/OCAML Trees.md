@@ -94,15 +94,15 @@ Initial tree:
      Leaf  Leaf  Leaf   Leaf            ""     ""  ""    ""
 
 
-			 " World"                       " World"
-			/      \                       /        \
+		" World"                            " World"
+		/      \                           /        \
 		"Hello"    "?"          ->  ""^"Hello"^""   "!"^"?"^"!"
 		/     \    /  \
 	   ""     ""  "!"   "!"
 
-			 " World"                       
-			/      \                 "Hello" ^ " World" ^ "!?!"      
-	   "Hello"     "!?!"        ->  
+		" World"                       
+		/      \                ->   "Hello" ^ " World" ^ "!?!"      
+	   "Hello"     "!?!"          
 
 
 Returns:
