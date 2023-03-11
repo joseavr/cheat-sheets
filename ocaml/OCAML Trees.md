@@ -74,14 +74,15 @@ match tree with
 ## Example
 ```ocaml
 let tree = 
-	Node(Node(Leaf, "Hello", Leaf), " World", Node(Leaf, "!", Leaf))
+	Node(Node(Leaf, "Hello", Leaf), " World", Node(Node(Leaf,"!",Leaf), "?", Node(Leaf,"!",Leaf)))
 
              " World"
             /      \
-	"Hello"     "!"
+	"Hello"     "?"
        /    \      /   \
-     Leaf  Leaf  Leaf   Leaf
-
+     Leaf  Leaf  "!"   "!"
+               /   \    /  \
+            Leaf Leaf Leaf  Leaf
 ```
 
 ```ocaml
@@ -90,21 +91,32 @@ tree_fold (fun l s r -> l ^ s ^ r) "" tree
 Initial tree:
             " World"                        " World"
             /      \          Leaf->""      /        \
-	"Hello"     "!"         ->       "Hello"     "!"
+	"Hello"     "?"         ->       "Hello"     "?"
        /    \      /   \                 /     \    /    \
-     Leaf  Leaf  Leaf   Leaf            ""     ""  ""    ""
+     Leaf  Leaf  "!"   "!"              ""     ""  "!"    "!"
+                /  \    /  \                      /  \    /   \
+             Leaf Leaf Leaf Leaf                ""   ""  ""   ""
 
 
 		" World"                            " World"
-		/      \                           /        \
-	  "Hello"    "?"        ->      ""^"Hello"^""   "!"^"?"^"!"
-	  /     \    /  \
-	""     ""  "!"   "!"
+		/      \                           /         \
+	  "Hello"    "?"        ->      ""^"Hello"^""     "?"
+	  /     \    /  \                               /     \
+	""     ""  "!"   "!"                      ""^"!"^""   ""^"!"^""
+              /  \   /   \
+            ""  ""  ""   ""
 
-		" World"                       
-		/      \              ->     "Hello" ^ " World" ^ "!?!"      
-	   "Hello"     "!?!"          
 
+		" World"                              " World"
+		/      \              ->            /          \    
+    "Hello"     "?"                      "Hello"   "!" ^ "?" ^ "!"
+	           /    \
+             "!"    "!"     
+			 
+			 
+        " World"                      
+        /      \              ->      "Hello" ^ " World" ^ "!?!"  
+	 "Hello"   "!?!"
 
 Returns:
 	tree_fold (fun l s r -> l ^ s ^ r) "" tree = "Hello World !?!" 
