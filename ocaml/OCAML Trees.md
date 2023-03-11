@@ -77,7 +77,7 @@ let tree =
 
              " World"
             /      \
-	    "Hello"     "!"
+	"Hello"     "!"
        /    \      /   \
      Leaf  Leaf  Leaf   Leaf
 
@@ -87,11 +87,12 @@ let tree =
 tree_fold (fun l s r -> l ^ s ^ r) "" tree
 
 Initial tree:
-             " World"                        " World"
+            " World"                        " World"
             /      \          Leaf->""      /        \
-	    "Hello"     "!"         ->       "Hello"     "!"
+	"Hello"     "!"         ->       "Hello"     "!"
        /    \      /   \                 /     \    /    \
      Leaf  Leaf  Leaf   Leaf            ""     ""  ""    ""
+
 
 			 " World"                       " World"
 			/      \                       /        \
@@ -150,7 +151,7 @@ let map tree f =
 let tree = 
 	Node(Node(Leaf, 1, Leaf), 2, Node(Node(Leaf, 3, Leaf), 4, Leaf))
 
-	            2
+                2
             /      \
           1          4
        /    \      /   \
