@@ -74,15 +74,14 @@ match tree with
 ## Example
 ```ocaml
 let tree = 
-	Node(Node(Leaf, "Hello", Leaf), " World", Node(Node(Leaf,"!",Leaf), "?", Node(Leaf,"!",Leaf)))
+	Node(Node(Leaf, "Hello", Leaf), " World", Node(Leaf, "!", Leaf))
 
              " World"
             /      \
-	"Hello"     "?"
+	"Hello"     "!"
        /    \      /   \
-     Leaf  Leaf  "!"   "!"
-               /   \    /  \
-            Leaf Leaf Leaf  Leaf
+     Leaf  Leaf  Leaf   Leaf
+
 ```
 
 ```ocaml
@@ -95,28 +94,18 @@ Initial tree:
        /    \      /   \                 /     \    /    \
      Leaf  Leaf  "!"   "!"              ""     ""  "!"    "!"
                 /  \    /  \                      /  \    /   \
-             Leaf Leaf Leaf Leaf                ""   ""  ""   ""
-
+             Leaf Leaf Leaf Leaf              Leaf  Leaf Leaf  Leaf
 
 		" World"                            " World"
-		/      \                           /         \
-	  "Hello"    "?"        ->      ""^"Hello"^""       "?"
-	  /     \    /  \                                 /     \
-	""     ""  "!"   "!"                        ""^"!"^""   ""^"!"^""
-                  /  \   /   \
-                ""  ""  ""   ""
+		/      \                           /        \
+	  "Hello"    "?"        ->      ""^"Hello"^""   "!"^"?"^"!"
+	  /     \    /  \
+	""     ""  "!"   "!"
 
+		" World"                       
+		/      \              ->     "Hello" ^ " World" ^ "!?!"      
+	   "Hello"     "!?!"          
 
-		" World"                              " World"
-		/      \              ->            /          \    
-          "Hello"     "?"                      "Hello"     "!" ^ "?" ^ "!"
-	            /    \
-                 "!"    "!"     
-			 
-			 
-        " World"                      
-        /      \              ->      "Hello" ^ " World" ^ "!?!"  
-   "Hello"   "!?!"
 
 Returns:
 	tree_fold (fun l s r -> l ^ s ^ r) "" tree = "Hello World !?!" 
@@ -274,7 +263,7 @@ tree_init generator2 1 =
 Initial tree:
                      1  <- a
                  /      \
-    a+1 <= 3?  2           3  a+2 <= 3?
+    a+1 <= 3?  _           _  a+2 <= 3?
              /    \      /   \
          Leaf    Leaf  Leaf   Leaf
 
@@ -286,9 +275,7 @@ For a=1, Is a+1 <= 3? → 1+1 <= 3? Yes, print 2 node
                  /      \
          a ->  2           3  <- a
              /    \      /   \
- a+1<=3?    3    Leaf  Leaf   Leaf 
-                /        |       |
-           a+2 <= 3?  a+1 <= 3?   a+2 <=3?
+ a+1<=3?    _     _     _     _
 
 For a=2, Is a+1 <= 3? → 2+1 <= 3? Yes, print 3 node
 		 Is a+2 <= 3? → 2+2 <= 3? No, print Leaf
@@ -302,12 +289,23 @@ For a=3, Is a+1 <= 3? → 3+1 <= 3? No, print Leaf
              /    \      /   \
       a ->  3    Leaf  Leaf   Leaf 
           /   \
-       Leaf   Leaf
+        _       _
         |       |
     a+1<=3?   a+2<=3?
 
 For a=3, Is a+1 <= 3? → 3+1 <= 3? No, print Leaf
 		 Is a+2 <= 3? → 3+2 <= 3? No, print Leaf
+
+
+Final Tree:
+                     1 
+                 /      \
+                2           3 
+             /    \      /   \
+            3    Leaf  Leaf   Leaf 
+          /   \
+        Leaf  Leaf
+
 ```
 
 ## Solved
