@@ -42,15 +42,16 @@ Let a non-deterministic finite automaton be
 
 
 # 🆚 NFA vs DFA
-- NFA can have epsilon tranistions, multiple transitions coming out of one state
-- DFA cannot have e-transitions and cannot have multiple transitions
+- NFA can have epsilon (ε) transitions, multiple transitions coming out of one state
+- DFA cannot have ε-transitions and cannot have multiple transitions
 
 # ➡ Convert NFA to DFA
 ## ε-closure
 - `ε-closure(δ, p)` returns the set of states reachable from p using ε-transitions alone.
 - Returned set always has `p`
 
-Let the following NFA
+Let the following NFA:
+
 <img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/IMG_25D323DF4D1D-1.jpeg" width="50%" height="50%" />
 
 All possible transitions with epsilons (ε)
@@ -63,7 +64,8 @@ All possible transitions with epsilons (ε)
 - Simpler version of ε-closure
 - `move(δ,p,σ)` returns the set of states reachable from `p` using exactly one transition on symbol `σ`.
 
-Let the following NFA
+Let the following NFA:
+
 <img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/IMG_99C79063E044-1.jpeg" width="50%" height="50%" />
 
 All possible `move`
@@ -76,6 +78,7 @@ All possible `move`
 
 ### Note
 `move` doesn't use ε free transitions
+
 <img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/IMG_7B4FFB7D31E6-1.jpeg" width="50%" height="50%" />
 
 - move(p1,b) = ø
