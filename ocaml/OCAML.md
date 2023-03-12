@@ -9,6 +9,6 @@
 - [[OCAML Records]]
 - [[OCAML Trees]]
 - [[OCAML Options]]
-- [[OCAML Finite Machines]]
+- [[OCAML FSM]]
 
 # Midterm 2

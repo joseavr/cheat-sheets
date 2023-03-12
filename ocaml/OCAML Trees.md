@@ -1,4 +1,4 @@
-# OCAML Trees
+# 🐫 OCAML Trees
 Class: [[OCAML]]
 Subject: #
 Date: 2023-03-02
@@ -104,9 +104,9 @@ step 1
 
 
 step 2
-		" World"                             " World"  
-		/      \              ->            /         \ 
-	"Hello"     "?"                   "Hello"    "!" ^ "?" ^ "!"
+         " World"                             " World"  
+          /      \              ->            /         \ 
+      "Hello"     "?"                  "Hello"      "!" ^ "?" ^ "!"
                 /    \
               "!"    "!" 
 

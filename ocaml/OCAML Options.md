@@ -1,4 +1,4 @@
-# OCAML Options
+# 🐫 OCAML Options
 Class: [[OCAML]]
 Subject: #
 Date: 2023-03-07

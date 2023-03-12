@@ -1,4 +1,4 @@
-# OCAML Finite Machines
+# 🐫 OCAML Finite State Machines
 Class: [[OCAML]]
 Subject: #
 Date: 2023-03-02
@@ -6,7 +6,7 @@ Topics: #, #, #
 
 ---
 
-# Intro to Finite Machines
+# 🎬 Intro to Finite Machines
 
 - In OCaml, a finite machine is a type of state machine that can only exist in a finite number of states.
 - It is also known as a finite state machine (FSM) or a deterministic finite automaton (DFA).
@@ -28,7 +28,7 @@ All possible states of the universe
 - turn left
 - etc
 
-# Regular Expression
+# 🤯 Regular Expression
 - Regular expressions and finite state are closely related concepts
 - A regular expressions is a pattern that describes a set of strings.
 - Finite state machine is a model of computation that can recognize (or generate) a set of strings
