@@ -5,7 +5,6 @@ Date: 2023-02-10
 Topics: #, #, # 
 
 ---
-https://www.tutorialspoint.com/ruby/ruby_classes.htm
 https://www.tutorialspoint.com/ruby/ruby_object_oriented.htm
 https://www.rubyguides.com/2019/02/ruby-class/
 
@@ -66,9 +65,8 @@ student_2 = Student.new("2", "Kevin", "29")
 - `Local Variables` are the ones defined inside of a method scope. These are not available outside of scope.
 
 ## Instance Variables
-- `Instance Variables` are available across all objects.
-- Meaning that each `object` will have this variable independently.
-- An instance variable from one object differs from another object. For instance:
+- `Instance Variables` are available across all objects but unique for each object.
+- In other words, an instance variable from one object differs from another object. For instance:
 ```ruby
 student_1.name = "Jose"
 student_2.name = "Kevin"
@@ -81,6 +79,11 @@ class Student
 	@age
 end
 ```
+
+## Class Variables
+- `Class Variable` are shared between all objects.
+- If the class variable from a object is modified, another object of the same class also updates it.
+- Instance variables are preceded by the sign `@@` followed by the variable name.
 
 ## Attr_accesor vs Attr_writer vs Atrr_reader
 https://www.bootrails.com/blog/ruby-attr-accessor-attr-writer-attr-reader/#:~:text=Summary,scope%20of%20the%20class%20definition.
@@ -157,9 +160,7 @@ end
 # student_1.name="Dave" => allowed
 ```
 
-## Class Variables
 
-## Global Variables
 
 
 

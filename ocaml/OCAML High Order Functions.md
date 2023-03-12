@@ -71,21 +71,19 @@ func = (fun acc x -> do_smth)
 
 ### Implementation
 ```ocaml
-lst = [1;2;3;4]
-(* a = accumulator *)
-let rec fold f a lst =
+let rec fold f acc lst =
 	match lst with
-		[] -> a
-		| h::t -> fold f (f a h) t
-
-(1+2(3+4))
+		[] -> acc
+		| h::t -> fold f (f acc h) t
 ```
 
 ### Example
 ```ocaml
-let lst = [1; 2; 3; 4; 5]
-let sum = List.fold_left (fun acc x -> acc + x) 0 lst
-(* Output: sum = 15 *)
+let lst = [1;2;3;4;5] 
+let sum lst = List.fold_left (fun acc x -> acc - x) 0 lst
+
+Return:
+(((((0-1) -2) -3) -4) -5) = -15
 ```
 
 
@@ -96,24 +94,89 @@ List.fold_right func list initial_value
 ```
 
 ```ocaml
-func = (fun acc x -> do_smth)
+func = (fun x acc -> do_smth)
 ```
 - `acc` will be returned
 
 ### Implementation
 ```ocaml
-[1;2;3;4]
-let rec fold_right f lst a = 
+let rec fold_right f lst acc = 
 	match lst with
-		[] -> a
-		| h::t -> f h (fold_right f t a)
-
-((4+3)+2)+1)
+		[] -> acc
+		| h::t -> f h (fold_right f t acc)
 ```
 
 ### Example
 ```ocaml
-let lst = ["hello"; "world"; "!"] 
-let concat = List.fold_right (fun x acc -> x ^ acc) lst "" 
-(* Output: concat = "helloworld!" *)
+let lst = [1;2;3;4;5] 
+let concat = List.fold_right (fun x acc -> x - acc) lst 0 
+
+Returns:
+(1 - (2 - (3 - (4 - (5 - 0)))))
+```
+
+
+# ✅ Useful Functions
+
+## `get_every_kth` (tuple and counter)
+- Returns the a list of every multiple of 2 indexes
+get_every_kth 2 [1;2;3;4;5] = [2;4]
+get_every_kth 3 [1;2;3;4;5;6;7;8;9;10] = [3;6;9]
+```ocaml
+let get_every_kth n lst =
+	let ( _ , result) =   (* Destructuring tuple *)
+		List.fold_left 
+		( fun (c, acc) e ->
+		if c mod n = 0 then
+			(c+1,e::acc)
+		else
+			(c+1,acc)
+		)
+		(1, [])  (* counter + accumulator *)
+		lst
+
+	in result   (* returning accumulator *)    
+```
+
+## `neighbor_value` (Nodes and Graph DataStructure)
+- Given a `graph` and `node`
+```ocaml
+type node = Node of int;;
+type graph = (node * node list) list;;
+```
+- Returns a list of tuples, where each tuple is (node value, sum of neighbors)
+- Example
+```ocaml
+g = [
+	(Node(1) , [Node(2) ; Node(3)]) ; 
+	(Node(2) , [Node(3)]) ; 
+	(Node(3) , [Node(1) ; Node(3)])
+	]
+	
+neighbor_value g = [(1,5) ; (2,3) ; (3,4)]
+```
+
+
+- `neighbor_value g`
+```ocaml
+let neighbor_value g = 
+(* fold to sum neighbors of a Node *)
+	let sum_neighb lst = 
+		List.fold_left 
+		(fun acc e ->
+			let Node v = e (* Retrieve value of Node *)
+			in v + acc	
+		)
+		0
+		lst
+	in 
+(* fold each tuple from Graph *)
+	List.fold_left 
+	(fun acc (v,neighbors) -> (* Destructuring each tuple from g *)
+		let Node vl = v in    (* Retrieve value of Node *)
+		(vl , sum_neighb neighbors)::acc
+	)
+	[]
+	g
+
 ```

@@ -125,21 +125,13 @@ We can backreference to an `n` group of parenthesis with `\n`
 # Therefore, we'll have cats, sats, hats
 ```
 
+## No Capturing
+- When we want to group a pattern but not capture it, we use `?:`
+- `(?:[0-9])([0-9])`
+
 ## Grouping
 Parenthesis _group_ terms, allowing the pattern only work for this group.
 - `/(pat)/`
-```ruby
-# example with group parenthesis
-"Caenorhabditis elegans".match(/([aeiou]\w){2}/) #=> #<MatchData "enor" 1:"or">
-# Match the first occurrence twice: (1 letter [aeiou], 1 character) x 2
-```
-
-```ruby
-# counter example without group parenthesis
-"Caenorhabditis elegans".match(/[aeiou]\w{2}/) #=> #<MatchData "aen">
-# Match the first occurrence: only 1 letter [aeiou], 2 any character
-```
-
 
 # Backreference - Regex Global Variables
 We can use these Regex global variables to backreference `group parenthesis`.

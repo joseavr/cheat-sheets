@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ocaml/OCAML NFA-DFA.md",
+                "file": "ocaml/OCAML Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2449d186ae39e459",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OCAML FSM.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ocaml/OCAML NFA-DFA.md",
+                "file": "OCAML FSM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ocaml/OCAML NFA-DFA.md",
+                "file": "OCAML FSM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ocaml/OCAML NFA-DFA.md"
+                "file": "OCAML FSM.md"
               }
             }
           },
@@ -158,21 +171,24 @@
       "omnisearch:Omnisearch": true
     }
   },
-  "active": "87dc74b8fc86e453",
+  "active": "2449d186ae39e459",
   "lastOpenFiles": [
-    "ocaml/OCAML Operators.md",
-    "ocaml/OCAML NFA-DFA.md",
-    "OCAML Variant.md",
+    "ocaml/OCAML Variants.md",
+    "ocaml/OCAML High Order Functions.md",
+    "ocaml/OCAML Functions.md",
+    "javascript/JS Objects.md",
     "OCAML FSM.md",
     "ocaml/OCAML Trees.md",
+    "ruby/Ruby Classes.md",
+    "ruby/Ruby Regex.md",
+    "ocaml/OCAML Conditions.md",
+    "ocaml/OCAML NFA-DFA.md",
+    "ocaml/OCAML Operators.md",
     "ocaml/OCAML Testing.md",
     "ocaml/OCAML Records.md",
     "ocaml/OCAML Options.md",
     "ocaml/OCAML Intro.md",
-    "ocaml/OCAML High Order Functions.md",
-    "ocaml/OCAML Functions.md",
     "ocaml/OCAML Data Structure.md",
-    "ocaml/OCAML Conditions.md",
     "ocaml/OCAML.md",
     "Assets/IMG_99C79063E044-1.jpeg",
     "Assets/IMG_25D323DF4D1D-1.jpeg",
@@ -181,13 +197,10 @@
     "Assets/IMG_25D323DF4D1D-1.jpeg.jpeg",
     "Assets/nfa-accept.png",
     "OCAML DFA.md",
-    "ruby/Ruby Regex.md",
     "ruby/Ruby Files.md",
-    "ruby/Ruby Classes.md",
     "ruby/Ruby Arrays.md",
     "ruby/Ruby.md",
     "2023-03-10.md",
-    "javascript/JS Objects.md",
     "javascript/JS Events.md",
     "README.md",
     "CMSC 351 Algorithms/Algorithms.md",

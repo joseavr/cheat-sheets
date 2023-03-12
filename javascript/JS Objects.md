@@ -90,7 +90,7 @@ fetch(url)
 	.then(json => processObject(json));
 
 
-function processObject({userId, id, title}) { // notice destructoring
+function processObject({userId, id, title}) { // notice destructuring
 	console.log("Data Retrieved\n");
 	console.log(`user Id: ${userId}`);
 	console.log(`id: ${id}`);
