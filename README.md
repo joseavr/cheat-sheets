@@ -1,6 +1,6 @@
 
 # 📚 My Courses
-The repository includes my notes from the following classes and topics learned as a Computer Science Student @ UMD 2022-2024. Created in <a href="https://obsidian.md/" alt="_blank">Obsidian</a>.
+The repository includes my notes from the following classes and topics learned as a Computer Science Student @ UMD 2022-2024. Created in <a href="https://obsidian.md/" target="_blank">Obsidian</a>.
 
 The repo includes:
 - `CMSC 351 Algorithms`
