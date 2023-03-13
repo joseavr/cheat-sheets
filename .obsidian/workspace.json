@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OCAML FSM.md",
+                "file": "ocaml/OCAML.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OCAML FSM.md",
+                "file": "ocaml/OCAML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OCAML FSM.md",
+                "file": "ocaml/OCAML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OCAML FSM.md"
+                "file": "ocaml/OCAML.md"
               }
             }
           },
@@ -173,11 +173,18 @@
   },
   "active": "2449d186ae39e459",
   "lastOpenFiles": [
+    "Templates/My Templates.md",
+    "Templates/Template Notes.md",
+    "ocaml/OCAML.md",
+    "Templates/Template Index MATH.md",
+    "Templates/Template Index CS.md",
+    "README.md",
+    "ocaml/OCAML Intro.md",
+    "OCAML FSM.md",
     "ocaml/OCAML Variants.md",
     "ocaml/OCAML High Order Functions.md",
     "ocaml/OCAML Functions.md",
     "javascript/JS Objects.md",
-    "OCAML FSM.md",
     "ocaml/OCAML Trees.md",
     "ruby/Ruby Classes.md",
     "ruby/Ruby Regex.md",
@@ -187,9 +194,7 @@
     "ocaml/OCAML Testing.md",
     "ocaml/OCAML Records.md",
     "ocaml/OCAML Options.md",
-    "ocaml/OCAML Intro.md",
     "ocaml/OCAML Data Structure.md",
-    "ocaml/OCAML.md",
     "Assets/IMG_99C79063E044-1.jpeg",
     "Assets/IMG_25D323DF4D1D-1.jpeg",
     "Assets/IMG_1B8737672F39-1.jpeg",
@@ -200,11 +205,6 @@
     "ruby/Ruby Files.md",
     "ruby/Ruby Arrays.md",
     "ruby/Ruby.md",
-    "2023-03-10.md",
-    "javascript/JS Events.md",
-    "README.md",
-    "CMSC 351 Algorithms/Algorithms.md",
-    "CMSC 351 Algorithms/Algorithms Merge Sort.md",
     "Assets/20230309125758.png",
     "Assets/20230309125709.png",
     "Assets/20230309124441.png",
