@@ -1,6 +1,6 @@
 
 # 📚 My Courses
-The repoistory includes my notes from the following classes and stuff learned as a Computer Science Student @ UMD 2022-2024.
+The repository includes my notes from the following classes and topics learned as a Computer Science Student @ UMD 2022-2024.
 
 The repo includes:
 - `CMSC 351 Algorithms`
