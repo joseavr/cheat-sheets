@@ -31,7 +31,7 @@ MergeSort creates sub-lists
 	- Action above the center is the recursive deconstruction while 
 	- Action below the center is the re-merging of the sublists.
 
-<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315135410.png" width="80%" height="80%">
+<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315135410.png" width="60%" height="60%">
 
 
 
