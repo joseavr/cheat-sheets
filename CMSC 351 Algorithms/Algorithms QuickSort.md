@@ -33,20 +33,22 @@ Topics: #, #, #
 - **Note**: When QuickSort is applied to a single element it does nothing, since a single element is always sorted.
 
 ## Partition Process
-- **Pick** an element from the array as a pivot
-- Pick the leftmost element which is greater than the pivot value and swap it with the first subsequent element which is less than or equal to the pivot value.
+- **Pick** an element from the array as a pivot. **Often the last element**
+- Pick the leftmost element greater than the pivot value 
+	- Swap with the first subsequent element less than or equal to the pivot value.
 - Repeating until there are no subsequent elements left. 
-- The final swap will be with the actual pivot value and the result will be that 
+- The final swap will be with the first lefmost element and subsequent element (actual pivot value)
+- The result will be that 
 	- Left part: smaller element $\leq$ pivot value 
 	- Right part: larger elements $>$ pivot value
 
 ## Example
-![](../Assets/20230309111120.png)
+<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230309111120.png" width="80%" height="80%" />
 
 
-## Example 2
+## Example Partition Handtracing
 
-![[20230309112757.png]]
+<img src = "https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315003908.png" width="80%" height="80%"/>
 
 # Pivot Value Choice
 
@@ -55,9 +57,9 @@ Topics: #, #, #
 ```java
 quickSort( array, start, end )  
 	if start < end  
-		index = partition( array, start, end )  
-		quickSort( array, start, index - 1 )  
-		quickSort( array, index + 1, end )
+		pivot_index = partition( array, start, end )  
+		quickSort( array, start, pivot_index-1 )  
+		quickSort( array, pivot_index+1, end )
 ```
 
 
@@ -79,9 +81,9 @@ partition( array, start, end )
 ```java
 quickSort( array, start, end )  
 	if start < end  
-		partition_pivot_index = partition( array, start, end )  
-		quickSort( array, start, index - 1 )  
-		quickSort( array, index + 1, end )
+		pivot_index = partition( array, start, end )  
+		quickSort( array, start, pivot_index - 1 )  
+		quickSort( array, pivot_index + 1, end )
 ```
 
 ```java

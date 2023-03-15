@@ -20,14 +20,14 @@ Topics: #, #, #
 
 # Running Time
 
-## Worst Case
-- Same as Bubble Sort
-- $\theta(n^2)$
-## Average Case
-- Same as Bubble Sort
-- $\theta(n^2)$
-## Best Case
-- $\theta(n)$
+- `Worst Case`
+	- Same as Bubble Sort
+	- $\theta(n^2)$
+- `Average Case`
+	- Same as Bubble Sort
+	- $\theta(n^2)$
+- Best Case
+	- $\theta(n)$
 
 # Space Time
 - $O(1)$

@@ -4,35 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "bcc4f079bb87a704",
+        "id": "8a9e96d8f3528438",
         "type": "tabs",
         "children": [
           {
-            "id": "69e77d7db5638976",
+            "id": "4156307cc32ff93c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "d2713bf2e63b2041",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ocaml/OCAML Intro.md",
+                "file": "ocaml/OCAML NFA-DFA.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d9af5fff3d1c18c7",
+            "id": "8fbe15416a61dbee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ruby/Ruby Regex.md",
+                "file": "CMSC 351 Algorithms/Algorithms QuickSort.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ruby/Ruby Regex.md",
+                "file": "CMSC 351 Algorithms/Algorithms QuickSort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ruby/Ruby Regex.md",
+                "file": "CMSC 351 Algorithms/Algorithms QuickSort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ruby/Ruby Regex.md"
+                "file": "CMSC 351 Algorithms/Algorithms QuickSort.md"
               }
             }
           },
@@ -171,18 +179,26 @@
       "omnisearch:Omnisearch": true
     }
   },
-  "active": "da0f3d13dd5ff4d6",
+  "active": "8fbe15416a61dbee",
   "lastOpenFiles": [
+    "ocaml/OCAML NFA-DFA.md",
+    "CMSC 351 Algorithms/Algorithms QuickSort.md",
+    "ocaml/OCAML Intro.md",
+    "Assets/20230315003908.png",
+    "OCAML FSM.md",
+    "CMSC 351 Algorithms/Algorithms Rigorous Time.md",
+    "CMSC 351 Algorithms/Algorithms Selection Sort.md",
+    "CMSC 351 Algorithms/Algorithms Merge Sort.md",
+    "CMSC 351 Algorithms/Algorithms HeapSort.md",
+    "ruby/Ruby Regex.md",
     "ruby/Ruby Intro.md",
     "ruby/Ruby Files.md",
     "ruby/Ruby Classes.md",
     "ruby/Ruby Arrays.md",
     "ruby/Ruby.md",
     "CMSC 351 Algorithms/Algorithms.md",
-    "ocaml/OCAML Intro.md",
     "ocaml/OCAML.md",
     "Ruby Data Types.md",
-    "ruby/Ruby Regex.md",
     "ocaml/OCAML Functions.md",
     "html/HTML Form.md",
     "README.md",
@@ -192,13 +208,6 @@
     "Templates/My Templates.md",
     "Templates/Template Notes.md",
     "Templates/Template Index MATH.md",
-    "Templates/Template Index CS.md",
-    "OCAML FSM.md",
-    "ocaml/OCAML Variants.md",
-    "ocaml/OCAML High Order Functions.md",
-    "javascript/JS Objects.md",
-    "ocaml/OCAML Trees.md",
-    "ocaml/OCAML Conditions.md",
     "Assets/IMG_99C79063E044-1.jpeg",
     "Assets/IMG_25D323DF4D1D-1.jpeg",
     "Assets/IMG_1B8737672F39-1.jpeg",
@@ -208,7 +217,6 @@
     "Assets/20230309125758.png",
     "Assets/20230309125709.png",
     "Assets/20230309124441.png",
-    "Assets/20230309124357.png",
     "Untitled",
     "flask",
     "MATH 406 Number Theory",
