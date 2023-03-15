@@ -1,4 +1,4 @@
-# Algorithms Master Theorem
+# 🔰 Algorithms Master Theorem
 Class: <a href="https://github.com/lamula21/cheat-sheets/blob/main/CMSC%20351%20Algorithms/Algorithms.md">Algorithms</a>
 Subject: #
 Date: 2023-02-28
@@ -6,7 +6,7 @@ Topics: #, #, #
 
 ---
 
-# Master Theorem 
+# 🎬 Master Theorem 
 
 The Master Theorem is a formula for solving recurrence relations that arise in the analysis of algorithms. 
 
@@ -19,7 +19,7 @@ where
 - `a` is the number of subproblems in each recursions, $a \geq 1$
 - `n/b` is the size of each subproblem, $b > 1$
 - `f(n)` is the cost of dividing the problem and combining the results.
-	- f(n) = $Θ (n^{c} \cdot \log^{P}(n))$
+	- $f(n)$ = $Θ (n^{c} \cdot \log^{P}(n))$
 
 ## Cases
 - Compare the function `f(n)` from $T(n)$  with  $Θ (n^{c} \cdot \log^{P}(n))$
@@ -59,23 +59,7 @@ where
 - `Step 4`: Get answer. Done
 
 ## Example Case 1
-
-Let: T(n) = 2 T(n/2) + 1
-- a = 2
-- b = 2
-- f(n) = $Θ(1)$ 
-	- f(n) = $Θ(n^{0} \log^{0}n)$
-	- Compare $Θ(n^{0} \log^{0}n)$ = $Θ(n^{k} \cdot \log^{p}n)$
-- Find `k` and `p` and $\log_{b}(a)$
-	- k = 0
-	- p = 0 
-	- $\log_{b}(a)$ = $\log_{2}(2)$ = 1
- - $\log_{2}(2)$ > k
-	 - 1 > 0
-- The answer 
-	- $Θ(n^{\log_{b}a})$ = $Θ(n^{\log_{2}2})$ = $Θ(n^{1})$
-
-## Example Case 1
+$T(n) = a \cdot T\left( \frac{n}{b} \right) + f(n)$
 - Given $T(n) = 8 \cdot T\left( \frac{n}{2} \right) + n^{2} - n$
 - **Observation 1**: $f(n) = n^{2} - n$ = $Θ(n^{c})$ with `c = 2`
 - **Observation 2**: $\log_{b}a$ = $\log_{2}8$ = 3, so $\log_{b}a > c$ 
@@ -84,6 +68,7 @@ Let: T(n) = 2 T(n/2) + 1
 
 
 ## Example Case 2
+$T(n) = a \cdot T\left( \frac{n}{b} \right) + f(n)$
 - Given $T(n) = 8 \cdot T\left( \frac{n}{2} \right) + n^{3} + n$
 - **Observation 1**: $f(n) = n^{3} + n$ = $Θ(n^{c})$ with `c = 3`
 - **Observation 2**: $\log_{b}a$ = $\log_{2}8$ = 3, so $\log_{b}a = c$ 
@@ -91,6 +76,7 @@ Let: T(n) = 2 T(n/2) + 1
 - **Conclusion**: $T(n) = Θ(n^{\log_{b}a} \log n)$ =  $Θ(n^{\log_{2}8} \log n)$ = $Θ(n^{3} \log n)$
 
 ## Example Case 3
+$T(n) = a \cdot T\left( \frac{n}{b} \right) + f(n)$
 - Given $T(n) = 8 \cdot T\left( \frac{n}{2} \right) + n^{4} + n$
 - **Observation 1**: $f(n) = n^{4} + n$ = $Θ(n^{c})$ with `c = 4`
 - **Observation 2**: $\log_{b}a$ = $\log_{2}8$ = 3, so $\log_{b}a < c$ 

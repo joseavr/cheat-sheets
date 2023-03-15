@@ -11,11 +11,12 @@
 - [[Algorithms Insertion Sort|Insertion Sort]]
 - [[Algorithms Binary Search]]
 - [[Algorithms Master Theorem]]
-- Recurrence
-- MergeSort
-* HeapSort
+- Algorithms Recurrence
+- Algorithms MergeSort
+* [[Algorithms HeapSort]]
 * [[Algorithms QuickSort]]
-- Limit of Comaparison Sort
+- Algorithms Limit of Comaparison Sort
+
 ## Midterm 3
 - 
 - 

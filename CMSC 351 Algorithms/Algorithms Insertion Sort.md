@@ -1,4 +1,4 @@
-# Algorithm Insertion Sort
+# 🔰 Algorithm Insertion Sort
 Class: <a href="https://github.com/lamula21/cheat-sheets/blob/main/CMSC%20351%20Algorithms/Algorithms.md">Algorithms</a>
 Subject: #
 Date: 2023-02-21
@@ -13,14 +13,14 @@ https://www.geeksforgeeks.org/insertion-sort/
 
 # Runtime
 
-## Worst Case
-- $\theta(n^2)$
+- `Worst Case`
+	- $\theta(n^2)$
 
-## Average Case
-- $\theta(n^2)$
+- `Average Case`
+	- $\theta(n^2)$
 
-## Best Case
-- $\theta(n)$
+- `Best Case`
+	- $\theta(n)$
 
 
 # Space Time

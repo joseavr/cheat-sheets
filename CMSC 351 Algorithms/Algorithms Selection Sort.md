@@ -1,4 +1,4 @@
-# Selection Sort
+# 🔰 Algorithms Selection Sort
 Class: <a href="https://github.com/lamula21/cheat-sheets/blob/main/CMSC%20351%20Algorithms/Algorithms.md">Algorithms</a>
 Subject: #
 Date: 2023-02-09
@@ -6,7 +6,7 @@ Topics: #, #, #
 
 ---
 
-# Intro 
+# 🎬 Intro 
 - We select the smallest element in the list and place it at the beginning of the list. Then we select the next-smallest element and put it in the second position in the list, and so on.
 - We could the reverse:
 	- Select the largest element in the list and place it at  the end of the list. Then we select the next-largest element and put it in the next-to-last position in the list, and so on.
