@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "e58888adb136583f",
+            "id": "7a6d1c0314732f94",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -171,10 +171,14 @@
       "omnisearch:Omnisearch": true
     }
   },
-  "active": "e58888adb136583f",
+  "active": "7a6d1c0314732f94",
   "lastOpenFiles": [
     "CMSC 351 Algorithms/Algorithms QuickSort.md",
     "CMSC 351 Algorithms/Algorithms Merge Sort.md",
+    "Templates/My Templates.md",
+    "Templates/Template Index MATH.md",
+    "Templates/Template Index CS.md",
+    "Templates/Template Notes.md",
     "CMSC 351 Algorithms/Algorithms Binary Search.md",
     "Assets/20230315135410.png",
     "ocaml/OCAML NFA-DFA.md",
@@ -197,9 +201,6 @@
     "ruby/Ruby.md",
     "ocaml/OCAML.md",
     "Ruby Data Types.md",
-    "ocaml/OCAML Functions.md",
-    "html/HTML Form.md",
-    "README.md",
     "Assets/IMG_99C79063E044-1.jpeg",
     "Assets/IMG_25D323DF4D1D-1.jpeg",
     "Assets/IMG_1B8737672F39-1.jpeg",
