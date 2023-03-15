@@ -7,15 +7,32 @@ Topics: #, #, #
 ---
 
 # 🎬 Intro to OCAML
-- OCaml uses static and latent typing
-- Variables in OCaml are immutable
+- Ocaml checks data types at `compile time`
+- OCaml uses `static` and `latent typing`
+- To minimize **side effects**, Variables in OCaml are `immutable`
 - Since variables are immutable, they cannot be overwritten by variables
 	- Once a variable is assigned a value, it cannot be changed
+	
 ```ocaml
 let x = 5;;
 print_int x;; (* Output: 5 *)
 
 x = 10;; (* Error: This expression has type int but an expression was expected of type unit *)
+```
+- In Ocaml, almost everything is an expression
+	- **All values are expressions, but not all expressions are values**
+	- The only thing that is not an expression is the `let binding`, such as
+```ocaml
+let binding:
+let x = 5 in
+let y = x + 2 in
+print_int y
+
+
+let expression:
+let square x = 
+	let y = x * x in 
+	y + 1
 ```
 
 ## OCAML ENV
@@ -50,7 +67,15 @@ results = [x for x in arr if x % 2 == 0]
 ```
 
 # Side Effects
+Side effects are changes that occur as a result of executing a code block. These changes may include modifications to variables or objects outside of the function scope, changes to the state of the program, or even external systems such as files or networks.
 
+Side effects can cause several problems in programming such as
+- Debugging issues  
+- Predictability  
+- Readability and maintainability  
+-  Testing
+
+## Example
 $f ( x ) + f ( x ) + f ( x ) = 3 * f ( x )$
 
 - However, if we run the code above, then 

@@ -1,6 +1,7 @@
 # Table of Contents
 
 # Midterm 1
+- <a href="https://github.com/lamula21/cheat-sheets/tree/main/ruby">Ruby</a>
 - <a href="https://github.com/lamula21/cheat-sheets/blob/main/ocaml/OCAML%20Intro.md" target="_blank">OCAML Intro</a>
 - <a href="https://github.com/lamula21/cheat-sheets/blob/main/ocaml/OCAML%20Operators.md" target="_blank">OCAML Operators</a>
 - <a href="https://github.com/lamula21/cheat-sheets/blob/main/ocaml/OCAML%20Data%20Structure.md" target="_blank">Data Structure</a>
