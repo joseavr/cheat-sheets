@@ -1,4 +1,4 @@
-# 👽 Algorithms QuickSort
+# 🔰 Algorithms QuickSort
 Class: <a href="https://github.com/lamula21/cheat-sheets/blob/main/CMSC%20351%20Algorithms/Algorithms.md">Algorithms</a>
 Subject: #
 Date: 2023-03-09
@@ -61,9 +61,6 @@ quickSort( array, start, end )
 		quickSort( array, start, pivot_index-1 )  
 		quickSort( array, pivot_index+1, end )
 ```
-
-
-# Partition Process Pseudocode
 
 ```java
 partition( array, start, end )  
