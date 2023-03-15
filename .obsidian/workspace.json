@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CMSC 351 Algorithms/Algorithms QuickSort.md",
+                "file": "CMSC 351 Algorithms/Algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CMSC 351 Algorithms/Algorithms QuickSort.md",
+                "file": "CMSC 351 Algorithms/Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CMSC 351 Algorithms/Algorithms QuickSort.md",
+                "file": "CMSC 351 Algorithms/Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CMSC 351 Algorithms/Algorithms QuickSort.md"
+                "file": "CMSC 351 Algorithms/Algorithms.md"
               }
             }
           },
@@ -181,15 +181,15 @@
   },
   "active": "8fbe15416a61dbee",
   "lastOpenFiles": [
-    "CMSC 351 Algorithms/Algorithms HeapSort.md",
-    "CMSC 351 Algorithms/Algorithms.md",
-    "CMSC 351 Algorithms/Algorithms Selection Sort.md",
     "CMSC 351 Algorithms/Algorithms Rigorous Time.md",
+    "CMSC 351 Algorithms/Algorithms.md",
+    "CMSC 351 Algorithms/Algorithms Insertion Sort.md",
     "CMSC 351 Algorithms/Algorithms Merge Sort.md",
     "CMSC 351 Algorithms/Algorithms QuickSort.md",
+    "CMSC 351 Algorithms/Algorithms HeapSort.md",
+    "CMSC 351 Algorithms/Algorithms Selection Sort.md",
     "CMSC 351 Algorithms/Algorithms MCS.md",
     "CMSC 351 Algorithms/Algorithms Master Theorem.md",
-    "CMSC 351 Algorithms/Algorithms Insertion Sort.md",
     "CMSC 351 Algorithms/Algorithms Binary Search.md",
     "CMSC 351 Algorithms/Algorithms Bubble Sort.md",
     "ocaml/OCAML NFA-DFA.md",
