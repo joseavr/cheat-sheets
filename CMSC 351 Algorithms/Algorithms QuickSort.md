@@ -6,8 +6,6 @@ Topics: #, #, #
 
 ---
 
-# 🎬 Intro to QuickSort
-
 # ⏳ Running Time
 - `Worst Case`
 	- $\theta(n^{2})$
