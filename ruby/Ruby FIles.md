@@ -1,4 +1,4 @@
-# Files
+# 💎 Ruby Files
 Class: [[Ruby]]
 Subject: #
 Date: 2023-02-09
@@ -6,7 +6,7 @@ Topics: #, #, #
 
 ---
 
-# Open Files
+# 🗃️ Open Files
 
 ```ruby
 f = File.open("data.txt")

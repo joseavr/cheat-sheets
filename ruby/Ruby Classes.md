@@ -1,4 +1,4 @@
-# Ruby Classes
+# 💎 Ruby Classes
 Class: [[Ruby]]
 Subject: #
 Date: 2023-02-10
@@ -8,14 +8,14 @@ Topics: #, #, #
 https://www.tutorialspoint.com/ruby/ruby_object_oriented.htm
 https://www.rubyguides.com/2019/02/ruby-class/
 
-# Intro
+# 💎 Intro
 Ruby is a perfect Object Oriented Programming Language. The features of the object-oriented programming language include 
 -   Inheritance
 -   Polymorphism
 -   Data Encapsulation
 -   Data Abstraction
 
-# Class
+# 🗳️ Class
 - Describes in general what an `object` is with methods and variables.
 - For example: 
 	- `Students` is a class
@@ -28,7 +28,7 @@ class Students
 end
 ```
 
-# Constructor
+# 📝 Constructor
 - Useful when creating an `object` with specific values
 ```ruby
 class Student
@@ -40,7 +40,7 @@ class Student
 end
 ```
 
-# Objects
+# 📃 Objects
 - `objects` are instances of the `class`.
 - An instance means that objects (`child`) are created based on their class (`parent`).
 
@@ -59,7 +59,7 @@ student_1 = Student.new("1", "Jose", "23")
 student_2 = Student.new("2", "Kevin", "29")
 ```
 
-# Variables in Classes
+# 📦 Variables in Classes
 
 ## Local Variables
 - `Local Variables` are the ones defined inside of a method scope. These are not available outside of scope.
@@ -159,8 +159,6 @@ end
 # student_1.name => allowed
 # student_1.name="Dave" => allowed
 ```
-
-
 
 
 

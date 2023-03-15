@@ -1,4 +1,4 @@
-# Regular Expression
+# 💎 Regular Expression
 Class: [[Ruby]]
 Subject: #
 Date: 2023-02-07
@@ -7,8 +7,7 @@ Topics: #, #, #
 ---
 https://www.rubyguides.com/2015/06/ruby-regex/
 
-# Regex Intro
-
+# 🎬 Regex Intro
 - Regular Expression
 	- A pattern that describes a set of Strings
 	- are used to describe regular languages
@@ -29,7 +28,7 @@ if "Do you like cats?".match(/like/)
 end
 ```
 
-# Character Class
+# 🔡 Character Class
 - A _character class_ is delimited with square brackets `[`, `]
 - `[ab]` means a or b
 - `/ab/` means a followed by b
@@ -48,7 +47,7 @@ contains_vowel("sky") # returns nil
 ```
 
 
-# Ranges
+#  🔍 Ranges
 - `/./` => Any character except newline
 - `/./m` => Any character, `m` enables multiline mode
 - `\w` => A word character (`[a-zA-Z0-9_]`)
@@ -61,7 +60,7 @@ contains_vowel("sky") # returns nil
 - `\S` - A non-whitespace character: `/[^ \t\r\n\f\v]/`
 - `\R` - A linebreak: `\n`, `\v`, `\f`, `\r` `\u0085` (NEXT LINE), `\u2028` (LINE SEPARATOR), `\u2029` (PARAGRAPH SEPARATOR) or `\r\n`.
 
-# Anchors
+# ⚓️ Anchors
 Anchors are metacharacters that match to a specific position:
 -   `^` - Matches beginning of line
 -   `$` - Matches end of line
@@ -72,7 +71,7 @@ Anchors are metacharacters that match to a specific position:
 -   `\b` - Matches word boundaries when outside brackets; backspace (0x08) when inside brackets
 -   `\B` - Matches non-word boundaries
 
-# Repetition
+# 🔁 Repetition
 To match multiple characters we can use pattern modifiers
 -  `+`  => Matches 1 or more characters
 -  `*` => Matches 0 or more
@@ -89,8 +88,7 @@ To match multiple characters we can use pattern modifiers
 # and one 'o' character
 ```
 
-# Parenthesis in Regex
-
+# 🔘 Parenthesis in Regex
 ## Capturing
 We can backreference to an `n` group of parenthesis with `\n`
 - `/(\d) (\w)/`
