@@ -95,6 +95,31 @@ partition( array, start, end )
 	return t
 ```
 
+# Python Code
+```python
+def quicksort (a, l ,r):
+  if l < r :
+    resultingPivotIndex = partition (a,l ,r)
+    quicksort (a, l , resultingPivotIndex-1)
+    quicksort (a, resultingPivotIndex+1 ,r)
+```
+
+```python
+def partition (a,l ,r):
+  pivotValue = A [ r ]
+  t = l
+  for i in range (l , r):
+    if A [ i ] <= pivotValue:
+      temp = A [ t ]
+      A [ t ] = A [ i ]
+      A [ i ] = temp
+      t = t + 1
+  temp = A [ t ]
+  A [ t ] = A [ r ]
+  A [ r ] = temp
+  return ( t )
+```
+
 # Time Complexity
 - QuickSort: $T(k) + T(n − k − 1)$
 - Parittion: $c1 + c2(n − 1)$
