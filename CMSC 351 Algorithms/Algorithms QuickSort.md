@@ -1,14 +1,14 @@
-# Algorithms QuickSort
-Class: [[Algorithms]]
+# 👽 Algorithms QuickSort
+Class: <a href="https://github.com/lamula21/cheat-sheets/blob/main/CMSC%20351%20Algorithms/Algorithms.md">Algorithms</a>
 Subject: #
 Date: 2023-03-09
 Topics: #, #, # 
 
 ---
 
-# Intro to QuickSort
+# 🎬 Intro to QuickSort
 
-# Running Time
+# ⏳ Running Time
 - `Worst Case`
 	- $\theta(n^{2})$
 - `Average Case`
@@ -16,11 +16,11 @@ Topics: #, #, #
 - `Best Case`
 	- $\theta(n \log n)$
 
-# Space Time
+# ⌛ Space Time
 - $\theta(1)$
 
 
-# What is QuickSort
+# 🤷🏻‍♂️ What is QuickSort
 - QuickSort works by first choosing an element in the list called the pivot value (at some initial pivot index).
 
 - Then rearranging the list (including probably moving the the pivot value) so that 
