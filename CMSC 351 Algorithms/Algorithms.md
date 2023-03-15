@@ -14,8 +14,8 @@
 - [[Algorithms Master Theorem]]
 - Algorithms Recurrence
 - Algorithms MergeSort
-* [[Algorithms HeapSort]]
-* [[Algorithms QuickSort]]
+- [[Algorithms HeapSort]]
+- [[Algorithms QuickSort]]
 - Algorithms Limit of Comparision Sort
 
 ## Midterm 3
