@@ -46,7 +46,7 @@ Let a non-deterministic finite automaton be
 
 # 🆚 NFA vs DFA
 - NFA can have epsilon (ε) transitions, multiple transitions coming out of one state
-- DFA cannot have ***ε-transitions*** and cannot have multiple transitions
+- DFA cannot have ***ε-transitions*** and cannot have multiple transitions on the same symbol
 
 # ➡ Convert NFA to DFA
 ## ε-closure
@@ -90,12 +90,12 @@ All possible `move`
 Let $r_0$ = $\varepsilon\text{-closure}(\delta, q_0)$, add it to $R$\
 While $\exists$ an unmarked state $r \in R$:\
 $\qquad$ Mark $r$
-$\qquad$ For each $\sigma \in \Sigma$\
-$\qquad$$\qquad$Let $E = \text{move}(\delta, r, \sigma)$\
-$\qquad$$\qquad$Let $e = \varepsilon\text{-closure}(\delta, E)$\
-$\qquad$$\qquad$$\qquad$If $e \notin R$\
-$\qquad$$\qquad$$\qquad$$\qquad$Let $R = R \cup \\{e\\}$\
-$\qquad$$\qquad$$\qquad$Let $\delta' = \delta \cup \\{ r, \sigma, e \\} $\
+$\qquad$ For each $\sigma \in \Sigma$
+$\qquad$ $\qquad$ Let $E = \text{move}(\delta, r, \sigma)$
+$\qquad$ $\qquad$ Let $e = \varepsilon\text{-closure}(\delta, E)$
+$\qquad$ $\qquad$ $\qquad$ If $e \notin R$
+$\qquad$ $\qquad$ $\qquad$ $\qquad$Let $R = R \cup \\{e\\}$
+$\qquad$ $\qquad$ $\qquad$ Let $\delta = \delta \cup \\{ r, \sigma, e \\}$
 Let $F = \\{r \mid \exists s \in r \text{ with } s \in F_n \\}$
 
 ## Example
