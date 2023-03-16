@@ -151,7 +151,6 @@ Building a Binary Tree
 ## 2️⃣ HeapSort
 
 
-
 # Pseudocode
 ```python
 makeHeap(A)
