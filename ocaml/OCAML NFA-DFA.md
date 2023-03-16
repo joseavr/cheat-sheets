@@ -80,22 +80,22 @@ All possible `move`
 - move({p1 , p2} , b) → ø U {p3} = {p3}
 
 ### Note
-`move` doesn't use free ε-transitions
+`move` doesn't use free ***ε-transitions***
 
 <img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/IMG_7B4FFB7D31E6-1.jpeg" width="50%" height="50%" />
 
-- move(p1,b) = ø
+- move(p1 , b) = ø
 
 ## Algorithm
 Let $r_0$ = $\varepsilon\text{-closure}(\delta, q_0)$, add it to $R$\
 While $\exists$ an unmarked state $r \in R$:\
-$\qquad$ Mark $r$
-$\qquad$ For each $\sigma \in \Sigma$\
-$\qquad$$\qquad$Let $E = \text{move}(\delta, r, \sigma)$\
-$\qquad$$\qquad$Let $e = \varepsilon\text{-closure}(\delta, E)$\
-$\qquad$$\qquad$$\qquad$If $e \notin R$\
-$\qquad$$\qquad$$\qquad$$\qquad$Let $R = R \cup \\{e\\}$\
-$\qquad$$\qquad$$\qquad$Let $\delta' = \delta \cup \\{ r, \sigma, e \\} $\
+$\qquad$Mark $r$
+$\qquad$For each $\sigma \in \Sigma$
+$\qquad\qquad$Let $E = \text{move}(\delta, r, \sigma)$
+$\qquad\qquad$Let $e = \varepsilon\text{-closure}(\delta, E)$
+$\qquad\qquad\qquad$If $e \notin R$
+$\qquad\qquad\qquad\qquad$Let $R = R \cup \\{e\\}$
+$\qquad\qquad\qquad$Let $\delta' = \delta \cup \\{ r, \sigma, e \\} $
 Let $F = \\{r \mid \exists s \in r \text{ with } s \in F_n \\}$
 
 ## Example
