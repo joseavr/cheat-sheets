@@ -38,7 +38,7 @@ Topics: #, #, #
 	- `max heap`: Each node's value is bigger than its children's value
 	- `min heap`: Each node's value is smaller than its children's value
 
-<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315174934.png" widht="50%" height="50%"/>
+<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315174934.png" width="60%" height="60%"/>
 
 <img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315175110.png" width="60%" height="60%" />
 
