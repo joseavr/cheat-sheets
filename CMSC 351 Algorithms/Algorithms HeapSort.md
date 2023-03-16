@@ -116,17 +116,14 @@ $$ Here$$
 # 🤷🏻‍♂️ What is HeapSort
 
 ## 1️⃣ Build a Heap from Unsorted Array
-- `Step 1`: Convert unsorted array to Complete Binary Tree
-- `Step 2:` Convert Binary Tree to Heap (heapify one level at time, starting from one before last level)
-
-### Step 1
+- Convert unsorted array to Complete Binary Tree
 - Assume unsorted array: [*,33,20,10,34,25,21,84,3,17,87,33,62]
-
-Building a Binary Tree
-- Tip: at each element in array, place it from left to right into the tree
+- Building a Binary Tree:
+	- Tip: at each element in array, place it from left to right to build a tree
 <img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315191925.png" width="70%" height="70%" />
 
-### Step 2
+## 2️⃣ Convert to MaxHeap
+- Convert Binary Tree to Max Heap (heapify one level at time, starting from one before last level)
 - Given the tree, Heapify level 2 in the Tree
 <img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315194003.png" width="70%" height="70%" />
 
@@ -149,8 +146,7 @@ Building a Binary Tree
 <img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315195848.png" width="70%" height="70%"/>
 - Done. We built a max heap
 
-## 2️⃣ HeapSort
-
+## 2️⃣ Perform HeapSort
 <a href="https://youtu.be/LbB357_RwlY">HeapSort video</a>
 
 
