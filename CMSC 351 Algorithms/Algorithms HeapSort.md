@@ -13,6 +13,7 @@ Topics: #, #, #
 - Complete Binary Tree is a binary tree in which all levels are completely filled,
 - Except possibly for the last level, and the last level has all entries as far left as possible.
 - Note that the root is considered level 0.
+
 ![](../Assets/20230302112830.png)
 
 ## Binary Tree Index
@@ -37,9 +38,9 @@ Topics: #, #, #
 	- `max heap`: Each node's value is bigger than its children's value
 	- `min heap`: Each node's value is smaller than its children's value
 
-<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315174934.png" widht="80%" height="80%"/>
+<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315174934.png" widht="60%" height="60%"/>
 
-<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315175110.png" width="80%" height="80%" />
+<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315175110.png" width="60%" height="60%" />
 
 - Heaps used as `priority queue`
 	- First node in queue: root node
@@ -76,7 +77,7 @@ Topics: #, #, #
 - `Right`: $2i+1$
 <img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315181535.png" width="80%" height="80%"/>
 
-<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315181805.png" width="80%" height="80%"/>
+<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315181805.png" width="60%" height="60%"/>
 
 ## Storing Heap in an Array
 - If array indexed at 1 **(easier)**
@@ -123,29 +124,29 @@ $$ Here$$
 
 Building a Binary Tree
 - Tip: at each element in array, place it from left to right into the tree
-<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315191925.png" width="80%" height="80%" />
+<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315191925.png" width="70%" height="70%" />
 
 ### Step 2
 - Given the tree, Heapify level 2 in the Tree
-<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315194003.png" width="80%" height="80%" />
+<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315194003.png" width="70%" height="70%" />
 
-<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315194311.png" width="80%" height="80%"/>
+<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315194311.png" width="70%" height="70%"/>
 
 - Heapify level 1 in the Tree
-<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315194715.png" width="80%" height="80%" />
+<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315194715.png" width="70%" height="70%" />
 
-<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315195000.png" width="80%" height="80%"/>
+<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315195000.png" width="70%" height="70%"/>
 
-<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315195117.png" width="80%" height="80%"/>
+<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315195117.png" width="70%" height="70%"/>
 
-<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315195357.png" width="80%" height="80%"/>
+<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315195357.png" width="70%" height="70%"/>
 
 - Heapify level 0 in the Tree
-<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315195602.png" width="80%" height="80%"/>
+<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315195602.png" width="70%" height="70%"/>
 
-<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315195758.png" width="80%" height="80%"/>
+<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315195758.png" width="70%" height="70%"/>
 
-<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315195848.png" width="80%" height="80%"/>
+<img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315195848.png" width="70%" height="70%"/>
 - We built a max heap
 
 ## 2️⃣ HeapSort
