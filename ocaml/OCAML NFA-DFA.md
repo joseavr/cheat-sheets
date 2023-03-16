@@ -87,14 +87,14 @@ All possible `move`
 - move(p1 , b) = ø
 
 ## Algorithm
-Let $r_0$ = $\varepsilon\text{-closure}(\delta, q_0)$, add it to $R$
-While $\exists$ an unmarked state $r \in R$:
+Let $r_0$ = $\varepsilon\text{-closure}(\delta, q_0)$, add it to $R$ <br/>
+While $\exists$ an unmarked state $r \in R$: <br/>
 $\qquad$ Mark $r$ <br/>
 $\qquad$ For each $\sigma \in \Sigma$ <br/>
 $\qquad \qquad$ Let $E = \text{move}(\delta, r, \sigma)$ <br/>
 $\qquad \qquad$ Let $e = \varepsilon\text{-closure}(\delta, E)$ <br/>
 $\qquad \qquad \qquad$ If $e \notin R$ <br/>
-$\qquad \qquad$ $\qquad$ $\qquad$Let $R = R \cup {e}$ <br/>
+$\qquad \qquad \qquad \qquad$ Let $R = R \cup {e}$ <br/>
 $\qquad \qquad \qquad$ Let $\delta = \delta \cup { r, \sigma, e }$ <br/>
 Let $F = {r \mid \exists s \in r \text{ with } s \in F_n }$ <br/>
 
