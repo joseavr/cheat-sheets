@@ -1,7 +1,10 @@
 # 🐫 OCAML NFA-DFA
-Class: [[OCAML]]
+Class: <a href="https://github.com/lamula21/cheat-sheets/blob/main/ocaml/OCAML.md">OCAML</a>
+
 Subject: #
+
 Date: 2023-03-09
+
 Topics: #, #, # 
 
 ---
@@ -20,7 +23,7 @@ An NFA is represented by digraphs called state diagram.
 -   The initial state is denoted by an empty single arrow.
 -   The final state is indicated by double circles.
 
-# Formal Definition
+# 📝 Formal Definition
 NFA → { Q, ∑, ∂, q0, F}
 - ∑ → Finite non-empty set of input symbols. 
 - Q → Finite non-empty set of states. 
@@ -28,7 +31,7 @@ NFA → { Q, ∑, ∂, q0, F}
 - F → Final State
 - ∂ → Transitional Function. 
 
-# NFA Example
+# 💭 NFA Example
 Let a non-deterministic finite automaton be
 
 ![](../Assets/nfa-accept.png)
@@ -43,11 +46,11 @@ Let a non-deterministic finite automaton be
 
 # 🆚 NFA vs DFA
 - NFA can have epsilon (ε) transitions, multiple transitions coming out of one state
-- DFA cannot have ε-transitions and cannot have multiple transitions
+- DFA cannot have ***ε-transitions*** and cannot have multiple transitions
 
 # ➡ Convert NFA to DFA
 ## ε-closure
-- `ε-closure(δ, p)` returns the set of states reachable from p using ε-transitions alone.
+- `ε-closure(δ, p)` returns the set of states reachable from p using only ***ε-transitions*** alone.
 - Returned set always has `p`
 
 Let the following NFA:
@@ -77,7 +80,7 @@ All possible `move`
 - move({p1 , p2} , b) → ø U {p3} = {p3}
 
 ### Note
-`move` doesn't use ε free transitions
+`move` doesn't use free ε-transitions
 
 <img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/IMG_7B4FFB7D31E6-1.jpeg" width="50%" height="50%" />
 
@@ -96,3 +99,4 @@ $\qquad$$\qquad$$\qquad$Let $\delta' = \delta \cup \\{ r, \sigma, e \\} $\
 Let $F = \\{r \mid \exists s \in r \text{ with } s \in F_n \\}$
 
 ## Example
+TODO
