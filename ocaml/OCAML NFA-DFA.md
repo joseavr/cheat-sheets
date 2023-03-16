@@ -90,19 +90,12 @@ All possible `move`
 Let $r_0$ = $\varepsilon\text{-closure}(\delta, q_0)$, add it to $R$\
 While $\exists$ an unmarked state $r \in R$:\
 $\qquad$ Mark $r$
-
 $\qquad$ For each $\sigma \in \Sigma$
-
-$\qquad$ $\qquad$ Let $E = \text{move}(\delta, r, \sigma)$
-
-$\qquad$ $\qquad$ Let $e = \varepsilon\text{-closure}(\delta, E)$
-
-$\qquad$ $\qquad$ $\qquad$ If $e \notin R$
-
-$\qquad$ $\qquad$ $\qquad$ $\qquad$Let $R = R \cup \\{e\\}$
-
-$\qquad$ $\qquad$ $\qquad$ Let $\delta = \delta \cup \\{ r, \sigma, e \\}$
-
+$\qquad \qquad$ Let $E = \text{move}(\delta, r, \sigma)$
+$\qquad \qquad$ Let $e = \varepsilon\text{-closure}(\delta, E)$
+$\qquad \qquad \qquad$ If $e \notin R$
+$\qquad \qquad$ $\qquad$ $\qquad$Let $R = R \cup \\{e\\}$
+$\qquad \qquad \qquad$ Let $\delta = \delta \cup \\{ r, \sigma, e \\}$
 Let $F = \\{r \mid \exists s \in r \text{ with } s \in F_n \\}$
 
 ## Example
