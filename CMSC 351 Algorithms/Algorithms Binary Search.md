@@ -15,10 +15,10 @@ Topics: #, #, #
 # ⏳ Running Time
 - `Worst Case`
 	- $\theta(\log n)$
-- `Average Case`
-	- $\theta(\log n)$
 - `Best Case`
 	- $\theta(1)$
+- `Average Case`
+	- $\theta(\log n)$
 
 # ⌛️ Space Time
 - Memory space needed $\theta(\log n)$

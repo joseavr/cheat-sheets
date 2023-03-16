@@ -18,9 +18,9 @@ $$ Here$$
 
 - `Worst Case`
 	- $Θ\left(   \right)$
-- `Average Case`
-	- $Θ\left(   \right)$
 - `Best Case`
+	- $Θ\left(   \right)$
+- `Average Case`
 	- $Θ\left(   \right)$
 
 # ⌛️ Space Time

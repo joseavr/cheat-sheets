@@ -15,12 +15,11 @@ https://www.geeksforgeeks.org/insertion-sort/
 
 - `Worst Case`
 	- $\theta(n^2)$
-
+- `Best Case`
+	- $\theta(n)$
 - `Average Case`
 	- $\theta(n^2)$
 
-- `Best Case`
-	- $\theta(n)$
 
 
 # Space Time

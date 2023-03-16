@@ -105,10 +105,10 @@ $$ Here$$
 # ⏳ Running Time
 - `Worst Case`
 	- $Θ\left( n \log n \right)$
-- `Average Case`
-	- $Θ\left(  n \log n \right)$
 - `Best Case`
 	- $Θ\left(  n \right)$
+- `Average Case`
+	- $Θ\left(  n \log n \right)$
 
 # ⌛️ Space Time
 - $Θ\left( 1  \right)$

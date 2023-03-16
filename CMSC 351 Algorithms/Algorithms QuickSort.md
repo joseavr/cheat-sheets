@@ -21,9 +21,9 @@ Topics: #, #, #
 # ⏳ Running Time
 - `Worst Case`
 	- $Θ(n^{2})$
-- `Average Case`
-	- $Θ(n \log n)$
 - `Best Case`
+	- $Θ(n \log n)$
+- `Average Case`
 	- $Θ(n \log n)$
 
 # ⌛ Space Time

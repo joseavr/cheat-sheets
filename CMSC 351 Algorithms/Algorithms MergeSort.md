@@ -22,9 +22,9 @@ Same time complexity since MergeSort breaks down the list and puts it back toget
 
 - `Worst Case`
 	- $Θ(n \log n)$
-- `Average Case`
-	- $Θ(n \log n)$
 - `Best Case`
+	- $Θ(n \log n)$
+- `Average Case`
 	- $Θ(n \log n)$
 
 # ⌛️ Space Time
