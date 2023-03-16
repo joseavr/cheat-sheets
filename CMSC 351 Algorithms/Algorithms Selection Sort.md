@@ -6,20 +6,11 @@ Topics: #, #, #
 
 ---
 
-# 🎬 Intro 
-- We select the smallest element in the list and place it at the beginning of the list. Then we select the next-smallest element and put it in the second position in the list, and so on.
-- We could the reverse:
-	- Select the largest element in the list and place it at  the end of the list. Then we select the next-largest element and put it in the next-to-last position in the list, and so on.
-- We consider the unsorted portion of the list as a sub-list
-	- We repeatedly select the smallest value in the  current sub-list and move it to the end of the sub-list, then consider a new sub-list by  excluding the elements that are in their sorted locations.
-	- We continue until the sub-list has only one element. At that time, the list is sorted.
-- Memory space need $\theta(1)$
-	- Two variables to store i and j, two indexes
-	- Two variables to store `min` index, and `temp`
-- Selection Sort, contrary to Bubble Sort, is NOT a STABLE sorting algorithm.
+# 🎬 Intro to Selection Sort
+- Selection Sort is `not stable`
 
-# Running Time
 
+# ⏳ Running Time
 - `Worst Case`
 	- Same as Bubble Sort
 	- $\theta(n^2)$
@@ -29,13 +20,20 @@ Topics: #, #, #
 - Best Case
 	- $\theta(n)$
 
-# Space Time
+# ⌛️ Space Time
 - $O(1)$
+	- Two variables to store i and j, two indexes
+	- Two variables to store `min` index, and `temp`
 
 
-# How It Works
+# How it works
+- We select the smallest element in the list and place it at the beginning of the list. Then we select the next-smallest element and put it in the second position in the list, and so on.
+- We could the reverse:
+	- Select the largest element in the list and place it at  the end of the list. Then we select the next-largest element and put it in the next-to-last position in the list, and so on.
+- We consider the unsorted portion of the list as a sub-list
+	- We repeatedly select the smallest value in the  current sub-list and move it to the end of the sub-list, then consider a new sub-list by  excluding the elements that are in their sorted locations.
+	- We continue until the sub-list has only one element. At that time, the list is sorted.
 
-## Quick Breakthrough
 - Assume $A = [7,5,4,2]$
 ![](../Assets/20230221032045.png)
 
@@ -58,7 +56,7 @@ Topics: #, #, #
 int temp; #temporary location for swap  
 int min; #index of min value in sub-list  
 
-for ( int i = 0; i < list.length - 1; i++ )  {  
+for i=0 to len(list)-1
 	# need to code indexOfSmallest  
 	min = indexOfSmallest( list, i );  
 	
@@ -66,7 +64,7 @@ for ( int i = 0; i < list.length - 1; i++ )  {
 	temp = list[min];  
 	list[min] = list[i];  
 	list[i] = temp;  
-}
+
 ```
 
 # Index of Smallest

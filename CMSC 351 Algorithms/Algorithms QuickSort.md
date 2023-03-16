@@ -1,21 +1,34 @@
 # 🔰 Algorithms QuickSort
 Class: <a href="https://github.com/lamula21/cheat-sheets/blob/main/CMSC%20351%20Algorithms/Algorithms.md">Algorithms</a>
+
 Subject: #
+
 Date: 2023-03-09
+
 Topics: #, #, # 
 
 ---
+# 🎬 Intro to QuickSort
+- QuickSort is `in-place`
+	- Modifies the input data directly without creating a new one
+	- Not need of auxiliarry array to partition
+- Quicksort is `not stable`
+	- Same elements are inverted because swap at the end
+	- e.g [10' , 10*] = [10* , 10']
+- QuickSort worst-case solved with `Master Theorem`? **No**
+	- Solved with `derivation`
 
 # ⏳ Running Time
 - `Worst Case`
-	- $\theta(n^{2})$
+	- $Θ(n^{2})$
 - `Average Case`
-	- $\theta(n \log n)$
+	- $Θ(n \log n)$
 - `Best Case`
-	- $\theta(n \log n)$
+	- $Θ(n \log n)$
 
 # ⌛ Space Time
-- $\theta(1)$
+- Since `in-place`, quickSort is memory-efficient
+- $Θ(1)$
 
 
 # 🤷🏻‍♂️ What is QuickSort
@@ -49,7 +62,9 @@ Topics: #, #, #
 <img src = "https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315003908.png" width="80%" height="80%"/>
 
 # Pivot Value Choice
-
+- Oftenly choose **last element of array** for pivot
+- If chose another element than **last element of array**, we should swap with the last element
+	- Or, choose first element as the pivot and modify algorithm (from i=1 to end)
 
 # QuickSort Pseudocode
 ```java
@@ -70,6 +85,14 @@ partition( array, start, end )
 	swap arr[t] and arr[end]  
 	return t
 ```
+
+- `QuickSort + Partition Best Case`
+	- Solved with Master Theorem or derivation
+$$T(n) = 2\cdot T\left( \frac{n}{2} \right) + Θ(n)$$
+- `QuickSort + Partition Worst Case`
+	- Solved only with derivation
+$$T(n) = T\left( n-1 \right) + T\left(0\right) + Θ(n)$$
+
 
 # QuickSort with Counter
 
@@ -117,6 +140,7 @@ def partition (a,l ,r):
   A [ r ] = temp
   return ( t )
 ```
+
 
 # Time Complexity
 - QuickSort: $T(k) + T(n − k − 1)$

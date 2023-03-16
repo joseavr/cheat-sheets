@@ -9,14 +9,14 @@
 - [[Algorithms Selection Sort]]
 
 ## Midterm 2
-- [[Algorithms Insertion Sort|Insertion Sort]]
+- [[Algorithms Insertion Sort]]
 - [[Algorithms Binary Search]]
 - [[Algorithms Master Theorem]]
-- Algorithms Recurrence
-- Algorithms MergeSort
+- Algorithms Recurrence Derivation
+- [[Algorithms MergeSort]]
 - [[Algorithms HeapSort]]
 - [[Algorithms QuickSort]]
-- Algorithms Limit of Comparision Sort
+- Algorithms Limits on Comparision Sorting
 
 ## Midterm 3
 - 
