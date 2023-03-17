@@ -4,121 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "5cba33e1389d419a",
+        "id": "d361540317e25d00",
         "type": "tabs",
         "children": [
           {
-            "id": "629f7847e0b4cad8",
+            "id": "dc84a617dfeb1f16",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "CMSC 351 Algorithms/Algorithms.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "b0a52c6456d613b7",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CMSC 351 Algorithms/Algorithms Insertion Sort.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "9b1d4add5a96fb5a",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CMSC 351 Algorithms/Algorithms Binary Search.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "ba59a6d316a90c65",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CMSC 351 Algorithms/Algorithms Master Theorem.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "bda435181fc29187",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CMSC 351 Algorithms/Algorithms MergeSort.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "7a6d1c0314732f94",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CMSC 351 Algorithms/Algorithms HeapSort.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "35c8bb6e877a1070",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CMSC 351 Algorithms/Algorithms QuickSort.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "ea3a52e15d2a4be3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ocaml/OCAML NFA-DFA.md",
-                "mode": "source",
-                "source": false
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ocaml/OCAML NFA-DFA.md",
+                "file": "CMSC 351 Algorithms/Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ocaml/OCAML NFA-DFA.md",
+                "file": "CMSC 351 Algorithms/Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ocaml/OCAML NFA-DFA.md"
+                "file": "CMSC 351 Algorithms/Algorithms.md"
               }
             }
           },
@@ -257,16 +158,17 @@
       "omnisearch:Omnisearch": true
     }
   },
-  "active": "ea3a52e15d2a4be3",
+  "active": "dc84a617dfeb1f16",
   "lastOpenFiles": [
+    "CMSC 351 Algorithms/Algorithms Insertion Sort.md",
     "CMSC 351 Algorithms/Algorithms QuickSort.md",
+    "CMSC 351 Algorithms/Algorithms.md",
+    "ocaml/OCAML NFA-DFA.md",
     "Templates/Template Algorithms.md",
     "CMSC 351 Algorithms/Algorithms HeapSort.md",
     "CMSC 351 Algorithms/Algorithms MergeSort.md",
     "CMSC 351 Algorithms/Algorithms Master Theorem.md",
     "CMSC 351 Algorithms/Algorithms Binary Search.md",
-    "CMSC 351 Algorithms/Algorithms Insertion Sort.md",
-    "CMSC 351 Algorithms/Algorithms.md",
     "Assets/20230315195848.png",
     "Assets/20230315195758.png",
     "Assets/20230315195602.png",
@@ -286,7 +188,6 @@
     "Templates/My Templates.md",
     "Templates/Template Index MATH.md",
     "Templates/Template Index CS.md",
-    "ocaml/OCAML NFA-DFA.md",
     "ocaml/OCAML Intro.md",
     "OCAML FSM.md",
     "ruby/Ruby Regex.md",
