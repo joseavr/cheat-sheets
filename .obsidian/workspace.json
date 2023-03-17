@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CMSC 351 Algorithms/Algorithms.md",
+                "file": "flask/Flask Intro.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CMSC 351 Algorithms/Algorithms.md",
+                "file": "flask/Flask Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CMSC 351 Algorithms/Algorithms.md",
+                "file": "flask/Flask Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CMSC 351 Algorithms/Algorithms.md"
+                "file": "flask/Flask Intro.md"
               }
             }
           },
@@ -160,9 +160,9 @@
   },
   "active": "dc84a617dfeb1f16",
   "lastOpenFiles": [
+    "CMSC 351 Algorithms/Algorithms.md",
     "CMSC 351 Algorithms/Algorithms Insertion Sort.md",
     "CMSC 351 Algorithms/Algorithms QuickSort.md",
-    "CMSC 351 Algorithms/Algorithms.md",
     "ocaml/OCAML NFA-DFA.md",
     "Templates/Template Algorithms.md",
     "CMSC 351 Algorithms/Algorithms HeapSort.md",
