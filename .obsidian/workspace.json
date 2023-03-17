@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "flask/Flask Intro.md",
+                "file": "HTML Tags.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "flask/Flask Intro.md",
+                "file": "HTML Tags.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "flask/Flask Intro.md",
+                "file": "HTML Tags.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "flask/Flask Intro.md"
+                "file": "HTML Tags.md"
               }
             }
           },
@@ -160,6 +160,8 @@
   },
   "active": "dc84a617dfeb1f16",
   "lastOpenFiles": [
+    "flask/Flask.md",
+    "flask/Flask Intro.md",
     "CMSC 351 Algorithms/Algorithms.md",
     "CMSC 351 Algorithms/Algorithms Insertion Sort.md",
     "CMSC 351 Algorithms/Algorithms QuickSort.md",
@@ -194,7 +196,6 @@
     "ruby/Ruby Intro.md",
     "ruby/Ruby Files.md",
     "ruby/Ruby Classes.md",
-    "ruby/Ruby Arrays.md",
     "Untitled",
     "flask",
     "MATH 406 Number Theory",
