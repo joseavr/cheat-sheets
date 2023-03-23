@@ -10,16 +10,31 @@
           {
             "id": "dc84a617dfeb1f16",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML Tags.md",
+                "file": "flask/Flask Project 4.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "9b0f22a4225ac1c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTML Tags.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTML Tags.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML Tags.md"
+                "file": "README.md"
               }
             }
           },
@@ -158,8 +173,22 @@
       "omnisearch:Omnisearch": true
     }
   },
-  "active": "dc84a617dfeb1f16",
+  "active": "9b0f22a4225ac1c4",
   "lastOpenFiles": [
+    "HTML Tags.md",
+    "OCAML FSM.md",
+    "README.md",
+    "flask/Flask Project 4.md",
+    "Assets/20230322235440.png",
+    "Assets/20230322234911.png",
+    "20230322233842.png",
+    "Assets/20230322233538.png",
+    "Assets/20230322234817.png",
+    "Assets/20230322234635.png",
+    "Assets/20230322234442.png",
+    "Assets/20230322234406.png",
+    "Assets/20230322234323.png",
+    "20230322234221.png",
     "flask/Flask.md",
     "flask/Flask Intro.md",
     "CMSC 351 Algorithms/Algorithms.md",
@@ -171,17 +200,6 @@
     "CMSC 351 Algorithms/Algorithms MergeSort.md",
     "CMSC 351 Algorithms/Algorithms Master Theorem.md",
     "CMSC 351 Algorithms/Algorithms Binary Search.md",
-    "Assets/20230315195848.png",
-    "Assets/20230315195758.png",
-    "Assets/20230315195602.png",
-    "Assets/20230315195357.png",
-    "20230315195255.png",
-    "Assets/20230315195117.png",
-    "Assets/20230315195000.png",
-    "Assets/20230315194715.png",
-    "Pasted image 20230315194712.png",
-    "Assets/20230315194311.png",
-    "README.md",
     "Templates/Template Notes.md",
     "CMSC 351 Algorithms/Algorithms Selection Sort.md",
     "CMSC 351 Algorithms/Algorithms Rigorous Time.md",
@@ -191,11 +209,7 @@
     "Templates/Template Index MATH.md",
     "Templates/Template Index CS.md",
     "ocaml/OCAML Intro.md",
-    "OCAML FSM.md",
     "ruby/Ruby Regex.md",
-    "ruby/Ruby Intro.md",
-    "ruby/Ruby Files.md",
-    "ruby/Ruby Classes.md",
     "Untitled",
     "flask",
     "MATH 406 Number Theory",
