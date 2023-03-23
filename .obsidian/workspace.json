@@ -4,37 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "d361540317e25d00",
+        "id": "b2beee03ab97929d",
         "type": "tabs",
         "children": [
           {
-            "id": "dc84a617dfeb1f16",
+            "id": "0a1580ba4ebc4e8e",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "flask/Flask Project 4.md",
+                "file": "css/CSS Position.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true
             }
-          },
-          {
-            "id": "9b0f22a4225ac1c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "css/CSS Position.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "css/CSS Position.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "css/CSS Position.md"
               }
             }
           },
@@ -173,22 +160,33 @@
       "omnisearch:Omnisearch": true
     }
   },
-  "active": "9b0f22a4225ac1c4",
+  "active": "0a1580ba4ebc4e8e",
   "lastOpenFiles": [
+    "css/CSS.md",
+    "css/CSS Pseudo-elements.md",
+    "css/CSS Selectors.md",
+    "css/CSS Pseudo-classes.md",
+    "css/CSS Properties.md",
+    "css/CSS Position.md",
+    "css/CSS Display.md",
+    "css/CSS Center Element.md",
+    "css/CSS Box Model.md",
+    "CMSC 351 Algorithms/Algorithms Binary Search.md",
+    "Assets/20230323193349.png",
+    "Assets/20230323193311.png",
+    "Assets/20230323192835.png",
+    "Assets/20230323184903.png",
+    "Assets/IMG_25D323DF4D1D-1.jpeg",
+    "Assets/IMG_7B4FFB7D31E6-1.jpeg",
+    "Assets/20230323193127.png",
+    "Assets/20230323193006.png",
+    "Pasted image 20230323192805.png",
+    "README.md",
+    "Assets/20230323182109.png",
+    "css/CSS Web Servers.md",
+    "flask/Flask Project 4.md",
     "HTML Tags.md",
     "OCAML FSM.md",
-    "README.md",
-    "flask/Flask Project 4.md",
-    "Assets/20230322235440.png",
-    "Assets/20230322234911.png",
-    "20230322233842.png",
-    "Assets/20230322233538.png",
-    "Assets/20230322234817.png",
-    "Assets/20230322234635.png",
-    "Assets/20230322234442.png",
-    "Assets/20230322234406.png",
-    "Assets/20230322234323.png",
-    "20230322234221.png",
     "flask/Flask.md",
     "flask/Flask Intro.md",
     "CMSC 351 Algorithms/Algorithms.md",
@@ -199,17 +197,6 @@
     "CMSC 351 Algorithms/Algorithms HeapSort.md",
     "CMSC 351 Algorithms/Algorithms MergeSort.md",
     "CMSC 351 Algorithms/Algorithms Master Theorem.md",
-    "CMSC 351 Algorithms/Algorithms Binary Search.md",
-    "Templates/Template Notes.md",
-    "CMSC 351 Algorithms/Algorithms Selection Sort.md",
-    "CMSC 351 Algorithms/Algorithms Rigorous Time.md",
-    "CMSC 351 Algorithms/Algorithms MCS.md",
-    "CMSC 351 Algorithms/Algorithms Bubble Sort.md",
-    "Templates/My Templates.md",
-    "Templates/Template Index MATH.md",
-    "Templates/Template Index CS.md",
-    "ocaml/OCAML Intro.md",
-    "ruby/Ruby Regex.md",
     "Untitled",
     "flask",
     "MATH 406 Number Theory",

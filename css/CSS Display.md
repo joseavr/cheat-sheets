@@ -1,186 +1,219 @@
-# Display
-Class: [[CSS]]
-Subject: #
+# 🎨 CSS Display
+Class: <a href="https://github.com/lamula21/cheat-sheets/blob/main/css/CSS.md">CSS</a>
+Subject: [[CSS]]
 Date: 2023-02-08
 Topics: #, #, # 
 
 ---
 
-# Display Property
-
-- Type of rendering box
-- `display` controls the design of our webpage
-- Value:
-	- inline
+# 🎬 Intro to Display Properties
+- The `display` property specifies if/how an element is displayed.
+- Default `display`'s value for most elements is `block` or `inline`.
+- We can modify the `display` of a element with CSS
+- Display values:
 	- block
+	- inline
 	- inline-block
 	- none
 	- flex
 	- grid
 
-## Block
-- Always start in a new line and occupies all width available
+# 1️⃣ Block
+- Block elements always start in a new line
+- Occupies full width available
+- Default block-elements:
+	- `<div> `
+	- `<h1> - <h6>`
+	- `<p>`
+	- `<form>`
+	- `<header>`
+	- `<footer>`
+	- `<section>`
 ```css
-elemento {
-    display: block;
+div {
+	display: block;
 }
 ```
 
-![](../Assets/20230208172239.png)
+![](../Assets/20230323133323.png)
 
-## Inline
-- It doesnt start in a new line
+# 2️⃣ Inline
+- Inline element doesn't start in a new line
 - Occupies what is necessary
+- Default Inline-elements:
+	-   `<span>`
+	-   `<a>`
+	-   `<img>`
 ```css
-elemento {
+div {
     display: inline;
 }
 ```
 
+![](../Assets/20230323133703.png)
 
-# Float Property
+## Inline-block
+- The element is inline
+- Inside of this element is formatted as a block 
+![](../Assets/20230323172741.png)
 
-## CSS Normal Flow
-- Elements are placed one after another on the document structure whether is inline or block
-
-## Float
-
-# Position Property
-
-- Reset position by default from web
+# 3️⃣ None
+- `display:none` - removes the element from the document. Does not take up any space. 
+- `visibility: hidden` - hides the element, but it still takes up space in the layout.
+- `display: none` - used usually with `onclick` event in JavaScript to hide and show elements when clicked. ``
+- Default none-elements:
+	- `<script>`
+	- ...
 ```css
-* {
-
-	/* Important: to better understanding positioning,
-
-	   we are setting the padding and margin of all
-
-	   elements to zero */
-
-	padding: 0;
-
-	margin: 0;
-
+div {
+    display: none;
+    visibility: hidden;
 }
 ```
 
-## Static
-- normal position–no effect
+Original Block:
+![](../Assets/20230323135221.png)
+
+After Remove pressed:
+![](../Assets/20230323135234.png)
+
+After Hide pressed:
+![](../Assets/20230323135246.png)
+
+# 4️⃣ FlexBox
+- Layout system that enables flexible **one-dimensional** layouts for web pages
+- Allows arrange elements in a row or a column, and adjust their sizes, spacing, and alignment.
+- `Important`: parent element must have `display` property set to `flex`.
+## Flex Common properties:
+- `flex-direction`: Sets the direction of the flex container's main axis to either `row` (default), `column`, `row-reverse`, or `column-reverse`.
+- `justify-content`: Aligns the flex container's items along the main axis (flex-direction axis).
+	- `flex-start` (default), 
+	- `flex-end` 
+	- `center`
+	- `space-between`
+	- `space-around`
+	- `space-evenly`
+- `align-items`: Aligns the flex contaier's item along the opposite of main axis (opposite axis of flex-direction). 
+	- `stretch` (default)
+	- `flex-start`
+	- `flex-end`
+	- `center`
+	- `baseline`
+- `flex-wrap`: Controls whether the flex container's items should wrap or not. 
+	- `nowrap` (default)
+	- `wrap`
+	- `wrap-reverse`
+	- 
 ```css
-p {
-
-	position: static;  /* By default is relative*/
-	
-	width: 20rem;
-
-	border-style: solid;
-
-
-
-	/* The following has no effect if position:static */
-	left: 5rem;
-
-	top: 10rem;
-
+.flex-container {
+  display: flex; /* Change to block */
+  flex-direction: column; /* row is the default. Try column, row-reverse */
+  align-items: center; /* try center, flex-start, flex-end */
+  justify-content: space-around; /* try space-between */
+  flex-wrap: nowrap;  /* will never wrap its items when rezising windows */
 }
-
-```
-
-## Relative 
-- Move a element with CSS
-- If you make the window smaller, you will see scroll bars
-```css
-p {
-
-	/*position: static;   By default is relative*/
-	position: relative; /* Allows to move a block position*/
-	
-	width: 20rem;
-
-	border-style: solid;
-
-
-
-	/* The following has no effect if position:static */
-	left: 5rem;
-
-	top: 10rem;
-
-}
-```
-
-## Fixed
-- If you make the window smaller, you will NOT see scroll bars
-```css
-p {
-
-	position: fixed;  /* Allows us*/
-	
-	width: 20rem;
-
-	border-style: solid;
-
-
-
-	/* The following has no effect if position:static */
-	left: 5rem;
-
-	top: 10rem;
-
-}
-```
-
-## Absolute
-
-- The element will move relative to the parent container. 
-- Important:
-	- If parent container is static, then it won't be relative to parent container anymore.
-```css
-p {
-
-	position: absolute; /* Containing block is the body block */
-
-	width: 20rem;
-
-	border-style: solid;
-
-
-
-	left: 0rem;
-
-	top: 0rem;
-
-}
-```
-
-# Flex Display Property
-
-- Place elements in this container either horizontally or vertically
-```css
-#container {
-
-	width:40rem;
-
-	height:20rem;
-
-	border: 1rem solid green;
-
-	display: flex; /* Change to block */
-
-	flex-direction: column; /* row is the default, try column. row-reverse */
-	flex-direction: row;
-	
-	align-items: center; /* try center, flex-start, flex-end */
-	align-items: flex-end;
-	align-items: flex-start;
-
-	justify-content: space-around; /* try space-between */
-	justify-content: space-between;
-
+.flex-container > div {
+  background-color: blue;
+  width: 100vh;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
 }
 ```
 ![](20230208174818.png)
 
-## Flex vs Grid
+
+# 5️⃣ Grid
+- A layout system that allows **multi-dimensional** grid-based layouts to create complex and flexible layouts for web pages.
+- `Important`: parent element must have `display` set to `grid`
+
+![](../Assets/20230323182109.png)
+
+## Grid common properties
+- `display:grid`
+- `grid-template-columns` and `grid-template-rows`: Defines the number and size of columns and rows in the grid. 
+	- Use unit size: pixels, percentages, or fractions. 
+	- Use the `repeat()` function to specify a repeating pattern of columns or rows.
+```css
+.grid-container { 
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: auto auto; 
+}
+```
+
+-  `grid-template-areas`: Defines a grid template by giving names to grid areas, which you can then refer to when placing items on the grid. 
+	- You can use dots (`.`) to indicate empty cells in the grid.
+```css
+.grid-container {
+  /* code */
+  grid-template-areas:
+    "header header"
+    "sidebar main"; /* 2x2 grid */
+}
+
+.header { grid-area: header; }
+
+.sidebar { grid-area: sidebar; }
+
+.main { grid-area: main; }
+```
+
+- `grid-gap`: Sets the size of the gap between columns and rows in the grid (horizontal and vertical gaps)
+```css
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-gap: 20px;
+}
+```
+
+## Example
+```css
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu   main   main   main   right  right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+```
+```html
+<body>
+  <h1>Grid Layout</h1>
+  <p>This grid layout contains six columns and three rows:</p>
+
+  <div class="grid-container">
+    <div class="item1">Header</div>
+    <div class="item2">Menu</div>
+    <div class="item3">Main</div>  
+    <div class="item4">Right</div>
+    <div class="item5">Footer</div>
+  </div>
+</body>
+```
+
+![](../Assets/20230323184903.png)
+
+
+## Grid vs Flex 
 ![](20230208175436.png)
 

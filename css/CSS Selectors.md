@@ -1,15 +1,25 @@
-# Types of Selectors
-Class: [[css/CSS]]
-Subject: #
+# 🎨 CSS Types of Selectors
+Class: <a href="https://github.com/lamula21/cheat-sheets/blob/main/css/CSS.md">CSS</a>
+Subject: [[CSS]]
 Date: 2023-02-06
 Topics: #, #, # 
 
 ---
 
-# Selectors
+# 👉 Selectors
+- Useful in CSS to select specific or multiple tags in our HTML for styling
+```html
+<div class="parent child"> 
+  <p id="mi_id_unico">Lorem ipsum dolor sit amet</p>
+</div> 
 
-## HTML Elements
-- General styling: All paragraphs will have same design
+<div class="parent"> 
+  <!-- More tags --> 
+</div>
+```
+
+## HTML Tags Selector
+- Select all elements with a tag (`p`)
 ```css
 p {
 	text-align: center;
@@ -17,8 +27,8 @@ p {
 }
 ```
 
-## ID
-Unique ID for each HTML file susch that there cannot be two same IDs.
+## ID Selector
+- Select a HTML tag by an unique ID (`#`)
 ```css
 #mi_id_unico {
   text-align: center;
@@ -26,31 +36,66 @@ Unique ID for each HTML file susch that there cannot be two same IDs.
 }
 ```
 
-```html
-<p id="mi_id_unico">Lorem ipsum dolor sit amet</p>
+## Class Selector
+- Target elements by a class name (`.`)
+```css
+.parent {
+  /* Style */
+}
 ```
 
-## Class
-
-## Universal Selector
-- With a `*` symbol
-	- From HTML, everything inside `<\p>` will be set to `red`
+- Target a tag with nested class name
 ```css
-p * {
-	color: red;
+<div class="parent child"></div>
+
+.parent.child {
+  /* Style */
+}
+```
+
+## Descendant Selector
+- Given HTML
+```html
+<div class="parent"> 
+  <div class="subparent"> 
+    <h2 class="text"> Selected </h2>
+  </div>
+</div> 
+
+<div class="stuff"> 
+  <div class="subparent"> 
+    <h2 class="text"> No Selected </h2>
+  </div>
+</div> 
+```
+
+- Select a tag that are only descendants of a parent class
+```css
+.parent .text {
+  /* Style */
+}
+```
+
+- Select a tag that are direct children of a parent class
+```css
+.parent > .subparent {
+  /* Style */
+}
+
+.parent > .text {
+  /* No selected */
 }
 ```
 
 ## Child Selector
-- With `>` symbol
-- Matches when an element is the child of some element
+- Useful when want to select without changing the HTML file with `classes` selectors
 ```css
 /* p has to be a immeadiate child of body */
 body > p { line-height: 1.3 }
 ```
-- Useful when you don't want to change the HTML file with `classes` selectors
 
-## Attributes Selectors
+## Attribute Selector
+- Select a tag by an attribute
 - Works as a boolean
 ```html
 <a href="http://www.umd.edu" title="news">News</a>
@@ -62,118 +107,10 @@ a[title="news"] {
 }
 ```
 
-## Lorem Ipsum
-
-
-## Box Model
-- CSS box model:
-	- content: text, images, etc 
-	- padding: white space between `border` and `contents`
-	- border: box border
-	- margin: whitespace outside of the box
-- ![](../Assets/20230206174533.png)
-- ![](../Assets/20230208170806.png)
-
-## Shortcut
-- Allows you to specify several properties by using only one
-	- If you don’t specify one of the properties, a default value will be used
-- Commonly used shorthand properties 
-	- background
-	- font
-	- list-style
-	- margin
-	- border – padding
-
+## Universal Selector
+- Select all tags with a `*` symbol
 ```css
-.noShorthand {
-
-    /* Font specification */
-    font-style: italic;
-    font-variant: small-caps;
-    font-weight: normal;
-    font-size: .80em;
-    line-height: 1.1em;
-    font-family: Verdana, Arial, sans-serif;
-
-    /* Border specification */
-    border-width: 2em;
-    border-style: solid;
-    border-color: green;
-
-    /* Margin specification */
-    margin-top: 6em;
-    margin-right: 8em;
-    margin-bottom: 4em;
-    margin-left: 2em;
-    
-    /* Padding specification*/
-    padding-top: 3em;
-    padding-right: 4em;
-    padding-bottom: 2em;
-    padding-left: 1em;
+p * {
+	color: red;
 }
 ```
-
-```css
-.withShorthand {
-
-    /* Font specification */
-    font: italic small-caps normal .80em/1.1em Verdana, Arial, sans-serif;
-
-    /* Border specification */
-    border: 2em solid green;
-
-    /* Margin specification */
-    margin: 6em 8em 4em 2em;
-
-    /* Padding specification*/
-    padding: 3em 4em 2em 1em;
-
-    /* Description defining the color of each side */
-    border-color: red green blue yellow;
-}
-```
-
-## Background effects
-```css
-body {
-	/* Background properties */
-	font-family: serif; /* Try cursive */
-	background-color: silver;
-	background-image: url(campusBldg.jpg);
-	background-size: 20% 30%; /* Try cover, auto auto */
-	background-repeat: repeat-x; /* Try repeat-y, no-repeat, repeat */
-	background-attachment: fixed; /* Try scroll */
-	background-position: center; /* Try top, right, bottom, left */
-	
-	/* background-image: url(https://background-tiles.com/overview/white/patterns/large/1029.png); */
-}
-```
-
-## Media Query
-- Uses the `@media` rule to include a block of CSS rule only if a certain condition is true
-- Sets the background color only if the browser window is 600px or smaller
-```css
-@media only screen and (max-width: 600px) {
-
-	body {
-
-		background-color: purple;
-
-	}
-
-}
-```
-
-## Generic Font Families
-- serif
-	- Examples: Times New Roman, Georgia
-- sans-serif
-	- Examples: Verdana, Arial
-- monospace
-	- Example: Courier New, Consolas
-- cursive
-- fantasy
-	- Comic Sans MS, …
-- Specify a generic family 
-	- font-family: serif;
