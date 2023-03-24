@@ -8,16 +8,18 @@ Topics: #, #, #
 
 # Intro to Tags
 
--
 
 # Paragraphs `<p>`
 
 
 # Anchors `<a>`
 
+
 # Links `<link>`
 
+
 # Tables `<table>`
+
 
 # Form `<form>`
 

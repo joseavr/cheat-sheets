@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flask Bootstrap.md",
+                "file": "javascript/JS Events.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Flask Bootstrap.md",
+                "file": "javascript/JS Events.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Flask Bootstrap.md",
+                "file": "javascript/JS Events.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Flask Bootstrap.md"
+                "file": "javascript/JS Events.md"
               }
             }
           },
@@ -175,11 +175,17 @@
   },
   "active": "324864d88082fd10",
   "lastOpenFiles": [
+    "css/CSS Pseudo-elements.md",
+    "css/CSS Pseudo-classes.md",
+    "css/CSS Center Element.md",
+    "CMSC 351 Algorithms/Algorithms QuickSort.md",
+    "CMSC 351 Algorithms/Algorithms Rigorous Time.md",
+    "CMSC 351 Algorithms/Algorithms Selection Sort.md",
+    "flask/Flask Bootstrap.md",
     "flask/Flask Save Images.md",
     "flask/Flask Flash Messages.md",
     "flask/Flask Routes.md",
     "flask/Flask Project 4.md",
-    "Flask Bootstrap.md",
     "Flask Jinja.md",
     "flask/Flash Error Pages.md",
     "flask/Flask.md",
@@ -195,12 +201,6 @@
     "Flask Login.md",
     "Flask Forms.md",
     "css/CSS Display.md",
-    "OCAML FSM.md",
-    "HTML Tags.md",
-    "CMSC 351 Algorithms/Algorithms.md",
-    "CMSC 351 Algorithms/Algorithms Rigorous Time.md",
-    "css/CSS Position.md",
-    "css/CSS Position Examples.md",
     "Assets/20230323193349.png",
     "Assets/20230323193311.png",
     "Assets/20230323192835.png",
