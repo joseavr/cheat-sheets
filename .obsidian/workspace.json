@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "8aa273135eaf3be6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "css/CSS Position Examples.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "css/CSS Position.md",
+                "file": "css/CSS Position Examples.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "css/CSS Position.md",
+                "file": "css/CSS Position Examples.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "css/CSS Position.md"
+                "file": "css/CSS Position Examples.md"
               }
             }
           },
@@ -160,15 +173,16 @@
       "omnisearch:Omnisearch": true
     }
   },
-  "active": "0a1580ba4ebc4e8e",
+  "active": "8aa273135eaf3be6",
   "lastOpenFiles": [
-    "css/CSS.md",
-    "css/CSS Pseudo-elements.md",
     "css/CSS Selectors.md",
-    "css/CSS Pseudo-classes.md",
-    "css/CSS Properties.md",
+    "css/CSS Position Examples.md",
+    "css/CSS.md",
     "css/CSS Position.md",
     "css/CSS Display.md",
+    "css/CSS Pseudo-elements.md",
+    "css/CSS Pseudo-classes.md",
+    "css/CSS Properties.md",
     "css/CSS Center Element.md",
     "css/CSS Box Model.md",
     "CMSC 351 Algorithms/Algorithms Binary Search.md",
