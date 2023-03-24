@@ -1,5 +1,5 @@
-# Flask Forms
-Class: [[Flask]]
+# 🌶️ Flask Forms
+Class: [[flask/Flask]]
 Subject: #
 Date: 2023-03-04
 Topics: #, #, # 
@@ -49,6 +49,7 @@ python3 -c "import os; print(os.urandom(16))"
 # set SECRET_KEY
 app.configp['SECRET_KEY'] = b'.....'
 ```
+- More about Session in [[Flask User Management]]
 
 # 🗞️ Form Handling
 - Form handling is easy with Flask-WTF package
@@ -56,21 +57,22 @@ app.configp['SECRET_KEY'] = b'.....'
 pip3 isntall Flask-WTF
 ```
 
-## Import Fields
-It takes two parameters: `fun( name:str` , `validator:lst )`
+## Form Fields
+It takes two parameters: `ClassField( label_name:str` , `validator:lst )`
 - `StringField()`
 - `IntegerField()`
 - `SubmitField()`
+- …
 
-## Import Validator
-This is a `validator:lst` and usually has:
+## Form Validators
+A `validator:lst` usually has:
 - `InputRequired()`
 - `Length(min:int , max:int)`
 - `NumberRange(min:int , max:int , msg:str)`
 - List of validators
 	- https://wtforms.readthedocs.io
 
-## Create own Validator
+### Create own Validator
 - Create custom validator with `validate_<name_field>()`
 - **Example**: write a custom validator function for a field called "username" to check whether its length is greater than or equal to 1. If not, throw error
 ```python
@@ -102,15 +104,15 @@ class WelcomeForm(FlaskForm):
 	submit = SubmitField('Submit')
 ```
 
-# 🔄 Redirect
-- Next, if form is validated in `WelcomeForm()` then
-	- process data from form 
-	- redirect
-- Assume `WelcomeForm` is in a file `forms.py`
-- To render the form into HTML, pass `form` object into `render_template()`
+# 🔄 Form - Method POST
+- Assume we have a `WelcomeForm()` that post some data in a DB:
+	- process data from form (HTML)
+	- Validates when submitted
+		- If valid, redirects to a route
+		- If not valid, redirects to another route
+- To validate our form in the HTML, pass `form` object into `render_template()`
 ```python
 # routes.py
-
 from flask import render_template, redirect, request
 from forms import * # allows import all functions from forms.
 
@@ -118,22 +120,29 @@ from forms import * # allows import all functions from forms.
 def index():
 	form = WelcomeForm()  # form variable
 	if request.method == 'POST' and form.validate_on_submit():
+		# do stuff on the DB
 		return redirect('/')
-	# else
+	# Renders this template when URL is '/'
 	return render_template('index.html', title='Front page', form=form)
 ```
 
+## Validate form in HTML
 - How do we render `form` variable? We use it in the HTML
 - The `form` variable provides CSRF token
+- We can add attributes to the `form` fields 
 ```html
 {% extends "base.html"}
 {% block content %}
 	<h1> Welcome to the website! </h1>
 	<form action="/" method="post">
+		<!-- Must csr_token -->
 		{{ form.csrf_token }}
-		{{ form.name.label }}: {{ form.name(size=40) }} <br>
-		{{ form.location.label }} {{ form.location(size=60) }} <br>
-		{{ form.submit() }}
+		<!-- a label for textfield -->
+		{{ form.name.label(class="label", ...) }} 
+		<!-- textfield -->
+		{{ form.location.label(placeholder="Enter location") }}
+		<!-- submit button -->
+		{{ form.submit(class="submit") }}
 	</form>
 {% endblock %}
 ```

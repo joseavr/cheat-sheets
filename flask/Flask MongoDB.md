@@ -1,5 +1,5 @@
-# Flask MongoDB
-Class: [[Flask]]
+# 🌶️ Flask MongoDB
+Class: [[flask/Flask]]
 Subject: #
 Date: 2023-03-04
 Topics: #, #, # 
@@ -11,6 +11,7 @@ Topics: #, #, #
 ```shell
 pip3 install FLask-MyMongo
 ```
+
 ## Create Database
 - Start mongoDB with `mongosh` and get the localhost address
 
@@ -27,6 +28,7 @@ python3 -c "import os; print(os.urandom(16))"
 # In app.py
 app.config['SECRET_KEY'] = b'r\\\xe5Xy...\xbd'
 ```
+
 ## Connecting Py with Mongo
 - We can use `mongo.db` to reference our MongoDB
 ```python
@@ -60,11 +62,15 @@ mongo.db.users
 # ➕ Add Multiple Documents
 - Suppose we have a `document` for one user
 ```python
-new_user = [{
+new_users = [{
 	'name': 'Matias'
 	'location' : 'Argentina',
 	'age' : 22,
-}
+	}
+	{
+	...
+	}
+]
 ```
 - We want to add this `document` into our `collection` called **users** 
 ```python
@@ -96,7 +102,6 @@ for user in mongo.db.users.find({ 'age': {'$gt': 20} })
 - Fix by encapsulating: `list()`, `dict()`, ...,  etc
 
 # 🆕 Create Unique Indices in MongDB
-
 - Each `document` has their unique `_id`
 - Let's say for example, 
 	- An user for a login webpage has an unique `_id`
@@ -119,3 +124,31 @@ print(list(db.profiles.index_information()))
 # 🆚 Collection vs Document
 - These 2 documents above forms a `collection`
 ![](../Assets/20230304073406.png)
+
+# ✅ Useful Mongosh Commands
+- Switch to another database in Mongosh, `use <database>` command
+```python
+use mydatabase
+```
+
+- Retrieve all users in DB using Mongosh
+```python
+db.getUsers()
+```
+
+- Return a list of all the collections in the `mydatabase` database.
+```python
+db.getCollectionNames()
+
+returns => [ 'user', 'images.chunks', 'review', 'images.files' ]
+
+```
+
+- Check the contents of the `user` collection in Mongosh
+```python
+db.user.find()
+```
+```python
+db.user.find({ username: "john" })
+```
+

@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b2beee03ab97929d",
+        "id": "4f1124526dfe374f",
         "type": "tabs",
         "children": [
           {
-            "id": "0a1580ba4ebc4e8e",
+            "id": "43b5e69e215a1282",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/CSS Position.md",
+                "file": "flask/Flask Flash Messages.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "8aa273135eaf3be6",
+            "id": "324864d88082fd10",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/CSS Display.md",
+                "file": "Flask Bootstrap.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "css/CSS Display.md",
+                "file": "Flask Bootstrap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "css/CSS Display.md",
+                "file": "Flask Bootstrap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "css/CSS Display.md"
+                "file": "Flask Bootstrap.md"
               }
             }
           },
@@ -173,19 +173,34 @@
       "omnisearch:Omnisearch": true
     }
   },
-  "active": "8aa273135eaf3be6",
+  "active": "324864d88082fd10",
   "lastOpenFiles": [
-    "css/CSS Position Examples.md",
-    "css/CSS Selectors.md",
-    "css/CSS.md",
-    "css/CSS Position.md",
+    "flask/Flask Save Images.md",
+    "flask/Flask Flash Messages.md",
+    "flask/Flask Routes.md",
+    "flask/Flask Project 4.md",
+    "Flask Bootstrap.md",
+    "Flask Jinja.md",
+    "flask/Flash Error Pages.md",
+    "flask/Flask.md",
+    "flask/Flask Intro.md",
+    "flask/Flask Forms.md",
+    "flask/Flask Render Template.md",
+    "flask/Flask Models Schema.md",
+    "flask/Flask User Management.md",
+    "Flask Registration.md",
+    "flask/Flask MongoDB.md",
+    "Flask Auth.md",
+    "Flask Password Storage.md",
+    "Flask Login.md",
+    "Flask Forms.md",
     "css/CSS Display.md",
-    "css/CSS Pseudo-elements.md",
-    "css/CSS Pseudo-classes.md",
-    "css/CSS Properties.md",
-    "css/CSS Center Element.md",
-    "css/CSS Box Model.md",
-    "CMSC 351 Algorithms/Algorithms Binary Search.md",
+    "OCAML FSM.md",
+    "HTML Tags.md",
+    "CMSC 351 Algorithms/Algorithms.md",
+    "CMSC 351 Algorithms/Algorithms Rigorous Time.md",
+    "css/CSS Position.md",
+    "css/CSS Position Examples.md",
     "Assets/20230323193349.png",
     "Assets/20230323193311.png",
     "Assets/20230323192835.png",
@@ -195,22 +210,7 @@
     "Assets/20230323193127.png",
     "Assets/20230323193006.png",
     "Pasted image 20230323192805.png",
-    "README.md",
     "Assets/20230323182109.png",
-    "css/CSS Web Servers.md",
-    "flask/Flask Project 4.md",
-    "HTML Tags.md",
-    "OCAML FSM.md",
-    "flask/Flask.md",
-    "flask/Flask Intro.md",
-    "CMSC 351 Algorithms/Algorithms.md",
-    "CMSC 351 Algorithms/Algorithms Insertion Sort.md",
-    "CMSC 351 Algorithms/Algorithms QuickSort.md",
-    "ocaml/OCAML NFA-DFA.md",
-    "Templates/Template Algorithms.md",
-    "CMSC 351 Algorithms/Algorithms HeapSort.md",
-    "CMSC 351 Algorithms/Algorithms MergeSort.md",
-    "CMSC 351 Algorithms/Algorithms Master Theorem.md",
     "Untitled",
     "flask",
     "MATH 406 Number Theory",

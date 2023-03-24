@@ -50,7 +50,7 @@
 
 ## Account Page
 - Added a static badge for users to show account accomplishment and veracity.
-- **Note**: future implementation to enabling this badge based on the number of reviews made by this user. Audience critic or public critic may be also added.
+- **Note**: future implementation to enabling this badge based on the number of reviews made by this user. Audience critic or public critic badge may also be added.
 
 ![](../Assets/20230322234323.png)
 
@@ -75,7 +75,7 @@
 - Users can change to dark theme or ligth theme
 - Used Ligth theme and Dark theme icon from Bootstrap
 - Used `form post` to save the theme mode of an user in the database (header.html)
-- Each user has their own theme, modified User in models.py
+- Each user has their own theme, modified User class in models.py
 - The chosen theme is applied for all pages
 - When user log out and log in, the page will load the theme they left from previous session
 - For this implementation, used inline JS code (script tag) , `current_user` field, and inline CSS (style tag) in header.html
