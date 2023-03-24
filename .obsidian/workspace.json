@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/CSS Position Examples.md",
+                "file": "css/CSS Display.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "css/CSS Position Examples.md",
+                "file": "css/CSS Display.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "css/CSS Position Examples.md",
+                "file": "css/CSS Display.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "css/CSS Position Examples.md"
+                "file": "css/CSS Display.md"
               }
             }
           },
@@ -175,8 +175,8 @@
   },
   "active": "8aa273135eaf3be6",
   "lastOpenFiles": [
-    "css/CSS Selectors.md",
     "css/CSS Position Examples.md",
+    "css/CSS Selectors.md",
     "css/CSS.md",
     "css/CSS Position.md",
     "css/CSS Display.md",

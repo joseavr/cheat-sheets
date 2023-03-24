@@ -55,6 +55,7 @@ div {
 ## Inline-block
 - The element is inline
 - Inside of this element is formatted as a block 
+
 ![](../Assets/20230323172741.png)
 
 # 3️⃣ None
@@ -72,12 +73,15 @@ div {
 ```
 
 Original Block:
+
 ![](../Assets/20230323135221.png)
 
 After Remove pressed:
+
 ![](../Assets/20230323135234.png)
 
 After Hide pressed:
+
 ![](../Assets/20230323135246.png)
 
 # 4️⃣ FlexBox
@@ -103,7 +107,6 @@ After Hide pressed:
 	- `nowrap` (default)
 	- `wrap`
 	- `wrap-reverse`
-	- 
 ```css
 .flex-container {
   display: flex; /* Change to block */
@@ -121,6 +124,7 @@ After Hide pressed:
   font-size: 30px;
 }
 ```
+
 ![](20230208174818.png)
 
 
@@ -215,5 +219,5 @@ After Hide pressed:
 
 
 ## Grid vs Flex 
-![](20230208175436.png)
+![](../Assets/20230208175436.png)
 

@@ -10,7 +10,6 @@ Topics: #, #, #
 ---
 
 # Modal Window
-
 ```css
 .modal {
   position: fixed;
