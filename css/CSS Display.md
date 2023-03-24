@@ -59,9 +59,8 @@ div {
 ![](../Assets/20230323172741.png)
 
 # 3️⃣ None
-- `display:none` - removes the element from the document. Does not take up any space. 
+- `display:none` - removes the element from the document. Does not take up any space. Usually used with `onclick` event in JavaScript to hide and show elements when clicked.
 - `visibility: hidden` - hides the element, but it still takes up space in the layout.
-- `display: none` - used usually with `onclick` event in JavaScript to hide and show elements when clicked. ``
 - Default none-elements:
 	- `<script>`
 	- ...
