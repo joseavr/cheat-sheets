@@ -1,4 +1,4 @@
-# Flask Save Images
+# 🌶️ Flask Save Images
 Class: <a href=""> </a>
 
 Subject: #
@@ -9,7 +9,7 @@ Topics: #, #, #
 
 ---
 
-# Upload Images - Form
+# ⬆️ Upload Images - Form
 
 ```python
 class PictureForm(FlaskForm):
@@ -20,21 +20,21 @@ class PictureForm(FlaskForm):
     submit = SubmitField('Update')
 ```
 
-# Upload Images - Form HTML 
+# ⬆️ Upload Images - Form HTML 
 ```python
 <form action="" method="post" enctype="multipart/form-data">
     ... {# your csrf token and all fields here #}
 </form>
 ```
 
-# Upload Images - Schema
+# ⬆️ Upload Images - Schema
 ```python
 class User(db.Document, UserMixin):
 	# User fields ...
     profile_pic = db.ImageField()
 ```
 
-# Upload Images to MongoDB
+# ⬆️ Upload Images to MongoDB
 
 ```python
 @app.route('/account', methods=['GET', 'POST'])
@@ -55,7 +55,7 @@ def account():
 ```
 
 
-# Displaying Images Saved on MongoDB
+# 🖥️ Displaying Images Saved on MongoDB
 - Assume that we want to show the profile picture of the current_user somewhere on the page.    
 - We can read the image data, turn this into a BytesIO object, encode the image in base64, decode this, and display it
 ```python

@@ -1,4 +1,4 @@
-# Flash Routes
+# 🌶️ Flask Routes
 Class: <a href=""> </a>
 
 Subject: [[Flask]]
@@ -84,10 +84,6 @@ def hello():  # view function
 	- The HTML template to be rendered when the route is accessed.
 	- The variables from the view functions that will be passed to the HTML template
 ```python
-from flask import Flask, render_template
-
-app = Flask(__name__)
-
 @app.route('/products')
 def products():
     products = [
@@ -131,4 +127,52 @@ def login():
 
 ## `url_for`
 - A function that generates a URL for a view function.
-- **Rule**: `url_for('<view_function>')`
+- Useful for no hardcoding URLs 
+- **Rule**: `url_for('<view_function>', '<variable=data>')`
+	- Two parameters:
+	- `<view_function>`: the view function itself without `()`
+	- `<variable=data>`: variables that takes the route. `variable`'s name must be same as in the route and `data` any data passing to the variable 
+
+- Example
+```html
+<!-- Account.html -->
+<a href="{{ url_for('user_detail', username=current_user.username) }}">
+</a>
+```
+
+```python
+# User Detail Route
+@app.route("/user/<username>")
+def user_detail(username):
+  # Retrieve user from database
+  return render_template(...) # Renders user_detail.html
+```
+
+# How to 
+
+## Multiple routes for a function
+```python
+@app.route('/foo')
+@app.route('/bar')
+def foobar():
+    return 'This is the foobar page.'
+```
+
+## Multiple functions for a route
+```python
+@app.route('/foobar')
+def foobar():
+    return render_template('foobar.html')
+
+@app.route('/foobar', methods=['POST'])
+def handle_foobar_form():
+    # code to handle the submitted form data
+    return redirect('/foobar')
+```
+- The first function, `foobar`, is called when the user navigates to the `/foobar` URL. 
+	- Returns a rendered HTML template, which might contain a form that the user can fill out.
+- The second function is called when the user submits the form on the `/foobar` page. 
+	- Handles the submitted form data and returns a redirect to the same `/foobar` URL, which causes the `foobar` function to be called again and the updated content to be displayed.
+- **Note**: that we have specified the `methods=['POST']` argument for the second `@app.route` decorator. 
+	- This tells Flask to only call this function when a POST request is made to the `/foobar` URL. 
+	- By default, Flask assumes that routes will only handle GET requests, so you need to specify `methods=['POST']` if you want to handle other HTTP methods like POST, PUT, DELETE, etc.

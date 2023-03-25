@@ -1,4 +1,4 @@
-# Flask Models Schema
+# 🌶️ Flask Models Schema
 Class: <a href=""> </a>
 
 Subject: [[Flask]]
@@ -26,7 +26,7 @@ class User(db.Document):
     password = db.StringField()
 ```
 
-# Building a Schema
+# 🔨 Building a Schema
 - To get started:
 ```bash
 pip3 install flask-mongoengine
@@ -77,17 +77,20 @@ class User(db.Document, UserMixin):
 ## `current_user`
 - Since we passed `UserMixin` , links `current_user` with this schema
 - Means that we can use ALL properties/methods `User` class may have
-	- current_user.username
-	- current_user.email
-	- current_user.password
-	- current_user.profile_pic
-	- current_user.dark_mode
-	- current_user.get_id()
+	- `current_user.username`
+	- `current_user.email`
+	- `current_user.password`
+	- `current_user.profile_pic`
+	- more fields
 - Since we overrided `get_id()`, we can use these properties/methods
-	- current_user.is_authenticated
-	- current_user.is_active
-	- current_user.is_anonymous
-	- current_user.get_id()
+	- `current_user.is_authenticated`: returns True if user is currently logged in
+	- `current_user.is_active`: Returns True if user is active:
+		- The user has verified their email address or phone number during the registration process.
+		- The user has not violated any of the website's terms of service or community guidelines.
+		- The user has not been suspended or banned by the website's moderators or administrators.
+		- The user's account has not been dormant for an extended period of time without any activity, such as logging in or performing actions on the website.
+	- `current_user.is_anonymous`: Returns True if user is not currently logged in
+	- `current_user.get_id()`: get unique ID from user
 - To make `flask_login` returns the active user, we **MUST** implement:
 ```python
 # in models.py

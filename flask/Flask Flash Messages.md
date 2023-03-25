@@ -17,6 +17,7 @@ Topics: #, #, #
 ```python
 from flask import flash
 ```
+
 # ⚡️Flash Messages with Categories
 - Category can be any string
 - Rule: `flash('message', 'category')`
@@ -24,6 +25,7 @@ from flask import flash
 ```jinja
 {% with messages = get_flashed_messages(with_categories=true) %}
 ```
+
 ## Example 
 ```python
 from flask import  flash, Flask, render_template, request, redirect, url_for

@@ -1,4 +1,4 @@
-# 🎬 Flask Error Pages
+# 🌶️ Flask Error Pages
 Class: <a href=""> </a>
 
 Subject: [[Flask]]

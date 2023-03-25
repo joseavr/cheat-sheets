@@ -147,8 +147,7 @@ returns => [ 'user', 'images.chunks', 'review', 'images.files' ]
 - Check the contents of the `user` collection in Mongosh
 ```python
 db.user.find()
-```
-```python
+
 db.user.find({ username: "john" })
 ```
 

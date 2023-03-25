@@ -1,4 +1,4 @@
-# Flask Bootstrap
+# 🌶️ Flask Bootstrap
 Class: <a href=""> </a>
 
 Subject: #
@@ -8,7 +8,7 @@ Date: 2023-03-24
 Topics: #, #, # 
 
 ---
-# Intro to Bootstrap
+# 🎬 Intro to Bootstrap
 - CSS/JS framework, makes websites look prettier
 - Import from [getbootstrap.com](https://getbootstrap.com/)
 
@@ -24,7 +24,7 @@ Advantages of Bootstrap:
 - **Mobile-first approach:** In Bootstrap, mobile-first styles are part of the core framework
 - **Browser compatibility:** Bootstrap 5 is compatible with all modern browsers (Chrome, Firefox, Edge, Safari, and Opera). **Note** that if you need support for IE11 and down, you must use either BS4 or BS3.
 
-# Importing Bootstrap to our App
+# ⬆️ Importing Bootstrap to our App
 - Include these codes in our HTML file
 ```html
 <!-- Include in <head> -->
@@ -36,12 +36,12 @@ Advantages of Bootstrap:
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 ```
 
-# Favicons
+# 🧑‍🎨 Favicons
 - Save in static directory as favicon.ico
 - Add link tag to between the `<head>` tags
-- **<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">**
+- <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 
-# Bootstrap Icons
+# 🖼️ Bootstrap Icons
 - Include this code in `<head>`
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
@@ -49,36 +49,37 @@ Advantages of Bootstrap:
 
 - Boxicons, similar to Bootstrap icons: [Boxicons Docs](https://boxicons.com/usage)
 
-# Avatar
+# 🥾 Bootstrap 
+## Avatar
 - [Bootstrap Avatar v5](https://mdbootstrap.com/docs/standard/extended/avatar/)
 
-# Alerts
+## Alerts
 - [W3Schools Bootsrap Alerts](https://www.w3schools.com/bootstrap/bootstrap_alerts.asp)
 
-# Badges
+## Badges
 - [Bootstrap Badges](https://getbootstrap.com/docs/4.0/components/badge/)
 - [W3Schools Bootstrap Badges](https://www.w3schools.com/bootstrap/bootstrap_badges_labels.asp)
 
-# Containers
+## Containers
 
-# Carousel
+## Carousel
 - [Bootstrap Carousel v4](https://mdbootstrap.com/docs/b4/jquery/javascript/carousel/)
 - [Bootstrap Carousel v5](https://mdbootstrap.com/docs/standard/components/carousel/)
 
-# Layouts
+## Layouts
 - [Bootstrap Layout Grid v5](https://mdbootstrap.com/docs/standard/layout/grid/)
 
-# Tables
+## Tables
 - [Bootstrap Tables v5](https://getbootstrap.com/docs/5.3/content/tables/)
 
-# Navbar
+## Navbar
 - [Bootstrap Navbar v5](https://getbootstrap.com/docs/5.3/components/navbar/)
 
-# Cards
+## Cards
 - [MD Bootstrap Cards](https://mdbootstrap.com/docs/standard/components/cards/)
 
-# Forms
+## Forms
 - [Bootstrap Forms](https://getbootstrap.com/docs/4.4/components/forms/)
 
-# Some Useful Components
+## Some Useful Components
 - [Bootstrap Extended Components](https://mdbootstrap.com/docs/standard/extended/)
