@@ -85,12 +85,12 @@ After Hide pressed:
 
 # 4️⃣ FlexBox
 - Layout system that enables flexible **one-dimensional** layouts for web pages
-- Allows arrange elements in a row or a column, and adjust their sizes, spacing, and alignment.
-- `Important`: parent element must have `display` property set to `flex`.
+- Allows to **arrange child elements** in a row or column, and adjust their sizes, spacing, and alignment.
+- `Important`: must include `display` property set to `flex`.
 ## Flex Common properties:
 - `flex-direction`: Sets the direction of the flex container's main axis to either `row` (default), `column`, `row-reverse`, or `column-reverse`.
 - `justify-content`: Aligns the flex container's items along the main axis (flex-direction axis).
-	- `flex-start` (default), 
+	- `flex-start` (default)
 	- `flex-end` 
 	- `center`
 	- `space-between`

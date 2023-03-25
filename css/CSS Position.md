@@ -18,6 +18,7 @@ Topics: #, #, #
 - Default position for all elements. 
 - Element is positioned according to the normal flow of the page. 
 - Cannot use any of the position properties: top, bottom, left, or right.
+
 ![](../Assets/20230323193127.png)
 ```css
 .element {
