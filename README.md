@@ -24,8 +24,5 @@ I am particularly interested in getting familiar with software engineering. I be
 
 My main goal is to become part of a team that can create efficient, valuable, and useful software for the general public. I know that entering the field of computer science, with a particular focus on software engineering, will be the key to the success of my personal goals.
 
-As of today, the courses I take at the University of Maryland is a great first step in achieving my goal. Other courses I am currently studying include Mathematics and Business. I believe that mathematics is essential for my selected career, and business will help me bring to market the ideas or innovations that I create. 
-
-I am a very hardworking student that studies full time and give training session in my related field. I train several students at UMD, and this has allowed me to improve my teaching skills. 
-
+As of today, the courses I take at the University of Maryland is a great first step in achieving my goal. Other courses I am currently studying include Mathematics and Business. I believe that mathematics is essential for my selected career, and business will help me bring to market the ideas or innovations that I create.
 
