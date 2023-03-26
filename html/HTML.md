@@ -2,7 +2,7 @@
 
 
 # Table of Contents
-- [[HTML Form]]
+- [[HTML Forms]]
 - 
 
 ## Data Structure

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6bb68010cc875c39",
+        "id": "df1cf3dda471a9da",
         "type": "tabs",
         "children": [
           {
-            "id": "377b4f8701cdd1a4",
+            "id": "cce96272a2434046",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML Forms Type.md",
+                "file": "javascript/JS Element Selectors.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTML Forms Type.md",
+                "file": "javascript/JS Element Selectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTML Forms Type.md",
+                "file": "javascript/JS Element Selectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML Forms Type.md"
+                "file": "javascript/JS Element Selectors.md"
               }
             }
           },
@@ -158,8 +158,20 @@
       "omnisearch:Omnisearch": true
     }
   },
-  "active": "377b4f8701cdd1a4",
+  "active": "cce96272a2434046",
   "lastOpenFiles": [
+    "javascript/JS Events.md",
+    "javascript/JS Element Selectors.md",
+    "javascript/JS Promises.md",
+    "css/CSS Position.md",
+    "javascript/JS Functions.md",
+    "javascript/JS Template Literals.md",
+    "javascript/JS Nullity.md",
+    "javascript/JS Load JS.md",
+    "css/CSS Display.md",
+    "Assets/20230325164046.png",
+    "Assets/20230325163940.png",
+    "Assets/20230325163642.png",
     "HTML Tags.md",
     "HTML Forms Type.md",
     "flask/Flask Jinja.md",
@@ -175,27 +187,15 @@
     "Assets/IMG_2651.jpg",
     "html/HTML Forms.md",
     "html/HTML Block vs Inline.md",
-    "Untitled.md",
     "flask/Flask Routes.md",
     "flask/Flask Save Images.md",
     "flask/Flask Project 4.md",
     "flask/Flask MongoDB.md",
     "flask/Flask Forms.md",
     "flask/Flask Intro.md",
-    "flask/Flask Flash Messages.md",
-    "flask/Flask Error Pages.md",
-    "javascript/JS Events.md",
-    "css/CSS Pseudo-elements.md",
-    "css/CSS Pseudo-classes.md",
-    "css/CSS Center Element.md",
-    "CMSC 351 Algorithms/Algorithms QuickSort.md",
-    "CMSC 351 Algorithms/Algorithms Rigorous Time.md",
     "Assets/20230323193349.png",
     "Assets/20230323193311.png",
     "Assets/20230323192835.png",
-    "Assets/20230323184903.png",
-    "Assets/IMG_25D323DF4D1D-1.jpeg",
-    "Assets/IMG_7B4FFB7D31E6-1.jpeg",
     "Untitled",
     "flask",
     "MATH 406 Number Theory",
