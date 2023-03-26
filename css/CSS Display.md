@@ -96,12 +96,19 @@ After Hide pressed:
 	- `space-between`
 	- `space-around`
 	- `space-evenly`
+![](../Assets/20230325163642.png)
+
 - `align-items`: Aligns the flex contaier's item along the opposite of main axis (opposite axis of flex-direction). 
 	- `stretch` (default)
 	- `flex-start`
 	- `flex-end`
 	- `center`
 	- `baseline`
+![](../Assets/20230325163940.png)
+
+- `align-content`:
+![](../Assets/20230325164046.png)
+
 - `flex-wrap`: Controls whether the flex container's items should wrap or not. 
 	- `nowrap` (default)
 	- `wrap`
