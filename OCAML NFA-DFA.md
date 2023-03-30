@@ -23,7 +23,9 @@ An NFA is represented by digraphs called state diagram.
 -   The initial state is denoted by an empty single arrow.
 -   The final state is indicated by double circles.
 
+
 # 📝 Formal Definition
+
 NFA → { Q, ∑, ∂, q0, F}
 - ∑ → Finite non-empty set of input symbols. 
 - Q → Finite non-empty set of states. 
@@ -40,15 +42,17 @@ Let a non-deterministic finite automaton be
 - Q nonempty states → s0 , s1 , s2 , s3 , s4 , s5 , s6
 - q0 start state → s0
 - F ending state → s4 , s6
-- ∂ list of possible transitions → 
-	- [(s1 , a, s3) , __ , __ ]
+- ∂ transitions list → 
+	- [ (s1, a, s3) , (s1, a, s5), ...] 
 
 
 # 🆚 NFA vs DFA
 - NFA can have epsilon (ε) transitions, multiple transitions coming out of one state
 - DFA cannot have ***ε-transitions*** and cannot have multiple transitions on the same symbol
 
+
 # ➡ Convert NFA to DFA
+
 ## ε-closure
 - `ε-closure(δ, p)` returns the set of states reachable from p using only ***ε-transitions*** alone.
 - Returned set always has `p`
@@ -62,6 +66,7 @@ All possible transitions with epsilons (ε)
 - ε-closure(p2) → {p2 , p3}
 - ε-closure(p3) → { p3 }
 - ε-closure({p1,p3}) → {p1 , p2 , p3} U {p2 , p3} = {p1 , p2 , p3}
+
 
 ## move
 - Simpler version of ε-closure
@@ -79,6 +84,7 @@ All possible `move`
 - move(p3 , b) → ø
 - move({p1 , p2} , b) → ø U {p3} = {p3}
 
+
 ### Note
 `move` doesn't use free ***ε-transitions***
 
@@ -86,7 +92,9 @@ All possible `move`
 
 - move(p1 , b) = ø
 
-## Algorithm
+
+## Algorithm NFA → DFA
+- Converting NFA to DFA:
 Let $r_0$ = $\varepsilon\text{-closure}(\delta, q_0)$, add it to $R$ <br/>
 While $\exists$ an unmarked state $r \in R$: <br/>
 $\qquad$ Mark $r$ <br/>
@@ -97,6 +105,7 @@ $\qquad \qquad \qquad$ If $e \notin R$ <br/>
 $\qquad \qquad \qquad \qquad$ Let $R = R \cup {e}$ <br/>
 $\qquad \qquad \qquad$ Let $\delta = \delta \cup { r, \sigma, e }$ <br/>
 Let $F = {r \mid \exists s \in r \text{ with } s \in F_n }$ <br/>
+
 
 ## Example
 TODO

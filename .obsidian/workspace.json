@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OCAML Operational Semantics.md",
+                "file": "OCAML NFA-DFA.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OCAML Operational Semantics.md",
+                "file": "OCAML NFA-DFA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OCAML Operational Semantics.md",
+                "file": "OCAML NFA-DFA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OCAML Operational Semantics.md"
+                "file": "OCAML NFA-DFA.md"
               }
             }
           },
@@ -158,8 +158,9 @@
       "omnisearch:Omnisearch": true
     }
   },
-  "active": "acb2c657223a8725",
+  "active": "da0f3d13dd5ff4d6",
   "lastOpenFiles": [
+    "OCAML Operational Semantics.md",
     "Algorithms RadixSort.md",
     "CMSC 351 Algorithms/Algorithms Selection Sort.md",
     "Algorithms Rigorous Time.md",
@@ -172,7 +173,6 @@
     "CMSC 351 Algorithms/Algorithms Bubble Sort.md",
     "Algorithms Binary Search.md",
     "Untitled.md",
-    "OCAML Operational Semantics.md",
     "Algorithms Comparison-Based Sorting.md",
     "Algorithms Counting Sort.md",
     "OCAML OPSEM.md",
