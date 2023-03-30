@@ -1,11 +1,12 @@
 # 🔰Algorithms HeapSort
-Class: <a href="https://github.com/lamula21/cheat-sheets/blob/main/CMSC%20351%20Algorithms/Algorithms.md">Algorithms</a>
 
-Subject: #
+📚Class: CMSC 351 Algorithms
 
-Date: 2023-02-28
+📘Subject: <a href="https://github.com/lamula21/cheat-sheets/blob/main/CMSC%20351%20Algorithms/Algorithms.md">Algorithms</a>
 
-Topics: #, #, # 
+✏️Section: 0301
+
+🗓️Date: {{date}}
 
 ---
 
@@ -146,7 +147,7 @@ $$ Here$$
 <img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315195848.png" width="70%" height="70%"/>
 - Done. We built a max heap
 
-## 2️⃣ Perform HeapSort
+## 3️⃣ Perform HeapSort
 <a href="https://youtu.be/LbB357_RwlY">HeapSort video</a>
 
 
@@ -173,9 +174,3 @@ deleteAll(A)
 		heapify(A , 1)
 ```
 
-- `{{replace}} Recurrence`
-$$T(n) = here $$
-- `Best Case`
-$$T(n) = here$$
-- `Worst Case`
-$$T(n) = here$$

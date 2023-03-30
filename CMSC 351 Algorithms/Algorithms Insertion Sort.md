@@ -1,8 +1,12 @@
 # 🔰 Algorithm Insertion Sort
-Class: <a href="https://github.com/lamula21/cheat-sheets/blob/main/CMSC%20351%20Algorithms/Algorithms.md">Algorithms</a>
-Subject: #
-Date: 2023-02-21
-Topics: #, #, # 
+
+📚Class: CMSC 351 Algorithms
+
+📘Subject: <a href="https://github.com/lamula21/cheat-sheets/blob/main/CMSC%20351%20Algorithms/Algorithms.md">Algorithms</a>
+
+✏️Section: 0301
+
+🗓️Date: {{date}}
 
 ---
 

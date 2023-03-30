@@ -57,3 +57,12 @@ function stopAnimation() {   // this can be linked to a button to stop interval
 	alert("Animation Stopped");
 }
 ```
+
+## 3️⃣ Replace Class with `classList`
+
+```javascript
+function replaceClass() { 
+  var element = document.getElementById("my-paragraph");
+  element.classList.replace("red", "blue"); 
+}
+```

@@ -1,12 +1,11 @@
-# 🔰 Algorithms {{replace}}
+# 🔰 Algorithms Counting Sort
+Class: <a href="https://github.com/lamula21/cheat-sheets/blob/main/CMSC%20351%20Algorithms/Algorithms.md">Algorithms</a>
 
-📚Class: CMSC 351 Algorithms
+Subject: #
 
-📘Subject: <a href="https://github.com/lamula21/cheat-sheets/blob/main/CMSC%20351%20Algorithms/Algorithms.md">Algorithms</a>
+Date: 2023-03-28
 
-✏️Section: 0301
-
-🗓️Date: {{date}}
+Topics: #, #, # 
 
 ---
 # 🎬 Intro to {{replace}}

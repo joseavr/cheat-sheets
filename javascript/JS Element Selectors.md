@@ -54,6 +54,31 @@ document.querySelector("#myImage").src // full path
 // http://127.0.0.1:5500/EventsICode/images/Testudo1.jpg
 ```
 
+# ⬆️ Modify Class Attribute
+- Get `classList` and replace an element class with `replace()`
+```html
+<p id="my-paragraph" class="red">Hello, world!</p>
+```
+```javascript
+element.classList.replace("red", "blue");
+```
+
+- `remove()` and `add()`
+```javascript
+element.classList.remove("red"); 
+element.classList.add("blue");
+```
+
+- `toggle(<name>)`: 
+	- If the element has the `<name>` class, it removes it (returns False)
+	- if it doesn't have it, it adds it. (returns True)
+```html
+<p id="my-paragraph" class="red">Hello, world!</p>
+```
+```javascript
+element.classList.toggle("blue");
+```
+
 
 # 📑 Modify Page with innerHTML
 - `document.querySelector().innerHTML` - add/replace HTML code inside an element by ID (e.g div)

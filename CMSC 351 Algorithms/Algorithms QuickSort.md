@@ -1,11 +1,12 @@
 # 🔰 Algorithms QuickSort
-Class: <a href="https://github.com/lamula21/cheat-sheets/blob/main/CMSC%20351%20Algorithms/Algorithms.md">Algorithms</a>
 
-Subject: #
+📚Class: CMSC 351 Algorithms
 
-Date: 2023-03-09
+📘Subject: <a href="https://github.com/lamula21/cheat-sheets/blob/main/CMSC%20351%20Algorithms/Algorithms.md">Algorithms</a>
 
-Topics: #, #, # 
+✏️Section: 0301
+
+🗓️Date: {{date}}
 
 ---
 # 🎬 Intro to QuickSort

@@ -1,14 +1,13 @@
 # Table of Contents
 
 ## Week 1
-- [[flask/Flask]]
+- [[Flask]]
 
 
 ## Week 2
-- Flask Intro
-- Flask Decorators
-- Flask Render Template
-- 
+- [[Flask Intro]]
+- [[Flask Routes]]
+- [[Flask Jinja]]
   
 ## Weeek 3
 - [[Flask Forms|Forms & CSRF]]
@@ -20,8 +19,10 @@
 - [[Flask User Management]] 
 - [[Flask Models Schema]]
 - [[Flask Flash Messages]]
+- [[Flask Error Pages]]
 
 ## Week 6
+- [[Flask Save Images]]
 - [[Flask Bootstrap]]
 
 ## Week 7

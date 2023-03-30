@@ -8,29 +8,38 @@ Topics: #, #, #
 
 
 WebServersFormCOde.zip
+[AccessFormDataUsingJSCode.zip](https://www.cs.umd.edu/class/spring2023/cmsc335/prot/lectures/Week09/AccessFormDataUsingJSCode.zip)
 
-# Label
 
-# Input-Type
+# 🏷️ Label
 
-## Text
+# ⌨️ Input Type
 
-## Checkbox
+## Text Area
 
-## Number
+## Checkbox 
+
+## Radio Button
+
+## Scroll Label
+
+## Number Range
+
+## Drop Down List
+
 
 ## Submit
 
 ## Tel
 
-## Input Attributes
-### Placeholder attribute
+# Input Attributes
+## Placeholder attribute
 https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_placeholder
 
-### Pattern attribute
+## Pattern attribute
 https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_placeholder
 
-### Required attribute
+## Required attribute
 ```html
 <label for="max-cost"> <u>Credit Card #</u> </label>
 	<input type="text" name="cc1" id="" pattern="[0-9]{4}" required> <br> <br>

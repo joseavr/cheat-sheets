@@ -22,7 +22,7 @@ Topics: #, #, #
 - Defines how the contents will be sent
 
 ## HTML GET
-- HTTP GET is used to retrieve data from a server. 
+- HTTP GET is used to **retrieve data** from a server. 
 - When a client sends an HTTP GET request to a server, it is asking the server to send back a resource (such as a web page) specified by a URL. 
 - The data sent in an HTTP GET request is included in the URL as query parameters.
 	- Parameters start after a question mark (?) and are separated by (&)
@@ -35,13 +35,14 @@ Topics: #, #, #
 - `<form method="get">`, the data in the form is appended to the URL as query parameters, and the resulting URL is sent as an HTTP GET request to the server.
 
 ## HTTP POST
-- HTTP POST is used to send data to a server.
+- HTTP POST is used to **send data** to a server.
 - All kind of information is sent in the request body. 
 	- Information such as plain text, JSON or XML.
 - Secure than HTTP GET
 - Better for security as information is not in the URL. Content is "hidden"
 - You can modify the state of the server with POST
 - `<form method="post"`, the data in the form is sent as an HTTP POST request to the server, with the data included in the request body.
+
 ## HTTP PUT
 
 ## HTTP DELETE

@@ -4,12 +4,13 @@ Class:
 
 Subject: <a href=""> </a>
 
-Date: {{date}}
+Date: 2023-03-29
 
 Topics: #, #, # 
 
 ---
 
-# Intro 
+# Intro to Debugger
 
--
+
+# Steps
