@@ -1,8 +1,13 @@
 # 🐫 OCAML Functions
-Class: [[OCAML]]
-Subject: #
-Date: 2023-02-22
-Topics: #, #, # 
+
+📚Class: CMSC 330 Organization of Programming Languages 
+
+📓Subject: OCAML 
+
+✏️Section: 0105 
+
+📅Date: 2023-02-22
+
 
 ---
 
@@ -199,4 +204,19 @@ let rec drop n lst =
 	| 0, lst -> lst
 	| _, [] -> []
 	| n, h::t -> drop (n - 1) t
+```
+
+
+# Unique List
+- Returns an unique List from a list as input 
+
+unique_list $[1;0;1;0]$ = $[1;0]$
+```ocaml
+(* count_occurrence [1; 2; 2; 1; 3] 1 => 2 *)
+let count_occ lst target =
+	fold (fun acc e -> if e = target then acc+1 else acc) 0 lst
+
+(* unique_list [1;2;2;1;3] => [2;1;3]*)
+let unique_list lst =
+	fold (fun acc e -> if (count_occ acc e) > 0 then acc else e::acc) [] (lst)
 ```

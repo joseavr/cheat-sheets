@@ -1,8 +1,12 @@
 # 🐫 OCAML Trees
-Class: [[OCAML]]
-Subject: #
-Date: 2023-03-02
-Topics: #, #, # 
+
+📚Class: CMSC 330 Organization of Programming Languages 
+
+📓Subject: OCAML 
+
+✏️Section: 0105 
+
+📅Date: 2023-03-02
 
 ---
 
@@ -124,6 +128,7 @@ Returns:
 - `map tree f`
 - Iterates each node from `tree` and `f` changes its value
 - Returns same tree
+
 ## Rule
 - `map` takes two parameters:
 	- `f`: a function that applies to each node (e.g changing node's value)
@@ -236,19 +241,6 @@ Node(
 )
 ```
 
-
-# Mirror Tree
-- TODO
-# In-Order Tree
-- TODO
-# Pre-Order Tree
-- TODO
-# Compose Tree
-- TODO
-# Depth Tree
-- TODO
-# Trim Tree
-- TODO
 
 # 🌲 Tree Init
 - Function: `tree_init f v`

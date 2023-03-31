@@ -1,8 +1,13 @@
 # 🐫 OCAML Intro
-Class: [[OCAML]]
-Subject: #
-Date: 2023-02-14
-Topics: #, #, # 
+
+📚Class: CMSC 330 Organization of Programming Languages 
+
+📓Subject: OCAML 
+
+✏️Section: 0105 
+
+📅Date: 2023-02-14
+
 
 ---
 

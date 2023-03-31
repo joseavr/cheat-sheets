@@ -1,11 +1,12 @@
 # 🐫 OCAML NFA-DFA
-Class: <a href="https://github.com/lamula21/cheat-sheets/blob/main/ocaml/OCAML.md">OCAML</a>
 
-Subject: #
+📚Class: CMSC 330 Organization of Programming Languages 
 
-Date: 2023-03-09
+📓Subject: OCAML 
 
-Topics: #, #, # 
+✏️Section: 0105 
+
+📅Date: 2023-03-09
 
 ---
 
@@ -34,16 +35,16 @@ NFA → { Q, ∑, ∂, q0, F}
 - ∂ → Transitional Function. 
 
 # 💭 NFA Example
-Let a non-deterministic finite automaton be
+- Let a non-deterministic finite automaton:
 
 ![](../Assets/nfa-accept.png)
 
 - ∑ is alphabet → a , b
 - Q nonempty states → s0 , s1 , s2 , s3 , s4 , s5 , s6
-- q0 start state → s0
-- F ending state → s4 , s6
+- $q_{0}$ start state → s0
+- F final state → s4 , s6
 - ∂ transitions list → 
-	- [ (s1, a, s3) , (s1, a, s5), ...] 
+	- [ (s0, ε ,s1) ; (s1, a, s3) ; (...) ; ...] 
 
 
 # 🆚 NFA vs DFA
@@ -54,7 +55,7 @@ Let a non-deterministic finite automaton be
 # ➡ Convert NFA to DFA
 
 ## ε-closure
-- `ε-closure(δ, p)` returns the set of states reachable from p using only ***ε-transitions*** alone.
+- `ε-closure(δ, p)` returns a **Set** of states reachable from p using only ***ε-transitions*** alone.
 - Returned set always has `p`
 
 Let the following NFA:
@@ -70,7 +71,7 @@ All possible transitions with epsilons (ε)
 
 ## move
 - Simpler version of ε-closure
-- `move(δ,p,σ)` returns the set of states reachable from `p` using exactly one transition on symbol `σ`.
+- `move(δ,p,σ)` returns a **Set** of states reachable from `p` using exactly one transition on symbol `σ`.
 
 Let the following NFA:
 
@@ -107,5 +108,80 @@ $\qquad \qquad \qquad$ Let $\delta = \delta \cup { r, \sigma, e }$ <br/>
 Let $F = {r \mid \exists s \in r \text{ with } s \in F_n }$ <br/>
 
 
-## Example
-TODO
+## Example NFA to DFA - **Table Method**
+Suppose we have the following NFA:
+
+![](../Assets/2023-03-28-16101.png)
+`Iteration 1`
+- $1^{st}$ Step: 
+	- Start at initial state = $0$
+	- ε-closure(0) = { 0 , 1 }
+	- So we start { 0 , 1 } in our table
+
+- $2^{nd}$ Step:
+	- move(0,a) = ø
+	- move(1,a) = {3,5}
+		- {3,5} + ø = {3,5}
+		- ε-closure( $\{3,5\}$ ) = {3,5,4}
+		- Total = {3, 5, 4}
+	- move(0,b) = ø
+	- move(1,b) = ø
+- $3^{rd}$ put {3, 5, 4} in the **State** column
+	- Since all sets from the **Alphabet** column must appear on the **State** column
+- Repeat Process
+| States    | a         | b   |
+| --------- | --------- | --- |
+| {0,1}     | {3, 5, 4} | ø   |
+| {3, 5, 4} |           |     |
+
+
+`Iteration 2`
+- $1^{st}$ Step: 
+	- Start at initial state = {3, 5, 4}
+	- ε-closure( $\{3, 5, 4\}$ ) = {3, 5, 4}
+	- So we start {3, 5, 4} in our table
+- $2^{nd}$ Step:
+	- move(3,a) = ø
+	- move(5,a) = ø
+	- move(4,a) = ø
+		- Total = ø
+	- move(3,b) = ø
+	- move(5,b) = 6
+	- move(4,b) = 1
+		- ø + 6 + 1 = {1, 6}
+		-  ε-closure( $\{1, 6\}$ ) = {1, 6}
+		- Total = {1, 6}
+- $3^{rd}$ put down {1, 6} in the **State** column
+- Repeat Process
+| States    | a         | b      |
+| --------- | --------- | ------ |
+| {0,1}     | {3, 5, 4} | ø      |
+| {3, 5, 4} | ø         | {1, 6} |
+| {1, 6}    |           |        |
+
+`Iteration 3` - Step Simplified
+- $1^{st}$ Step: 
+	- Start at initial state = {1, 6}
+	- ε-closure( $\{1,6\}$ ) = {1,6}
+	- So we start {1,6} in our table
+- $2^{nd}$ Step:
+	- move( $\{1,6\}$ , a) = {3,5}
+		- ε-closure( $\{3,5\}$ ) = {3,4,5}
+		- Total = {3,4,5}
+	- move( $\{ 1,6 \}$ , b) = ø
+		- Total = ø
+- All Sets appear in **Alphabet** column
+
+| States    | a         | b      |
+| --------- | --------- | ------ |
+| {0,1}     | {3, 5, 4} | ø      |
+| {3, 5, 4} | ø         | {1, 6} |
+| {1, 6}    | {3,4,5}   | ø      |
+
+
+`Final Step`
+- Since all Sets from the **Alphabet** columns are in **States** columns, so we are done
+- Draw the resulting DFA based on the table
+	-  ***Important***: Double Circle all Nodes that has the final state in it
+
+![](../Assets/2023-03-28-16102.png)

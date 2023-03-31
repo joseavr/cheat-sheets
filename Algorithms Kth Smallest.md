@@ -11,7 +11,6 @@
 ---
 
 # 🤷🏻‍♂️ What is Kth Smallest
-
 - **Problem**: 
 	- We have a list of $n$ distinct numbers (NOT ordered)  
 	- Find the $k^{th}$ smallest number in the list
@@ -23,7 +22,6 @@
 	- 4th smallest is 23
 
 # ✏️ Brute-Force Method
-
 - Finding the $k^{th}$ order entry might be to first find the smallest, then the next smallest, and so on, until we reach the $k^{th}$ smallest.
 - **Idea**: 
 	- Find the minimum and assign it to kth. 
@@ -38,7 +36,6 @@
 	- so on
 
 ## Pseudocode
-
 ```python
 def kthOrder (A , k ):
 	n = length of A  
@@ -59,7 +56,6 @@ def kthOrder (A , k ):
 ```
 
 ## ⏳ Time Complexity
-
 - Finding the maximum and minimum is Θ(n). 
 - The inner loop is Θ(n) and iterates k − 1 times, 
 	- $Θ(n(k − 1))$
@@ -70,13 +66,12 @@ def kthOrder (A , k ):
 Yes, there are a number of other approaches including:
 
 ## Sorting First
-
 - Could sort first the list and then find the $(k-1)$ index to find the kth smallest
 - Could use MergeSort or HeapSort: 
 	- $Θ(nlgn)$
 
-## Partial Sorting
 
+## Partial Sorting
 - Run a partial Selection Sort or a partial Bubble Sort (reversed Bubble Sort, filling in the min values first)
 - Each pass of reverse Bubble sort will fix one more starting element and so if we do k passes the time will essentially be:
 
@@ -88,8 +83,8 @@ $$n + (n − 1) + (n − 2) + ... + (n − k − 1) = Θ(kn) $$
 	- $Θ( n )$
 - Not really better than brute force approach.
 
-## Min Heap
 
+## Min Heap
 - We could build a **min heap**. When we built a max heap we said it was worse-case O(n lg n) time complexity but this is not asymptotically tight and in fact it is worse-case O(n) (we have not shown this) and the same is true for a min heap. Since extracting an element and fixing the heap takes worst-case O(lg n) time and we would do this k times the time complexity would be worse-case O(n + k lg n).
 
 These are all pretty good and interesting but can we do better overall? Perhaps something that’s O(n) no matter what k is?

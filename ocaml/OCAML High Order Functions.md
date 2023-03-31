@@ -1,8 +1,13 @@
 # 🐫 OCAML High-Order Functions
-Class: [[OCAML]]
-Subject: #
-Date: 2023-02-24
-Topics: #, #, # 
+
+📚Class: CMSC 330 Organization of Programming Languages 
+
+📓Subject: OCAML 
+
+✏️Section: 0105 
+
+📅Date: 2023-02-24
+
 
 ---
 
@@ -50,24 +55,33 @@ let ys = map (fun x -> x * 2) xs
 # 📁 Fold
 - Iterates over a list and do somthing on the list
 - It can return anything
-- Kinda like a for loop
+- It's a `for in` loop!
+```ocaml
+(* Both are equivalents *)
+List.fold_left (fun acc each -> do_smth(acc,x) ) initial_acc list
+
+for each in list:
+	acc = do_smth(acc,x)
+end 
+```
+
 
 ## ↩ Fold Left
+
 ### Rule
 - `func` is a lambda function that combines the current value with the next element in the list
-- `initial_value` is the initial value of the accumulator
+- `initial_acc` is the initial value of the accumulator
 - `list` is the list to be iterated over
 ```ocaml
-List.fold_left func initial_value list
-```
+List.fold_left func initial_acc list
 
-```ocaml
-func = (fun acc x -> do_smth)
+where:
+func = (fun acc x -> do_smth(acc,x) )
 ```
-- At each iteration, it combines
-	- `acc` previous value with
-	- `x` current value
-- `acc` will be returned
+- At each iteration, `do_smth()` combines
+	- `acc` is the accumulator from the previous iteration
+	- `x` is the current $i^{th}$ iteration from `list`
+- A new `acc` will be returned to the next iteration
 
 ### Implementation
 ```ocaml
@@ -88,13 +102,12 @@ Return:
 
 
 ## ↪ Fold Right
+
 ### Rule
 ```ocaml
-List.fold_right func list initial_value
-```
+List.fold_right func list initial_acc
 
-```ocaml
-func = (fun x acc -> do_smth)
+func = (fun x acc -> do_smth with acc)
 ```
 - `acc` will be returned
 

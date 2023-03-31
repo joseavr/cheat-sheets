@@ -30,9 +30,11 @@ WebServersFormCOde.zip
 
 ## Submit
 
+## Reset
+
 ## Tel
 
-# Input Attributes
+# 👇 Input Attributes
 ## Placeholder attribute
 https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_placeholder
 
@@ -61,20 +63,13 @@ https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_placeholder
 <label for="item-category"><u>Item Category</u> </label>
 
 <select name="plan" id="item-category">
-
 	<option value="none" selected disabled hidden></option>
-
 	<option value="free">clothes</option>
-
 	<option value="starter">books </option>
-
 	<option value="professional">music</option>
-
 	<option value="corporate">food</option>
-
 	<option value="corporate">other</option>
-
-</select> <br> <br>
+</select>
 ```
 
 ![[20230223202341.png]]

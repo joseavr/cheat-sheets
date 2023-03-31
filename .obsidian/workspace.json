@@ -4,22 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "fb4dd3b5db8ac659",
+        "id": "041d26b4faa300b1",
         "type": "tabs",
         "children": [
           {
-            "id": "acb2c657223a8725",
+            "id": "e323b91a282be9e8",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ocaml/OCAML NFA-DFA.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "6990ca6094344c86",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OCAML NFA-DFA.md",
+                "file": "OCAML Operational Semantics.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OCAML NFA-DFA.md",
+                "file": "OCAML Operational Semantics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OCAML NFA-DFA.md",
+                "file": "OCAML Operational Semantics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OCAML NFA-DFA.md"
+                "file": "OCAML Operational Semantics.md"
               }
             }
           },
@@ -142,8 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,49 +168,52 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "omnisearch:Omnisearch": true
     }
   },
-  "active": "da0f3d13dd5ff4d6",
+  "active": "6990ca6094344c86",
   "lastOpenFiles": [
+    "ocaml/OCAML Data Structure.md",
+    "ocaml/OCAML FSM.md",
+    "ocaml/OCAML Conditions.md",
+    "ocaml/OCAML Functions.md",
+    "ocaml/OCAML High Order Functions.md",
+    "ocaml/OCAML Intro.md",
+    "ocaml/OCAML NFA-DFA.md",
+    "ocaml/OCAML Operators.md",
+    "ocaml/OCAML Testing.md",
+    "ocaml/OCAML Records.md",
+    "ocaml/OCAML Options.md",
+    "ocaml/OCAML Variants.md",
+    "ocaml/OCAML Trees.md",
+    "ocaml/OCAML.md",
     "OCAML Operational Semantics.md",
-    "Algorithms RadixSort.md",
-    "CMSC 351 Algorithms/Algorithms Selection Sort.md",
-    "Algorithms Rigorous Time.md",
-    "CMSC 351 Algorithms/Algorithms QuickSort.md",
-    "CMSC 351 Algorithms/Algorithms MergeSort.md",
-    "CMSC 351 Algorithms/Algorithms MCS.md",
-    "CMSC 351 Algorithms/Algorithms Master Theorem.md",
-    "CMSC 351 Algorithms/Algorithms Insertion Sort.md",
-    "CMSC 351 Algorithms/Algorithms HeapSort.md",
-    "CMSC 351 Algorithms/Algorithms Bubble Sort.md",
-    "Algorithms Binary Search.md",
-    "Untitled.md",
-    "Algorithms Comparison-Based Sorting.md",
-    "Algorithms Counting Sort.md",
-    "OCAML OPSEM.md",
+    "Assets/2023-03-28-16102.png.~tmp",
+    "Assets/2023-03-28-16102.png",
+    "Assets/2023-03-28-16101.png.~tmp",
+    "Assets/2023-03-28-1610.png.crswap",
+    "Assets/2023-03-28-1610.png",
+    "Assets/2023-03-28-16101.png",
+    "Assets/IMG_1B8737672F39-1.jpeg",
+    "Assets/IMG_7B4FFB7D31E6-1.jpeg",
+    "Assets/IMG_25D323DF4D1D-1.jpeg",
+    "Assets/tree.jpeg",
+    "Assets/nfa-accept.png",
+    "Assets/IMG_99C79063E044-1.jpeg",
     "JS Operators.md",
+    "JS Erros.md",
+    "JS Objects.md",
+    "JS Debugger.md",
     "JS Ajax.md",
     "HTML Forms Type.md",
-    "JS Objects.md",
-    "JS Erros.md",
-    "JS Debugger.md",
-    "Job Interview/Interview Rejection.md",
+    "Algorithms Kth Smallest.md",
+    "README.md",
+    "Algorithms Counting Sort.md",
+    "Algorithms Comparison-Based Sorting.md",
+    "Algorithms Rigorous Time.md",
     "Job Interview",
-    "Templates/Template Algorithms.md",
-    "Templates/Template Index CS.md",
-    "Templates/Template Index MATH.md",
     "Assets/20230328115215.png",
-    "Assets/20230325164046.png",
-    "Assets/20230325163940.png",
-    "Assets/20230325163642.png",
-    "Assets/20230325122054.png",
-    "Assets/20230325121957.png",
-    "Assets/IMG_2652.jpg",
-    "Assets/IMG_2651.jpg",
-    "Assets/20230323193349.png",
-    "Assets/20230323193311.png",
     "flask",
     "MATH 406 Number Theory",
     "CMSC 351 Algorithms",
