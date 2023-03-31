@@ -112,6 +112,7 @@ Let $F = {r \mid \exists s \in r \text{ with } s \in F_n }$ <br/>
 Suppose we have the following NFA:
 
 ![](../Assets/2023-03-28-16101.png)
+
 `Iteration 1`
 - $1^{st}$ Step: 
 	- Start at initial state = $0$
@@ -129,6 +130,7 @@ Suppose we have the following NFA:
 - $3^{rd}$ put {3, 5, 4} in the **State** column
 	- Since all sets from the **Alphabet** column must appear on the **State** column
 - Repeat Process
+
 | States    | a         | b   |
 | --------- | --------- | --- |
 | {0,1}     | {3, 5, 4} | ø   |
@@ -153,6 +155,8 @@ Suppose we have the following NFA:
 		- Total = {1, 6}
 - $3^{rd}$ put down {1, 6} in the **State** column
 - Repeat Process
+
+
 | States    | a         | b      |
 | --------- | --------- | ------ |
 | {0,1}     | {3, 5, 4} | ø      |
