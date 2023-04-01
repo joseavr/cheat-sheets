@@ -3,6 +3,7 @@
 ## Midterm 1
 - Algorithms Coin problem - Greedy
 - Algorithms Big O
+- [[Algorithms Rigorous Time]]
 - Algorithms Kadane
 - Algorithms Maximum Contagious Sum
 - [[Algorithms Bubble Sort]]
@@ -16,10 +17,16 @@
 - [[Algorithms MergeSort]]
 - [[Algorithms HeapSort]]
 - [[Algorithms QuickSort]]
-- Algorithms Limits on Comparision Sorting
+- [[Algorithms Comparison-Based Sorting]]
+- Algorithms Counting Sort
 
 ## Midterm 3
-- 
-- 
-- 
-- 
+- [[Algorithms RadixSort]]
+- Algorithms Karatsuba
+- Algorithms Kth Smallest
+- Algorithms Graphs
+- Algorithms Shortest Path
+- Algorithms Dijkstra
+- Algorithms Spanning Trees
+- Algorithms Breadth-Depth First Traverse
+- Algorithms Floyd's algorithm
