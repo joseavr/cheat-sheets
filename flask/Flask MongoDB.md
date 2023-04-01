@@ -1,5 +1,5 @@
 # 🌶️ Flask MongoDB
-Class: [[flask/Flask]]
+Class: [[Flask]]
 Subject: #
 Date: 2023-03-04
 Topics: #, #, # 
