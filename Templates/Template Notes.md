@@ -1,12 +1,12 @@
 # Untitled
 
-Class: 
+📚Class: 
 
-Subject: <a href=""> </a>
+📘Subject: <a href="https://github.com/lamula21/cheat-sheets/blob/main/"></a>
 
-Date: {{date}}
+✏️Section: 
 
-Topics: #, #, # 
+🗓️Date: {{date}}
 
 ---
 

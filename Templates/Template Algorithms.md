@@ -25,7 +25,7 @@ $$ Here$$
 	- $Θ\left(   \right)$
 
 # ⌛️ Space Time
-- $\theta\left(   \right)$
+- $Θ \left(   \right)$
 
 # 🤷🏻‍♂️ What is {{replace}}
 
