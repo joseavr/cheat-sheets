@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "ea141f294aaf9b3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CMSC 351 Algorithms/Algorithms Rigorous Time.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CMSC 351 Algorithms/Algorithms.md",
+                "file": "CMSC 351 Algorithms/Algorithms Rigorous Time.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CMSC 351 Algorithms/Algorithms.md",
+                "file": "CMSC 351 Algorithms/Algorithms Rigorous Time.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CMSC 351 Algorithms/Algorithms.md"
+                "file": "CMSC 351 Algorithms/Algorithms Rigorous Time.md"
               }
             }
           },
@@ -160,8 +173,9 @@
       "omnisearch:Omnisearch": true
     }
   },
-  "active": "d185bb04e061f0f1",
+  "active": "ea141f294aaf9b3e",
   "lastOpenFiles": [
+    "CMSC 351 Algorithms/Algorithms.md",
     "Templates/My Templates.md",
     "Templates/Template Algorithms.md",
     "Templates/Template Notes.md",
@@ -169,7 +183,6 @@
     "Templates/Template Index CS.md",
     "README.md",
     "Rust",
-    "CMSC 351 Algorithms/Algorithms.md",
     "Algorithms RadixSort.md",
     "CMSC 351 Algorithms/Algorithms Counting Sort.md",
     "JS Operators.md",

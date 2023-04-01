@@ -14,20 +14,20 @@
 - Statements takes time
 
 There are constants:
-a=0 → $c_{1}$
-b=0 → $c_{2}$
-c=0 → $c_{3}$
+- a=0 → $c_{1}$
+- b=0 → $c_{2}$
+- c=0 → $c_{3}$
 
 These statements takes the same amount of time (whether true or false), but for time complexity doesn't matter. It is a just a constant:
-a=0 
-b=0   → $c_{1}$
-c=0 
-
+- a=0 
+- b=0   → $c_{1}$
+- c=0 
 - Therefore $c_{1}$ = $Θ(1)$
 
 
 # For Loops Time
-- Assume iterating a list of `n` size
+
+Assume iterating a list of `n` size:
 ```python
 
 sum = 0    # c1
@@ -37,7 +37,7 @@ end
 ```
 
 - **Total time cost**: 
-$$c_{1} + c_{2} n + c_{3} n = Θ(n)$$
+	- $c_{1} + c_{2} n + c_{3} n = Θ(n)$
 
 However, since constants are dropped, most programmers just loop on the time taken by the loop to find the time complexity:
 ```python
@@ -47,7 +47,7 @@ for i = 1 to n    # (n-i+1) = iterates n times
 end
 ```
 - **Total time cost**: 
-$$c_{3} n =  Θ(n)$$
+	- $c_{3} n =  Θ(n)$
 
 
 # While Loops Time
@@ -91,7 +91,7 @@ if a<b
 end
 ```
 - **Total time cost**:
-$$c_{1} = Θ(1)$$
+	- $c_{1} = Θ(1)$
 
 *Note*: it is constant depending on what is in the body of the conditional
 - Like if we have a for loop, then the constant time of the if statement changes
@@ -132,8 +132,8 @@ So how far can we actually simplify if we’re interested only in time complexit
 
 ## 1️⃣ Example
 In this example:  
-    c1 iterates $n^{2}$ times
-    c2 iterates $n^{2}$ times
+- c1 iterates $n^{2}$ times
+- c2 iterates $n^{2}$ times
 ```python
 for i=n to n^2 # c2 iterates n^2 times
 	print(i)   # c2 iterates n^2 times
@@ -175,7 +175,7 @@ if a+b<c                # c1
 - The best-case time complexity is c1 = Θ(1).
 
 
-## Sequential Search Running time
+# Sequential Search Running time
 - This algorithm searches an array of N elements for a given target value.
 - The running time of the sequential search algorithm is proportional to the length of the array.
   
