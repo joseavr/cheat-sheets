@@ -20,8 +20,8 @@
 
 ## Midterm 3
 - [[Algorithms Comparison-Based Sorting]]
-- Algorithms Counting Sort
-- [[Algorithms RadixSort]]
+- [[Algorithms Counting Sort]]
+- Algorithms RadixSort
 - Algorithms Karatsuba
 - Algorithms Kth Smallest
 - Algorithms Graphs
