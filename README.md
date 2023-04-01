@@ -6,6 +6,7 @@ The repo includes:
 - `CMSC 351 Algorithms`
 - `MATH 406 Number Theory`
 - `Ruby`
+- `Rust`
 - `Ocaml`
 - `Python`
 - `Flask`
