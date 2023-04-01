@@ -13,7 +13,7 @@
 # Statements Time
 - Statements takes time
 
-There are constants:
+They are constants:
 - a=0 → $c_{1}$
 - b=0 → $c_{2}$
 - c=0 → $c_{3}$
