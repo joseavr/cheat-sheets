@@ -17,10 +17,10 @@
 - [[Algorithms MergeSort]]
 - [[Algorithms HeapSort]]
 - [[Algorithms QuickSort]]
-- [[Algorithms Comparison-Based Sorting]]
-- Algorithms Counting Sort
 
 ## Midterm 3
+- [[Algorithms Comparison-Based Sorting]]
+- Algorithms Counting Sort
 - [[Algorithms RadixSort]]
 - Algorithms Karatsuba
 - Algorithms Kth Smallest
@@ -30,3 +30,5 @@
 - Algorithms Spanning Trees
 - Algorithms Breadth-Depth First Traverse
 - Algorithms Floyd's algorithm
+
+## Final 

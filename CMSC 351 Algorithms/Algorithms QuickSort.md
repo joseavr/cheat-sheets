@@ -54,20 +54,20 @@
 	- Left part: smaller element $\leq$ pivot value 
 	- Right part: larger elements $>$ pivot value
 
-## Example
+## 1️⃣ Example 
 <img src="https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230309111120.png" width="80%" height="80%" />
 
 
-## Example Partition Handtracing
+## 2️⃣ Example Partition Handtracing
 
 <img src = "https://raw.githubusercontent.com/lamula21/cheat-sheets/main/Assets/20230315003908.png" width="80%" height="80%"/>
 
-# Pivot Value Choice
+# 🫵 Pivot Value Choice
 - Oftenly choose **last element of array** for pivot
 - If chose another element than **last element of array**, we should swap with the last element
 	- Or, choose first element as the pivot and modify algorithm (from i=1 to end)
 
-# QuickSort Pseudocode
+# ✏️ QuickSort Pseudocode
 ```java
 quickSort( array, start, end )  
 	if start < end  
@@ -95,7 +95,7 @@ $$T(n) = 2\cdot T\left( \frac{n}{2} \right) + Θ(n)$$
 $$T(n) = T\left( n-1 \right) + T\left(0\right) + Θ(n)$$
 
 
-# QuickSort with Counter
+# ++ QuickSort with Counter
 
 ```java
 quickSort( array, start, end )  
@@ -117,7 +117,7 @@ partition( array, start, end )
 	return t
 ```
 
-# Python Code
+# 🐍 Python Code
 ```python
 def quicksort (a, l ,r):
   if l < r :
@@ -143,19 +143,19 @@ def partition (a,l ,r):
 ```
 
 
-# Time Complexity
+# ⏳ Time Complexity
 - QuickSort: $T(k) + T(n − k − 1)$
 - Parittion: $c1 + c2(n − 1)$
 $$T(n) = T(k) + T(n − k − 1) + c2n + (c1 − c2)$$
 
-## Worst Case
+##  Worst Case 👎
 The worst-case occurs when the `partition_pivot_index` is the first or last element in the sublist.
 
 This results in the sublist being only one element smaller than the list itself and the other sublist being length zero. Without loss of generality if k = 0 in the above relation we have
 $$T(n) = T(n − 1) + c2n + (c1 − c2)$$
 Solving, it results in $T(n) = Θ(n^{2})$.
 
-## Best Case
+##  Best Case 👍
 The best-case occurs when the `partition_pivot_index` is in the middle of the sublist.
 
 This results in the sublists being of equal size. Then in the above relation we have 
