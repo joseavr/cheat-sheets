@@ -136,8 +136,7 @@ Suppose we have the following NFA:
 | --------- | --------- | --- |
 | {0,1}     | {3, 5, 4} | ø   |
 | {3, 5, 4} |           |     |
-
-
+<br>
 `Iteration 2`
 - $1^{st}$ Step: 
 	- Start at initial state = {3, 5, 4}
@@ -157,13 +156,12 @@ Suppose we have the following NFA:
 - $3^{rd}$ put down {1, 6} in the **State** column
 - Repeat Process
 
-
 | States    | a         | b      |
 | --------- | --------- | ------ |
 | {0,1}     | {3, 5, 4} | ø      |
 | {3, 5, 4} | ø         | {1, 6} |
 | {1, 6}    |           |        |
-
+<br>
 `Iteration 3` - Step Simplified
 - $1^{st}$ Step: 
 	- Start at initial state = {1, 6}
@@ -183,7 +181,7 @@ Suppose we have the following NFA:
 | {3, 5, 4} | ø         | {1, 6} |
 | {1, 6}    | {3,4,5}   | ø      |
 
-
+<br>
 `Final Step`
 - Since all Sets from the **Alphabet** columns are in **States** columns, so we are done
 - Draw the resulting DFA based on the table
