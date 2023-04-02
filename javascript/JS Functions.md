@@ -8,7 +8,20 @@ Topics: #, #, #
 
 # ✅ Useful Functions
 
-## 1️⃣ Random RGB Color
+
+## sort()
+
+## localeCompare()
+
+
+## filter()
+
+
+
+
+# How to
+
+## Random RGB Color
 ```js
 function getRandomColor() { 
 	const r = Math.floor(Math.random() * 256); // 0 (inclusive) to 256 (exclusive)
@@ -24,7 +37,7 @@ const element = document.getElementById("my-element"); element.style.backgroundC
 ```
 
 
-## 2️⃣ setTimeout vs clearInterval vs setInterval
+## setTimeout vs clearInterval vs setInterval
 - `setTimeout` - delays the execution of a function
 	- Takes a function for execution
 	- Takes an integer for delay
@@ -58,7 +71,7 @@ function stopAnimation() {   // this can be linked to a button to stop interval
 }
 ```
 
-## 3️⃣ Replace Class with `classList`
+## Replace Class with `classList`
 
 ```javascript
 function replaceClass() { 

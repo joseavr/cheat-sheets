@@ -12,23 +12,42 @@ WebServersFormCOde.zip
 
 
 # 🏷️ Label
+- Used to associate with a HTML form tag, `<input>`
+- Provides description of what the form box is and is displayed before the text field
+```html
+<label for="username">Username:</label>
+<input type="text" id="username" name="username">
+```
+
 
 # ⌨️ Input Type
+- Used for user enters data/information
+- There are many input tags with different `types` attributes
 
 ## Text Area
+- Multi-line text input area for users to enter text
+```html
+<textarea id="message" name="message" rows="5" cols="30"></textarea>
+```
 
 ## Checkbox 
+- 
 
 ## Radio Button
 
 ## Scroll Label
 
+
+
 ## Number Range
+
 
 ## Drop Down List
 
 
+
 ## Submit
+
 
 ## Reset
 

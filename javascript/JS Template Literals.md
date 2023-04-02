@@ -23,7 +23,6 @@ const dateString = `Today is ${date.toDateString()}`;
 console.log(dateString); // output: Today is Sun Feb 28 2023
 ```
 
-
 # 🛸 Multi Line Strings
 ```js
 const multilineString = `This is a

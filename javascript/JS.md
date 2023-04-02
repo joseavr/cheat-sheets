@@ -3,25 +3,27 @@
 
 # Table of Contents
 
-## Data Types
-- Integer
-- Float
-- String
-- 
+## Midterm I
+- HTML
+- CSS
+- JS Load JS
+- JS Template Literals
+- JS Element Selectors
+- JS Functions
+- JS Nulity
 
-## Data Structure
-- Arrays
-- Dictionaries
-* 
-  
-## Loops
-- for loop
-- while loop
-- switch
-- 
 
-## OOP
-- class
-- constructor
-- object
-- 
+## Midterm II
+- JS Events
+- JS Promises
+- JS Objects
+- JS Operators
+- JS Errors
+- JS Debugger
+- JS Functions
+- HTML Form Types
+
+## Midterm III
+- JS Ajax
+
+## Final 
