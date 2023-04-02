@@ -59,7 +59,7 @@ while i <= n  # c3 in n times
 end
 ```
 - **Total time cost**: 
-$$c_{1} + c_{2} + c_{3} n + c_{4} n = Θ(n)$$
+	- $c_{1} + c_{2} + c_{3} n + c_{4} n = Θ(n)$
 
 **Faster way**:
 ```python
@@ -70,7 +70,7 @@ while i <= n  # iterates n times
 end
 ```
 - **Total time cost**: 
-$$c_{1} n = Θ(n)$$
+	- $c_{1} n = Θ(n)$
 
 # Conditionals Time
 - if, if-else, switch = $Θ(1)$
