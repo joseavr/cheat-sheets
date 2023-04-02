@@ -4,67 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "fb4dd3b5db8ac659",
+        "id": "0896aceff1468451",
         "type": "tabs",
         "children": [
           {
-            "id": "2cbfc9dd31eaaddb",
+            "id": "65f134d4c033b60f",
             "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Javascript/JS.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "084b72bf87c6a45e",
-            "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Javascript/JS Functions.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "efded7400d9f8fff",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ocaml/OCAML Functions.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "1ff5f7a16db87826",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ocaml/OCAML NFA-DFA.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
+              }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ocaml/OCAML NFA-DFA.md",
+                "file": "Javascript/JS Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ocaml/OCAML NFA-DFA.md",
+                "file": "Javascript/JS Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ocaml/OCAML NFA-DFA.md"
+                "file": "Javascript/JS Functions.md"
               }
             }
           },
@@ -192,56 +147,57 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": false,
       "canvas:Create new canvas": true,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "omnisearch:Omnisearch": true
+      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "1ff5f7a16db87826",
+  "active": "65f134d4c033b60f",
   "lastOpenFiles": [
+    "2023-04-02.md",
+    "Javascript/JS Functions.md",
+    "Javascript/JS Events-Lambda.md",
+    "Templates/My Templates.md",
+    "Templates/Template Algorithms.md",
+    "Templates/Template Index CS.md",
+    "Templates/Template Index MATH.md",
+    "Templates/Template Notes.md",
+    "OCAML Operational Semantics.md",
+    "Ocaml/OCAML Conditions.md",
+    "JS Operators.md",
+    "JS Objects.md",
+    "JS Errors.md",
+    "JS Debugger.md",
+    "JS Ajax.md",
+    "Javascript/JS Template Literals.md",
+    "Javascript/JS Promises.md",
+    "Javascript/JS Nullity.md",
+    "Javascript/JS Load JS.md",
+    "Javascript/JS Element Selectors.md",
+    "Javascript/JS.md",
+    "Ocaml/OCAML NFA-DFA.md",
+    "Assets/20230221002736.png",
+    "Assets/20230206174533.png",
+    "Assets/20230208170806.png",
+    "Ocaml/OCAML High Order Functions.md",
+    "Ocaml/OCAML Functions.md",
+    "Interview/Interview Rejection.md",
+    "Interview",
     "Assets/20230402005400.png",
     "Assets/20230402005444.png",
-    "Ocaml/OCAML NFA-DFA.md",
     "Assets/2023-03-28-16101.png",
     "Assets/2023-03-28-16102.png",
-    "Assets/20230206174533.png",
     "Assets/20230221032227.png",
     "Assets/20230304023337.png",
     "Assets/20230309112757.png",
-    "Assets/20230322185934.png",
-    "Assets/20230315195357.png",
-    "Assets/20230315194715.png",
-    "Ocaml/OCAML High Order Functions.md",
-    "Ocaml/OCAML Functions.md",
-    "Javascript/JS Functions.md",
-    "Javascript/JS.md",
     "README.md",
-    "JS Errors.md",
-    "HTML Forms Type.md",
-    "JS Objects.md",
-    "Javascript/JS Load JS.md",
-    "Javascript/JS Template Literals.md",
-    "CMSC 351 Algorithms/Algorithms.md",
-    "CMSC 351 Algorithms/Algorithms Rigorous Time.md",
-    "Algorithms Kth Smallest.md",
-    "CMSC 351 Algorithms/Algorithms RadixSort.md",
-    "Templates/My Templates.md",
-    "Templates/Template Algorithms.md",
-    "Templates/Template Notes.md",
-    "Templates/Template Index MATH.md",
-    "Templates/Template Index CS.md",
     "Rust",
-    "CMSC 351 Algorithms/Algorithms Counting Sort.md",
-    "JS Operators.md",
-    "OCAML Operational Semantics.md",
-    "Untitled.md",
-    "CMSC 351 Algorithms/Algorithms QuickSort.md",
     "text.txt",
     "Job Interview",
     "Flask",

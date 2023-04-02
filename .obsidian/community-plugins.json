@@ -3,5 +3,6 @@
   "obsidian-latex-suite",
   "table-editor-obsidian",
   "omnisearch",
-  "text-extractor"
+  "text-extractor",
+  "obsidian-codemirror-options"
 ]
