@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d185bb04e061f0f1",
+            "id": "2cbfc9dd31eaaddb",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CMSC 351 Algorithms/Algorithms.md",
+                "file": "Javascript/JS.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,19 +22,49 @@
             }
           },
           {
-            "id": "ea141f294aaf9b3e",
+            "id": "084b72bf87c6a45e",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CMSC 351 Algorithms/Algorithms Rigorous Time.md",
+                "file": "Javascript/JS Functions.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "efded7400d9f8fff",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ocaml/OCAML Functions.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "1ff5f7a16db87826",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ocaml/OCAML NFA-DFA.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -100,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CMSC 351 Algorithms/Algorithms Rigorous Time.md",
+                "file": "Ocaml/OCAML NFA-DFA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CMSC 351 Algorithms/Algorithms Rigorous Time.md",
+                "file": "Ocaml/OCAML NFA-DFA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CMSC 351 Algorithms/Algorithms Rigorous Time.md"
+                "file": "Ocaml/OCAML NFA-DFA.md"
               }
             }
           },
@@ -173,46 +203,46 @@
       "omnisearch:Omnisearch": true
     }
   },
-  "active": "ea141f294aaf9b3e",
+  "active": "1ff5f7a16db87826",
   "lastOpenFiles": [
+    "Assets/20230402005400.png",
+    "Assets/20230402005444.png",
+    "Ocaml/OCAML NFA-DFA.md",
+    "Assets/2023-03-28-16101.png",
+    "Assets/2023-03-28-16102.png",
+    "Assets/20230206174533.png",
+    "Assets/20230221032227.png",
+    "Assets/20230304023337.png",
+    "Assets/20230309112757.png",
+    "Assets/20230322185934.png",
+    "Assets/20230315195357.png",
+    "Assets/20230315194715.png",
+    "Ocaml/OCAML High Order Functions.md",
+    "Ocaml/OCAML Functions.md",
+    "Javascript/JS Functions.md",
+    "Javascript/JS.md",
+    "README.md",
+    "JS Errors.md",
+    "HTML Forms Type.md",
+    "JS Objects.md",
+    "Javascript/JS Load JS.md",
+    "Javascript/JS Template Literals.md",
     "CMSC 351 Algorithms/Algorithms.md",
+    "CMSC 351 Algorithms/Algorithms Rigorous Time.md",
+    "Algorithms Kth Smallest.md",
+    "CMSC 351 Algorithms/Algorithms RadixSort.md",
     "Templates/My Templates.md",
     "Templates/Template Algorithms.md",
     "Templates/Template Notes.md",
     "Templates/Template Index MATH.md",
     "Templates/Template Index CS.md",
-    "README.md",
     "Rust",
-    "Algorithms RadixSort.md",
     "CMSC 351 Algorithms/Algorithms Counting Sort.md",
     "JS Operators.md",
     "OCAML Operational Semantics.md",
-    "Assets/nfa-accept.png",
-    "Assets/20230328115215.png",
-    "Assets/IMG_99C79063E044-1.jpeg",
     "Untitled.md",
     "CMSC 351 Algorithms/Algorithms QuickSort.md",
-    "Assets/IMG_2A4BAA26A03F-1.jpeg",
-    "Assets/IMG_9EA8B2D3334B-1.jpeg",
-    "Assets/2023-03-28-16101.png",
-    "Assets/IMG_61A396D2074C-1.jpeg",
-    "Assets/IMG_A1D05F54D04B-1.jpeg",
-    "Assets/IMG_B91D93C0CAC8-1.jpeg",
-    "Ocaml/OCAML NFA-DFA.md",
-    "Algorithms Kth Smallest.md",
-    "Assets/20230401020748.png",
-    "CMSC 351 Algorithms/Algorithms Comparison-Based Sorting.md",
-    "CMSC 351 Algorithms/Algorithms Binary Search.md",
-    "CMSC 351 Algorithms/Algorithms Rigorous Time.md",
     "text.txt",
-    "CMSC 351 Algorithms/Algorithms MergeSort.md",
-    "HTML Forms Type.md",
-    "CMSC 351 Algorithms/Algorithms Selection Sort.md",
-    "CMSC 351 Algorithms/Algorithms MCS.md",
-    "CMSC 351 Algorithms/Algorithms Master Theorem.md",
-    "CMSC 351 Algorithms/Algorithms Insertion Sort.md",
-    "CMSC 351 Algorithms/Algorithms HeapSort.md",
-    "CMSC 351 Algorithms/Algorithms Bubble Sort.md",
     "Job Interview",
     "Flask",
     "MATH 406 Number Theory",

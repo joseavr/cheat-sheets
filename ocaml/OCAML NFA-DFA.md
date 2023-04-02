@@ -111,7 +111,8 @@ Let $F = {r \mid \exists s \in r \text{ with } s \in F_n }$ <br/>
 ## Example NFA to DFA - **Table Method**
 Suppose we have the following NFA:
 
-![](../Assets/2023-03-28-16101.png)
+![](../Assets/20230402005400.png)
+
 
 `Iteration 1`
 - $1^{st}$ Step: 
@@ -128,7 +129,7 @@ Suppose we have the following NFA:
 	- move(0,b) = ø
 	- move(1,b) = ø
 - $3^{rd}$ put {3, 5, 4} in the **State** column
-	- Since all sets from the **Alphabet** column must appear on the **State** column
+	- since all sets from the **Alphabet** column must appear on the **State** column
 - Repeat Process
 
 | States    | a         | b   |
@@ -188,4 +189,4 @@ Suppose we have the following NFA:
 - Draw the resulting DFA based on the table
 	-  ***Important***: Double Circle all Nodes that has the final state in it
 
-![](../Assets/2023-03-28-16102.png)
+![](../Assets/20230402005444.png)
