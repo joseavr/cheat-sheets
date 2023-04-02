@@ -1,11 +1,12 @@
 # JS Objects and Custom Types
-Class: <a href=""> </a>
 
-Subject: #
+📚Class: CMSC 335 Web Dev with Javascript
 
-Date: 2023-03-27
+📘Subject: <a href="https://github.com/lamula21/cheat-sheets/blob/main/"></a>
 
-Topics: #, #, # 
+✏️Section: 0101
+
+🗓️Date: 2023-03-27
 
 ---
 

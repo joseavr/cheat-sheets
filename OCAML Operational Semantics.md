@@ -1,11 +1,11 @@
 # OCAML OPSEM
-Class: <a href=""> </a>
+📚Class: CMSC 330 Organization of Programming Languages 
 
-Subject: #
+📓Subject: OCAML 
 
-Date: 2023-03-28
+✏️Section: 0105 
 
-Topics: #, #, # 
+📅Date: 2023-03-28
 
 ---
 

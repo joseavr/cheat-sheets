@@ -1,12 +1,12 @@
 # Untitled
 
-Class: 
+📚Class: CMSC 335 Web Dev with Javascript
 
-Subject: <a href=""> </a>
+📘Subject: <a href="https://github.com/lamula21/cheat-sheets/blob/main/"></a>
 
-Date: 2023-03-29
+✏️Section: 0101
 
-Topics: #, #, # 
+🗓️Date: 2023-03-29
 
 ---
 

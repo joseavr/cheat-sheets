@@ -1,11 +1,13 @@
 # JS Load JavaScript 
-Class: <a href=""> </a>
 
-Subject: [[JS]]
+📚Class: CMSC 335 Web Dev with Javascript
 
-Date: 2023-03-25
+📘Subject: <a href="https://github.com/lamula21/cheat-sheets/blob/main/"></a>
 
-Topics: #, #, # 
+✏️Section: 0101
+
+🗓️Date: 2023-03-25
+
 
 ---
 

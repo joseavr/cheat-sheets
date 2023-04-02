@@ -1,8 +1,12 @@
 # JS Events
-Class: [[JS]]
-Subject: #
-Date: 2023-03-06
-Topics: #, #, # 
+
+📚Class: CMSC 335 Web Dev with Javascript
+
+📘Subject: <a href="https://github.com/lamula21/cheat-sheets/blob/main/"></a>
+
+✏️Section: 0101
+
+🗓️Date: 2023-03-06
 
 ---
 
@@ -32,7 +36,7 @@ Topics: #, #, #
 - Example of event-driven programming softwares
 
 
-# ➡ Arrow Functions
+# ➡ Arrow Functions (LAMBDA)
 - As known as Lambda Expressions (`=>`)
 - Rule:
 ```js
@@ -70,31 +74,44 @@ let formatted = x => {
 # 📖 Event Handler Attributes for HTML
 ## Mouse Related
 - `onclick` - mouse button is pressed and released
+	- `.addEventListener("clikc", fun)`
 - `ondblclick` - mouse button is double-click over the element
+	- `.addEventLister("dblclick", fun)`
+- `onchange` - Losing focus when pressed Enter or TAB
+	- `.addEventLister("change", fun)`
 - `onmousedown` - the mouse is pressed down while the cursor is over the element
+	- `.addEventLister("mousedown", fun)`
 - `onmouseup` - the mouse is released while the cursor is over the element
+	- `.addEventLister("mouseup", fun)`
 - `onmouseenter` - mouse moves onto the element
+	- `.addEventLister("mouseenter", fun)`
 - `onmouseover` - mouse pointer enters into an element and its child elements
+	- `.addEventLister("mouseover", fun)`
 - `onmouseout` - mouse moves off an element
+	- `.addEventLister("mouseout", fun)`
 - `onmousemove` - mouse pointer is moved over an element
+	- `.addEventLister("mousemove", fun)`
 
 
-# 🔗 Associating Function with Event
-- **Defining which function to call when an element (button) is clicked on**
+# 🔗 Associating Function with Events
+- **Call function when an element (button) is clicked on**
+	- Only one function associated
 ```js
 document.getElementById("processButtonId").onclick = callback;
 ```
 
-- **Another way to associate a function is to use addEventListener**
-	- Allows several events to be added
-```js
-document.querySelector("#displayTimeButton").addEventListener("click", () => alert(new Date()));
+- **Another way to associate a function is to use addEventListener (preferable)**
+	- Allows several functions to be added
+```javascript
+document.querySelector("#displayTimeButton").addEventListener("click", () => alert(new Date()) );
+
+document.querySelector("#displayTimeButton").addEventListener("click", () => function() );
 ```
 
 - **Another way is to set the onclick property in the element**
 ```html
 <input type="button" value="Display School Name" onclick="displaySchoolName()" />
 ```
-TODO EXAMples
+
 
 

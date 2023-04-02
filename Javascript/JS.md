@@ -14,7 +14,8 @@
 
 
 ## Midterm II
-- JS Events
+- JS Element Selectors
+- [[JS Events-Lambda]]
 - JS Promises
 - JS Objects
 - JS Operators
