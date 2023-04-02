@@ -136,7 +136,8 @@ Suppose we have the following NFA:
 | --------- | --------- | --- |
 | {0,1}     | {3, 5, 4} | ø   |
 | {3, 5, 4} |           |     |
-<br><br>
+<br>
+<br>
 
 `Iteration 2`
 - $1^{st}$ Step: 
@@ -162,7 +163,8 @@ Suppose we have the following NFA:
 | {0,1}     | {3, 5, 4} | ø      |
 | {3, 5, 4} | ø         | {1, 6} |
 | {1, 6}    |           |        |
-<br><br>
+<br>
+<br>
 
 `Iteration 3` - Step Simplified
 - $1^{st}$ Step: 
@@ -182,7 +184,8 @@ Suppose we have the following NFA:
 | {0,1}     | {3, 5, 4} | ø      |
 | {3, 5, 4} | ø         | {1, 6} |
 | {1, 6}    | {3,4,5}   | ø      |
-<br><br>
+<br>
+<br>
 
 `Final Step`
 - Since all Sets from the **Alphabet** columns are in **States** columns, so we are done
