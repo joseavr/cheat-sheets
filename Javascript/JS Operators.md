@@ -11,6 +11,7 @@
 ---
 
 # 🎬 Intro to Operators
+- Special keywords/shortcuts that are useful for specific scenarios 
 
 # 1️⃣ Rest Operator
 - Stores the remaining arguments as an array
@@ -180,3 +181,5 @@ undefined ?? 18 // 18
 // no issue
 0 ?? 18         // 0 
 ```
+
+# 5️⃣ [[JS Operators|More Operators]]

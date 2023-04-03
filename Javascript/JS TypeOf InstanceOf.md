@@ -1,4 +1,4 @@
-# JS typeof - instanceof
+# JS Typeof - Instanceof
 
 📚Class: CMSC 335 Web Dev with Javascript
 
@@ -13,8 +13,12 @@
 # 🎬 Intro 
 `typeof` and `instanceof` are both operators in JavaScript that are used to check the type of a value or an object. However, they work differently and have different use cases.
 
-# `typeof`
-- `typeof` operator returns a string indicating the type of an operand.
+[[JS Operators|See More Operators]]
+
+# The Type-Of Operator
+
+`typeof`
+- Returns a string indicating the type of an operand.
 
 ```js
 typeof "Hello World" // returns "string"
@@ -30,8 +34,10 @@ typeof { name: "John", age: 30 } // returns "object"
 - `typeof null` returns `"object"`, which is a known quirk of JavaScript. This is because `null` is considered an empty object reference in JavaScript.
 
 
-# `instanceof`
-- `instanceof` operator checks if an object is an instance of a particular class.
+# The Instance-Of Operator
+
+`instanceof`
+- Checks if an object is an instance of a particular class.
 ```js
 var today = new Date();
 today instanceof Date // returns true

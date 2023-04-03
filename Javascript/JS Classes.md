@@ -11,7 +11,7 @@
 ---
 # 🎬 Intro to Classes
 
-Classes are a relatively new feature added in ES6 (ECMAScript 2015) that provide a way to define objects and their behavior using a syntax that is similar to classes in other object-oriented programming languages like Java, Python, and C++. 
+Classes are a relatively new feature added in ES6 (ECMAScript 2015) that provide a way to define objects and their behavior using a syntax that is similar to classes in other object-oriented programming languages like Java, Python, and C++. The new feature is well used in  modern frameworks such as React, Node.js, etc.
 
 The features of the object-oriented programming language include 
 -   Inheritance

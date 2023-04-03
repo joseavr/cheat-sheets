@@ -24,8 +24,8 @@
 - [[JS Maps]]
 - [[JS IIFE]]
 - [[JS Classes]]
-- [[JS TypeOf InstanceOf]]
 - [[JS Operators]]
+- [[JS TypeOf InstanceOf]]
 - JS CORS
 - JS Objects
 - JS Errors
