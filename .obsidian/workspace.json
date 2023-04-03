@@ -62,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Javascript/JS Classes.md",
+                "file": "JS Objects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Javascript/JS Classes.md",
+                "file": "JS Objects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/JS Classes.md"
+                "file": "JS Objects.md"
               }
             }
           },
@@ -200,15 +200,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c257b9b48fa1fb0e",
+  "active": "ee120b58a029f625",
   "lastOpenFiles": [
+    "Javascript/JS Classes.md",
     "JS Objects.md",
     "Javascript/JS.md",
     "Javascript/JS Operators.md",
     "JS TypeOf InstanceOf.md",
     "Javascript/JS Promises.md",
     "Javascript/JS Sets.md",
-    "Javascript/JS Classes.md",
     "Ruby/Ruby Classes.md",
     "JS JSON.md",
     "JS CORS.md",

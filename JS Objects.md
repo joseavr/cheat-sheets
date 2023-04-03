@@ -2,7 +2,7 @@
 
 📚Class: CMSC 335 Web Dev with Javascript
 
-📘Subject: <a href="https://github.com/lamula21/cheat-sheets/blob/main/"></a>
+📘Subject: <a href="https://github.com/lamula21/cheat-sheets/blob/main/Javascript">Javascript</a>
 
 ✏️Section: 0101
 
@@ -31,4 +31,4 @@
 
 ## Freeze Object
 
-# Issue when Using an Object in `click` Event
+# Issue when Using an Object on `click` Event
