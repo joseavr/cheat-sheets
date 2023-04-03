@@ -67,7 +67,7 @@ class Student extends Person{
 - `objects` are instances of the `class`.
 - An instance means that objects (`child`) are created based on their class (`parent`).
 - Use keyword `new` to create a new instance of the class
-- <mark style="background: #FF5582A6;">Only one constructor is allowed</mark>
+- Only one constructor is allowed
 
 ## Creating an Instance with Constructor
 ```js
@@ -81,7 +81,7 @@ person.sayHello();
 
 ## Instance Variables
 - `Instance Variables` are available across all objects but unique for each object.
-- <mark style="background: #CACFD9A6;">In other words, an instance variable from one object differs from another object.</mark> For instance:
+- In other words, an instance variable from one object differs from another object. For instance:
 ```js
 student_1.name = "Jose"
 student_2.name = "Kevin"
@@ -155,18 +155,25 @@ class Car {
 }
 ```
 
-## `toString()`
+
+## Java toString
+
+`toString()`
+- Like toString in Java, returns default info when object is printed
 - `Symbol` is a primitive data type, called special symbol
 - This is a way to add `properties` to an object
 ```js
 [Symbol.toPrimitive]() {
     return `Dealership: ${Car.dealership}`;
 }
+
+let new_car = new Car()
+console.log(new_car) // Dealership: Terp Cars
 ```
 
 
 # 👨‍👦 Inheritance
-- <mark style="background: #ABF7F7A6;"> Inheritance is a way to create a new class that is a modified version of an existing class.</mark>
+- Inheritance is a way to create a new class that is a modified version of an existing class.
 - In JavaScript, inheritance can be achieved using the `extends` keyword.
 - **Rule**: `child` extends `parent` class
 ```js
@@ -241,7 +248,7 @@ class SportsCar extends Car {
 
 # 👥 Polimorphism
 - Polymorphism is a concept in object-oriented programming that allows objects of different classes to be treated as if they were objects of the same class, as long as they share a common interface or inheritance hierarchy. 
-- <mark style="background: #FFF3A3A6;">This means that a method can behave differently depending on the object it is called on.</mark>
+- This means that a method can behave differently depending on the object it is called on.
 - This can be achieved through method overriding. 
 - In the example above, the `SportsCar` class overrides the `info` method inherited from the `Car` class to provide a different implementation specific to sport car. This method behaves differently depending on the object it is called on, even though the method has the same name.
 ```js

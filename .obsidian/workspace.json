@@ -62,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS Objects.md",
+                "file": "Javascript/JS Classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS Objects.md",
+                "file": "Javascript/JS Classes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS Objects.md"
+                "file": "Javascript/JS Classes.md"
               }
             }
           },
@@ -200,10 +200,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ee120b58a029f625",
+  "active": "c257b9b48fa1fb0e",
   "lastOpenFiles": [
-    "Javascript/JS Classes.md",
     "JS Objects.md",
+    "Javascript/JS Classes.md",
     "Javascript/JS.md",
     "Javascript/JS Operators.md",
     "JS TypeOf InstanceOf.md",
