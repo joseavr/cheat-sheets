@@ -42,3 +42,4 @@
 - `defer` or `async` missing
 	- Script is downloaded and executed immediately
 	- Blocks the page parsing until the script finishes downloading
+

@@ -8,18 +8,61 @@
         "type": "tabs",
         "children": [
           {
-            "id": "65f134d4c033b60f",
+            "id": "6a110df40d08943a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Javascript/JS.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "6d2b12e17bdb34b0",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Javascript/JS Operators.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "ee120b58a029f625",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JS Objects.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "c257b9b48fa1fb0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/JS Functions.md",
+                "file": "Javascript/JS Classes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -48,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "js classes",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Javascript/JS Functions.md",
+                "file": "Javascript/JS Classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Javascript/JS Functions.md",
+                "file": "Javascript/JS Classes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/JS Functions.md"
+                "file": "Javascript/JS Classes.md"
               }
             }
           },
@@ -137,8 +180,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -158,36 +200,37 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "65f134d4c033b60f",
+  "active": "c257b9b48fa1fb0e",
   "lastOpenFiles": [
-    "2023-04-02.md",
-    "Javascript/JS Functions.md",
-    "Javascript/JS Events-Lambda.md",
-    "Templates/My Templates.md",
-    "Templates/Template Algorithms.md",
-    "Templates/Template Index CS.md",
-    "Templates/Template Index MATH.md",
-    "Templates/Template Notes.md",
-    "OCAML Operational Semantics.md",
-    "Ocaml/OCAML Conditions.md",
-    "JS Operators.md",
     "JS Objects.md",
+    "Javascript/JS.md",
+    "Javascript/JS Operators.md",
+    "JS TypeOf InstanceOf.md",
+    "Javascript/JS Promises.md",
+    "Javascript/JS Sets.md",
+    "Javascript/JS Classes.md",
+    "Ruby/Ruby Classes.md",
+    "JS JSON.md",
+    "JS CORS.md",
+    "Untitled 1.md",
     "JS Errors.md",
     "JS Debugger.md",
-    "JS Ajax.md",
-    "Javascript/JS Template Literals.md",
-    "Javascript/JS Promises.md",
-    "Javascript/JS Nullity.md",
-    "Javascript/JS Load JS.md",
+    "Templates/Template Javascript.md",
+    "HTML/HTML Forms.md",
+    "Javascript/JS Maps.md",
+    "Javascript/JS IIFE.md",
+    "Javascript/JS Functions.md",
+    "Templates/Template Notes.md",
+    "Templates/Template Table Contents.md",
+    "Templates/Template Index MATH.md",
+    "Templates/Template Index CS.md",
+    "Templates/Template Algorithms.md",
+    "Javascript/JS for in vs for of.md",
     "Javascript/JS Element Selectors.md",
-    "Javascript/JS.md",
-    "Ocaml/OCAML NFA-DFA.md",
+    "Javascript/JS Const-Let.md",
     "Assets/20230221002736.png",
     "Assets/20230206174533.png",
     "Assets/20230208170806.png",
-    "Ocaml/OCAML High Order Functions.md",
-    "Ocaml/OCAML Functions.md",
-    "Interview/Interview Rejection.md",
     "Interview",
     "Assets/20230402005400.png",
     "Assets/20230402005444.png",
@@ -196,7 +239,6 @@
     "Assets/20230221032227.png",
     "Assets/20230304023337.png",
     "Assets/20230309112757.png",
-    "README.md",
     "Rust",
     "text.txt",
     "Job Interview",

@@ -42,3 +42,4 @@
 
 - Cannot compare `NaN == NaN`
 	- `NaN === NaN`
+

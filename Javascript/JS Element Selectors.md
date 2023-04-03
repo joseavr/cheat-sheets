@@ -55,6 +55,16 @@ document.querySelector("#myImage").src // full path
 // http://127.0.0.1:5500/EventsICode/images/Testudo1.jpg
 ```
 
+## `getAttribute()` - `setAttribute()`
+- We can get the attribute of any HTML element
+```javascript
+document.querySelector("#theImage").getAttribute("src")
+// => images/Testudo01.jpg
+
+document.querySelector("#theImage").setAttribute("src", "images/Testudo02.jpg")
+```
+
+
 # ⬆️ Modify Class Attribute
 - Get `classList` and replace an element class with `replace()`
 ```html
@@ -99,4 +109,5 @@ document.writeln("Hello, world!");
 document.getElementById("myElement").writeln("<p>Hello, world!</p>");
 
 ```
+
 

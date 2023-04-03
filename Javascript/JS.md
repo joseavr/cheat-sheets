@@ -14,17 +14,26 @@
 
 
 ## Midterm II
-- JS Element Selectors
+- [[JS for in vs for of]]
+- [[JS Element Selectors]]
 - [[JS Events-Lambda]]
-- JS Promises
+- [[JS Promises]]
+- JS JSON
+- [[JS Functions]]
+- [[JS Sets]]
+- [[JS Maps]]
+- [[JS IIFE]]
+- [[JS Classes]]
+- [[JS TypeOf InstanceOf]]
+- [[JS Operators]]
+- JS CORS
 - JS Objects
-- JS Operators
 - JS Errors
-- JS Debugger
-- JS Functions
+- [[JS Functions]]
 - HTML Form Types
 
 ## Midterm III
+- JS Debugger
 - JS Ajax
 
 ## Final 

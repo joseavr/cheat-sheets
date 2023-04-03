@@ -112,6 +112,3 @@ document.querySelector("#displayTimeButton").addEventListener("click", () => fun
 ```html
 <input type="button" value="Display School Name" onclick="displaySchoolName()" />
 ```
-
-
-

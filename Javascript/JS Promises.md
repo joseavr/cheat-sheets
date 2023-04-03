@@ -148,3 +148,4 @@ This category includes codes that indicate an error on the client's part, such a
 
 ## Server error (500-599): 
 This category includes codes that indicate an error on the server's part, such as a server-side error or timeout.
+
