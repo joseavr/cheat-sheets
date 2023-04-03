@@ -22,17 +22,15 @@
             }
           },
           {
-            "id": "6d2b12e17bdb34b0",
+            "id": "aef7878bbe84de55",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/JS Operators.md",
+                "file": "Javascript/JS Classes.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
             }
           },
           {
@@ -48,21 +46,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "c257b9b48fa1fb0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Javascript/JS Classes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -200,13 +186,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c257b9b48fa1fb0e",
+  "active": "aef7878bbe84de55",
   "lastOpenFiles": [
-    "JS Objects.md",
-    "Javascript/JS Classes.md",
     "Javascript/JS.md",
+    "JS Objects.md",
+    "Javascript/JS TypeOf InstanceOf.md",
     "Javascript/JS Operators.md",
-    "JS TypeOf InstanceOf.md",
+    "Javascript/JS Classes.md",
     "Javascript/JS Promises.md",
     "Javascript/JS Sets.md",
     "Ruby/Ruby Classes.md",
