@@ -109,7 +109,7 @@ def name=(new_name)
 
 - But it's tedious writing `getters` and `setters` for each instance variables, but there's another way
 
-### attr_reader
+### `attr_reader`
 - Data are private
 - We use this when we want to 
 	- keep instance variables private from changing, 
@@ -128,7 +128,7 @@ end
 # student_1.name="Dave" => not allowed
 ```
 
-### attr_writer
+### `attr_writer`
 - Data are private
 - We use this when we want to 
 	- keep instance variables private from accessing them, 
@@ -146,7 +146,7 @@ end
 # student_1.name="Dave" => allowed
 ```
 
-### attr_accessor
+### `attr_accessor`
 - It's the combination of both attr_reader and attr_writer
 ```ruby
 Class Students
