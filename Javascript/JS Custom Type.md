@@ -333,8 +333,10 @@ Car.prototype.setYear = (newYear) => { this.year=newYear }
 ![](../Assets/20230403151213.png)
 
 <br>
+
 # 🤷🏻‍♂️ How Actually Defining a Function Class
 - A long story just to get here. Defining a function class, the right way!, without `class` keyword
+
 ```js
 // Constructor function / Custom Type for Student
 function Student(name, credits, courses){
