@@ -11,5 +11,6 @@
 ---
 
 # Intro to Ajax
-
+- AJAX, Asynchronous 
+- Before `fetch()`, there was AJAX that issue HTTP request to a server
 - 
