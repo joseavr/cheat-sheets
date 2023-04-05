@@ -22,25 +22,13 @@
             }
           },
           {
-            "id": "aef7878bbe84de55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Javascript/JS Classes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ee120b58a029f625",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS Objects.md",
+                "file": "Javascript/JS Custom Type.md",
                 "mode": "source",
                 "source": false
               },
@@ -114,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Javascript/JS Classes.md",
+                "file": "Javascript/JS Custom Type.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Javascript/JS Classes.md",
+                "file": "Javascript/JS Custom Type.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/JS Classes.md"
+                "file": "Javascript/JS Custom Type.md"
               }
             }
           },
@@ -186,45 +174,44 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "aef7878bbe84de55",
+  "active": "ee120b58a029f625",
   "lastOpenFiles": [
     "Javascript/JS.md",
-    "JS Objects.md",
+    "Javascript/JS Custom Type.md",
+    "Assets/20230404013516.png",
+    "Javascript/JS Classes.md",
+    "JS Ajax.md",
+    "JS Errors.md",
+    "Assets/20230403151213.png",
+    "Assets/20230403150842.png",
+    "Assets/20230403144214.png",
+    "Assets/20230403150402.png",
+    "Pasted image 20230403150349.png",
+    "Assets/20230403114539.png",
+    "Assets/20230403132854.png",
+    "Assets/20230403132148.png",
+    "Assets/IMG_1B8737672F39-1.jpeg",
+    "Javascript/JS Functions.md",
     "Javascript/JS TypeOf InstanceOf.md",
     "Javascript/JS Operators.md",
-    "Javascript/JS Classes.md",
     "Javascript/JS Promises.md",
     "Javascript/JS Sets.md",
     "Ruby/Ruby Classes.md",
     "JS JSON.md",
     "JS CORS.md",
     "Untitled 1.md",
-    "JS Errors.md",
     "JS Debugger.md",
     "Templates/Template Javascript.md",
     "HTML/HTML Forms.md",
     "Javascript/JS Maps.md",
     "Javascript/JS IIFE.md",
-    "Javascript/JS Functions.md",
     "Templates/Template Notes.md",
     "Templates/Template Table Contents.md",
     "Templates/Template Index MATH.md",
     "Templates/Template Index CS.md",
     "Templates/Template Algorithms.md",
     "Javascript/JS for in vs for of.md",
-    "Javascript/JS Element Selectors.md",
-    "Javascript/JS Const-Let.md",
-    "Assets/20230221002736.png",
-    "Assets/20230206174533.png",
-    "Assets/20230208170806.png",
     "Interview",
-    "Assets/20230402005400.png",
-    "Assets/20230402005444.png",
-    "Assets/2023-03-28-16101.png",
-    "Assets/2023-03-28-16102.png",
-    "Assets/20230221032227.png",
-    "Assets/20230304023337.png",
-    "Assets/20230309112757.png",
     "Rust",
     "text.txt",
     "Job Interview",
