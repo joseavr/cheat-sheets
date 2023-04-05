@@ -19,6 +19,7 @@
 - [[JS Events-Lambda]]
 - [[JS Promises]]
 - JS JSON
+- JS CORS
 - [[JS Functions]]
 - [[JS Sets]]
 - [[JS Maps]]
@@ -26,8 +27,7 @@
 - [[JS Classes]]
 - [[JS Operators]]
 - [[JS TypeOf InstanceOf]]
-- JS CORS
-- JS Objects
+- [[JS Custom Type]]
 - JS Errors
 - [[JS Functions]]
 - HTML Form Types
