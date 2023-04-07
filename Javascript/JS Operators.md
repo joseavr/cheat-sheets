@@ -35,6 +35,8 @@ partyInfo("FirstParty", "Ali", "Theresa", "Arushi");
 - Allows to expand (**extracts**) an iterable object into individual elements. 
 - Denoted by `...` 
 - The spread syntax can be used with arrays, objects, and function arguments.
+- The way to visualize it, everytime seen a spread operator, take out the enclosed symbols of the iteratable object and that is the output
+- **Rule**: `...` before the iterable object
 
 ## Combining Arrays
 - Combines arr1 and arr2 into a new array
@@ -54,6 +56,13 @@ Math.max(...arr1, ...arr2)
 let string = "CMSCXYZ";
 let charArray = [...string]
 // => [C,M,S,C,X,Y,Z]
+```
+
+## Function Params
+```js
+let arr = [1,2,3]
+
+callFun(...arr, "World") // callFun(1,2,3, "World")
 ```
 
 ## Objects

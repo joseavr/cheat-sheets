@@ -128,6 +128,7 @@ $$cheesecake \rightarrow dessert \rightarrow Object.prototype$$
 
 ### `Object.create(obj)`
 - Allows to create a child Object from a parent Object
+- Inheritance?
 ```js
 let cheesecake = Object.create(dessert);
 ```
@@ -245,6 +246,7 @@ function main() {
 
 <br>
 
+## `apply()`
 `<function>.apply(<object>/this , args)`
 - Allows us to specify to the function what `this` is refering to
 - In Java, it's the way around, we have an object and use `this` to call its function
@@ -265,8 +267,10 @@ product.apply(obj, 3, 3) // `this` refers to obj // 3*3*20 = 180
 
 <br>
 
+## `call()`
 `<function>.call(<object>/this , args)`
 - Same as `.apply()`
+- Useful for **Inheritance** to populate superclass/parent-class
 ```js
 product.call(this, 3, 3) // `this` refers to `window` // 3*3*10 = 90
 product.call(obj, 3, 3) // `this` refers to obj // 3*3*20 = 180
@@ -301,8 +305,9 @@ objFuncBinded(2,5) // 2*5*2 = 20
 function Computer(model, memory) {
     this.model=model;
     this.memory=memory;
-    this.getMemory = () => { return this.memory }
-    this.setMemory = (newMemory) => { this.memory=newMemory }
+    // DO NOT USE LAMBDA WITH 'THIS'
+    this.getMemory = function(){ return this.memory }
+    this.setMemory = function(newMemory){ this.memory=newMemory }
 }
 
 Computer("mac", 100); // properties are set to 'window' object
@@ -324,8 +329,8 @@ function Car(model, year) {
 }
 // Car.prototype.model = "ford" // DO NOT DO THIS
 // Car.prototype.year = "2020" // DO NOT DO THIS
-Car.prototype.getYear = () => { return this.year }
-Car.prototype.setYear = (newYear) => { this.year=newYear }
+Car.prototype.getYear = function(){ return this.year }
+Car.prototype.setYear = function(newYear){ this.year=newYear }
 ```
 
 ## Example
@@ -367,6 +372,16 @@ let student4 = new Student("Martin", 60, [414,420]);
 ![](../Assets/20230404013516.png)
 
 # 👨‍👦 Function Inheritance
+- To understand Inheritance, imagine two `classes/custom type`, one is a subset of another
+- All common properties of a `Student` are shared with `GradStudents`, such as
+	- ID
+	- Name
+	- Credits
+- But `GradStudents` may have properties that doesn't have all `Students` 
+	- Office Room
+	- Office Hours
+	- Bachelor's degree
+- Thus, `GradStudent` is a subset of `Student` set.
 ```js
 /*------ Student Class / Custom Type for Student ------*/
 function Student(name, credits, courses){
@@ -389,6 +404,7 @@ Student.prototype = {
 function GradStudent(name, credits, courses, advisor) {
     // Calls super class constructor
     Student.call(this, name, credits, courses);
+	// This says: call Student Class, this = GradStudent, pass arguments
 
     this.advisor = advisor;
 }
@@ -397,6 +413,18 @@ function GradStudent(name, credits, courses, advisor) {
 GradStudent.prototype = new Student();
 GradStudent.prototype.constructor = GradStudent;
 GradStudent.prototype.getAdvisor = function() { return this.advisor; }
+
+// Create Unique Grads
+let graduateStudent1 = new GradStudent("Kelly", 15, [414, 420], "Dr. Smith");
+let graduateStudent2 = new GradStudent("Wiley", 15, [631, 632], "Dr. Will");
+```
+
+## DO NOT FORGET
+- To set the parent class into the child's `prototype` (allows Inheritance)
+- To set the child constructor to the child's `prototype`
+```js
+GradStudent.prototype = new Student(); // Allows Inheritance
+GradStudent.prototype.constructor = GradStudent; // Set constructor
 ```
 
 

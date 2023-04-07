@@ -95,6 +95,29 @@ class Class {
 }
 ```
 
+
+## Class Variables
+- `Class Variable` are shared between all objects.
+- If the class variable from a object is modified, another object of the same class also updates it.
+- Instance variables are preceded by the `static` keyword.
+- All `static` needs to be called with their `Class` name, instead of `this`.
+```js
+class Car {
+    static dealership = "Terp Cars"; // static public
+    static #instances = 0; // static private 
+
+    info() {
+        return `${Car.#printDealer()}`
+    }
+
+    static #printDealer(){ //static-private function
+	    Car.#instance++;
+		return `${Car.dealership}`;
+    }
+}
+```
+
+
 ## Public vs Private Variables
 
 `Public`
@@ -124,35 +147,12 @@ class Person {
     }
     
     #sayHello() {
-        console.log(`Hello, my name is ${this.name} and 
-	                 I am ${this.age} years old.`);
+        console.log(`Hello, I am ${this.#age} years old.`);
     }
 }
 let person = new Person(30);
 console.log(person.age); // No Allowed since outside of class, Error
 person.constructor() // No Allowed since private, Error
-```
-
-
-## Class Variables
-- `Class Variable` are shared between all objects.
-- If the class variable from a object is modified, another object of the same class also updates it.
-- Instance variables are preceded by the `static` keyword.
-- All `static` needs to be called with their `Class` name, instead of `this`.
-```js
-class Car {
-    static dealership = "Terp Cars"; // static public
-    static #instances = 0; // static private 
-
-    info() {
-        return `${Car.#printDealer()}`
-    }
-
-    static #printDealer(){ //static-private function
-	    Car.#instance++;
-		return `${Car.dealership}`;
-    }
-}
 ```
 
 
@@ -171,6 +171,12 @@ let new_car = new Car()
 console.log(new_car) // Dealership: Terp Cars
 ```
 
+## Wrap Up
+- **Public** - by default
+- **Private** - add `#`
+
+- **Instance member** (non static) - only instances objects can call these members
+- **Static member** - add `static`, only the ***Class*** can call these members
 
 # 👨‍👦 Inheritance
 - Inheritance is a way to create a new class that is a modified version of an existing class.

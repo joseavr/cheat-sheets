@@ -22,21 +22,55 @@
             }
           },
           {
-            "id": "ee120b58a029f625",
+            "id": "768682e5e8b6dd9e",
             "type": "leaf",
-            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Javascript/JS Classes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e39d1d27d2c3009c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JS JSON.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "82667e1e6591b290",
+            "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Javascript/JS Custom Type.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
+            }
+          },
+          {
+            "id": "a524ae381afaca3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Javascript/JS Classes.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -102,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Javascript/JS Custom Type.md",
+                "file": "Javascript/JS Classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Javascript/JS Custom Type.md",
+                "file": "Javascript/JS Classes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/JS Custom Type.md"
+                "file": "Javascript/JS Classes.md"
               }
             }
           },
@@ -174,12 +208,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ee120b58a029f625",
+  "active": "a524ae381afaca3c",
   "lastOpenFiles": [
-    "Javascript/JS.md",
     "Javascript/JS Custom Type.md",
-    "Assets/20230404013516.png",
+    "JS JSON.md",
+    "Untitled.md",
     "Javascript/JS Classes.md",
+    "Javascript/JS Operators.md",
+    "Javascript/JS.md",
+    "CMSC 351 Algorithms/Algorithms RadixSort.md",
+    "Assets/20230404013516.png",
     "JS Ajax.md",
     "JS Errors.md",
     "Assets/20230403151213.png",
@@ -193,11 +231,9 @@
     "Assets/IMG_1B8737672F39-1.jpeg",
     "Javascript/JS Functions.md",
     "Javascript/JS TypeOf InstanceOf.md",
-    "Javascript/JS Operators.md",
     "Javascript/JS Promises.md",
     "Javascript/JS Sets.md",
     "Ruby/Ruby Classes.md",
-    "JS JSON.md",
     "JS CORS.md",
     "Untitled 1.md",
     "JS Debugger.md",
@@ -210,7 +246,6 @@
     "Templates/Template Index MATH.md",
     "Templates/Template Index CS.md",
     "Templates/Template Algorithms.md",
-    "Javascript/JS for in vs for of.md",
     "Interview",
     "Rust",
     "text.txt",
