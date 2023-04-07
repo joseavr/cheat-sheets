@@ -33,7 +33,7 @@ $$T(n) = Θ(d*(n+b))$$
 
 # 🤷🏻‍♂️ What is RadixSort
 - Sorts a list of integers in some base, aka radix. 
-- For example positive integers in base 10 with $d$ digits all look like $x_{d}$...$x_{1}$ for digits $0 ≤ x_{i} ≤ 9$  
+- For example positive integers in base 10 with $d$ digits all look like $x_{d} \dots x_{1}$ for digits $0 ≤ x_{i} ≤ 9$  
 - For example positive integers in base 2 with d digits all look like $x_{n}...x_{1}$ for digits $x_{i} ∈ \{0, 1\}$
 
 ![](../Assets/20230401223614.png)
