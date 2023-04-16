@@ -1,6 +1,6 @@
 # 💻 HTML Tags
 Class: <a href="" target="_blank"> </a>
-Subject: [[HTML]]
+Subject: [[HTML/HTML]]
 Date: 2023-03-13
 Topics: #, #, # 
 
