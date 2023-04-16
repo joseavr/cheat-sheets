@@ -191,4 +191,3 @@ undefined ?? 18 // 18
 0 ?? 18         // 0 
 ```
 
-# 5️⃣ [[JS Operators|More Operators]]

@@ -10,7 +10,7 @@
 
 ---
 
-# ✅ Useful Functions
+# ✅ Useful Array Functions
 
 ## `reduce()`
 - Same as `fold_left` in OCAML

@@ -51,8 +51,24 @@ When it comes to storing data, JSON offers two methods to do it:
 -   **Objects.** This method starts and ends with curly brackets and has two or more key/value pairs with commas separating them. A colon follows each key to distinguish it from the associated value.
 -   **Arrays.** This method employs square brackets enclosing the elements with commas separating them.
 
-# JSON Functions
 
-## `JSON.parse()`
+# Difference between JSON and JS Object
+- Main difference is that the key in JSON always is a string - enclosed by `""`
+```js
+JS Object
+{
+   key:“value”,
+   key:“value”,
+   key:“value”
+}
 
-## `JSON.stringify()`
+JSON
+{
+   “key”:“value”,
+   “key”:“value”,
+   “key”:“value”
+}
+```
+
+
+
