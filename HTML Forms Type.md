@@ -1,5 +1,5 @@
 # 💻 HTML Forms Type
-Class: [[HTML]]
+Class: [[HTML/HTML]]
 Subject: #
 Date: 2023-02-23
 Topics: #, #, # 
