@@ -1,4 +1,4 @@
-# Application Automata (TerpMata)
+# Application Automata
 Automates the process to check for updates on internship applications. Also provides a nice way to store the information
 
 ## Possible Names
