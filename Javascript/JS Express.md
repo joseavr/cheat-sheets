@@ -234,7 +234,7 @@ app.set('views', FULLPATH) // resolved path
 
 
 # 📖 Read Input from Forms/Send Data with Template Engine
-To let your app read inputs from Forms, you must active it
+To let your app read inputs from Forms, you must activate it
 
 ```js
 const express = require('express')
