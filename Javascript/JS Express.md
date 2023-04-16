@@ -280,7 +280,7 @@ But, you may ask, How do I actually know the user's inputs are called `semester`
 ```
 
 Now that we have access to user inputs, we can send these variables to another HTML.
-In brief, `semester` and `teacher` from the form will go thru `app.post()`, this will catch these varialbes and will send to another HTML using the template engine EJS.
+In brief, `semester` and `teacher` from the form will go thru `app.post()`, then `app.post()` will catch these variables and will send to another HTML using the template engine EJS.
 - `<%= semester %>` means that we gonna replace **THIS** with an variable called `semester`
 - `<%= teacher %>` means that we gonna replace **THIS** with an variable called `teacher`
 ```html
