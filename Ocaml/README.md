@@ -16,7 +16,10 @@
 
 # Midterm 2
 - <a href="https://github.com/lamula21/cheat-sheets/blob/main/ocaml/OCAML%20NFA-DFA.md" target="_blank">OCAML NFA-DFA</a>
-- [[OCAML Operational Semantics]]
+- [[OCAML OPSEM]]
+- OCAML Grammars
+- OCAML Lexer Parser
+- OCAML Lambda Calc
 
 # Midterm 3
 

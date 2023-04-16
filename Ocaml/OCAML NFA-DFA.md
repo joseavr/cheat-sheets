@@ -111,7 +111,8 @@ Let $F = {r \mid \exists s \in r \text{ with } s \in F_n }$ <br/>
 ## Example NFA to DFA - **Table Method**
 Suppose we have the following NFA:
 
-![](../Assets/20230402005400.png)
+
+![](../Assets/2023-03-28-1610.png)
 
 
 `Iteration 1`
@@ -192,4 +193,4 @@ Suppose we have the following NFA:
 - Draw the resulting DFA based on the table
 	-  ***Important***: Double Circle all Nodes that has the final state in it
 
-![](../Assets/20230402005444.png)
+![](../Assets/2023-03-28-16102.png)
