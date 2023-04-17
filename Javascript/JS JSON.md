@@ -70,5 +70,29 @@ JSON
 }
 ```
 
+# Stringify vs Parse
+The `JSON.stringify()` method takes a JavaScript object and converts it into a JSON string.
+While the `JSON.parse()` method takes a JSON string and converts it into a JavaScript object.
+
+These methods are commonly used for sending and receiving data between web servers and web applications, as JSON is a popular format for data interchange.
+```js
+// Example object
+const myObj = { 
+  name: "John",
+  age: 30,
+  city: "New York"
+};
+
+// Converting object to JSON string
+const jsonString = JSON.stringify(myObj);
+console.log(jsonString);
+
+// Converting JSON string back to object
+const parsedObj = JSON.parse(jsonString);
+console.log(parsedObj);
+
+```
+
+
 
 
