@@ -11,7 +11,7 @@
 ---
 
 # 🎬 What is Bubble Sort 
--
+Bubble sort is a simple comparison-based sorting algorithm that repeatedly steps through the list to be sorted, compares adjacent elements and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
 
 # Running Time
 - No matter what, running time: $\theta (n^2)$

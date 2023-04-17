@@ -150,8 +150,6 @@ $$ Here$$
 ## 3️⃣ Perform HeapSort
 <a href="https://youtu.be/LbB357_RwlY">HeapSort video</a>
 
-
-
 # Pseudocode
 ```python
 makeHeap(A)

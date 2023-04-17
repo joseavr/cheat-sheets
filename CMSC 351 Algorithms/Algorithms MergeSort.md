@@ -50,7 +50,6 @@ Same time complexity since MergeSort breaks down the list and puts it back toget
 	- Sorting does not happen in parallel but **SEQUENTIALLY**
 	- e.g, Left half of the array gets sorted first then right half
 
-
 # Pseudocode
 - If the array has only one element (or empty), already sorted, thus do nothing, otherwise
 	- MergeSort left half of array

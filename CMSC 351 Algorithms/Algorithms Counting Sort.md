@@ -27,6 +27,8 @@
 	- $Θ\left( n+k  \right)$
 
 **Note**:
+- `n` number of integers in the list
+- `k` is the maximum value digit in the list
 - If $k$ is a fixed constant and we let $n$ vary then the time complexity is $Θ(n)$
 - If $k$ is not fixed but we can guarantee that $k ≤ n$ then the time complexity is $Θ(n)$
 

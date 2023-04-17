@@ -13,6 +13,15 @@
 # 🎬 Intro to Selection Sort
 - Selection Sort is `not stable`
 
+Bubble sort is a simple comparison-based sorting algorithm that repeatedly steps through the list to be sorted, compares adjacent elements and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
+
+Here's how bubble sort works:
+1.  Start at the beginning of the list.
+2.  Compare the first two elements. If the first element is greater than the second element, swap them.
+3.  Move to the next pair of elements, compare them, and swap if necessary.
+4.  Continue this process until the end of the list is reached.
+5.  Repeat steps 1-4 until no more swaps are needed (i.e. the list is sorted).
+
 
 # ⏳ Running Time
 - `Worst Case`
