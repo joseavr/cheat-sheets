@@ -36,10 +36,10 @@ This is overall idea of Lambda in OCAMLOT but in this class we will work with la
 
 ## 1️⃣ Call by Value "eager evaluation"
 
-In this type of evualuation, we take the outer expression and evaluate it. In other words, from right-most expression to left-most expression
+In this type of evualuation, we take an inner pair expression and evaluate it.
 
 (λz. z) ((λy. y) x)
-- We take ((λy. y) x) and evaluate it. So, x replaces λy so replaces y
+- An inner pair is ((λy. y) x) so we evaluate it. So, x replaces λy so replaces y
 ![](../Assets/20230416153810.png)
 - We are left with (λz. z) x. So x replaces λz so replaces z. Final result is:
 - x
@@ -89,6 +89,8 @@ Remember:
 The key here is to delete `λ(parameter)` and delete all same `parameter` inside its lambda's `expression`. What is left, are called **free variables**. 
 
 Remember, only delete what is in the lambda's expression scope (example #3). Making the parethensis is recommended.
+
+**Also start from the inner most group of the lambda scope.**
 
 1) λa. a b a
 
