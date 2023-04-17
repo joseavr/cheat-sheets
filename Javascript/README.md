@@ -37,5 +37,6 @@
 - JS Ajax
 - JS Nodejs
 - JS Express
+- JS Local Storage
 
 ## Final 
