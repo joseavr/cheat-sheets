@@ -38,12 +38,14 @@ where
 
 	- `Case 2`: If $f(n)$ = $Θ(n^{c})$ AND $\log_{b}(a)$ = $c$
 		- $\longrightarrow$ $T(n) = Θ(n^{c} \cdot \log n)$
+		- Extra cases:
 		- If $p > -1$  $\longrightarrow$   $Θ(n^{c} \cdot \log^{P+1}n)$
 		- If $p = -1$  $\longrightarrow$  $Θ(n^{c} \cdot \log(\log n))$
 		- If $p < -1$  $\longrightarrow$  $Θ(n^{c})$
 
 	- `Case 3`: If $f(n) = Ω(n^{c})$ AND $\log_{b}(a)$ < $c$  
 		- $\longrightarrow$ $T(n) = Θ(f(n))$
+		- Extra cases:
 		- If $p >= 0$   $\longrightarrow$   $Θ(n^{c} \cdot \log^{p}n)$
 		- If $p < 0$      $\longrightarrow$  $O(n^{c})$
 		- **Note**: For this, case, $f(n)$ must satisfy `regularity condition`:
@@ -93,3 +95,5 @@ $T(n) = a \cdot T\left( \frac{n}{b} \right) + f(n)$
 	- Comparing Leading Coefficients
 		- $\frac{1}{2} (n^{4} + 4n) < \frac{3}{4} (n^{4} + n)$ 
 		- for large $n$
+
+## Example Case $c=0$

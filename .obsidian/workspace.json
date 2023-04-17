@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CMSC 351 Algorithms/Algorithms MergeSort.md",
+                "file": "CMSC 351 Algorithms/Algorithms Selection Sort.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CMSC 351 Algorithms/Algorithms MergeSort.md",
+                "file": "CMSC 351 Algorithms/Algorithms Selection Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CMSC 351 Algorithms/Algorithms MergeSort.md",
+                "file": "CMSC 351 Algorithms/Algorithms Selection Sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CMSC 351 Algorithms/Algorithms MergeSort.md"
+                "file": "CMSC 351 Algorithms/Algorithms Selection Sort.md"
               }
             }
           },
@@ -172,8 +172,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8007efe5f69fe450",
+  "active": "da0f3d13dd5ff4d6",
   "lastOpenFiles": [
+    "CMSC 351 Algorithms/Algorithms MergeSort.md",
     "CMSC 351 Algorithms/Algorithms Master Theorem.md",
     "CMSC 351 Algorithms/Algorithms MCS.md",
     "CMSC 351 Algorithms/Algorithms Insertion Sort.md",
@@ -181,7 +182,6 @@
     "CMSC 351 Algorithms/Algorithms HeapSort.md",
     "CMSC 351 Algorithms/README.md",
     "Untitled.md",
-    "CMSC 351 Algorithms/Algorithms MergeSort.md",
     "CMSC 351 Algorithms/Algorithms Bubble Sort.md",
     "Algorithms Graphs.md",
     "Algorithms Dijsktra.md",
