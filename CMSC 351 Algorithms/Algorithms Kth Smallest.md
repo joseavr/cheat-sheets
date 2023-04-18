@@ -152,12 +152,13 @@ We can also notice values **GUARANTED** to be greater than MOM=45:
 
 ## Formulas
 
-1. Number of elements in the list less than MOM-x
+1. To get the number of elements $\leq MOM$-x
 	- Number of columns guaranted: $\left\lceil \frac{n/x}{2}\right\rceil$
 	- Number of rows guaranted: $\left\lceil \frac{x}{2}\right\rceil$
-	- Thus, $\#columns \cdot \#rows -1(without MOM)$  
+	- $columns_{guaranteed} \cdot rows_{guaranteed}$  
 2. Same for number of elements in the list greater than MOM-x
-
+3. To get the number of elements  $< MOM$-x, we substract the MOM from the list, so:
+	-  $columns_{guaranteed} \cdot rows_{guaranteed} -1(MOM)$ 
 
 ## Pesudocode
 ```python
