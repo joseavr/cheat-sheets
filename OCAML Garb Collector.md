@@ -1,4 +1,4 @@
-# Untitled
+# OCAML Garbage Collector
 
 📚Class: 
 
@@ -10,6 +10,6 @@
 
 ---
 
-# Intro 
+# Intro Garbage Collector
 
 -
