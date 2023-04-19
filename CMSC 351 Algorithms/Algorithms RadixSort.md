@@ -14,11 +14,19 @@ Topics: #, #, #
 - RadixSort is `stable`
 - Remember Counting Sort
 $$Θ\left( n+k  \right)$$
-- RadixSort+CountingSort recurrence relation:
+**RadixSort+CountingSort recurrence relation**:
 $$T(n) = Θ(d*(n+k))$$
+Where
 - $d$ is the number of digits that an element can have in the given list
 - $n$ is the number of elements in the list, and 
 - $k$ is the max value digit in the list
+
+**LOC SIZE**:
+- The size of LOC, when Base x is given, is:
+$$LOC_{size} = 0 \hspace{2mm} to \hspace{2mm} max(base \hspace{2mm} x) $$
+Where
+- max(base x) is the maximum digit that base x can have
+
 
 # ⏳ Running Time
 

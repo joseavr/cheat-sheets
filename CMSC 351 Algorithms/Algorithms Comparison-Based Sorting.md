@@ -13,6 +13,8 @@ Topics: #, #, #
 
 - Selection Sort, Insertion Sort, Bubble Sort, Merge Sort, HeapSort, and Quick Sort are all **based on making comparisons**.
 - Sometimes we shift, sometimes we swap
+- ComparisonSort is better than CountingSort, when k (max integer) is big
+- CountingSort is better than ComparisonSort, when k (max integer) is smaller
 
 ![](../Assets/20230328115215.png)
 
@@ -20,7 +22,7 @@ Topics: #, #, #
 
 # 🌲 Intro to Decision Tree
 
-Fastest sorting algorithms, worst-case time complexity:
+Fastest comparison-based sorting algorithm, worst-case time complexity:
 $$T (n) = Θ(n lg n)$$
 Is there some sorting algorithm with better (smaller) time complexity $Θ(n lg n)$?
 
@@ -111,9 +113,9 @@ There are six possible ways that the data might be related:
 Assume $n$ is the Array size
 
 - The total number of Leaves is:
-$$\# Leaves = n!$$
+$$Leaves = n!$$
 - The Shortest Path to a Leaf is:
-$$shortest\_path_{leaf} = n - 1$$
+$$shortestPath_{\rightarrow leaf} = n - 1$$
 - If $h$ is the height of the tree, then # of Leaves is at most $2^{h}$
 $$n! \leq 2^{h}$$
 $$h \geq \log_{2}(n!)$$
@@ -122,7 +124,7 @@ $$h \geq \log_{2}(n!)$$
 # Analysis of Comparison-Based Sorting
 
 - Any comparison sort requires, in the worst-case, $Ω(nlgn)$ comparisons
-$$\# comparisons = Ω(nlgn)$$
+$$Number\_comparisons = Ω(nlgn)$$
 
 
 # Problems
