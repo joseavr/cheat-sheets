@@ -1,10 +1,10 @@
 # OCAML Review
 
-📚Class: 
+📚Class: CMSC 330 Organization of Programming Languages 
 
-📘Subject: <a href="https://github.com/lamula21/cheat-sheets/blob/main/"></a>
+📓Subject: OCAML 
 
-✏️Section: 
+✏️Section: 0105 
 
 🗓️Date: 2023-04-18
 
