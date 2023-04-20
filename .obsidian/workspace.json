@@ -4,51 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a7041f2f50334afc",
+        "id": "5288d08c4caf8a33",
         "type": "tabs",
         "children": [
           {
-            "id": "1fdbf9fd64f30d12",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ocaml/OCAML OPSEM.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "f16a68afcf5cc6b9",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ocaml/OCAML Garbage Collector.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "76765bd29a689285",
+            "id": "94b9cdf2a69c2e00",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ocaml/OCAML Lambda Calc.md",
+                "file": "Javascript/Final Project 335.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ocaml/OCAML Lambda Calc.md",
+                "file": "Javascript/Final Project 335.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ocaml/OCAML Lambda Calc.md",
+                "file": "Javascript/Final Project 335.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ocaml/OCAML Lambda Calc.md"
+                "file": "Javascript/Final Project 335.md"
               }
             }
           },
@@ -186,23 +157,25 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "76765bd29a689285",
+  "active": "94b9cdf2a69c2e00",
   "lastOpenFiles": [
+    "README.md",
+    "Templates/example-readme.md",
+    "Ocaml/OCAML OPSEM.md",
+    "Ocaml/OCAML Garbage Collector.md",
+    "contributors-shield.md",
+    "Ocaml/OCAML Lambda Calc.md",
     "Javascript/Final Project 335.md",
     "Ocaml/README.md",
     "OCAML Grammars.md",
     "OCAML Lexer Parser.md",
-    "Ocaml/OCAML Garbage Collector.md",
     "Ocaml/OCAML Review.md",
     "Ocaml/OCAML Data Structure.md",
     "Assets/20230420021454.png",
-    "Templates/example-readme.md",
-    "Ocaml/OCAML OPSEM.md",
     "Assets/20230420020631.png",
     "Assets/20230420020532.png",
     "Pasted image 20230420020505.png",
     "MATH 406 Number Theory/MATH 406 Midterm II.md",
-    "README.md",
     "JS MongoDB.md",
     "JS Express II.md",
     "HTML Forms Type.md",
@@ -216,8 +189,6 @@
     "CMSC 351 Algorithms/Algorithms RadixSort.md",
     "Algorithm Bread-First Traverse.md",
     "Algorithms Prim.md",
-    "Algorithms Kruskal.md",
-    "CMSC 351 Algorithms/Algorithms Selection Sort.md",
     "Assets/20230416163633.png",
     "Assets/20230416163656.png",
     "Assets/20230416163718.png",
