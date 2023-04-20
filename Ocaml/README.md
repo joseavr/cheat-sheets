@@ -20,8 +20,11 @@
 - OCAML Grammars
 - OCAML Lexer Parser
 - <a href="https://github.com/lamula21/cheat-sheets/blob/main/Ocaml/OCAML%20Lambda%20Calc.md" target="_blank">OCAML Lambda Calculus</a> 
+- OCAML Garbage Collector
+- OCAML Review
 
 # Midterm 3
+- 
 
 # Miscellaneous
 - <a href="https://github.com/lamula21/cheat-sheets/blob/main/ocaml/OCAML%20Testing.md" target="_blank">OCAML Testing</a>
