@@ -74,7 +74,7 @@ $$Top\mspace{5mu}Rule\mspace{5mu}:\mspace{5mu}\mspace{5mu} A; e_{1} \rightarrow 
 Building top proposition with previous expressions and top rule:
 - $A;e_{1} \rightarrow v_{1} \mspace{5mu} \mspace{5mu} \mspace{5mu}$ $\Leftrightarrow$ $\mspace{5mu}\mspace{5mu}\mspace{5mu} A; 21+21 \rightarrow 42$
 - So $v_{1} = 42$
-- $A;x:v_{1};\mspace{5mu}e_{2} \rightarrow v_{2}$  $\iff$ $A;a\mspace{5mu}:\mspace{5mu}42;\mspace{5mu}(42+42)>a \rightarrow 82$
+- $A;x:v_{1};\mspace{5mu}e_{2} \rightarrow v_{2}$  $\iff$ $A;a:42;\mspace{5mu}(42+42)>a \rightarrow 82$
 
 Finally, we'll get something like this:
 
