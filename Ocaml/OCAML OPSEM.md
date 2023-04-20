@@ -58,8 +58,8 @@ We are given bottom proposition. With that one, we can construct the top one.
 To do so, 
 - We first identify our expressions from the bottom proposition
 - Continue `step 2`
-$$Bottom\>Rule\>:\>\>\> A;\>let\>x=e_{1}\>\> in\>\> e_{2} \rightarrow v_{2}$$
-$$Our\>Proposition\>:\>\> A;\>let\>a=21 + 21\>\> in\>\> (42+42) >a\rightarrow true$$
+$$Bottom \mspace{5mu} Rule\mspace{5mu}:\mspace{5mu} A;\mspace{5mu}let\mspace{5mu}x=e_{1}\mspace{5mu} in\mspace{5mu}\mspace{5mu} e_{2} \rightarrow v_{2}$$
+$$Our\mspace{5mu}Proposition\mspace{5mu}:\mspace{5mu}\mspace{5mu} A;\mspace{5mu}let\mspace{5mu}a=21 + 21\mspace{5mu}\mspace{5mu} in\mspace{5mu}\mspace{5mu} (42+42) >a\rightarrow true$$
 Getting expressions:
 - A;
 - x = a
