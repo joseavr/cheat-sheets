@@ -70,11 +70,11 @@ Getting expressions:
 
 `Step 2:` Construct proof based on rule
 Now that we have our expressions indentified, we can proceed to build the **top proposition** with the **top rule**
-$$Top\>Rule\>:\>\> A; e_{1} \rightarrow v_{1} \>\>\> A;x:v_{1};e_{2} \rightarrow v_{2}$$
+$$Top\mspace{5mu}Rule\mspace{5mu}:\mspace{5mu}\mspace{5mu} A; e_{1} \rightarrow v_{1} \mspace{5mu}\mspace{5mu}\mspace{5mu}\mspace{5mu}\mspace{5mu}\mspace{5mu}\mspace{5mu}\mspace{5mu}\mspace{5mu}\mspace{5mu} A;x:v_{1};e_{2} \rightarrow v_{2}$$
 Building top proposition with previous expressions and top rule:
-- $A;e_{1} \rightarrow v_{1}$ $\iff$ $A; 21+21 \rightarrow 42$
+- $A;e_{1} \rightarrow v_{1} \mspace{5mu} \mspace{5mu} \mspace{5mu}$ $\Leftrightarrow$ $\mspace{5mu}\mspace{5mu}\mspace{5mu} A; 21+21 \rightarrow 42$
 - So $v_{1} = 42$
-- $A;x\>:\>v_{1};\>e_{2} \rightarrow v_{2}$  $\iff$ $A;a\>:\>42;\>(42+42)>a \rightarrow 82$
+- $A;x:v_{1};\mspace{5mu}e_{2} \rightarrow v_{2}$  $\iff$ $A;a\mspace{5mu}:\mspace{5mu}42;\mspace{5mu}(42+42)>a \rightarrow 82$
 
 Finally, we'll get something like this:
 
