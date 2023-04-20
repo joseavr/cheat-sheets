@@ -40,7 +40,9 @@ In this type of evualuation, we take an inner pair expression and evaluate it.
 
 (λz. z) ((λy. y) x)
 - An inner pair is ((λy. y) x) so we evaluate it. So, x replaces λy so replaces y
+
 ![](../Assets/20230416153810.png)
+
 - We are left with (λz. z) x. So x replaces λz so replaces z. Final result is:
 - x
 
