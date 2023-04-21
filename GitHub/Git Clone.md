@@ -1,5 +1,5 @@
 # Git Clone
-Class: [[]]
+Class: 
 Subject: #
 Date: 2023-02-17
 Topics: #, #, # 

@@ -36,14 +36,40 @@
             }
           },
           {
-            "id": "06f402feb2fa9006",
+            "id": "81a9ddc7b9b95e3e",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/example-readme-react.md",
+                "file": "GitHub/Git Branch.md",
                 "mode": "source",
                 "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "8feab55783ff92e2",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ocaml/OCAML Garbage Collector.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "e6c1e4df830a3f08",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Assets/20230420224743.png"
               }
             }
           }
@@ -114,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/example-readme-react.md",
+                "file": "GitHub/Git Branch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/example-readme-react.md",
+                "file": "GitHub/Git Branch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/example-readme-react.md"
+                "file": "GitHub/Git Branch.md"
               }
             }
           },
@@ -186,44 +212,45 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "06f402feb2fa9006",
+  "active": "81a9ddc7b9b95e3e",
   "lastOpenFiles": [
-    "Templates/example-readme.md",
+    "Assets/20230420224743.png",
+    "Pasted image 20230420224020.png",
+    "Ocaml/OCAML Garbage Collector.md",
+    "GitHub/Git Branch.md",
     "Templates/example-readme-react.md",
+    "Assets/20230420223840.png",
+    "Assets/20230420223656.png",
+    "Templates/example-readme.md",
+    "Pasted image 20230420223642.png",
+    "GitHub/Git Clone.md",
+    "MATH 406 Number Theory/Number Theory.md",
+    "MATH 406 Number Theory/MATH 406 Midterm II.md",
+    "MATH 406 Number Theory/4.1 Introduction to Congruences.md",
+    "MATH 406 Number Theory/3.1 Prime Numbers.md",
+    "MATH 406 Number Theory/1.5 Divisibility.md",
+    "MATH 406 Number Theory/1.3 Mathematical Induction.md",
+    "MATH 406 Number Theory/1.1 Numbers and Sequences.md",
+    "MATH 406 Number Theory/1.0 Logic Statements.md",
+    "MATH 406 Number Theory",
+    "CMSC 351 Algorithms/MATH 406 Number Theory/Number Theory.md",
+    "CMSC 351 Algorithms/MATH 406 Number Theory/MATH 406 Midterm II.md",
+    "CMSC 351 Algorithms/MATH 406 Number Theory/4.1 Introduction to Congruences.md",
+    "CMSC 351 Algorithms/MATH 406 Number Theory/3.1 Prime Numbers.md",
+    "CMSC 351 Algorithms/MATH 406 Number Theory/1.5 Divisibility.md",
+    "CMSC 351 Algorithms/MATH 406 Number Theory/1.1 Numbers and Sequences.md",
+    "CMSC 351 Algorithms/MATH 406 Number Theory/1.3 Mathematical Induction.md",
+    "CMSC 351 Algorithms/MATH 406 Number Theory/1.0 Logic Statements.md",
+    "CMSC 351 Algorithms/MATH 406 Number Theory",
     "Templates/readme-example.md",
     "Templates/Template Javascript.md",
     "Templates/Template Notes.md",
     "Templates/Template Table Contents.md",
-    "Javascript/Final Project 335.md",
-    "README.md",
-    "Ocaml/OCAML OPSEM.md",
-    "Ocaml/OCAML Garbage Collector.md",
-    "contributors-shield.md",
-    "Ocaml/OCAML Lambda Calc.md",
-    "Ocaml/README.md",
-    "OCAML Grammars.md",
-    "OCAML Lexer Parser.md",
-    "Ocaml/OCAML Review.md",
-    "Ocaml/OCAML Data Structure.md",
     "Assets/20230420021454.png",
     "Assets/20230420020631.png",
     "Assets/20230420020532.png",
     "Pasted image 20230420020505.png",
-    "MATH 406 Number Theory/MATH 406 Midterm II.md",
-    "JS MongoDB.md",
-    "JS Express II.md",
-    "HTML Forms Type.md",
-    "Algorithms Graphs.md",
-    "Algorithms Floyd.md",
-    "Algorithm Deep-First Traverse.md",
-    "Algorithms Dijsktra.md",
-    "Javascript/JS Express.md",
     "Assets/20230416163633.png",
-    "Assets/20230416163656.png",
-    "Assets/20230416163718.png",
-    "Assets/20230416163423.png",
-    "Assets/20230416163331.png",
-    "Assets/20230416163255.png",
     "Javascript/asd",
     "Javascript/untitled folder",
     "Interview",
@@ -231,9 +258,7 @@
     "text.txt",
     "Job Interview",
     "Flask",
-    "MATH 406 Number Theory",
     "CMSC 351 Algorithms",
-    "Untitled.canvas",
-    "package.json"
+    "Untitled.canvas"
   ]
 }
