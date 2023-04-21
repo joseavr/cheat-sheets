@@ -4,22 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "5288d08c4caf8a33",
+        "id": "c6806012a5aa9401",
         "type": "tabs",
         "children": [
           {
-            "id": "94b9cdf2a69c2e00",
+            "id": "76b13ad0776d5cd2",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/example-readme.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "741eba48e96d5184",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/example-readme-react.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "06f402feb2fa9006",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Final Project 335.md",
+                "file": "Templates/example-readme-react.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Javascript/Final Project 335.md",
+                "file": "Templates/example-readme-react.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Javascript/Final Project 335.md",
+                "file": "Templates/example-readme-react.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/Final Project 335.md"
+                "file": "Templates/example-readme-react.md"
               }
             }
           },
@@ -157,15 +186,20 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "94b9cdf2a69c2e00",
+  "active": "06f402feb2fa9006",
   "lastOpenFiles": [
-    "README.md",
     "Templates/example-readme.md",
+    "Templates/example-readme-react.md",
+    "Templates/readme-example.md",
+    "Templates/Template Javascript.md",
+    "Templates/Template Notes.md",
+    "Templates/Template Table Contents.md",
+    "Javascript/Final Project 335.md",
+    "README.md",
     "Ocaml/OCAML OPSEM.md",
     "Ocaml/OCAML Garbage Collector.md",
     "contributors-shield.md",
     "Ocaml/OCAML Lambda Calc.md",
-    "Javascript/Final Project 335.md",
     "Ocaml/README.md",
     "OCAML Grammars.md",
     "OCAML Lexer Parser.md",
@@ -184,11 +218,6 @@
     "Algorithm Deep-First Traverse.md",
     "Algorithms Dijsktra.md",
     "Javascript/JS Express.md",
-    "CMSC 351 Algorithms/Algorithms Comparison-Based Sorting.md",
-    "Javascript/JS Maps.md",
-    "CMSC 351 Algorithms/Algorithms RadixSort.md",
-    "Algorithm Bread-First Traverse.md",
-    "Algorithms Prim.md",
     "Assets/20230416163633.png",
     "Assets/20230416163656.png",
     "Assets/20230416163718.png",
