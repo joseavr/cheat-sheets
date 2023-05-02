@@ -70,7 +70,7 @@ JSON
 }
 ```
 
-# Stringify vs Parse
+# 🆚 Stringify vs Parse
 The `JSON.stringify()` method takes a JavaScript object and converts it into a JSON string.
 While the `JSON.parse()` method takes a JSON string and converts it into a JavaScript object.
 
@@ -94,5 +94,34 @@ console.log(parsedObj);
 ```
 
 
+# 🔄 Iterating a JSON
+Suppose we have the following JSON object
+```js
+const data = {
+  id: "2",
+  company: "Example Inc.",
+  status: "Active",
+  notes: "This is a note about the job."
+};
+```
 
+- For...of iteration (iterating over an array)
+```js
+for (const [key, value] of Object.entries(data)) {
+  console.log(key, value);
+}
+```
 
+- ForEach iteration
+```js
+Object.entries(data).forEach(([key, value]) => {
+  console.log(key, value);
+});
+```
+
+- For...in (iterating over the object directly)
+```js
+for (const key in data) { 
+  const value = data[key]; console.log(key, value); 
+}
+```

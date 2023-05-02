@@ -355,7 +355,7 @@ Student.prototype = {
     constructor: Student, // it says: I belong to this constructor
     college: "UMCP",
     info: function() {
-    document.writeln(`
+      document.writeln(`
         ${this.name}, ${this.credits}, ${this.courses}, ${this.college} `)
     }
 };

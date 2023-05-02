@@ -30,7 +30,7 @@
 3. Stop + copy algorithm
 
 
-# 🖕 Reference Counting
+# ⚡️ Reference Counting
 
 ## Method
 Counts number of references to an object and if counts reaches 0, collects all garbage

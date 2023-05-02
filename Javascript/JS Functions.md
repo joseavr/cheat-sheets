@@ -57,6 +57,7 @@ const evenNumbers = numbers.filter( (number) =>
 
 
 ## `map()`
+- Same `map` as OCAML
 - Modifies each element based on a function passed. 
 - The `map()` takes one argument
 	- callback function (or lambda) accepts destructuring
@@ -127,7 +128,7 @@ x.localeCompary(y)
 
 "Rose".localeCompare("Kathy") // x > y => 1
 "Bob".localeCompare("Kathy")  // x < y => -1
-"Kathy".localeCompare("Kathy") // => 1
+"Kathy".localeCompare("Kathy") // => 0
 ```
 
 --- 

@@ -37,7 +37,7 @@ mySet.delete(2);
 
 ## Check Size of a Set
 ```js
-console.log(mySet.size);
+mySet.size;
 // Output: 2
 ```
 

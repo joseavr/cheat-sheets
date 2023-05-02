@@ -133,6 +133,7 @@ printInfo(mary); // No Error, but Not printed because previous error
 function printInfo(student) {
     document.writeln(`
         ${student?.name}, ${student.address?.city}, ${student.adress?.state}`
+        // notice ? operator here
     );
 }
 

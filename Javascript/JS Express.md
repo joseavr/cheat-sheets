@@ -27,41 +27,24 @@ const app = express();
 ```
 
 # 😱 Things to Know
+Before continuining we must know these terminologies. Here we go :)
 
 ## 1️⃣ HTTP Verbs/Methods
-Before continuining we must know these terminologies
+HTTP methods are useful to develop **REST** applications, consume APIs, deploy own server of resources, etc.
 
-HTTP methods are useful to develop REST applications, consume APIs, deploy own server of resources, etc.
+### **Request**
+- `GET.request` - get or fetch data from server. Eg: loading standard html page, loading assets like json, css, images, etc.
 
-**GET**
-- Gets a resource
-- Most common method used
-- Idempotent (executing many times does not cause server change)
+- `POST.request` - posting data or adding smth in the server. 
 
-**POST**  
-- Generates a change of server state (e.g., you bought an item)
-- Non-idempotent
+- `PUT.request` - updating data already on the server
 
-**PUT**
-- To update or change something already in the server
-- Idempotent
+- `DELETE.request` - delete data from the server  
 
-**DELETE**  
-- To remove a resource
-- Idempotent
+### **Response**
+- `GET.POST.PUT.DELETE.response` - sends back smth from the server to the client. That smth can be: html page, route, message, etc.
 
-**PATCH**
-- Can be used to update
-
-
-## 2️⃣ Request vs Response
-**GET**:
-- Get `request` - used to retrieve data from the server
-- Get `response` - server sends a response when get request is performed. The response can be a HTML page, image, or other file client requested.
-
-**POST**:
-- Post `request` - used to send data to the server, such as a form
-- Post `response` - server sends a response. The response can be a HTML page, a redirect, or other type of response. 
+*Note: Always use return when using `response` to avoid error when having double `response` in the code*
 
 
 # 🧩 Extensions
@@ -160,6 +143,41 @@ app.put()
 
 app.delete()
 ```
+
+## 🆚 Params vs Query vs Body
+
+- `req.params` - an object containing properties of the URL. For example, in the route `/users/:id`, the `id` parameter can be accessed with `req.params.id`. These parameters are defined in the route definition using `:` before the parameter name.
+```js
+// Route definition: GET /users/:id
+// When user type: localhost:5000/users/123
+app.get('/users/:id', (req, res) => {
+  const extract_params = req.params; // -> { id: 123 }
+  const extract_id = req.params.id; // -> 123
+});
+```
+*Note: `req.params` is an object of key-value pairs and we use `.id` to its value*
+
+- `req.query` - an object containing properties for each query string parameter in the URL. Query string parameters are appended to the end of a URL after a `?` character and separated by `&` characters. For example, in the URL `/search?q=term&page=2`, the `q` and `page` parameters can be accessed with `req.query.q` and `req.query.page`, respectively.
+```js
+// Route definition: GET /users/:id
+// When user type: localhost:5000/users/search?q=term&page=2
+app.get('/users', (req, res) => {
+  const extract_query = req.query /// -> { q: term , page: 2 }
+  const q = req.query.q; // -> term
+  const page = req.query.page; // -> 2
+});
+```
+
+- `req.body` - an object containing properties of the data submitted by an HTML form.
+```js
+// User subbmited a form: name = jose , password = 123
+app.post('/users', (req, res) => {
+  const extract_body = req.body; // -> { name: jose, password: 123 }
+  const name = req.body.name // -> jose
+  const password = req.body.password // -> 123
+});
+```
+
 
 ## Testing Server
 We can test our routes to see if they work with `curl` in the shell command

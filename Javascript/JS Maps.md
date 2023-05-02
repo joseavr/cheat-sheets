@@ -117,6 +117,7 @@ fruits.remove()
 
 
 # 👎 Weak Maps
+- Another kind of maps
 - A collection of key-value pairs
 - Primitive data types are not allowed as keys. The keys must be objects
 - Primitive data types

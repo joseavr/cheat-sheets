@@ -14,7 +14,7 @@
 - [[Algorithms Binary Search]]
 - [[Algorithms Master Theorem]]
 - Algorithms Recurrence Derivation
-- [[Algorithms MergeSort]]
+- Algorithms MergeSort
 - [[Algorithms HeapSort]]
 - [[Algorithms QuickSort]]
 
@@ -25,7 +25,7 @@
 - Algorithms Integer Addition
 - Algorithms Integer Multiplication
 - Algorithms Karatsuba
-- [[Algorithms Kth Smallest]]
+- [Algorithms Kth Smallest][Algorithms Kth Smallest]
 - Algorithms Graphs
 - Algorithms Shortest Path
 - Algorithms Dijkstra

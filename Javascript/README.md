@@ -33,10 +33,14 @@
 - HTML Form Types
 
 ## Midterm III
+- MidtermI and MidtermII
 - JS Debugger
 - JS Ajax
 - JS Nodejs
 - JS Express
 - JS Local Storage
+- JS Express II
 
-## Final 
+
+## Final Project Group
+- [AppTracker](https://github.com/lamula21/AppTracker)
