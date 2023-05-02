@@ -1,7 +1,7 @@
 # 🌶️ Flask Routes
 Class: <a href=""> </a>
 
-Subject: [[Flask]]
+Subject: [[Flask/README]]
 
 Date: 2023-03-23
 
