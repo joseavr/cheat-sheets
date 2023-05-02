@@ -19,13 +19,13 @@
 - [[Algorithms QuickSort]]
 
 ## Midterm 3
-- ![Algorithms Comparison-Based Sorting](<./Algorithms Comparison-Based Sorting>)
+- [Algorithms Comparison-Based Sorting](./Algorithms-Comparison-Based-Sorting)
 - [Algorithms Counting Sort](<./Algorithms Counting Sort>)
 - [](<./Algorithms RadixSort>)
 - Algorithms Integer Addition
 - Algorithms Integer Multiplication
 - Algorithms Karatsuba
-- [Algorithms Kth Smallest](<./Algorithms Kth Smallest>)
+- [Algorithms Kth Smallest]()
 - Algorithms Graphs
 - Algorithms Shortest Path
 - Algorithms Dijkstra
