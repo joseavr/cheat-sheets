@@ -10,7 +10,7 @@
 - [[Algorithms Selection Sort]]
 
 ## Midterm 2
-- [[Algorithms Insertion Sort]]
+- [Algorithms Insertion Sort](<./Algorithms Insertion Sort>)
 - [[Algorithms Binary Search]]
 - [[Algorithms Master Theorem]]
 - Algorithms Recurrence Derivation
@@ -19,18 +19,19 @@
 - [[Algorithms QuickSort]]
 
 ## Midterm 3
-- [[Algorithms Comparison-Based Sorting]]
-- [[Algorithms Counting Sort]]
-- [[Algorithms RadixSort]]
+- [Algorithms Comparison-Based Sorting](<./Algorithms Comparison-Based Sorting>)
+- [Algorithms Counting Sort](<./Algorithms Counting Sort>)
+- [](<./Algorithms RadixSort>)
 - Algorithms Integer Addition
 - Algorithms Integer Multiplication
 - Algorithms Karatsuba
-- [Algorithms Kth Smallest][Algorithms Kth Smallest]
+- [Algorithms Kth Smallest](<./Algorithms Kth Smallest>)
 - Algorithms Graphs
 - Algorithms Shortest Path
 - Algorithms Dijkstra
-- Algorithms Spanning Trees
-- Algorithms Breadth-Depth First Traverse
 - Algorithms Floyd's algorithm
 
+
 ## Final 
+- Algorithms Spanning Trees
+- Algorithms Breadth-Depth First Traverse
