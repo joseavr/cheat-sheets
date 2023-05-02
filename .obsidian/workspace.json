@@ -86,7 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 301.5
   },
   "right": {
     "id": "ffef62cb121b2210",
@@ -176,13 +176,14 @@
   },
   "active": "bcef6919c9ec5842",
   "lastOpenFiles": [
-    "CMSC 351 Algorithms/Algorithms Kth Smallest.md",
-    "CMSC 351 Algorithms/README.md",
     "CMSC 351 Algorithms/Algorithms Comparison-Based Sorting.md",
+    "CMSC 351 Algorithms/README.md",
+    "Algorithms.md",
+    "Javascript/JS MongoDB Mongoose.md",
+    "CMSC 351 Algorithms/Algorithms Kth Smallest.md",
     "[.md",
     "CMSC 351 Algorithms/Algorithms Counting Sort.md",
     "CMSC 351 Algorithms/Algorithms Insertion Sort.md",
-    "Javascript/JS MongoDB Mongoose.md",
     "CMSC 351 Algorithms/Algorithms RadixSort.md",
     "Algorithms Graphs.md",
     "MATH 406 Number Theory/Exam-2-Theorems.pdf",
@@ -213,7 +214,6 @@
     "Javascript/JS Classes.md",
     "HTML/HTML Forms.md",
     "Javascript/JS Express II.md",
-    "Javascript/JS Promises.md",
     "\".",
     "MATH 406 Number Theory",
     "CMSC 351 Algorithms/MATH 406 Number Theory",
