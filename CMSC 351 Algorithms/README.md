@@ -19,7 +19,7 @@
 - [[Algorithms QuickSort]]
 
 ## Midterm 3
-- [Algorithms Comparison-Based Sorting](<./Algorithms Comparison-Based Sorting>)
+- ![Algorithms Comparison-Based Sorting](<./Algorithms Comparison-Based Sorting>)
 - [Algorithms Counting Sort](<./Algorithms Counting Sort>)
 - [](<./Algorithms RadixSort>)
 - Algorithms Integer Addition
