@@ -34,9 +34,23 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "6064c3da4f720ff7",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CMSC 351 Algorithms/Algorithms Graphs.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CMSC 351 Algorithms/README.md",
+                "file": "CMSC 351 Algorithms/Algorithms Graphs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CMSC 351 Algorithms/README.md",
+                "file": "CMSC 351 Algorithms/Algorithms Graphs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CMSC 351 Algorithms/README.md"
+                "file": "CMSC 351 Algorithms/Algorithms Graphs.md"
               }
             }
           },
@@ -174,18 +188,28 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "bcef6919c9ec5842",
+  "active": "da0f3d13dd5ff4d6",
   "lastOpenFiles": [
-    "CMSC 351 Algorithms/Algorithms Comparison-Based Sorting.md",
+    "Assets/20230502012041.png",
+    "CMSC 351 Algorithms/Algorithms Graphs.md",
+    "Assets/20230502011821.png",
+    "Assets/20230502011724.png",
+    "Assets/20230502011622.png",
+    "Pasted image 20230502011600.png",
+    "Assets/20230502010959.png",
+    "Assets/20230502011430.png",
+    "Assets/20230502010918.png",
+    "Assets/20230502010840.png",
+    "Assets/20230502004230.png",
     "CMSC 351 Algorithms/README.md",
-    "Algorithms.md",
     "Javascript/JS MongoDB Mongoose.md",
+    "CMSC 351 Algorithms/Algorithms Comparison-Based Sorting.md",
+    "Algorithms.md",
     "CMSC 351 Algorithms/Algorithms Kth Smallest.md",
     "[.md",
     "CMSC 351 Algorithms/Algorithms Counting Sort.md",
     "CMSC 351 Algorithms/Algorithms Insertion Sort.md",
     "CMSC 351 Algorithms/Algorithms RadixSort.md",
-    "Algorithms Graphs.md",
     "MATH 406 Number Theory/Exam-2-Theorems.pdf",
     "Flask/Flask Intro.md",
     "Javascript/JS MongoDB Validator.md",
@@ -194,17 +218,7 @@
     "OCAML Grammars.md",
     "OCAML Lexer Parser.md",
     "Javascript/JS Database.md",
-    "Pasted image 20230424170949.png",
-    "Pasted image 20230424171018.png",
-    "Pasted image 20230424171252.png",
-    "Pasted image 20230424170957.png",
-    "Pasted image 20230424171305.png",
-    "Pasted image 20230424171653.png",
     "React",
-    "Assets/20230422021906.png",
-    "Assets/20230422043507.png",
-    "Assets/nfa-accept.png",
-    "Assets/tree.jpeg",
     "Javascript/JS Express.md",
     "Javascript/JS Element Selectors.md",
     "HTML/HTML Forms Type.md",
@@ -213,7 +227,6 @@
     "Templates/example-readme-react.md",
     "Javascript/JS Classes.md",
     "HTML/HTML Forms.md",
-    "Javascript/JS Express II.md",
     "\".",
     "MATH 406 Number Theory",
     "CMSC 351 Algorithms/MATH 406 Number Theory",
