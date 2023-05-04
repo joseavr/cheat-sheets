@@ -42,3 +42,28 @@ Windows
 ```bash
 ./venv/Scripts/activate
 ```
+
+- Install Dependecies
+```bash
+pip install -r requirements.txt
+```
+
+- Flask .flaskenv
+```python
+FLASK_APP=app.py
+```
+
+- Flask .env for debug mode on
+```python
+FLASK_ENV=development
+```
+
+- Run flask
+```bash
+flask run
+```
+
+- Running specific localhost
+```bash
+python3 run.py --host=localhost --port=8000
+```
