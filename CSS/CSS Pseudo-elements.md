@@ -1,11 +1,12 @@
 # 🎨 CSS Pseudo-elements
-Class: <a href="https://github.com/lamula21/cheat-sheets/blob/main/css/CSS.md">CSS</a>
 
-Subject: [[CSS]]
+📚Class: CMSC 335 Web Dev with Javascript
 
-Date: 2023-03-23
+📘Subject: <a href="https://github.com/lamula21/cheat-sheets/blob/main/"></a>
 
-Topics: #, #, # 
+✏️Section: 0101
+
+🗓️Date: 2023-03-23
 
 ---
 # 🎬 Intro to Pseudo-Elements

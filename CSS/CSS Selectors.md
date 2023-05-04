@@ -1,8 +1,12 @@
 # 🎨 CSS Types of Selectors
-Class: <a href="https://github.com/lamula21/cheat-sheets/blob/main/css/CSS.md">CSS</a>
-Subject: [[CSS]]
-Date: 2023-02-06
-Topics: #, #, # 
+
+📚Class: CMSC 335 Web Dev with Javascript
+
+📘Subject: <a href="https://github.com/lamula21/cheat-sheets/blob/main/"></a>
+
+✏️Section: 0101
+
+🗓️Date: 2023-02-06
 
 ---
 
