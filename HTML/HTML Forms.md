@@ -1,8 +1,13 @@
 # 💻 HTML Forms
-Class: [[HTML/HTML]]
-Subject: #
-Date: 2023-02-13
-Topics: #, #, # 
+
+
+📚Class: CMSC 335 Web Dev with Javascript
+
+📘Subject: <a href="https://github.com/lamula21/cheat-sheets/blob/main/"></a>
+
+✏️Section: 0101
+
+🗓️ Date: 2023-02-13
 
 ---
 
