@@ -41,6 +41,11 @@
 - JS Local Storage
 - JS Express II
 
+## Miscellaneous
+- JS Event Propagation
+- JS Email Nodejs
+- JS Generator
+- JS SQL Nodejs
 
 ## Final Project Group
 - [AppTracker](https://github.com/lamula21/AppTracker)
