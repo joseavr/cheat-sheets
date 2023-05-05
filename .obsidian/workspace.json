@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "de3216720b1a0c68",
+        "id": "c4a988d864365864",
         "type": "tabs",
         "children": [
           {
-            "id": "ba268c57e5927afa",
+            "id": "6787bffb3c9b4f1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/README.md",
+                "file": "Algorithms Prim.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 200
   },
   "right": {
     "id": "ffef62cb121b2210",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Javascript/README.md",
+                "file": "Algorithms Prim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Javascript/README.md",
+                "file": "Algorithms Prim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/README.md"
+                "file": "Algorithms Prim.md"
               }
             }
           },
@@ -165,47 +165,47 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ba268c57e5927afa",
+  "active": "6787bffb3c9b4f1d",
   "lastOpenFiles": [
+    "Rust/Rust Reference.md",
+    "Rust/Rust Borrowing.md",
+    "Rust/Rust Ownership.md",
+    "Rust/Rust Intro.md",
+    "Rust/Rust Lifetime.md",
+    "README.md",
+    "Pasted image 20230504232733.png",
+    "Pasted image 20230504111111.png",
+    "Pasted image 20230504112107.png",
+    "Pasted image 20230504112208.png",
+    "Pasted image 20230502112722.png",
+    "Javascript/JS Promises.md",
+    "Rust/Rust Data Types.md",
+    "Algorithm Breadth-First Traverse.md",
+    "Algorithm Depth-First Traverse.md",
+    "Pasted image 20230502113907.png",
+    "Pasted image 20230502113136.png",
+    "Pasted image 20230502112943.png",
+    "Pasted image 20230502112928.png",
+    "Pasted image 20230502112738.png",
+    "Ocaml/OCAML Data Structure.md",
+    "Javascript/README.md",
     "Javascript/JS SQL Nodejs.md",
     "Javascript/JS Generator.md",
     "Javascript/JS Event Propagation.md",
     "Javascript/JS Email Nodejs.md",
-    "Rust Borrowing.md",
     "CMSC 216/CMSC216.pdf",
     "CMSC 216",
     "CMSC 216",
     "untitled folder",
-    "README.md",
-    "Pasted image 20230502112722.png",
-    "Pasted image 20230502112738.png",
-    "Pasted image 20230502112928.png",
-    "Pasted image 20230502112943.png",
-    "Pasted image 20230504111046.png",
-    "Pasted image 20230504111100.png",
-    "Pasted image 20230504111111.png",
-    "Pasted image 20230504112052.png",
     "CMSC 351 Algorithms/Algorithms QuickSort.md",
-    "Rust Reference.md",
     "Lambda review.md",
     "Untitled 1.md",
     "Algorithms NP.md",
-    "Rust Lifetime.md",
-    "Rust Data Types.md",
-    "Rust Ownership.md",
-    "Pasted image 20230502113136.png",
-    "Pasted image 20230504112208.png",
     "CMSC 351 Algorithms/Algorithms Selection Sort.md",
     "CMSC 351 Algorithms/Algorithms MergeSort.md",
     "Javascript/JS IIFE.md",
     "Javascript/JS TypeOf InstanceOf.md",
     "Javascript/JS Template Literals.md",
-    "Javascript/JS Operators.md",
-    "Javascript/JS Promises.md",
-    "Javascript/JS Sets.md",
-    "Javascript/JS Nullity.md",
-    "Javascript/JS MongoDB Validator.md",
-    "Javascript/JS MongoDB Mongoose.md",
     "MATH 406 Number Theory/Exam-2-Theorems.pdf",
     "React",
     "\".",

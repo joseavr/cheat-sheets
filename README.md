@@ -5,16 +5,12 @@ The repository includes my notes from the following classes and topics learned a
 The repo includes:
 - `CMSC 351 Algorithms`
 - `MATH 406 Number Theory`
-- `Rust`
-- `Ruby`
-- `Ocaml`
-- `Flask`
-- `JavaScript`
-- `CSS`
-- `HTML`
+- `CMSC 216 C Language`
+- `CMSC 330 Ruby Ocaml Rust`
+- `CMSC 389 Flask`
+- `CMSC 335 HTML CSS JavaScript`
 - `GitHub`
 - `Python` - soon
-- `C` - soon
 - `Java` - soon
 
 
@@ -26,7 +22,7 @@ I see the world of computers as a field that is continuously growing every day, 
 
 I am particularly interested in getting familiar with software engineering. I believe that as long as these computers exist, software engineering will always have a career to work on. People need computers and software to survive in this modern world. New applications do not appear out of nowhere, but there are people behind them who have created them with the sole purpose of solving a unique problem to make our lives more accessible than ever.
 
-My main goal is to become part of a team that can create efficient, valuable, and useful software for the general public. I know that entering the field of computer science, with a particular focus on software engineering, will be the key to the success of my personal goals.
+My main goal is to become part of a team that can create efficient, valuable, and useful software for the general public. I am convinced that entering the field of computer science, with a particular focus on software engineering, will be the key to the success of my personal goals.
 
 As of today, the courses I take at the University of Maryland is a great first step in achieving my goal. Other courses I am currently studying include Mathematics and Business. I believe that mathematics is essential for my selected career, and business will help me bring to market the ideas or innovations that I create.
 

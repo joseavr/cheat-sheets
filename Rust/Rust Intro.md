@@ -1,10 +1,10 @@
 # 🦀 Rust Intro
 
-📚Class: 
+📚Class: CMSC 330 Organization of Programming Languages 
 
-📘Subject: <a href="https://github.com/lamula21/cheat-sheets/blob/main/"></a>
+📓Subject: Rust 
 
-✏️Section: 
+✏️Section: 0105 
 
 🗓️Date: 2023-04-27
 
@@ -14,6 +14,25 @@
 - Security
 - Memory Control like in C
 - Rust says no Gargabe Collector
+- Statically Typed
+- Imperative Language
+- Compiled Language
+- Solves memory issues that C has
+- Addresses issues such as dangling pointers, double free, data-races
+- Syntax: like C and Ocaml
+- Rust forces safe programs via its type system
+```rust
+3 + 4.0 // valid in Ruby and Rust, not in OCaml
+```
+- Rust forces safe programs thru
+	- [Ownership](./Rust%20Ownership)
+	- [Lifetime](./Rust%20Lifetime)
+
+# [Rust Data Types](./Rust%20Data%20Types)
+
+# Recap: Stack vs Heap
+ - Memory on the stack (variables, functions) is automatically allocated and deallocated by the program as functions are called and return.
+- In contrast, memory on the heap (objects) must be explicitly allocated and deallocated by the program using memory allocation routines, such as `malloc()` and `free()`.
 
 # Stack - Automatic
 - Programmers doesn't have to deal with
@@ -23,10 +42,12 @@
 
 
 # Heap - Memormy Managment
+- Manual memory managment
 - Dynamic size
-- No fixed scope
+- No fixed size
 
 # No Garbage Collector
+- Rust tries to make heap memory managment like stack memory
 - Rust says no Gargabe Collector
 
 - Is there a issue in this block code? The code will compile, but in the scope we are mallocing in the heap and never deallocating, thus MemoryLeak
@@ -51,8 +72,7 @@
    free(x)
 }
 ```
-
-- Dangling Pointer: Trying to use a pointer outside of scope
+*Note: Dangling Pointer is when trying to use a pointer outside of scope*
 
 # How Rust Fix These Issues
 - Rust forces safe programs via **Type** system
@@ -63,10 +83,6 @@
 - It is very hard to write safe programs
 
 ## Ownership
-What is Ownership?
-- Data has single owner (who can manipulate this single data)
-- Immutable aliases allowed
-- Mutation only has 1 reference
 
 ### **Rules**:
 - Each `value` has a `variable` that is its owner
@@ -91,19 +107,6 @@ printl!("{}", s); // error
 Note: this is a shallow copy
 Note: cannot take ownership back to `s` ( `s = y` ) unless we do another `let s = y`
 
-### Functions?
-- There are 3 ownership happening in this piece of code
-```rust
-{
-  let s = String::frin("Hello") // 1. s is owner
-  let y = identity(s); // 3. x losses ownershi[, y is now the owner
-  println!(y)
-}
-
-fn identity(x: String) -> String {
-  x // pushed in the stack, s losses ownership, 2. x is now the owner
-}
-```
 
 ### Owner Out of scope Issue
 ```rust
@@ -120,37 +123,6 @@ fn get.len(x:String) -> usize {
 
 - To solve this issue: Tuple, Borrowing (correct approach)
 
-### Borrowing
-- Send a temporary anothership to another variable
-- When the owner dies, get the ownership back to the inital borrower
-```rust
-let l = get_len(*s)
-
-fn get_len(x:&String) -> usize {
-  x.len
-}
-```
-
-**Rules**:
-- Can have one, but not both of the following at the given time
-	- 1.a. One mutable reference exist
-	- 1.b. Infinitely many immutable ref exist
-	- 2.a. All references myst be valid
-
-```rust
-// fails because rule 2
-let s  = String::from("Hello")
-let s1 == &s;
-let s2 = &s;
-
-let s3 = &mut s;
-```
-
-### Deep Copy?
-```rust
-let y = identity( s.clone() )
-```
-
 
 
 ## Lifestimes
@@ -158,7 +130,7 @@ What is Lifestime?
 - 
 
 
-## Mutability
+# Mutability
 - Use keyword `mut` 
 - `mut` means the value is mutable
 - It can change the value, but not what the variable is point to
