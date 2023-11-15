@@ -50,7 +50,9 @@ let square x =
 # Declarative vs Imperative
 
 ## Imperative
-- Imperative instructions tell you how to do something and does so in steps
+- Programmer specifies the exact sequence of steps that the program should take to achieve its goal
+- Describes control flow
+- Such as for loops 
 
 ```ruby
 # imperative.rb
@@ -65,10 +67,11 @@ results
 ```
 
 ## Declarative
-- The declarative instructions tells you what you are looking for and assumes you can just figure out how to do it.
-```ruby
-# declarative.py
-results = [x for x in arr if x % 2 == 0]
+- Programmer specifies what the program should achieve, rather than how to achieve it.
+- Such as Array methods in JS
+```javascript
+let numbers = [1, 2, 3, 4, 5];
+let doubled = numbers.map(n => n * 2);
 ```
 
 # Side Effects

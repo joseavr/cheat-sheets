@@ -18,11 +18,11 @@
 - Traveling salesman starts at city 1 and goes thru every city exactoy once before returning to city 1. (Hamiltonian )
 - Cities are vertices
 
-![[Pasted image 20230504111100.png]]
+![](../Assets/20230504111100.png)
 
 
 Optimal Tour
-![[Pasted image 20230504111111.png]]
+![](../Assets/20230504111111.png)
 
 ## Decision Problem
 - What is the optimal (minimum total distance) TSP tour?
@@ -57,10 +57,10 @@ YES)
 - k-clique, a subgraph that has k vertices connected
 - A graph with Clique of size 3
 
-![[Pasted image 20230504112107.png]]
+![](../Assets/20230504112107.png)
 
 - A graph with Clique of size 4
-![[Pasted image 20230504112208.png]]
+![](../Assets/20230504112208.png)
 
 # NP
 - Non Deterministic Polynomial

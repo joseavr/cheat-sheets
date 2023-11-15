@@ -76,10 +76,9 @@ let tree =
 
              " World"
             /      \
-	"Hello"     "!"
+	      "Hello"     "!"
        /    \      /   \
      Leaf  Leaf  Leaf   Leaf
-
 ```
 
 ```ocaml
@@ -160,7 +159,7 @@ let rec map tree f =
 ```ocaml
 let map tree f =
 	let map_f left value right = Node (left, f value, right)
-	in
+  in
 	tree_fold map_f Leaf tree
 ```
 

@@ -95,4 +95,4 @@ https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_placeholder
 </select>
 ```
 
-![[20230223202341.png]]
+![](../Assets/20230223202341.png)

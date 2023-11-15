@@ -36,7 +36,8 @@ This is overall idea of Lambda in OCAMLOT but in this class we will work with la
 
 ## 1️⃣ Call by Value "eager evaluation"
 
-In this type of evualuation, we take an inner pair expression and evaluate it.
+Take an inner pair expression and evaluate it.
+Evaluate the argument before the function call
 
 (λz. z) ((λy. y) x)
 - An inner pair is ((λy. y) x) so we evaluate it. So, x replaces λy so replaces y
@@ -47,7 +48,8 @@ In this type of evualuation, we take an inner pair expression and evaluate it.
 - x
 
 ## 2️⃣ Call by Name "lazy evaluation"
-This type of evaluation we take the right-most outer expression and evaluate it with the left-most expression.
+Take the right-most outer expression and evaluate it with the left-most expression.
+Calling the function without evaluating the argument
 
 (λz. z) ((λy. y) x) 
 - We take ((λy. y) x) and evualuate it with (λz. z). So ((λy. y) x) replaces λz so replaces z. Resulting, (λy. y) x 
@@ -131,7 +133,10 @@ The parameters you deleted previously in free variables section, are called **bo
 # 🔄 Alpha/Betha Conversions
 
 ## Alpha-conversion
-Now that we know how to identify bound variables, we can change the `parameter` of the lambda to another `parameter`. Simply, renaming the `parameter` to another letter.
+Now that we know how to identify bound variables, we can change bound variables and the `parameter` of the lambda to another `parameter`. Simply, renaming the `parameter` to another letter.
+
+**What is a bound variable?** variable that is depending on  a functions's parameter
+**What is a free variable?** 
 
 **Note**: 
 - If we have same `parameter` letter in the whole lambda expression. The first bounding is always the inner-most lambda group, then we renaming them to another letter,
@@ -167,3 +172,9 @@ $\implies$ b (using Call By Name, (λa. λb. λc. a b c) replaces λa but there 
 $\implies$ (λa. a a) (λa. a a) (using Call by Name, (λa. a a) replaces  λa so replaces the two `a`)
 $\implies$ (λa. a a) (λa. a a) (using Call by Name, (λa. a a) replaces  λa so replaces the two `a`)
 $\implies$ This becomes infinite loop
+
+f1 e2
+
+f1 e2 e3
+
+f1 f2 e2 f3

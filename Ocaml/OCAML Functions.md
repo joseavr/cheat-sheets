@@ -207,7 +207,7 @@ let rec drop n lst =
 ```
 
 
-# Unique List
+## Unique List
 - Returns an unique List from a list as input 
 
 unique_list $[1;0;1;0]$ = $[1;0]$

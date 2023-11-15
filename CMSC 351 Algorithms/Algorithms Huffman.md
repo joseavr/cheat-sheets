@@ -65,23 +65,28 @@ Where:
 Forest of 4 Binary Trees
 - Combine Binary Trees 2 at a time until we have one Binary Tree
 - Combine the 2 Binary Trees with the lowest frequencies
-![[Pasted image 20230502112722.png]]
+
+![](../Assets/20230502112722.png)
 
 We have 3 Binaries Tree
 - Root node is the sum of its two children. (2 = 1 + 1)
 - The frequency of the tree is the frequency of the root
-![[Pasted image 20230502112738.png]]
+
+![](../Assets/20230502112738.png)
 - D not care about the letter
 
 Keep going:
-![[Pasted image 20230502112928.png]]
+
+![](../Assets/20230502112928.png)
 
 Finally:
-![[Pasted image 20230502112943.png]]
+
+![](../Assets/20230502112943.png)
 - The final Binary Tree defines the encoding  
 - We just label the edges 0 or 1, for example 0 going left and 1 going right  
 - The leaves hold the characters of the original string
-![[Pasted image 20230502113136.png]]
+
+![](../Assets/20230502113136.png)
 
 
 ## Step 2: Read Encoding from Binary Tree
@@ -126,12 +131,11 @@ Same for A and O
 ### asd
 
 # Recovering Codes
-- Once the Binary Tree is built, how do you recover the codes?
-- Once the Binary Tree is built, how do you  recover the codes?  
+- Once the Binary Tree is built, how do you recover the codes?  
 - A variation of a preorder traversal  
 - We want to pick up the codes in 1 traversal, not several
 
-![[Pasted image 20230502113907.png]]
+![](../Assets/20230502113907.png)
 
 - The letters are stored in the leaves  
 - Need to read the 0s and 1s as we go  along and build a string for each letter that we read  

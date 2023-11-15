@@ -22,7 +22,7 @@ free(x)
 
 
 ## **Rules**:
-1. Each `value` has a `variable` that is its owner
+1. Each `value` has one owner (`variable`)
 2. Only one owner at a time
 3. In terms of memory, when `owner` out of scope, the `value` is dropped (freed)
 
@@ -37,13 +37,12 @@ free(x)
 - Since we only can have one owner, `s` losses ownership, `y` takes ownership
 - If we were to print `s`, no compile (rust yell us: it's unsafe!)
 ```rust
-
 {
-	let s = String::from("Hello");
-	let y = s; // s transfers ownership to y, 
-	// y is owner now of `s` value
+	let x = String::from("Hello"); // stored in heap
+	let y = x; // hello was move from x to y
+	
 	println!("{}", y) // good
-	println!("{}", s); // ERROR, y is owner, cannot print Hello
+	println!("{}", x); // ERROR, y is owner, cannot print Hello
 }
 ```
 *Note: `y = s` is a shallow copy
@@ -77,3 +76,19 @@ fn identity(x: String) -> String {
   x // pushed in the stack, s losses ownership, 2. x is now the owner
 }
 ```
+
+
+```rust
+fn main() {
+	let x = String::from("hello"); // x owns hello
+	ley = funct(x);  // after funct is called, y is the owner of hello
+	println!("{}", y);
+}
+
+fn funct(a:String) -> String {
+	pritnln!("{}", a) // `a` still has ownership
+	return a; // `a` is being passed back to the caller
+} // returns 
+```
+
+
