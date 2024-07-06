@@ -11,7 +11,7 @@
 # What is NextJS 
 - A framework for React
 - NextJS is the ultimately modern framework for backing a web application. 
-- Replaces NodeJs and Express
+- Replaces NodeJs and Express 
 - Handles routing with a file based routing system. 
 - Provides Server-Side Rendering (SSR), Single Page Rendering (SPR)
 

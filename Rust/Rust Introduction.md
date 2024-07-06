@@ -1,4 +1,4 @@
-# Rust
+# 🦀 Rust
 
 📚Class: 
 

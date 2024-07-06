@@ -24,7 +24,6 @@ A method used to make informed decisions based on sample data (e.g subset of pop
 
 **Mode** is a value that appears more frequently in a dataset. Number witht the heighest frequency (e.g most common category such as eye color in a population)
 
-
 # State Hypothesis
 
 Hypothesis is a premise we want to test. 

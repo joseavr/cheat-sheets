@@ -41,7 +41,7 @@ let rec map f lst =
 let rec add1 xs ->
 	match xs with
 		[] -> []
-		| ht::t -> (h+1)::(add1 t)
+		| h::t -> (h+1)::(add1 t)
 ``` 
 
 ## Example

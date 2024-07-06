@@ -97,6 +97,7 @@ let object2 = new Object();
 <br>
 
 ## Code
+
 ```js
 function findProperty(src, toString) {
     let currObj, answer;

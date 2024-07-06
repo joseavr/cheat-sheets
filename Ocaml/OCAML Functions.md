@@ -98,12 +98,10 @@ let rec split_at_point lst n =
 
 ## Fibonacci
 ```ocaml
-(* fib-1.ml *)
-let rec fib n a b =
-	if n = 0 then 
-		a 
-	else 
-		fib (n-1) (a+b) a;;
+(* Fibonnaci sum at term n *)
+let rec fib n = 
+  if n = 1 || n = 0 then n 
+  else fib (n - 1) + fib (n - 2)
 ```
 
 ## Factorial

@@ -121,6 +121,7 @@ query condition db1 =
 ```
 - If `c1` is true
 	- Perform `c2` and return the query that matches up 
+
 - If `c1` is false
 	- Perform `c3` and return the query that matches up
 

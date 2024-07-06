@@ -12,21 +12,51 @@
 
 # Reference
 
-We need to use the `*` symbol to access the value of the reference, which is an `i32`, and compare it with `s` and `e`.
 
-Here is an example to demonstrate when to use the `*` symbol in Rust:
+#### Rule:
+1. All references must be valid
+2. Either but not obth of the follwoing must be true
+	1. You can have as many immutable ref as you want OR (reader)
+	2. You can have exactly 1 mutable ref (writer)
+Only can only read or write, one at time
 ```rust
 fn main() {
-    let x = 10;
-    let y = &x; // y is a reference to x
-    
-    println!("The value of x is {}", x); // prints "The value of x is 10"
-    println!("The value of y is {}", y); // prints "The value of y is 10" (dereferencing happens implicitly here)
-    println!("The value of *y is {}", *y); // prints "The value of *y is 10" (dereferencing explicitly using * operator)
+	let a = String::from("hello"); // allocated in heap
+	let b = &a; // reference
+	let c = b; // ownership
+	println!("a is {}", a);
+	println!("b is {}", b);
+	println!("c is {}", c);
+	println!("{} is {}", a,b);
 }
-
 ```
 
-In this example, `y` is a reference to `x`. When we print `y` without using the `*` symbol, Rust implicitly dereferences the reference and prints the value of `x`. When we print `*y`, we explicitly dereference the reference using the `*` symbol, which gives us the value of `x`. We use the `*` symbol to access the value that `y` points to.
 
--
+
+```rust
+fn main() {
+	let mut a = String;:from("uello");
+	{
+		let b = &a; // b is immutable
+		pritnk!("{}", b); // b lifetime (being used) ends here
+		a.push_str(" World");
+	} // b scope ends here
+	println!("{}", a);
+
+	// fine
+}
+```
+
+
+```rust
+fn main() {
+	let mut a = String;:from("uello");
+	{
+		let b=  &mut a; // mutable ref
+		pritnln!("{}", a);  // a mutable ref
+		a.push_str(" World");
+		pritnln!("{}", b); 
+	} 
+	// Does not compile, cant have 2 mut
+}
+```

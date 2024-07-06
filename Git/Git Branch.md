@@ -109,6 +109,7 @@ These steps only applies to the owner of the repository:
 - Delete Branch
 
 - Once the changes has been merge with **Main** Branch. Checkout to Main Branch and pull to have all updated files.
+
 ```bash
 git checkout main
 git pull

@@ -37,6 +37,7 @@
 
 
 # ➡ Arrow Functions (LAMBDA)
+
 - As known as Lambda Expressions (`=>`)
 - Rule:
 ```js
@@ -73,8 +74,9 @@ let formatted = x => {
 
 # 📖 Event Handler Attributes for HTML
 ## Mouse Related
+
 - `onclick` - mouse button is pressed and released
-	- `.addEventListener("clikc", fun)`
+	- `.addEventListener("click", fun)`
 - `ondblclick` - mouse button is double-click over the element
 	- `.addEventLister("dblclick", fun)`
 - `onchange` - Losing focus when pressed Enter or TAB
@@ -92,6 +94,12 @@ let formatted = x => {
 - `onmousemove` - mouse pointer is moved over an element
 	- `.addEventLister("mousemove", fun)`
 
+## Location of onClick
+
+- clientX/Y: 0,0 is top left of the browser window (under the toolbar/bookmarks bar)
+- offsetX/Y: 0,0 is top left of clicked element 
+- screenX/Y: 0,0 is top left of monitor/display
+- pageX/Y: 0,0 is top left of page content, including scroll
 
 # 🔗 Associating Function with Events
 - **Call function when an element (button) is clicked on**

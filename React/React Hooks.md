@@ -120,14 +120,15 @@ function onSubmit(data: Inputs) {
 ```
 
 ## `useCallback()`
+[TODO]
 
 ## `useId()`
-
+[TODO]
 ## `useContext()`
-
+[TODO]
 ## `useMemo()`: an alterniative for useContext
-
+[TODO]
 ## zustand??
-
+[TODO]
 ## `useReducer()`
-
+[TODO]

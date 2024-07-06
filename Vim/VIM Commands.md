@@ -64,11 +64,6 @@ D
 C
 ```
 
-- Delete row
-```vim
-dd
-```
-
 # Search 
 - Search for
 ```vim

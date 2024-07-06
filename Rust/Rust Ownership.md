@@ -1,4 +1,4 @@
-# Rust
+# 🦀 Rust Ownership
 
 📚Class: 
 
@@ -11,15 +11,17 @@
 ---
 
 # Intro to Ownership
+
 What is Ownership?
 - Data has single owner (who can manipulate this single data)
 - Immutable aliases allowed
 - Mutation only has 1 reference
-- Owernship replaces handles free() issues:
+- Ownership avoids double free
+- Ownership replaces handles free() issues:
+
 ```rust
 free(x)
 ```
-
 
 ## **Rules**:
 1. Each `value` has one owner (`variable`)
@@ -34,8 +36,8 @@ free(x)
 }
 ```
 
-- Since we only can have one owner, `s` losses ownership, `y` takes ownership
-- If we were to print `s`, no compile (rust yell us: it's unsafe!)
+- Since we only can have one owner, `x` losses ownership, `y` takes ownership
+- If we were to print `x`, does not compile (rust yell us: it's unsafe!)
 ```rust
 {
 	let x = String::from("Hello"); // stored in heap
@@ -63,13 +65,38 @@ x.push_str("world"); // we can use 'x'
 println!("{}", x)
 ```
 
+
+#### Example:
+```rust
+fn main() {
+	let String::from("hello"); 
+	{
+		let b = a; // a is moved to b
+		println!("b is {}",b);
+	} // a is dropped, cannot longer be accessed outside scope
+	println!("a is {}",a); // ERROR
+}
+```
+
+```rust
+fn main() {
+	let a = 3; // stored in stack
+	{
+		let b = a; // a is moved to b
+		println!("b is {}",b);
+	} 
+	println!("a is {}",a); // compiles fine
+}
+```
+
 ## Functions
 - There are 3 ownership happening in this piece of code
 ```rust
 {
-  let s = String::frin("Hello") // 1. s is owner
+  let s = String::from("Hello") // 1. s is owner
   let y = identity(s); // 3. x losses ownership, y is now the owner
-  println!(y)
+  println!(y) // Fine
+  println!(s) // Error
 }
 
 fn identity(x: String) -> String {
@@ -91,4 +118,4 @@ fn funct(a:String) -> String {
 } // returns 
 ```
 
-
+How about dont want pass to pass owner -> `References`

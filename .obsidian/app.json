@@ -1,15 +1,15 @@
 {
-  "promptDelete": false,
-  "foldHeading": true,
-  "showInlineTitle": false,
-  "alwaysUpdateLinks": true,
+  "foldHeading": false,
+  "foldIndent": false,
   "showLineNumber": false,
+  "showIndentGuide": false,
+  "tabSize": 4,
+  "spellcheck": false,
   "pdfExportSettings": {
-    "pageSize": "A4",
+    "pageSize": "Letter",
     "landscape": false,
     "margin": "0",
-    "downscalePercent": 50
+    "downscalePercent": 100
   },
-  "tabSize": 2,
-  "spellcheck": false
+  "promptDelete": false
 }

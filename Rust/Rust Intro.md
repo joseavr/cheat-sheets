@@ -39,12 +39,13 @@
 - Variables stored in the stack automatically
 - Fixed size: Define how much memory to allocate in the stack
 - Lifetime: How long is a something (variable, function, etc) is gonna stay in memory.
-
+- What is stored in stack vs what's store in heap?
 
 # Heap - Memormy Managment
 - Manual memory managment
 - Dynamic size
 - No fixed size
+- Heap deallocate for you.
 
 # No Garbage Collector
 - Rust tries to make heap memory managment like stack memory
@@ -75,6 +76,7 @@
 *Note: Dangling Pointer is when trying to use a pointer outside of scope*
 
 # How Rust Fix These Issues
+
 - Rust forces safe programs via **Type** system
 	- Variables with specified types: Int, Float, String, etc
 - Rust also forces saf programs thru enforcing
@@ -84,7 +86,7 @@
 
 ## Ownership
 
-### **Rules**:
+#### Rules:
 - Each `value` has a `variable` that is its owner
 - Only one owner at a time
 - In terms of memory, when `owner` out of scope, the `value` is dropped (freed)
@@ -108,7 +110,7 @@ Note: this is a shallow copy
 Note: cannot take ownership back to `s` ( `s = y` ) unless we do another `let s = y`
 
 
-### Owner Out of scope Issue
+#### Owner Out of scope Issue
 ```rust
 {
   let s = String::from("Hello")

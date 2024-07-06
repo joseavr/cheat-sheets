@@ -184,7 +184,7 @@ The attribute with the highest information gain is chosen for the split at each 
 
 Process of creating, modifying, or selecting columns (features) in the dataset to enhance the perfomance of ML models.
 
-Generally, models don't like categorical data and don't do well. 
+Generally, models don't like categorical data and don't do well. So feature engineering produce new features with the goal of simplifying data for ML models.
 
 ## 6.1     One-Hot Encoding
 
@@ -208,7 +208,9 @@ One-hot encoding a binary column for this category
 ## 6.2    Transformation
 
 Sometimes, we create a new column by applying a function over a column!
-Transforms can be ***linear*** or ***non-linear***. There are two types:
+Transforms can be ***linear*** or ***non-linear***. 
+
+There are 3 types:
 
 #### Normalization: 
 - Rescales the data to a range of 0 to 1 (values fall within this range), making ML algorithms to work easier with data
@@ -218,6 +220,8 @@ Transforms can be ***linear*** or ***non-linear***. There are two types:
 #### **Standardization:** 
 - Transforms data to have mean of `0` and Standard Deviation of `1`.
 - Center the data around 0, easier to compare different features.
+- Less sensitive with outliers, preferable than normalization
+- Useful when distribution of the data is unknown
 
 ![](https://lh7-us.googleusercontent.com/E0LSYCbzOyTaiAYTn1BVKzAZh75MCIbebglyxLwHPFFMadxAoz13qKwNHKtjim9Q-06TNdy3xyXEubEYngndUI5KnvU86o9SMW-Ce-DvF_xUo_8uzdzTyafwplJcvb_TLb6sQElCn1ap2jFAmRAKTiE)
 
@@ -253,8 +257,11 @@ PCA is a dimensionality reduction techinique used in ML and statistics.
 
 ## 6.4    K-Means
 
-An ***unsupervised learning*** algorithm
-Aimed to paritition of `K` cluster, minimizing the sum of squared distances between data points and their assigned cluster centroids.
+An ***unsupervised learning*** algorithm.
+
+Aimed to partition of `K` cluster, minimizing the sum of squared distances between data points and their assigned cluster centroids.
+
+The goal is to group similar data points together and discover underlying patterns. To achieve this objective, K-means looks for a fixed number (k) of clusters in a dataset.
 
 ![](https://lh7-us.googleusercontent.com/5p7L0YtI_GOmRT0lmsfrurq91sXrvUCpXAf0l72rDqnBfVY40UoZt212EREd9eGYIWDi70GzCNC7T7fJUWBS4NGgRbPcwjsEzxuZ2DhqtOdTTNpTEGlVO3T6ER2632Q9fW12gfzUnQJYLbXX00FRtNw)
 
@@ -298,7 +305,7 @@ Aims to assign the most likely class label to a particular instance by calculati
 
 ## 7.4    Support Vector Machine (SVM)
 
-SVM is a ***supervised learning*** algorithm used for classificaition and regression tasks.
+SVM is a ***supervised learning*** algorithm used for classification and regression tasks.
 
 Aims to find the decision boundary (hyperplane) that best separates data points into different classes. 
 
@@ -319,7 +326,7 @@ Random Forest is an ensemble learning method based on decision trees. Effective 
 
 Creates multiple decision trees and merges their predictions to improve accuracy and avoid overfitting. (it does not handle missing data).
 
-Random forest used in medicie for disease prediction, finance for stock market forecasts, marketing for customer behavior analysis, environmental science for species identification, image, speech recognition
+Random forest used in medicine for disease prediction, finance for stock market forecasts, marketing for customer behavior analysis, environmental science for species identification, image, speech recognition
 #### Upsides: 
 - Handles overfitting well
 - High accuracy and robustness

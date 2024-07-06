@@ -1,36 +1,18 @@
 {
   "main": {
-    "id": "02e8fdb0abcdb3f9",
+    "id": "fd73d4e17df31aac",
     "type": "split",
     "children": [
       {
-        "id": "61de296c2bf58f43",
+        "id": "87a827b11ea72eaf",
         "type": "tabs",
         "children": [
           {
-            "id": "c26c1849e5975b51",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CMSC 320 Data Science/DS Machine Learning.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "32cc8e2e04205251",
+            "id": "d531567c6bf1cc00",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Haskell.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -39,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "fa1345c53cda0d44",
+    "id": "7fb20657dfb70894",
     "type": "split",
     "children": [
       {
-        "id": "0bade0be4ad3417d",
+        "id": "c353f52a86ef298f",
         "type": "tabs",
         "children": [
           {
-            "id": "da0f3d13dd5ff4d6",
+            "id": "5d0250bfd025fa7f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -57,7 +39,7 @@
             }
           },
           {
-            "id": "3382b9cb52dc0a7e",
+            "id": "c0d0217cb2b30533",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -72,15 +54,7 @@
             }
           },
           {
-            "id": "35fabaffd0b82749",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "c1c1aeb7c27413c7",
+            "id": "eda631b404e1ca9a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -91,23 +65,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "ffef62cb121b2210",
+    "id": "34c2ef2948c94dac",
     "type": "split",
     "children": [
       {
-        "id": "579a86e0f7d0932b",
+        "id": "13ebd656f11b6b56",
         "type": "tabs",
         "children": [
           {
-            "id": "8fb6dc27b2b7c9a4",
+            "id": "3dc28e04216f1dda",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CMSC 320 Data Science/DS Machine Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,19 +93,18 @@
             }
           },
           {
-            "id": "1cbdb1385001b410",
+            "id": "cb1d3676e1dbd2da",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CMSC 320 Data Science/DS Machine Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "96ad720b11f303fb",
+            "id": "bf51068fa69a9eca",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -142,35 +115,14 @@
             }
           },
           {
-            "id": "47c1aa2df4066b9d",
+            "id": "f21b8c676e09542b",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "CMSC 320 Data Science/DS Machine Learning.md"
-              }
-            }
-          },
-          {
-            "id": "576f72396a6589d6",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
               "state": {}
             }
-          },
-          {
-            "id": "8b82eba3cd1cc62c",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -179,65 +131,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": true,
+      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": true,
+      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "templates:Insert template": true,
-      "command-palette:Open command palette": true,
-      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c26c1849e5975b51",
+  "active": "d531567c6bf1cc00",
   "lastOpenFiles": [
-    "Rust/Rust Introduction.md",
-    "Haskell.md",
-    "Rust Introduction.md",
-    "CMSC 320 Data Science/DS Machine Learning.md",
-    "Assets/20231114005631.png",
-    "Rust/Rust Ownership.md",
-    "Assets/20231114011008.png",
-    "Assets/20231114011415.png",
-    "Assets/20231114010801.png",
-    "README.md",
-    "20231114010442.png",
-    "Assets/20231113205425.png",
-    "Assets/20231113230316.png",
-    "Assets/20231113224725.png",
-    "Assets/20231113224346.png",
-    "Assets/20231113210301.png",
-    "CMSC 320 Data Science/DS Decision Trees.md",
-    "CMSC 320 Data Science/DS Data Cleaning.md",
-    "CMSC 320 Data Science/DS Data Visualization.md",
-    "CMSC 320 Data Science/DS Hypothesis Testing.md",
-    "CMSC 433/CMSC 433.md",
-    "CMSC 433/Topic 1 Proposional Calculus.md",
-    "Ocaml/OCAML Trees.md",
-    "Ocaml/OCAML High Order Functions.md",
-    "CMSC 433/Haskell Functions.md",
-    "Ocaml/OCAML Functions.md",
-    "Ocaml/OCAML Data Structure.md",
-    "Ocaml/OCAML FSM.md",
-    "Ocaml/OCAML Variants.md",
-    "Ocaml/Lambda review.md",
-    "Ocaml/OCAML Review.md",
-    "Ocaml/OCAML OPSEM.md",
-    "Ocaml/OCAML Operators.md",
-    "Ocaml/OCAML Intro.md",
-    "CMSC 433/Haskell Data Types.md",
-    "Ocaml/OCAML Records.md",
-    "Untitled",
-    "ENES 210",
-    "CMSC 320 Data Science",
-    "CMSC 433",
-    "CMSC 420 Data Structures",
-    "CSS/CSS Tailwind",
-    "NextJS",
-    "Vim",
-    "MATH 406 Number Theory/Exam-2-Theorems.pdf",
-    "CMSC 216/CMSC216.pdf",
-    "Untitled.canvas"
+    "Racket/16-knock.md",
+    "Racket/14-iniquity.md",
+    "Racket/15-jig.md",
+    "NextJS/NextJS.md"
   ]
 }
