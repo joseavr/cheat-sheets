@@ -53,7 +53,6 @@ Cant't tell. Need truth values of p, q.
 ## States
 
 - Mapping from variables to B = {0 , 1}  "Booleans"
-
 - Mathematically, `states` is a table
 
 | p   | B   |

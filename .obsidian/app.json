@@ -1,9 +1,9 @@
 {
-  "foldHeading": false,
+  "foldHeading": true,
   "foldIndent": false,
   "showLineNumber": false,
   "showIndentGuide": false,
-  "tabSize": 4,
+  "tabSize": 2,
   "spellcheck": false,
   "pdfExportSettings": {
     "pageSize": "Letter",
@@ -11,5 +11,8 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "promptDelete": false
+  "promptDelete": false,
+  "showInlineTitle": false,
+  "autoConvertHtml": false,
+  "alwaysUpdateLinks": true
 }

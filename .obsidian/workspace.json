@@ -4,18 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "87a827b11ea72eaf",
+        "id": "bbed5b0dcfa47543",
         "type": "tabs",
         "children": [
           {
-            "id": "d531567c6bf1cc00",
+            "id": "2eb3d39ad56f464a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "plan4terps-docs.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "fb09ca56260a8433",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Python/Python.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 299.5,
     "collapsed": true
   },
   "right": {
@@ -82,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Python/Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Python/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,14 +140,17 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Python/Python.md"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 290.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -142,11 +166,36 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d531567c6bf1cc00",
+  "active": "fb09ca56260a8433",
   "lastOpenFiles": [
-    "Racket/16-knock.md",
-    "Racket/14-iniquity.md",
-    "Racket/15-jig.md",
-    "NextJS/NextJS.md"
+    "plan4terps-docs.md",
+    "Python/Python.md",
+    "Python/Python TOC.md",
+    "useful-terminal-commands.md",
+    "nvm.md",
+    "prisma.md",
+    "p10k setup.md",
+    "run-pg-docker-locally.md",
+    "Preview Mode for Headless CMS.md",
+    "animated-rgb.md",
+    "set-up-cicd-github-actions.md",
+    "README.md",
+    "Javascript/JS Custom Type.md",
+    "Assets/20230404013516.png",
+    "Assets/20230403151213.png",
+    "Javascript/JS Events-Lambda.md",
+    "Javascript/JS Event Propagation.md",
+    "Assets/20230403114539.png",
+    "Javascript/JS Classes.md",
+    "Ocaml/OCAML Functions.md",
+    "Ocaml/OCAML High Order Functions.md",
+    "Ocaml/OCAML Data Structure.md",
+    "Ocaml/OCAML FSM.md",
+    "Ocaml/OCAML Operators.md",
+    "Ocaml/OCAML Conditions.md",
+    "Ocaml/OCAML Intro.md",
+    "Ocaml/OCAML Testing.md",
+    "Ocaml/OCAML Records.md",
+    "Ocaml/OCAML Options.md"
   ]
 }

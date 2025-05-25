@@ -34,10 +34,8 @@ ghci
 # Notes
 
 - A string is a considered as type list []
-- 
+
 # Examples
-
-
 
 #### head
 ```haskell
@@ -67,9 +65,3 @@ We can check the type of haskell operators with `:t`
 
 - (++) operator that takes two lists, both of type [a]
 - concats them to make a new list of same type [a]
-
-
-
-
-# Functions
-
