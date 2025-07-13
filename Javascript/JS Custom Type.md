@@ -278,7 +278,7 @@ product.call(obj, 3, 3) // `this` refers to obj // 3*3*20 = 180
 ```
 
 <br>
-
+## `bind()`
 `<function>.bind(<object>/this , args)`
 - Similar approach to Java, function and object are tied. Cannot break association
 - Binds a function to an object, so that `this` always refers to the object binded.

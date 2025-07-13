@@ -4,5 +4,7 @@
   "translucency": true,
   "baseFontSize": 14,
   "cssTheme": "GitHub Theme",
-  "theme": "system"
+  "theme": "system",
+  "textFontFamily": "Circular",
+  "monospaceFontFamily": "SF Mono"
 }

@@ -39,7 +39,7 @@ dotenv -e .env.test -- jest -i
 ```
 
 
-##
+
 ## <ins>Team Workflow</ins>
 
 [Prisma Docs](https://www.prisma.io/docs/orm/prisma-migrate/workflows/team-development)
@@ -126,7 +126,6 @@ Remember, `migrate deploy` should generally be part of an automated CI/CD pipeli
 
 
 
-## 
 ## <ins>Core Concept</ins>
 
 When you’re working on your application and making changes to your database schema, you’ll need to run the migrate command again every time you make changes to the schema in order for Prisma to:
